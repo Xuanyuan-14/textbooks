@@ -165,13 +165,53 @@ def main():
     )
     school_note = ('数学物理方法使用学校同步教材：姚端正等《数学物理方法（第四版）》。\n\n'
                    if any('姚端正' in s['book'] for s in summaries) else '')
-    (DEST / 'README.md').write_text('# 教材\n\n' + school_note + '\n'.join(root_links) +
-        '\n\n每本书位于独立目录，章节正文和对应的 `images/` 放在 `chapters/` 下。'
-        '前言、目录、附录、索引单独分组；页码均为从 1 开始的 PDF 页码。'
-        f'\n\n{len(summaries)} 本教材合计 {chapter_count} 个正文章，原始文件在本地源目录中保持不变。'
-        '仓库保留全部原始压缩包、元数据和转换脚本；忽略 Python 缓存。'
-        '\n\n图片按文件名中的页码归章，跨章引用使用相对路径。已核对全部图片 SHA-256、正文页码完整性和新生成正文的图片路径。'
-        '详见 `validation.json`。原始 OCR 内容未逐字校对，原始归档及旧说明中的旧路径保持原样。\n', encoding='utf-8')
+    (DEST / 'README.md').write_text(f'''# PDF 教材 OCR 资源库
+
+用于自学的 PDF 教材 OCR 资源库：按章节整理正文与插图，便于 AI 阅读、理解与辅助学习。
+
+原始 PDF 来源于 Z-Library，经 OCR 解析后整理为 Markdown、逐页 JSON 和本地图片。希望在自学时，能直接把相关章节提供给 AI，用来解释概念、梳理推导、讨论习题，并按页码回查教材。
+
+## 教材目录
+
+{school_note}{chr(10).join(root_links)}
+
+目前共 **{len(summaries)} 本教材、{chapter_count} 个正文章、{sum(s['images'] for s in summaries):,} 张图片**。前言、篇导言、附录、答案与索引另行分组。
+
+## 如何用于 AI 自学
+
+1. 从上面的教材目录进入，选择要学习的章节，打开对应的 `README.md`。
+2. 把章节文件或正文提供给 AI，再说明具体问题，例如“解释这一节的概念，并按教材顺序推导公式”。
+3. 涉及电路图、示意图等内容时，同时提供该章 `images/` 中的相关图片。只粘贴文字，AI 不一定能读取其中的图片链接。
+4. 需要引用或核对时，使用正文中的 `<!-- page: N -->` 定位。这里的 N 是从 1 开始的 PDF 页码，可能与书上印刷页码不同。
+
+按章学习优先使用章节文件；需要检索全书时，可使用 `book.md`，或用 `pages.jsonl` 构建逐页检索。
+
+## 文件结构
+
+每本教材有独立目录：
+
+```text
+教材目录/
+├── README.md              # 教材说明与章节导航
+├── book.md                # 全书 OCR 正文
+├── pages.jsonl            # 逐页文本、图片路径和章节归属
+├── chapters.json          # 整理后的章节范围与路径
+├── images-manifest.json   # 图片路径与 SHA-256 校验记录
+├── outline.json           # 原始 OCR 目录索引
+└── chapters/
+    └── 章节目录/
+        ├── README.md      # 本章正文
+        └── images/        # 对应页码的插图
+```
+
+仓库还保留原始 OCR 压缩包、元数据和转换脚本。`README-original.md` 为原始说明；旧压缩包和旧说明中的目录结构可能与整理后的结构不同。
+
+## 内容质量与核对
+
+- OCR 正文未经逐字校对，公式、上下标、希腊字母和表格可能有识别错误。关键推导和答案请对照原 PDF 核实。
+- `images/` 主要是教材插图的裁剪图，不是完整的 PDF 页面。
+- 已核对整理后的正文页码覆盖、图片文件哈希与正文图片链接，记录见 [validation.json](validation.json)。这些检查不代表 OCR 内容或 AI 回答一定正确。
+''', encoding='utf-8')
     print(json.dumps(summaries, ensure_ascii=False, indent=2))
 
 
