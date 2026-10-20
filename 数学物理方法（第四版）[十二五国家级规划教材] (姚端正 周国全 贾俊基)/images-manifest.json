@@ -1,0 +1,722 @@
+[
+  {
+    "source": "images/p0001_img_in_header_image_box_136_53_255_163.jpg",
+    "path": "chapters/00-封面与前言目录/images/p0001_img_in_header_image_box_136_53_255_163.jpg",
+    "sha256": "b003bfeea8d21e6247005ee842ca9335f0706d6d69496461d51675167576e693"
+  },
+  {
+    "source": "images/p0001_img_in_image_box_0_635_958_1242.jpg",
+    "path": "chapters/00-封面与前言目录/images/p0001_img_in_image_box_0_635_958_1242.jpg",
+    "sha256": "5d289c9b1c5b4344ee03ab3c4f6196a6af30a11fb80e6696763e0b50dd052db7"
+  },
+  {
+    "source": "images/p0007_img_in_image_box_679_643_818_708.jpg",
+    "path": "chapters/00-封面与前言目录/images/p0007_img_in_image_box_679_643_818_708.jpg",
+    "sha256": "c59f0b0ecd80708a8ec40a454a83603bc8f4aab0a44c100f780f44155641bc2e"
+  },
+  {
+    "source": "images/p0021_img_in_image_box_613_883_859_1145.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0021_img_in_image_box_613_883_859_1145.jpg",
+    "sha256": "f059cdd05e929e113aa8e936c23503810ad5a0426643b646f365c7a7addac8d2"
+  },
+  {
+    "source": "images/p0023_img_in_image_box_517_181_857_371.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0023_img_in_image_box_517_181_857_371.jpg",
+    "sha256": "eeaca2598219a68683bea53ba31ab2c3f896143bdfb5b14805c0bee2af8bacce"
+  },
+  {
+    "source": "images/p0026_img_in_image_box_100_144_412_491.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0026_img_in_image_box_100_144_412_491.jpg",
+    "sha256": "7a41df67d3ad9dda333c77fd513c1072868c8b16ff0d1755f716a035777da1ca"
+  },
+  {
+    "source": "images/p0026_img_in_image_box_132_824_464_1004.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0026_img_in_image_box_132_824_464_1004.jpg",
+    "sha256": "657dc7fb3e4a0746892c15d98962566f1f67a523a8ea6b6c34d0410e18312536"
+  },
+  {
+    "source": "images/p0026_img_in_image_box_543_795_825_1003.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0026_img_in_image_box_543_795_825_1003.jpg",
+    "sha256": "47da0352808e012eb7238f88bd0b4e93d0911501b7b74734183118b1811d5148"
+  },
+  {
+    "source": "images/p0032_img_in_image_box_100_362_390_655.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0032_img_in_image_box_100_362_390_655.jpg",
+    "sha256": "5728bb7f0ebe1bf27b89ad6c16cf8ff75f916f2e5a48ad63e8cd211080be205c"
+  },
+  {
+    "source": "images/p0036_img_in_image_box_98_693_429_1030.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0036_img_in_image_box_98_693_429_1030.jpg",
+    "sha256": "2833a1e089cabf3477e33d4db30eb3204381a236babfdb48075ae3b90f087799"
+  },
+  {
+    "source": "images/p0037_img_in_image_box_141_848_333_1017.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0037_img_in_image_box_141_848_333_1017.jpg",
+    "sha256": "76f947f139b8b36a14548f9c13d2502f70bde07b0341ce294274e549f5b84247"
+  },
+  {
+    "source": "images/p0037_img_in_image_box_379_849_571_1018.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0037_img_in_image_box_379_849_571_1018.jpg",
+    "sha256": "c4b529c1d6ff40683d8a74230b56e02dc9105c8dd1a8751e828612d3eb9d2944"
+  },
+  {
+    "source": "images/p0037_img_in_image_box_620_847_814_1025.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0037_img_in_image_box_620_847_814_1025.jpg",
+    "sha256": "6ef9d0e8b0cba4a52b674d267ad2f72c5081cca8430019d1114542785326f6cf"
+  },
+  {
+    "source": "images/p0038_img_in_image_box_107_687_440_847.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0038_img_in_image_box_107_687_440_847.jpg",
+    "sha256": "139f1a20ffea0ff9e3d3ca9602811d1b1a44d2dedd02928c3b909d2e6db90110"
+  },
+  {
+    "source": "images/p0038_img_in_image_box_135_317_328_489.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0038_img_in_image_box_135_317_328_489.jpg",
+    "sha256": "dd36bdd88f86397325d262b55502431ae4f00488abd70bf266eb85b6ab05c7d1"
+  },
+  {
+    "source": "images/p0038_img_in_image_box_381_318_576_521.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0038_img_in_image_box_381_318_576_521.jpg",
+    "sha256": "28d0dc674cde2ca5390b699e54d550361035c7a233990cc665580bef9470f258"
+  },
+  {
+    "source": "images/p0038_img_in_image_box_626_319_822_520.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0038_img_in_image_box_626_319_822_520.jpg",
+    "sha256": "e847c4227bfe500203fb627d166c66fbe53c5c00d1a53c84c6f19c87c7348803"
+  },
+  {
+    "source": "images/p0041_img_in_image_box_173_403_428_626.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0041_img_in_image_box_173_403_428_626.jpg",
+    "sha256": "d2445f8bd2fedf619813b099053c8ea585e60114cd9ceb3e16fc6ed09f73175f"
+  },
+  {
+    "source": "images/p0041_img_in_image_box_190_880_429_1112.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0041_img_in_image_box_190_880_429_1112.jpg",
+    "sha256": "5582da52060e57a86bde9e4a3baaae4d8ac54088ce9f674a69e2519e3ae06f53"
+  },
+  {
+    "source": "images/p0041_img_in_image_box_192_878_767_1112.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0041_img_in_image_box_192_878_767_1112.jpg",
+    "sha256": "7d6c57f1bc459980e8bf24bce0ec3e4049785b04a97526db0d57f408ed4cde76"
+  },
+  {
+    "source": "images/p0041_img_in_image_box_432_880_767_1112.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0041_img_in_image_box_432_880_767_1112.jpg",
+    "sha256": "abc394149e3dbdf78b4d97b858590189f1036538aa91958c3caab8ad811be816"
+  },
+  {
+    "source": "images/p0041_img_in_image_box_438_403_784_620.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0041_img_in_image_box_438_403_784_620.jpg",
+    "sha256": "a34bf5239e2b004881ee3301fee534124d0f2cce5f277c792152a3291113eea8"
+  },
+  {
+    "source": "images/p0043_img_in_image_box_195_260_454_530.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0043_img_in_image_box_195_260_454_530.jpg",
+    "sha256": "5918516ca7416f4324b78b4563eae638a5e40c240a926eb8a091807fe2b7bd28"
+  },
+  {
+    "source": "images/p0043_img_in_image_box_197_260_762_531.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0043_img_in_image_box_197_260_762_531.jpg",
+    "sha256": "3a324e69682377db4f209a215b7bcdfb6ec34641a97cc58ffc561e7aa8f6ad89"
+  },
+  {
+    "source": "images/p0043_img_in_image_box_502_260_763_531.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0043_img_in_image_box_502_260_763_531.jpg",
+    "sha256": "f0bf67c77c75ee3df702ffb193959aa0297bbc2a03f666fd17c9be7f9fd2d3fc"
+  },
+  {
+    "source": "images/p0045_img_in_image_box_184_751_771_1042.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0045_img_in_image_box_184_751_771_1042.jpg",
+    "sha256": "a19b29b03074d14beac83ee369399d09d6df26394516735266dd40c9eba6e842"
+  },
+  {
+    "source": "images/p0046_img_in_image_box_649_228_857_423.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0046_img_in_image_box_649_228_857_423.jpg",
+    "sha256": "5e12d58fc66dcdc36a137f1c88681580e5d8991a29ea4a5564cd283043ade1a3"
+  },
+  {
+    "source": "images/p0047_img_in_image_box_109_349_172_414.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0047_img_in_image_box_109_349_172_414.jpg",
+    "sha256": "ffba5be1e4ec987e5ce196cfbedd188d6ae2ad975def71e022fd8303c39b760f"
+  },
+  {
+    "source": "images/p0047_img_in_image_box_109_481_172_547.jpg",
+    "path": "chapters/01-第一章 解析函数/images/p0047_img_in_image_box_109_481_172_547.jpg",
+    "sha256": "0c4a025746427a442b374714a0aa61afba4b98844f8ac2e2977f65d935c653e5"
+  },
+  {
+    "source": "images/p0048_img_in_image_box_101_669_375_948.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0048_img_in_image_box_101_669_375_948.jpg",
+    "sha256": "25364c72f410d2cbd1b628d3914a300ce1ac9a1e2bd218596070c65ac5f45788"
+  },
+  {
+    "source": "images/p0049_img_in_image_box_600_510_858_704.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0049_img_in_image_box_600_510_858_704.jpg",
+    "sha256": "f29eb873747f1578b7224c6ae01317121ce72b9722757b5e518de18aa46172ba"
+  },
+  {
+    "source": "images/p0051_img_in_image_box_677_760_859_956.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0051_img_in_image_box_677_760_859_956.jpg",
+    "sha256": "671bf5838e280c80bfc885671d19cd25e01e92efcfdf08429d0ce682fe8363b3"
+  },
+  {
+    "source": "images/p0052_img_in_image_box_98_468_326_675.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0052_img_in_image_box_98_468_326_675.jpg",
+    "sha256": "4c9a805d36e9df13f8128ac4475df0ee3970a287516d07796383cec5b07faa56"
+  },
+  {
+    "source": "images/p0053_img_in_image_box_612_140_860_383.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0053_img_in_image_box_612_140_860_383.jpg",
+    "sha256": "16c289b072aff415d93bcda7f31f4753919313d5f61a06bfc59a20c1d6596329"
+  },
+  {
+    "source": "images/p0054_img_in_image_box_214_1023_404_1234.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0054_img_in_image_box_214_1023_404_1234.jpg",
+    "sha256": "8e53c37703787f677bcd0037de89ec6e7d1f30f995da55664ebf4f735fde1abe"
+  },
+  {
+    "source": "images/p0054_img_in_image_box_524_1016_743_1236.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0054_img_in_image_box_524_1016_743_1236.jpg",
+    "sha256": "03fd3863364f0ce85662a36b242db966ccb5ba7ebb636ed469f268c1c7071d00"
+  },
+  {
+    "source": "images/p0055_img_in_image_box_652_488_861_713.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0055_img_in_image_box_652_488_861_713.jpg",
+    "sha256": "abc77f74b9e828bdce929593d76c0a8e25a200e1367fb044e8abf19917eca487"
+  },
+  {
+    "source": "images/p0055_img_in_image_box_98_944_351_1190.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0055_img_in_image_box_98_944_351_1190.jpg",
+    "sha256": "0b7604b499acde876bce608b7d1e191e29f29aade48a70c95084e43b5403b148"
+  },
+  {
+    "source": "images/p0057_img_in_image_box_668_149_859_374.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0057_img_in_image_box_668_149_859_374.jpg",
+    "sha256": "21a4303d88296e0884c60d81e45025a7ca1733f7d4fd21ed21e6cf928202982c"
+  },
+  {
+    "source": "images/p0058_img_in_image_box_99_172_325_465.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0058_img_in_image_box_99_172_325_465.jpg",
+    "sha256": "59182b7038955fc7140cdda4b792a85204b837a05611636fe89360e8f0fa1737"
+  },
+  {
+    "source": "images/p0063_img_in_header_image_box_107_484_171_551.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0063_img_in_header_image_box_107_484_171_551.jpg",
+    "sha256": "ee5060c85a5c55e947b3bd4c521c3ff385c64b72674841692c0e81d23417f143"
+  },
+  {
+    "source": "images/p0063_img_in_header_image_box_109_351_172_417.jpg",
+    "path": "chapters/02-第二章 解析函数积分/images/p0063_img_in_header_image_box_109_351_172_417.jpg",
+    "sha256": "dd4718869c4c78da1935e82811a75d13a6d28e8793a4bbd3158673ae0f82906c"
+  },
+  {
+    "source": "images/p0064_img_in_header_image_box_133_191_166_253.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0064_img_in_header_image_box_133_191_166_253.jpg",
+    "sha256": "ae94704d8b07e8f5a083531ed7841413c58111891681f03fb6ae29b0ded1fb9d"
+  },
+  {
+    "source": "images/p0066_img_in_image_box_523_1178_588_1241.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0066_img_in_image_box_523_1178_588_1241.jpg",
+    "sha256": "7cc2fd67dc5441cade1f63ba3478f654c5cdd5e431e76cb27c478085a1b96b51"
+  },
+  {
+    "source": "images/p0066_img_in_image_box_721_1178_785_1242.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0066_img_in_image_box_721_1178_785_1242.jpg",
+    "sha256": "dfa4af8fe0cb3cdd7449b2253d47a39911fabe599823daf69e1ae05ba73c508f"
+  },
+  {
+    "source": "images/p0069_img_in_image_box_732_1059_859_1186.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0069_img_in_image_box_732_1059_859_1186.jpg",
+    "sha256": "39bed7ed6213c3289ad8849aca13ccda5d26cd8cd48dd360436fdbce55be9802"
+  },
+  {
+    "source": "images/p0072_img_in_image_box_93_662_353_909.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0072_img_in_image_box_93_662_353_909.jpg",
+    "sha256": "4baf1b408298eec1dc891f14c100abc51c797dc9e2a1e5c8f6cfa529ad57b939"
+  },
+  {
+    "source": "images/p0074_img_in_image_box_98_943_331_1175.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0074_img_in_image_box_98_943_331_1175.jpg",
+    "sha256": "ca952a78e39780c55c0f83e4f949dd34df2778468e31d4180e471a0315adb26a"
+  },
+  {
+    "source": "images/p0085_img_in_image_box_84_474_148_538.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0085_img_in_image_box_84_474_148_538.jpg",
+    "sha256": "250c0d50d61e0d67dd515415becaffcd32dcd37f75839402e4bbcc6e1be86cb6"
+  },
+  {
+    "source": "images/p0085_img_in_image_box_86_341_149_405.jpg",
+    "path": "chapters/03-第三章 复变函数级数/images/p0085_img_in_image_box_86_341_149_405.jpg",
+    "sha256": "f66181d0422c98eca3b130d555da967351605f8c2b0291c62db5acff6b393c25"
+  },
+  {
+    "source": "images/p0087_img_in_image_box_639_237_857_471.jpg",
+    "path": "chapters/04-第四章 解析延拓 $ _Gamma $ 函数 B 函数/images/p0087_img_in_image_box_639_237_857_471.jpg",
+    "sha256": "b093c5681ecc6d46becd29a614391920bcc6b0a1685eb0a0b3219dcb0ad251dd"
+  },
+  {
+    "source": "images/p0088_img_in_image_box_98_431_325_718.jpg",
+    "path": "chapters/04-第四章 解析延拓 $ _Gamma $ 函数 B 函数/images/p0088_img_in_image_box_98_431_325_718.jpg",
+    "sha256": "3452de2a14776beecd3f1330a056184cd94956e795e99f219ad6d6c1fbe53239"
+  },
+  {
+    "source": "images/p0094_img_in_image_box_193_490_257_555.jpg",
+    "path": "chapters/04-第四章 解析延拓 $ _Gamma $ 函数 B 函数/images/p0094_img_in_image_box_193_490_257_555.jpg",
+    "sha256": "a6ac91ca882c666d215311e522dd918d8abd7520b73210334dc14d50d9f75f4d"
+  },
+  {
+    "source": "images/p0096_img_in_image_box_97_138_313_354.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0096_img_in_image_box_97_138_313_354.jpg",
+    "sha256": "ec947d59028779405a04e2f9848344891773254c656156cd26a5a44bbe305015"
+  },
+  {
+    "source": "images/p0100_img_in_image_box_97_636_356_774.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0100_img_in_image_box_97_636_356_774.jpg",
+    "sha256": "da2855b880e3f7488d5913f2791a37729b9fe9e75f72b2261388cb6d160ff759"
+  },
+  {
+    "source": "images/p0104_img_in_image_box_184_916_461_1152.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0104_img_in_image_box_184_916_461_1152.jpg",
+    "sha256": "fffb2bd270333658b3c0e244088ae105404b4ed2037624ee060d41fc651899c1"
+  },
+  {
+    "source": "images/p0104_img_in_image_box_490_962_774_1148.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0104_img_in_image_box_490_962_774_1148.jpg",
+    "sha256": "0247c9ad97c5542a93c7815e7d34bcb381516d5f51ddc1ace4c707576be4c546"
+  },
+  {
+    "source": "images/p0104_img_in_image_box_764_228_828_292.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0104_img_in_image_box_764_228_828_292.jpg",
+    "sha256": "b8cae786162495db566b516aa779625ce227ef7a987df04a088af9ca991e27f5"
+  },
+  {
+    "source": "images/p0106_img_in_image_box_630_752_859_956.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0106_img_in_image_box_630_752_859_956.jpg",
+    "sha256": "c465929427dac20feb92585e5404b648e6134a977f9fcc463117c3f8b74b70e5"
+  },
+  {
+    "source": "images/p0106_img_in_image_box_98_140_405_289.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0106_img_in_image_box_98_140_405_289.jpg",
+    "sha256": "ca7aea044bc2b4199c32bf3283e0028edbb09e089a0d78e6d9a0b03547d75f19"
+  },
+  {
+    "source": "images/p0107_img_in_image_box_585_754_860_961.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0107_img_in_image_box_585_754_860_961.jpg",
+    "sha256": "f5831f854ecceb06e7d32ce4cceab3b2a6ec18329bde66097f803a5b3892cca8"
+  },
+  {
+    "source": "images/p0108_img_in_image_box_764_654_829_717.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0108_img_in_image_box_764_654_829_717.jpg",
+    "sha256": "2fc83d308c2e0473904e047eb84abad53a85cfcd511490484d2058282f5d63eb"
+  },
+  {
+    "source": "images/p0108_img_in_image_box_97_443_327_595.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0108_img_in_image_box_97_443_327_595.jpg",
+    "sha256": "01462c417155d2edccdbcce2074fa54dd909c84102606120a0e6973d696bcf9b"
+  },
+  {
+    "source": "images/p0109_img_in_image_box_100_933_406_1230.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0109_img_in_image_box_100_933_406_1230.jpg",
+    "sha256": "2c29818530519955648f6d4ab4b3959db9ea6fb030493140ca8a3a3eab3759ef"
+  },
+  {
+    "source": "images/p0109_img_in_image_box_569_533_858_766.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0109_img_in_image_box_569_533_858_766.jpg",
+    "sha256": "a557d4258f3ae771fc30dd5f285ac90657e1f39ab7b4141035bc8de077c610aa"
+  },
+  {
+    "source": "images/p0110_img_in_image_box_97_944_401_1083.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0110_img_in_image_box_97_944_401_1083.jpg",
+    "sha256": "a5cb5791c1d1fb41f7915373ddc3e74121b5b142671cdb9d800c6f0ce054e90f"
+  },
+  {
+    "source": "images/p0112_img_in_image_box_163_204_443_469.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0112_img_in_image_box_163_204_443_469.jpg",
+    "sha256": "b31f38f13b27f2b0039511d25c54a3299beab8edec6a2596b2d5d7fe2b165d6d"
+  },
+  {
+    "source": "images/p0112_img_in_image_box_507_224_795_470.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0112_img_in_image_box_507_224_795_470.jpg",
+    "sha256": "e30f9c9a8ed146b015d991c5c07faa00283afdd575c09c24684b68d4925368bc"
+  },
+  {
+    "source": "images/p0113_img_in_header_image_box_101_333_160_395.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0113_img_in_header_image_box_101_333_160_395.jpg",
+    "sha256": "4f071fc4746d1c444a8328896bf2f293c6a14f17c3606d5a962fe34953b21328"
+  },
+  {
+    "source": "images/p0113_img_in_header_image_box_99_459_158_521.jpg",
+    "path": "chapters/05-第五章 留数理论/images/p0113_img_in_header_image_box_99_459_158_521.jpg",
+    "sha256": "ac051679d4638eb3fd0621d71c2e008b4d64f117a3dd7d22d5b51eebaa3a6ff4"
+  },
+  {
+    "source": "images/p0115_img_in_header_image_box_130_191_166_254.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0115_img_in_header_image_box_130_191_166_254.jpg",
+    "sha256": "93d4f5747a59a869e3db5702754123bb3616819c3e272b8cb5423afbd3a784a3"
+  },
+  {
+    "source": "images/p0117_img_in_image_box_566_960_858_1203.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0117_img_in_image_box_566_960_858_1203.jpg",
+    "sha256": "35d467e9a8a56956cee6a56ea4503cdf59c4e5b756df703058d9040467d7c9aa"
+  },
+  {
+    "source": "images/p0119_img_in_image_box_545_495_857_551.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0119_img_in_image_box_545_495_857_551.jpg",
+    "sha256": "c92192ab469a2b701e5aaad06a8efc18e6c20636badea30a164c469f721719df"
+  },
+  {
+    "source": "images/p0123_img_in_image_box_573_518_850_742.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0123_img_in_image_box_573_518_850_742.jpg",
+    "sha256": "f483c6bb38c8e1cc4bd77fc2b4bda80d15805f34d5c00f95d79d093140bef6b4"
+  },
+  {
+    "source": "images/p0124_img_in_image_box_96_701_366_841.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0124_img_in_image_box_96_701_366_841.jpg",
+    "sha256": "3ee5281d1b4362f682edbaa35576d8fbc950a78474c1369698418ae306467c15"
+  },
+  {
+    "source": "images/p0125_img_in_image_box_572_139_859_297.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0125_img_in_image_box_572_139_859_297.jpg",
+    "sha256": "f79162ca26e964cf5a7efbdd20da53d2cca3994f1f26f7ef3bd77108e5139126"
+  },
+  {
+    "source": "images/p0126_img_in_image_box_751_612_816_674.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0126_img_in_image_box_751_612_816_674.jpg",
+    "sha256": "4a6fe014ef1e5b5a528f9b0a01c3ba3045ccc464fe12ae7368d45fd6c9f2f29c"
+  },
+  {
+    "source": "images/p0127_img_in_header_image_box_105_335_164_396.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0127_img_in_header_image_box_105_335_164_396.jpg",
+    "sha256": "72f7893e79a1298412b1e901a37255d180f9606572181b104a666afb43d19348"
+  },
+  {
+    "source": "images/p0127_img_in_image_box_106_461_166_521.jpg",
+    "path": "chapters/06-第六章 定解问题/images/p0127_img_in_image_box_106_461_166_521.jpg",
+    "sha256": "ba3056186f69957ca0204ef16c2d1df0b4efd57599bf4623e60df735ea5828db"
+  },
+  {
+    "source": "images/p0131_img_in_image_box_542_607_860_1102.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0131_img_in_image_box_542_607_860_1102.jpg",
+    "sha256": "e9363763c1341f92a7b64c8eccdcca7cf2909e703113d5d3f36da5c708d06548"
+  },
+  {
+    "source": "images/p0131_img_in_image_box_545_610_858_677.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0131_img_in_image_box_545_610_858_677.jpg",
+    "sha256": "1e1f072daed220e7217063bc116af0bf7b590c81e23c96f744ba89ec2cf10f31"
+  },
+  {
+    "source": "images/p0131_img_in_image_box_545_998_857_1100.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0131_img_in_image_box_545_998_857_1100.jpg",
+    "sha256": "9a245561aeeb91faebdb086c614cf7a748a7e4670c3824f7a36dcb80f3ca2a32"
+  },
+  {
+    "source": "images/p0131_img_in_image_box_546_689_858_755.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0131_img_in_image_box_546_689_858_755.jpg",
+    "sha256": "538c24ec7d542cde6c3d6dd150fc8f0d0808ed3e4a3b16f3352ca79bef8e6f0d"
+  },
+  {
+    "source": "images/p0131_img_in_image_box_546_762_858_827.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0131_img_in_image_box_546_762_858_827.jpg",
+    "sha256": "88b9791b67e15a2e72f13e3bdb02f061b92ffc195d81625f6b85f1295a810059"
+  },
+  {
+    "source": "images/p0138_img_in_image_box_97_599_423_890.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0138_img_in_image_box_97_599_423_890.jpg",
+    "sha256": "5d30e6118e452ab60151d09a91740984ce031499fde012636dea54e6376d6ec6"
+  },
+  {
+    "source": "images/p0141_img_in_image_box_645_304_861_491.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0141_img_in_image_box_645_304_861_491.jpg",
+    "sha256": "8ddca4f7abe29832e3957be7fad5d5924378a94ed82bf93e78aca18f21afaf4e"
+  },
+  {
+    "source": "images/p0141_img_in_image_box_98_818_328_985.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0141_img_in_image_box_98_818_328_985.jpg",
+    "sha256": "badbc416b1853af1acaeda20532b16cbff1cb0aae8d6554eb82c3c46fa1bb847"
+  },
+  {
+    "source": "images/p0146_img_in_header_image_box_175_349_238_414.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0146_img_in_header_image_box_175_349_238_414.jpg",
+    "sha256": "eb8995c2cb5b5a92eae69dc87db29b1615e4d19e1c2c1e8818cfa4f50f88336b"
+  },
+  {
+    "source": "images/p0146_img_in_image_box_174_482_238_547.jpg",
+    "path": "chapters/07-第七章 行波法/images/p0146_img_in_image_box_174_482_238_547.jpg",
+    "sha256": "76d6b87038fa5c7b319ebb687d11e2f23f2fd786b43330de98c3e66958af9499"
+  },
+  {
+    "source": "images/p0151_img_in_chart_box_529_730_860_968.jpg",
+    "path": "chapters/08-第八章 分离变量法/images/p0151_img_in_chart_box_529_730_860_968.jpg",
+    "sha256": "0e28e5edaefcfc12edf9d459e3ef8aa8d53dcbcdb2428018fd3350fae3584991"
+  },
+  {
+    "source": "images/p0163_img_in_image_box_635_145_858_385.jpg",
+    "path": "chapters/08-第八章 分离变量法/images/p0163_img_in_image_box_635_145_858_385.jpg",
+    "sha256": "ef894751949cebfe32ad66c2b2a01ad0a2285437048dadbc5870f049289e3e9b"
+  },
+  {
+    "source": "images/p0165_img_in_image_box_155_842_400_1092.jpg",
+    "path": "chapters/08-第八章 分离变量法/images/p0165_img_in_image_box_155_842_400_1092.jpg",
+    "sha256": "a90eb3f6b50d2ea7dfd154cac8a440319ab6a8b964982dc44bb96def5d6021e6"
+  },
+  {
+    "source": "images/p0165_img_in_image_box_498_847_801_1093.jpg",
+    "path": "chapters/08-第八章 分离变量法/images/p0165_img_in_image_box_498_847_801_1093.jpg",
+    "sha256": "65df92949c0c8b902e25de8eca649c9917a101adcac137576c0a35bd0c1b26b9"
+  },
+  {
+    "source": "images/p0175_img_in_header_image_box_96_373_157_435.jpg",
+    "path": "chapters/08-第八章 分离变量法/images/p0175_img_in_header_image_box_96_373_157_435.jpg",
+    "sha256": "c5f83911c355a178db56506a7585bab636d1564bd7a465549d3a92cc7313ef81"
+  },
+  {
+    "source": "images/p0175_img_in_image_box_204_217_852_1203.jpg",
+    "path": "chapters/08-第八章 分离变量法/images/p0175_img_in_image_box_204_217_852_1203.jpg",
+    "sha256": "7883faee263158997c4e7e4f0832cd0dab085d4e9dd806344c652e88b5a659a5"
+  },
+  {
+    "source": "images/p0175_img_in_image_box_96_497_157_560.jpg",
+    "path": "chapters/08-第八章 分离变量法/images/p0175_img_in_image_box_96_497_157_560.jpg",
+    "sha256": "d9014360d6763809ea2bba49466b34d751a19da7c4d152ff8627f43b758c5e97"
+  },
+  {
+    "source": "images/p0183_img_in_image_box_778_1008_844_1071.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0183_img_in_image_box_778_1008_844_1071.jpg",
+    "sha256": "f8b680ab2b3ebdb23047a2c22a095fd84ed573ce90c4fb13a4158d6a7fe03fe9"
+  },
+  {
+    "source": "images/p0193_img_in_image_box_586_156_859_306.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0193_img_in_image_box_586_156_859_306.jpg",
+    "sha256": "ffe03ba49bec6862843367461bbb813f448db3de27464816ce4d19772bb7a894"
+  },
+  {
+    "source": "images/p0194_img_in_image_box_98_539_366_827.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0194_img_in_image_box_98_539_366_827.jpg",
+    "sha256": "0a266c641ca44fbb5ee4a6ce8a077507c5f0f01351467a4ba4b7ba738f25ab8e"
+  },
+  {
+    "source": "images/p0195_img_in_image_box_545_737_610_801.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0195_img_in_image_box_545_737_610_801.jpg",
+    "sha256": "30bdd5268b17c5e6edb76b1cfbef29e224ddf00054d5106c9238c2d37b7f68dd"
+  },
+  {
+    "source": "images/p0195_img_in_image_box_689_520_844_698.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0195_img_in_image_box_689_520_844_698.jpg",
+    "sha256": "123fc8d2f17eaad65e31249baf02bc493be29d9e7ef6ad8c807df756134fd9ee"
+  },
+  {
+    "source": "images/p0195_img_in_image_box_742_737_806_801.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0195_img_in_image_box_742_737_806_801.jpg",
+    "sha256": "3a262959c2670a8b85b2c4d223fbaa6d7a6f8d3fa90757d8397f5e15b83f7100"
+  },
+  {
+    "source": "images/p0200_img_in_image_box_599_141_661_205.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0200_img_in_image_box_599_141_661_205.jpg",
+    "sha256": "744977d4692ff7b10de533f252baaaa96773a41e02407ff4f140e0925fe403dd"
+  },
+  {
+    "source": "images/p0200_img_in_image_box_729_141_792_205.jpg",
+    "path": "chapters/09-第九章 积分变换法/images/p0200_img_in_image_box_729_141_792_205.jpg",
+    "sha256": "aede0efa647370e1aa597830b199c2ce14f35491312817df3d740ff3eb6352ae"
+  },
+  {
+    "source": "images/p0207_img_in_image_box_667_141_859_295.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0207_img_in_image_box_667_141_859_295.jpg",
+    "sha256": "b9e190d7dfda213e9d37314f8b50951c871be8d7b1f943e5ffa170df871b9c16"
+  },
+  {
+    "source": "images/p0216_img_in_image_box_97_673_353_861.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0216_img_in_image_box_97_673_353_861.jpg",
+    "sha256": "d04a26fbe659d618423a60ec8a9a7c97fb493c17f960e734449af4a44b0209f2"
+  },
+  {
+    "source": "images/p0217_img_in_image_box_131_785_424_1080.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0217_img_in_image_box_131_785_424_1080.jpg",
+    "sha256": "4c2369a07c2575e783daf060622df88c3bbc4fd1638318f6c44f468545c4b61f"
+  },
+  {
+    "source": "images/p0217_img_in_image_box_502_785_827_1081.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0217_img_in_image_box_502_785_827_1081.jpg",
+    "sha256": "013a43cd872072adc248d57f89513f6543b02cf6da2f15ff8c03ec65365c9db5"
+  },
+  {
+    "source": "images/p0220_img_in_image_box_744_528_809_593.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0220_img_in_image_box_744_528_809_593.jpg",
+    "sha256": "4c866a9e816b8c0f877b83691a046407946afaeb7a3a0aa6b43bc8775bc8a162"
+  },
+  {
+    "source": "images/p0221_img_in_image_box_540_144_858_389.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0221_img_in_image_box_540_144_858_389.jpg",
+    "sha256": "cd3d3960afabd02e9dbfc1937cb64e6bd0e00867835d0c2950e225ce573b0c34"
+  },
+  {
+    "source": "images/p0227_img_in_header_image_box_594_141_659_205.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0227_img_in_header_image_box_594_141_659_205.jpg",
+    "sha256": "9880a7112fcbfc1712ff3f079357ad7b4cf44c87118a6af3bf86d6a6810ff601"
+  },
+  {
+    "source": "images/p0227_img_in_header_image_box_726_141_789_205.jpg",
+    "path": "chapters/10-第十章 格林函数法/images/p0227_img_in_header_image_box_726_141_789_205.jpg",
+    "sha256": "4107b3ac627b8fbeadb09e0b4d472760a95aa0beb6f29ea3b5dfa804e1aeaedc"
+  },
+  {
+    "source": "images/p0236_img_in_image_box_652_313_860_566.jpg",
+    "path": "chapters/11-第十一章 勒让德多项式/images/p0236_img_in_image_box_652_313_860_566.jpg",
+    "sha256": "1774bbcdeb08996e72c4aeaf2d7a253ebfd6220be954728af2e1dea5732c44cb"
+  },
+  {
+    "source": "images/p0240_img_in_image_box_545_144_859_351.jpg",
+    "path": "chapters/11-第十一章 勒让德多项式/images/p0240_img_in_image_box_545_144_859_351.jpg",
+    "sha256": "c3815b598a5f71c201c5fcf6b0a928d4cf993bad517a49071a8b1d8d3e399780"
+  },
+  {
+    "source": "images/p0247_img_in_image_box_97_838_378_1056.jpg",
+    "path": "chapters/11-第十一章 勒让德多项式/images/p0247_img_in_image_box_97_838_378_1056.jpg",
+    "sha256": "69280f9bf3ae0af63650360d721608b4a563b682380215309ef4b4e9116580b4"
+  },
+  {
+    "source": "images/p0248_img_in_header_image_box_101_318_165_383.jpg",
+    "path": "chapters/11-第十一章 勒让德多项式/images/p0248_img_in_header_image_box_101_318_165_383.jpg",
+    "sha256": "b750d0aa9297c36fc0f1bebe4bd54c2d4890af512287d1ed87049e6bf92fcd36"
+  },
+  {
+    "source": "images/p0248_img_in_header_image_box_101_480_165_547.jpg",
+    "path": "chapters/11-第十一章 勒让德多项式/images/p0248_img_in_header_image_box_101_480_165_547.jpg",
+    "sha256": "7d8824cf01f39c8224e691fed03388d246e7688975128437c5331bc9269e1673"
+  },
+  {
+    "source": "images/p0253_img_in_image_box_98_263_410_417.jpg",
+    "path": "chapters/12-第十二章 贝塞尔函数/images/p0253_img_in_image_box_98_263_410_417.jpg",
+    "sha256": "01373a8f8c7148450aa40d4c7c10589e5ee4b8ba462bbf403bde32164b882f5c"
+  },
+  {
+    "source": "images/p0271_img_in_image_box_115_350_179_415.jpg",
+    "path": "chapters/12-第十二章 贝塞尔函数/images/p0271_img_in_image_box_115_350_179_415.jpg",
+    "sha256": "b6005dbf816a6fc177b53485bf8e79664099bc21e12778c85a0678b56fac9880"
+  },
+  {
+    "source": "images/p0271_img_in_image_box_115_485_179_550.jpg",
+    "path": "chapters/12-第十二章 贝塞尔函数/images/p0271_img_in_image_box_115_485_179_550.jpg",
+    "sha256": "a02c0486e0f1ef6695b19355e864167a475752481d0eb71b4e038eb62edced12"
+  },
+  {
+    "source": "images/p0273_img_in_header_image_box_130_191_166_253.jpg",
+    "path": "chapters/13-第十三章 施图姆-刘维尔理论/images/p0273_img_in_header_image_box_130_191_166_253.jpg",
+    "sha256": "c3ebd2102079b652f488bdd87b3f722272ad4afc1c43bb6aa8ec6ff3ed3c3afd"
+  },
+  {
+    "source": "images/p0276_img_in_image_box_761_277_826_342.jpg",
+    "path": "chapters/13-第十三章 施图姆-刘维尔理论/images/p0276_img_in_image_box_761_277_826_342.jpg",
+    "sha256": "1461c47161c2cffebe4460a7ddf14d8f43f9584217a5678c9e7bf201acdd9b5e"
+  },
+  {
+    "source": "images/p0280_img_in_image_box_100_311_163_378.jpg",
+    "path": "chapters/13-第十三章 施图姆-刘维尔理论/images/p0280_img_in_image_box_100_311_163_378.jpg",
+    "sha256": "36dcb14198d30be044235cf2f861a41c77523079891046f7386d50ad972d72d4"
+  },
+  {
+    "source": "images/p0282_img_in_image_box_623_680_858_870.jpg",
+    "path": "chapters/14-第十四章 变分法/images/p0282_img_in_image_box_623_680_858_870.jpg",
+    "sha256": "618af395e25624589da202e3cb5ff707cdb706f9e31f6156fb9330369257d06c"
+  },
+  {
+    "source": "images/p0299_img_in_header_image_box_599_141_662_206.jpg",
+    "path": "chapters/14-第十四章 变分法/images/p0299_img_in_header_image_box_599_141_662_206.jpg",
+    "sha256": "eb481b3ace06402fef4192e0a29f223601414db56f675216b751108dd59326cc"
+  },
+  {
+    "source": "images/p0299_img_in_header_image_box_727_141_791_206.jpg",
+    "path": "chapters/14-第十四章 变分法/images/p0299_img_in_header_image_box_727_141_791_206.jpg",
+    "sha256": "0c2fd90808666fada557a8ca78b4042462251e46b92e774086ba8b353cca9caa"
+  },
+  {
+    "source": "images/p0307_img_in_image_box_248_648_709_766.jpg",
+    "path": "chapters/15-第十五章 非线性方程/images/p0307_img_in_image_box_248_648_709_766.jpg",
+    "sha256": "159511a1ac8ebd6f547c43924fea3ab13c737e48a929b692c6b5953bf7892ae3"
+  },
+  {
+    "source": "images/p0309_img_in_image_box_96_689_418_913.jpg",
+    "path": "chapters/15-第十五章 非线性方程/images/p0309_img_in_image_box_96_689_418_913.jpg",
+    "sha256": "64a4968d0eb11b21a7f6cf3e8c65ac54a9dbd148332af504d173f60e94dbba75"
+  },
+  {
+    "source": "images/p0318_img_in_header_image_box_597_142_660_205.jpg",
+    "path": "chapters/15-第十五章 非线性方程/images/p0318_img_in_header_image_box_597_142_660_205.jpg",
+    "sha256": "be87d1d64d3c308a5db7bb860c2b7dc49cd66f716661b97ac727560712163dda"
+  },
+  {
+    "source": "images/p0332_img_in_header_image_box_601_170_663_234.jpg",
+    "path": "chapters/16-第十六章 积分方程/images/p0332_img_in_header_image_box_601_170_663_234.jpg",
+    "sha256": "7f72461707df7ba9649c5ee604ca13664db747c3f2c36bded5eeeb9040da4c94"
+  },
+  {
+    "source": "images/p0336_img_in_chart_box_553_813_857_1048.jpg",
+    "path": "chapters/17-第十七章 小波变换/images/p0336_img_in_chart_box_553_813_857_1048.jpg",
+    "sha256": "00a7fd3609dbac0a515b5ea2baff225a95d5e6e6aed99a6dd8341371eaf7be8b"
+  },
+  {
+    "source": "images/p0337_img_in_chart_box_116_457_849_1141.jpg",
+    "path": "chapters/17-第十七章 小波变换/images/p0337_img_in_chart_box_116_457_849_1141.jpg",
+    "sha256": "78f02440cfd29c01ddd8438e2a83062400deec2b0c36fb278e99dc4212028f9f"
+  },
+  {
+    "source": "images/p0340_img_in_header_image_box_131_191_166_254.jpg",
+    "path": "chapters/18-习题参考答案/images/p0340_img_in_header_image_box_131_191_166_254.jpg",
+    "sha256": "0e68e8b9271adf5cf38a5b8305cc4c3aea8e6a4793db551b519a7cc2724166db"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_168_176_401_392.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_168_176_401_392.jpg",
+    "sha256": "eedc7ce50f071ca8da26f978a925879de5faf3b8f9b9418520c4e2700890a76a"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_172_1005_471_1215.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_172_1005_471_1215.jpg",
+    "sha256": "10250070400cd2bb6f9833583fa35e6c28b753cf608d5029b22e038dcf16616a"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_172_444_423_624.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_172_444_423_624.jpg",
+    "sha256": "5d503971eccc4f82fad54a668f102c197c0e4fb91d7e9a0b3c3d10afdd48b808"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_173_666_515_949.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_173_666_515_949.jpg",
+    "sha256": "e2052cdf11eaa4e8a955a532888542356e0bf7ff9210038f5f8a79eb81586ab9"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_427_179_790_392.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_427_179_790_392.jpg",
+    "sha256": "01ca56dc23cd283ac46c9e83715dff2ea70752d6a0fdfd270d603b60ca2be600"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_470_542_533_592.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_470_542_533_592.jpg",
+    "sha256": "9be9c46fa24120f0074088342b8ae4054510683fbead5ce85f9cf80531942544"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_538_1005_786_1220.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_538_1005_786_1220.jpg",
+    "sha256": "b1ace1217e6568f4bb64ce14e188dd5e2c585112b74bf209b8ad5105ee1875c5"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_553_670_786_878.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_553_670_786_878.jpg",
+    "sha256": "5561fc4c0fdd08d9296bb5e41675e9f3a2c0ba9e74140a2bdd07efa3f4621171"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_575_445_786_624.jpg",
+    "path": "chapters/18-习题参考答案/images/p0342_img_in_image_box_575_445_786_624.jpg",
+    "sha256": "db5e2fb36ae13001774b62157767163c5ff00c23a0418ded1b0c9ede4fa1700c"
+  },
+  {
+    "source": "images/p0377_img_in_image_box_687_1091_863_1225.jpg",
+    "path": "chapters/22-封底/images/p0377_img_in_image_box_687_1091_863_1225.jpg",
+    "sha256": "902fb189b2a83f844d7de3f771c862a0b7eff93213d10e14cb951213dfa1c969"
+  },
+  {
+    "source": "images/p0377_img_in_image_box_94_1065_182_1151.jpg",
+    "path": "chapters/22-封底/images/p0377_img_in_image_box_94_1065_182_1151.jpg",
+    "sha256": "7fbe0d192895cb85c462ab4951ccafb27089140be410209a76ef15c169be2eaf"
+  }
+]

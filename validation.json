@@ -1,25 +1,5 @@
 [
   {
-    "book": "复变函数论 (钟玉泉)",
-    "pages": 395,
-    "images": 169,
-    "groups": 11,
-    "image_bytes": 26373736,
-    "image_hashes_verified": true,
-    "page_coverage_verified": true,
-    "image_references_verified": true
-  },
-  {
-    "book": "数学物理方法 (顾樵)",
-    "pages": 558,
-    "images": 279,
-    "groups": 17,
-    "image_bytes": 4914000,
-    "image_hashes_verified": true,
-    "page_coverage_verified": true,
-    "image_references_verified": true
-  },
-  {
     "book": "电子技术基础模拟部分（第七版）(康华光)",
     "pages": 527,
     "images": 1133,
@@ -35,6 +15,16 @@
     "images": 1690,
     "groups": 20,
     "image_bytes": 28786825,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
+  },
+  {
+    "book": "数学物理方法（第四版）[十二五国家级规划教材] (姚端正 周国全 贾俊基)",
+    "pages": 377,
+    "images": 144,
+    "groups": 27,
+    "image_bytes": 1922324,
     "image_hashes_verified": true,
     "page_coverage_verified": true,
     "image_references_verified": true

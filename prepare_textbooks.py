@@ -9,6 +9,7 @@ from urllib.parse import quote
 
 SOURCE = Path(r'D:\杂项\work\教材')
 DEST = Path(r'D:\杂项\work\textbooks-github')
+EXCLUDED_BOOKS = {'复变函数论 (钟玉泉)', '数学物理方法 (顾樵)'}
 
 
 def write_json(path, obj):
@@ -39,7 +40,14 @@ def boundaries(book, outline):
                 and '习题' not in c['title']]
     result = [(1, '00-封面与前言目录')] + [
         (c['page'], f'{i:02d}-{c["title"]}') for i, c in enumerate(chapters, 1)]
-    if '复变' in book.name:
+    if '姚端正' in book.name:
+        result = [(147 if title.startswith('08-') else page, title) for page, title in result]
+        result += [(20, '00a-第一篇导言 复变函数论'), (114, '05a-第二篇导言 数学物理方程'),
+                   (229, '10a-第三篇导言 特殊函数'), (281, '13a-第四篇导言 近似方法及现代内容'),
+                   (340, '18-习题参考答案'), (362, '19-参考文献'), (363, '20-附表'),
+                   (368, '21-索引'), (377, '22-封底')]
+        result.sort()
+    elif '复变' in book.name:
         result += [(395, '10-封底')]
     elif '电路分析' in book.name:
         result += [(447, '17-附录A Multisim简明教程'), (452, '18-参考文献'), (453, '19-封底')]
@@ -58,8 +66,11 @@ def main():
     (DEST / '.gitignore').write_text('__pycache__/\n*.pyc\n', encoding='utf-8')
     (DEST / '.gitattributes').write_text('*.md text eol=lf\n*.json text eol=lf\n*.jsonl text eol=lf\n*.jpg binary\n*.zip binary\n', encoding='utf-8')
     summaries = json.loads((DEST / 'validation.json').read_text(encoding='utf-8')) if add_new else []
+    summaries = [s for s in summaries if s['book'] not in EXCLUDED_BOOKS]
     root_links = []
     for book in SOURCE.iterdir():
+        if book.name in EXCLUDED_BOOKS:
+            continue
         if not (book / 'book.md').exists():
             continue
         out = DEST / book.name
@@ -152,7 +163,9 @@ def main():
         for s in summaries
         for c in json.loads((DEST / s['book'] / 'chapters.json').read_text(encoding='utf-8'))['chapters']
     )
-    (DEST / 'README.md').write_text('# 教材\n\n' + '\n'.join(root_links) +
+    school_note = ('数学物理方法使用学校同步教材：姚端正等《数学物理方法（第四版）》。\n\n'
+                   if any('姚端正' in s['book'] for s in summaries) else '')
+    (DEST / 'README.md').write_text('# 教材\n\n' + school_note + '\n'.join(root_links) +
         '\n\n每本书位于独立目录，章节正文和对应的 `images/` 放在 `chapters/` 下。'
         '前言、目录、附录、索引单独分组；页码均为从 1 开始的 PDF 页码。'
         f'\n\n{len(summaries)} 本教材合计 {chapter_count} 个正文章，原始文件在本地源目录中保持不变。'

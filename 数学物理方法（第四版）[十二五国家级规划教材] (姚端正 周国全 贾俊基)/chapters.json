@@ -1,0 +1,194 @@
+{
+  "page_numbering": "PDF pages, 1-based",
+  "chapters": [
+    {
+      "title": "00-封面与前言目录",
+      "start_page": 1,
+      "end_page": 19,
+      "path": "chapters/00-封面与前言目录",
+      "images": 3
+    },
+    {
+      "title": "00a-第一篇导言 复变函数论",
+      "start_page": 20,
+      "end_page": 20,
+      "path": "chapters/00a-第一篇导言 复变函数论",
+      "images": 0
+    },
+    {
+      "title": "01-第一章 解析函数",
+      "start_page": 21,
+      "end_page": 47,
+      "path": "chapters/01-第一章 解析函数",
+      "images": 26
+    },
+    {
+      "title": "02-第二章 解析函数积分",
+      "start_page": 48,
+      "end_page": 63,
+      "path": "chapters/02-第二章 解析函数积分",
+      "images": 13
+    },
+    {
+      "title": "03-第三章 复变函数级数",
+      "start_page": 64,
+      "end_page": 85,
+      "path": "chapters/03-第三章 复变函数级数",
+      "images": 8
+    },
+    {
+      "title": "04-第四章 解析延拓 $ \\Gamma $ 函数 B 函数",
+      "start_page": 86,
+      "end_page": 94,
+      "path": "chapters/04-第四章 解析延拓 $ _Gamma $ 函数 B 函数",
+      "images": 3
+    },
+    {
+      "title": "05-第五章 留数理论",
+      "start_page": 95,
+      "end_page": 113,
+      "path": "chapters/05-第五章 留数理论",
+      "images": 17
+    },
+    {
+      "title": "05a-第二篇导言 数学物理方程",
+      "start_page": 114,
+      "end_page": 114,
+      "path": "chapters/05a-第二篇导言 数学物理方程",
+      "images": 0
+    },
+    {
+      "title": "06-第六章 定解问题",
+      "start_page": 115,
+      "end_page": 127,
+      "path": "chapters/06-第六章 定解问题",
+      "images": 9
+    },
+    {
+      "title": "07-第七章 行波法",
+      "start_page": 128,
+      "end_page": 146,
+      "path": "chapters/07-第七章 行波法",
+      "images": 10
+    },
+    {
+      "title": "08-第八章 分离变量法",
+      "start_page": 147,
+      "end_page": 175,
+      "path": "chapters/08-第八章 分离变量法",
+      "images": 7
+    },
+    {
+      "title": "09-第九章 积分变换法",
+      "start_page": 176,
+      "end_page": 200,
+      "path": "chapters/09-第九章 积分变换法",
+      "images": 8
+    },
+    {
+      "title": "10-第十章 格林函数法",
+      "start_page": 201,
+      "end_page": 228,
+      "path": "chapters/10-第十章 格林函数法",
+      "images": 8
+    },
+    {
+      "title": "10a-第三篇导言 特殊函数",
+      "start_page": 229,
+      "end_page": 229,
+      "path": "chapters/10a-第三篇导言 特殊函数",
+      "images": 0
+    },
+    {
+      "title": "11-第十一章 勒让德多项式",
+      "start_page": 230,
+      "end_page": 248,
+      "path": "chapters/11-第十一章 勒让德多项式",
+      "images": 5
+    },
+    {
+      "title": "12-第十二章 贝塞尔函数",
+      "start_page": 249,
+      "end_page": 272,
+      "path": "chapters/12-第十二章 贝塞尔函数",
+      "images": 3
+    },
+    {
+      "title": "13-第十三章 施图姆-刘维尔理论",
+      "start_page": 273,
+      "end_page": 280,
+      "path": "chapters/13-第十三章 施图姆-刘维尔理论",
+      "images": 3
+    },
+    {
+      "title": "13a-第四篇导言 近似方法及现代内容",
+      "start_page": 281,
+      "end_page": 281,
+      "path": "chapters/13a-第四篇导言 近似方法及现代内容",
+      "images": 0
+    },
+    {
+      "title": "14-第十四章 变分法",
+      "start_page": 282,
+      "end_page": 299,
+      "path": "chapters/14-第十四章 变分法",
+      "images": 3
+    },
+    {
+      "title": "15-第十五章 非线性方程",
+      "start_page": 300,
+      "end_page": 318,
+      "path": "chapters/15-第十五章 非线性方程",
+      "images": 3
+    },
+    {
+      "title": "16-第十六章 积分方程",
+      "start_page": 319,
+      "end_page": 332,
+      "path": "chapters/16-第十六章 积分方程",
+      "images": 1
+    },
+    {
+      "title": "17-第十七章 小波变换",
+      "start_page": 333,
+      "end_page": 339,
+      "path": "chapters/17-第十七章 小波变换",
+      "images": 2
+    },
+    {
+      "title": "18-习题参考答案",
+      "start_page": 340,
+      "end_page": 361,
+      "path": "chapters/18-习题参考答案",
+      "images": 10
+    },
+    {
+      "title": "19-参考文献",
+      "start_page": 362,
+      "end_page": 362,
+      "path": "chapters/19-参考文献",
+      "images": 0
+    },
+    {
+      "title": "20-附表",
+      "start_page": 363,
+      "end_page": 367,
+      "path": "chapters/20-附表",
+      "images": 0
+    },
+    {
+      "title": "21-索引",
+      "start_page": 368,
+      "end_page": 376,
+      "path": "chapters/21-索引",
+      "images": 0
+    },
+    {
+      "title": "22-封底",
+      "start_page": 377,
+      "end_page": 377,
+      "path": "chapters/22-封底",
+      "images": 2
+    }
+  ]
+}
