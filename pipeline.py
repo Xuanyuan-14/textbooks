@@ -33,7 +33,7 @@ from pathlib import Path
 # ---------------------------------------------------------------- 配置
 
 DOWNLOADS = Path(r"C:\Users\Xuanyuan14\Downloads")
-OUT_ROOT = Path(r"D:\杂项\work\教材-AI友好版")
+OUT_ROOT = Path(r"D:\杂项\work\教材")
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
@@ -68,6 +68,22 @@ def safe_name(s: str) -> str:
     return s[:60] or "book"
 
 
+def clean_title(s: str) -> str:
+    """从 PaddleOCR 输出的文件名还原干净书名。
+
+    Z-Library 下载名会拼上站点水印且被截断，例如：
+      `电路分析第二版 (张小梅 刘岚 李政颖) (z-library.sk 1lib.sk z-l`
+    剥掉 .pdf_* 后缀与水印括号，只留「书名 (作者)」。
+    """
+    s = re.sub(r"\.pdf_by_PaddleOCR-VL-[\d.]+$", "", s, flags=re.I)
+    s = re.sub(r"\.pdf_.*$", "", s, flags=re.I)
+    # 括号可能被截断，不要求闭合
+    s = re.sub(r"\s*[\(\[]?\s*(?:z-library|1lib|z-lib|singlelogin)[^)\]]*[)\]]?\s*$",
+               "", s, flags=re.I)
+    # 只去空白和句点，保留书名的括号（(作者) 是有意义的）
+    return s.strip(" ._") or "book"
+
+
 # ---------------------------------------------------------------- 下载
 
 
@@ -96,7 +112,7 @@ def fetch(url: str, dest: Path, retries: int = 3) -> tuple[bool, int, str]:
 
 
 def process(md_path: Path, json_path: Path) -> dict:
-    title = md_path.stem.replace(".pdf_by_PaddleOCR-VL-1.6", "")
+    title = clean_title(md_path.stem)
     out = OUT_ROOT / safe_name(title)
     img_dir = out / "images"
     out.mkdir(parents=True, exist_ok=True)
@@ -199,30 +215,39 @@ def process(md_path: Path, json_path: Path) -> dict:
         seen.add(k)
         outline.append(e)
 
+    # 先判断全书是否使用「第N章」编号。
+    #   有  → 只认「第N章」为章，深度仅用于分节（复变、顾樵、电路分析都属此类）
+    #   没有 → 回退到「depth==1 且不是编号小节」为章（模电那种以章名直接作标题的书）
+    has_chapter_numbering = any(RE_CHAPTER.match(e["title"]) for e in outline)
+    RE_NUMLIST = re.compile(r"^\s*(?:\d+[.、]|[（(]\d+[)）]|[一二三四五六七八九十]+[、.])")
+
     for e in outline:
         t = e["title"]
         d = e["depth"]
-        is_chap = bool(RE_CHAPTER.match(t))          # 「第一章」「第1章」「Chapter 1」
-        is_sec = bool(RE_SECTION.match(t))           # 「1.2 xxx」
+        is_chap = bool(RE_CHAPTER.match(t))
+        is_sec = bool(RE_SECTION.match(t))
         is_front = bool(RE_FRONT.search(t))
+        is_numlist = bool(RE_NUMLIST.match(t))       # 「1. 某某」编号小节
 
-        # 深度在不同书里含义不同：
-        #   模电       → # = 章（章名不带「第N章」）
-        #   复变函数论 → ## = 章（「第一章 复数与复变函数」）
-        #   顾樵       → # = 章
-        # 因此以文字特征优先，深度只作兜底。
-        if is_front and d <= 1:
+        if is_front and d <= 1 and not has_chapter_numbering:
             e["level"] = "front"
-        elif is_chap:
-            e["level"] = "chapter"
-        elif is_sec and d <= 3:
-            e["level"] = "section"
-        elif d <= 1:
-            e["level"] = "chapter" if not is_front else "front"
-        elif d == 2:
-            e["level"] = "section"
+        elif has_chapter_numbering:
+            if is_chap:
+                e["level"] = "chapter"
+            elif is_sec:
+                e["level"] = "section"
+            elif d <= 1 or d == 2:
+                e["level"] = "subsection"
+            else:
+                e["level"] = "subsection"
         else:
-            e["level"] = "subsection"
+            # 无「第N章」编号的书
+            if d <= 1 and not is_numlist:
+                e["level"] = "front" if is_front else "chapter"
+            elif d == 2 or is_sec:
+                e["level"] = "section"
+            else:
+                e["level"] = "subsection"
 
     # 把章节归属写进每页记录，并继续生成 book.md / jsonl / 打包
     chap_iter = [e for e in outline if e["level"] == "chapter"]
@@ -408,7 +433,7 @@ def main() -> int:
         if not js.exists():
             print(f"[!] 缺 JSON，跳过：{md.name}")
             continue
-        title = md.stem.replace(".pdf_by_PaddleOCR-VL-1.6", "")
+        title = clean_title(md.stem)
         out = OUT_ROOT / safe_name(title)
         if (out / "report.json").exists() and "--force" not in flags:
             print(f"[=] 已处理过，跳过：{title}（加 --force 可重跑）")

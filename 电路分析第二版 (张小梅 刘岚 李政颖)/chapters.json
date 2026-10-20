@@ -1,0 +1,145 @@
+{
+  "page_numbering": "PDF pages, 1-based",
+  "chapters": [
+    {
+      "title": "00-封面与前言目录",
+      "start_page": 1,
+      "end_page": 10,
+      "path": "chapters/00-封面与前言目录",
+      "images": 8
+    },
+    {
+      "title": "01-第1章 电路的基本概念与电路定律",
+      "start_page": 11,
+      "end_page": 35,
+      "path": "chapters/01-第1章 电路的基本概念与电路定律",
+      "images": 101
+    },
+    {
+      "title": "02-第2章 电阻电路的等效变换",
+      "start_page": 36,
+      "end_page": 61,
+      "path": "chapters/02-第2章 电阻电路的等效变换",
+      "images": 141
+    },
+    {
+      "title": "03-第3章 电阻电路的一般分析方法",
+      "start_page": 62,
+      "end_page": 92,
+      "path": "chapters/03-第3章 电阻电路的一般分析方法",
+      "images": 118
+    },
+    {
+      "title": "04-第4章 电路定理",
+      "start_page": 93,
+      "end_page": 126,
+      "path": "chapters/04-第4章 电路定理",
+      "images": 149
+    },
+    {
+      "title": "05-第5章 含有运算放大器的电阻电路",
+      "start_page": 127,
+      "end_page": 137,
+      "path": "chapters/05-第5章 含有运算放大器的电阻电路",
+      "images": 28
+    },
+    {
+      "title": "06-第6章 简单非线性电阻电路分析",
+      "start_page": 138,
+      "end_page": 162,
+      "path": "chapters/06-第6章 简单非线性电阻电路分析",
+      "images": 86
+    },
+    {
+      "title": "07-第7章 储能元件",
+      "start_page": 163,
+      "end_page": 179,
+      "path": "chapters/07-第7章 储能元件",
+      "images": 79
+    },
+    {
+      "title": "08-第8章 动态电路的时域分析",
+      "start_page": 180,
+      "end_page": 244,
+      "path": "chapters/08-第8章 动态电路的时域分析",
+      "images": 283
+    },
+    {
+      "title": "09-第9章 正弦量与相量",
+      "start_page": 245,
+      "end_page": 265,
+      "path": "chapters/09-第9章 正弦量与相量",
+      "images": 59
+    },
+    {
+      "title": "10-第10章 正弦稳态电路分析",
+      "start_page": 266,
+      "end_page": 294,
+      "path": "chapters/10-第10章 正弦稳态电路分析",
+      "images": 101
+    },
+    {
+      "title": "11-第11章 含有磁耦合元件的正弦稳态电路分析",
+      "start_page": 295,
+      "end_page": 315,
+      "path": "chapters/11-第11章 含有磁耦合元件的正弦稳态电路分析",
+      "images": 92
+    },
+    {
+      "title": "12-第12章 三相电路分析",
+      "start_page": 316,
+      "end_page": 337,
+      "path": "chapters/12-第12章 三相电路分析",
+      "images": 64
+    },
+    {
+      "title": "13-第13章 非正弦周期信号激励下的稳态电路分析",
+      "start_page": 338,
+      "end_page": 355,
+      "path": "chapters/13-第13章 非正弦周期信号激励下的稳态电路分析",
+      "images": 56
+    },
+    {
+      "title": "14-第14章 正弦交流电路的频率特性",
+      "start_page": 356,
+      "end_page": 384,
+      "path": "chapters/14-第14章 正弦交流电路的频率特性",
+      "images": 116
+    },
+    {
+      "title": "15-第15章 电路的复频域分析",
+      "start_page": 385,
+      "end_page": 413,
+      "path": "chapters/15-第15章 电路的复频域分析",
+      "images": 72
+    },
+    {
+      "title": "16-第16章 二端口网络分析",
+      "start_page": 414,
+      "end_page": 446,
+      "path": "chapters/16-第16章 二端口网络分析",
+      "images": 126
+    },
+    {
+      "title": "17-附录A Multisim简明教程",
+      "start_page": 447,
+      "end_page": 451,
+      "path": "chapters/17-附录A Multisim简明教程",
+      "images": 6
+    },
+    {
+      "title": "18-参考文献",
+      "start_page": 452,
+      "end_page": 452,
+      "path": "chapters/18-参考文献",
+      "images": 0
+    },
+    {
+      "title": "19-封底",
+      "start_page": 453,
+      "end_page": 453,
+      "path": "chapters/19-封底",
+      "images": 5
+    }
+  ]
+}

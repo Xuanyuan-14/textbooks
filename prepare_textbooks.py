@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import re
 import shutil
+import sys
 from urllib.parse import quote
 
 SOURCE = Path(r'D:\杂项\work\教材')
@@ -38,24 +39,34 @@ def boundaries(book, outline):
                 and '习题' not in c['title']]
     result = [(1, '00-封面与前言目录')] + [
         (c['page'], f'{i:02d}-{c["title"]}') for i, c in enumerate(chapters, 1)]
-    result += [(395, '10-封底')] if '复变' in book.name else [(546, '16-索引与封底')]
+    if '复变' in book.name:
+        result += [(395, '10-封底')]
+    elif '电路分析' in book.name:
+        result += [(447, '17-附录A Multisim简明教程'), (452, '18-参考文献'), (453, '19-封底')]
+    else:
+        result += [(546, '16-索引与封底')]
     return result
 
 
 def main():
-    if (DEST / '.git').exists():
+    add_new = '--add-new' in sys.argv
+    if (DEST / '.git').exists() and not add_new:
         raise SystemExit(f'Output is already a Git repository: {DEST}')
     DEST.mkdir(exist_ok=True)
     shutil.copy2(SOURCE / 'pipeline.py', DEST / 'pipeline.py')
     shutil.copy2(Path(__file__), DEST / 'prepare_textbooks.py')
     (DEST / '.gitignore').write_text('__pycache__/\n*.pyc\n', encoding='utf-8')
     (DEST / '.gitattributes').write_text('*.md text eol=lf\n*.json text eol=lf\n*.jsonl text eol=lf\n*.jpg binary\n*.zip binary\n', encoding='utf-8')
-    summaries = []
+    summaries = json.loads((DEST / 'validation.json').read_text(encoding='utf-8')) if add_new else []
     root_links = []
     for book in SOURCE.iterdir():
         if not (book / 'book.md').exists():
             continue
         out = DEST / book.name
+        if add_new and out.exists():
+            assert any(s['book'] == book.name for s in summaries), f'Existing unvalidated output: {out}'
+            root_links.append(f'- [{book.name}]({quote(book.name + "/README.md")})')
+            continue
         out.mkdir(exist_ok=True)
         generated = (out / 'chapters').resolve()
         assert generated.is_relative_to(DEST.resolve()) and not generated.is_relative_to(SOURCE.resolve())
@@ -136,10 +147,15 @@ def main():
                               page_coverage_verified=True, image_references_verified=True))
         root_links.append(f'- [{book.name}]({quote(book.name + "/README.md")})')
     write_json(DEST / 'validation.json', summaries)
+    chapter_count = sum(
+        bool(re.match(r'^\d+-第[一二三四五六七八九十百\d]+章', c['title']))
+        for s in summaries
+        for c in json.loads((DEST / s['book'] / 'chapters.json').read_text(encoding='utf-8'))['chapters']
+    )
     (DEST / 'README.md').write_text('# 教材\n\n' + '\n'.join(root_links) +
         '\n\n每本书位于独立目录，章节正文和对应的 `images/` 放在 `chapters/` 下。'
         '前言、目录、附录、索引单独分组；页码均为从 1 开始的 PDF 页码。'
-        '\n\n3 本教材合计 35 个正文章，原始文件在本地源目录中保持不变。'
+        f'\n\n{len(summaries)} 本教材合计 {chapter_count} 个正文章，原始文件在本地源目录中保持不变。'
         '仓库保留全部原始压缩包、元数据和转换脚本；忽略 Python 缓存。'
         '\n\n图片按文件名中的页码归章，跨章引用使用相对路径。已核对全部图片 SHA-256、正文页码完整性和新生成正文的图片路径。'
         '详见 `validation.json`。原始 OCR 内容未逐字校对，原始归档及旧说明中的旧路径保持原样。\n', encoding='utf-8')

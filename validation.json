@@ -28,5 +28,15 @@
     "image_hashes_verified": true,
     "page_coverage_verified": true,
     "image_references_verified": true
+  },
+  {
+    "book": "电路分析第二版 (张小梅 刘岚 李政颖)",
+    "pages": 453,
+    "images": 1690,
+    "groups": 20,
+    "image_bytes": 28786825,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
   }
 ]
