@@ -1,0 +1,32 @@
+[
+  {
+    "book": "复变函数论 (钟玉泉)",
+    "pages": 395,
+    "images": 169,
+    "groups": 11,
+    "image_bytes": 26373736,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
+  },
+  {
+    "book": "数学物理方法 (顾樵)",
+    "pages": 558,
+    "images": 279,
+    "groups": 17,
+    "image_bytes": 4914000,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
+  },
+  {
+    "book": "电子技术基础模拟部分（第七版）(康华光)",
+    "pages": 527,
+    "images": 1133,
+    "groups": 18,
+    "image_bytes": 21771572,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
+  }
+]

@@ -1,0 +1,131 @@
+{
+  "page_numbering": "PDF pages, 1-based",
+  "chapters": [
+    {
+      "title": "00-封面与前言目录",
+      "start_page": 1,
+      "end_page": 28,
+      "path": "chapters/00-封面与前言目录",
+      "images": 4
+    },
+    {
+      "title": "01-第1章 绪论",
+      "start_page": 29,
+      "end_page": 45,
+      "path": "chapters/01-第1章 绪论",
+      "images": 36
+    },
+    {
+      "title": "02-第2章 运算放大器",
+      "start_page": 46,
+      "end_page": 78,
+      "path": "chapters/02-第2章 运算放大器",
+      "images": 91
+    },
+    {
+      "title": "03-第3章 二极管及其基本电路",
+      "start_page": 79,
+      "end_page": 116,
+      "path": "chapters/03-第3章 二极管及其基本电路",
+      "images": 105
+    },
+    {
+      "title": "04-第4章 场效应三极管及其放大电路",
+      "start_page": 117,
+      "end_page": 179,
+      "path": "chapters/04-第4章 场效应三极管及其放大电路",
+      "images": 177
+    },
+    {
+      "title": "05-第5章 双极结型三极管（BJT）及其放大电路",
+      "start_page": 180,
+      "end_page": 215,
+      "path": "chapters/05-第5章 双极结型三极管（BJT）及其放大电路",
+      "images": 103
+    },
+    {
+      "title": "06-第6章 频率响应",
+      "start_page": 216,
+      "end_page": 253,
+      "path": "chapters/06-第6章 频率响应",
+      "images": 78
+    },
+    {
+      "title": "07-第7章 模拟集成电路",
+      "start_page": 254,
+      "end_page": 327,
+      "path": "chapters/07-第7章 模拟集成电路",
+      "images": 131
+    },
+    {
+      "title": "08-第8章 反馈放大电路",
+      "start_page": 328,
+      "end_page": 384,
+      "path": "chapters/08-第8章 反馈放大电路",
+      "images": 118
+    },
+    {
+      "title": "09-第9章 功率放大电路",
+      "start_page": 385,
+      "end_page": 408,
+      "path": "chapters/09-第9章 功率放大电路",
+      "images": 47
+    },
+    {
+      "title": "10-第10章 信号处理与信号产生电路",
+      "start_page": 409,
+      "end_page": 469,
+      "path": "chapters/10-第10章 信号处理与信号产生电路",
+      "images": 136
+    },
+    {
+      "title": "11-第11章 直流稳压电源",
+      "start_page": 470,
+      "end_page": 506,
+      "path": "chapters/11-第11章 直流稳压电源",
+      "images": 68
+    },
+    {
+      "title": "12-附录A PSpice-SPICE软件简介",
+      "start_page": 507,
+      "end_page": 509,
+      "path": "chapters/12-附录A PSpice-SPICE软件简介",
+      "images": 17
+    },
+    {
+      "title": "13-附录B 电路理论简明复习",
+      "start_page": 510,
+      "end_page": 514,
+      "path": "chapters/13-附录B 电路理论简明复习",
+      "images": 14
+    },
+    {
+      "title": "14-附录C 电阻的彩色编码和标称阻值",
+      "start_page": 515,
+      "end_page": 516,
+      "path": "chapters/14-附录C 电阻的彩色编码和标称阻值",
+      "images": 4
+    },
+    {
+      "title": "15-参考文献",
+      "start_page": 517,
+      "end_page": 518,
+      "path": "chapters/15-参考文献",
+      "images": 1
+    },
+    {
+      "title": "16-索引",
+      "start_page": 519,
+      "end_page": 526,
+      "path": "chapters/16-索引",
+      "images": 1
+    },
+    {
+      "title": "17-封底",
+      "start_page": 527,
+      "end_page": 527,
+      "path": "chapters/17-封底",
+      "images": 2
+    }
+  ]
+}

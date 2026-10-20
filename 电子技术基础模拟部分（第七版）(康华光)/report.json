@@ -1,0 +1,20 @@
+{
+  "source_json": "C:\\Users\\Xuanyuan14\\Downloads\\电子技术基础模拟部分（第七版） (康华光，张林) .pdf_by_PaddleOCR-VL-1.6.json",
+  "source_md": "C:\\Users\\Xuanyuan14\\Downloads\\电子技术基础模拟部分（第七版） (康华光，张林).md",
+  "output_md": "D:\\杂项\\work\\模电-教材转换\\doc.md",
+  "images_dir": "D:\\杂项\\work\\模电-教材转换\\images",
+  "pages": 527,
+  "image_refs_in_json": 1133,
+  "unique_urls": 1133,
+  "downloaded_ok": 1133,
+  "downloaded_fail": 0,
+  "total_bytes": 21771572,
+  "files_on_disk": 1133,
+  "valid_magic_bytes": 1133,
+  "suspicious_tiny_files": 0,
+  "md_remote_refs_before": 1068,
+  "md_replaced": 1068,
+  "md_unmatched": 0,
+  "md_remote_refs_after": 0,
+  "failures": []
+}

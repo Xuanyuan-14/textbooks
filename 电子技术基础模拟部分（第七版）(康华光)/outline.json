@@ -1,0 +1,7318 @@
+{
+  "title": "电子技术基础 模拟部分（第7版）",
+  "authors": [
+    "康华光",
+    "张林"
+  ],
+  "publisher": "高等教育出版社",
+  "year": 2021,
+  "isbn": "978-7-04-055419-9",
+  "total_pages": 527,
+  "chapters": [
+    {
+      "page": 1,
+      "title": "电子技术基础",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 1,
+      "title": "模拟部分（第7版）",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 46,
+      "title": "运算放大器",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 211,
+      "title": "小结",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 385,
+      "title": "功率放大电路",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 409,
+      "title": "信号处理与信号产生电路",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 459,
+      "title": "小结",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 499,
+      "title": "小结",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 507,
+      "title": "附录 A PSpice/SPICE 软件简介",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 527,
+      "title": "电子技术基础 模拟部分（第7版）",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    }
+  ],
+  "sections": [
+    {
+      "page": 3,
+      "title": "一、遵循原则",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 3,
+      "title": "二、主要变动",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 7,
+      "title": "一、模拟部分",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 7,
+      "title": "二、数字部分",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 23,
+      "title": "目录",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 29,
+      "title": "绪论",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 29,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 44,
+      "title": "1.2 信号的频谱",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 45,
+      "title": "1.4 放大电路模型",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 45,
+      "title": "1.5 放大电路的主要性能指标",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 46,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 52,
+      "title": "2.3.1 同相放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 56,
+      "title": "2.3.2 反相放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 60,
+      "title": "2.4.1 求和电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 61,
+      "title": "2.4.2 求差电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 63,
+      "title": "2.4.3 仪用放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 67,
+      "title": "2.4.4 积分电路和微分电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 72,
+      "title": "2.3 基本线性运放电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 74,
+      "title": "2.4 同相输入和反相输入放大电路的其他应用",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 79,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 83,
+      "title": "3.2 PN 结的形成及特性",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 83,
+      "title": "3.2.1 载流子的漂移与扩散",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 84,
+      "title": "3.2.2 PN 结的形成",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 85,
+      "title": "3.2.3 PN 结的单向导电性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 87,
+      "title": "3.2.4 PN 结的反向击穿",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 88,
+      "title": "3.2.5 PN 结的电容效应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 89,
+      "title": "3.3 二极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 93,
+      "title": "3.4.1 简单二极管电路的图解分析方法",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 94,
+      "title": "3.4.2 二极管电路的简化模型分析方法",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 105,
+      "title": "3.5.1 齐纳二极管",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 107,
+      "title": "3.5.2 变容二极管",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 108,
+      "title": "3.5.3 肖特基二极管",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 108,
+      "title": "3.5.4 光电器件",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 112,
+      "title": "3.2 PN 结的形成及特性",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 112,
+      "title": "3.4 二极管的基本电路及其分析方法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 115,
+      "title": "3.5 特殊二极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 117,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 118,
+      "title": "4.1.1 N 沟道增强型 MOSFET",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 123,
+      "title": "4.1.2 N 沟道耗尽型 MOSFET",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 124,
+      "title": "4.1.3 P 沟道 MOSFET",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 126,
+      "title": "4.1.4 沟道长度调制等几种效应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 127,
+      "title": "4.1.5 MOSFET 的主要参数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 127,
+      "title": "一、直流参数",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 127,
+      "title": "二、交流参数",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 128,
+      "title": "三、极限参数",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 130,
+      "title": "4.2.1 基本共源极放大电路的组成",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 130,
+      "title": "4.2.2 基本共源极放大电路的工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 133,
+      "title": "4.2.3 放大电路的习惯画法",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 133,
+      "title": "4.3.1 用图解方法确定静态工作点 Q",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 134,
+      "title": "4.3.2 动态工作情况的图解分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 139,
+      "title": "4.4.1 MOSFET 的小信号模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 140,
+      "title": "4.4.2 用小信号模型分析共源极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 142,
+      "title": "4.4.3 带源极电阻的共源极放大电路的分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 149,
+      "title": "4.5 共漏极和共栅极放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 149,
+      "title": "4.5.1 共漏极（源极跟随器）放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 151,
+      "title": "4.5.2 共栅极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 154,
+      "title": "4.5.3 MOSFET 放大电路三种组态的总结和比较",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 155,
+      "title": "4.6.1 共源极电路的大信号工作分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 156,
+      "title": "4.6.2 MOSFET 开关应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 159,
+      "title": "4.7.1 共源-共漏放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 162,
+      "title": "4.7.2 多级放大电路讨论",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 163,
+      "title": "4.7.3 共源-共栅放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 164,
+      "title": "4.8 结型场效应管（JFET）及其放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 164,
+      "title": "4.8.1 JFET 的结构和工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 167,
+      "title": "4.8.2 JFET 的特性曲线",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 167,
+      "title": "4.8.3 JFET 放大电路的小信号模型分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 173,
+      "title": "4.1 金属-氧化物-半导体场效应三极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 175,
+      "title": "4.3 图解分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 175,
+      "title": "4.4 小信号模型分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 176,
+      "title": "4.5 共漏极和共栅极放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 177,
+      "title": "4.6 MOSFET 大信号工作及开关应用",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 178,
+      "title": "4.7 多级放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 178,
+      "title": "4.8 结型场效应管（JFET）及其放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 180,
+      "title": "双极结型三极管（BJT 及其放大电路",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 180,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 180,
+      "title": "5.1.1 BJT 的结构简介",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 182,
+      "title": "5.1.2 放大状态下 BJT 的工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 186,
+      "title": "5.1.3 BJT 的 I-V 特性曲线",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 188,
+      "title": "5.1.4 BJT 的主要参数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 190,
+      "title": "5.2 BJT放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 190,
+      "title": "5.2.1 基本共射极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 191,
+      "title": "5.2.2 BJT 放大电路的图解分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 192,
+      "title": "5.2.3 BJT 的小信号模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 195,
+      "title": "5.2.4 共射极放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 200,
+      "title": "5.2.5 共集电极和共基极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 203,
+      "title": "5.3 FET 和 BJT 及其基本放大电路性能的比较",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 203,
+      "title": "5.3.1 FET 和 BJT 重要特性的比较",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 205,
+      "title": "5.3.2 FET 和 BJT 放大电路性能的比较",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 205,
+      "title": "5.4 多级放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 206,
+      "title": "5.4.1 共源—共基放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 207,
+      "title": "5.4.2 共集-共集放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 209,
+      "title": "5.5 光电三极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 211,
+      "title": "5.1 BJT",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 211,
+      "title": "5.2 BJT 放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 213,
+      "title": "5.4 多级放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 216,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 217,
+      "title": "6.1 单时间常数 RC 电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 217,
+      "title": "6.1.1 RC 高通电路的频率响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 219,
+      "title": "6.1.2 RC 低通电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 220,
+      "title": "6.2 单管放大电路的低频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 224,
+      "title": "6.2.2 共射放大电路的低频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 226,
+      "title": "6.3 单管放大电路的高频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 226,
+      "title": "6.3.1 三极管的高频小信号模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 231,
+      "title": "6.3.2 共源放大电路的高频响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 236,
+      "title": "6.3.3 共射放大电路的高频响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 238,
+      "title": "6.3.4 共栅和共基放大电路的高频响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 240,
+      "title": "6.3.5 三极管基本放大电路通频带比较",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 241,
+      "title": "6.4 扩展放大电路通频带的方法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 241,
+      "title": "6.4.1 共源-共基电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 243,
+      "title": "6.4.2 共集-共射电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 244,
+      "title": "6.5 多级放大电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 244,
+      "title": "6.6 单级放大电路的瞬态响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 249,
+      "title": "6.1 单时间常数 RC 电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 250,
+      "title": "6.2 单管放大电路的低频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 251,
+      "title": "6.3 单管放大电路的高频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 252,
+      "title": "6.4 扩展放大电路通频带的方法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 254,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 254,
+      "title": "7.1.1 FET 电流源电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 257,
+      "title": "7.1.2 BJT 电流源电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 259,
+      "title": "7.2 差分式放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 259,
+      "title": "7.2.1 FET 差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 270,
+      "title": "7.2.2 BJT 差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 274,
+      "title": "7.2.3 差分式放大电路的传输特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 277,
+      "title": "7.3 带有源负载的差分式放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 277,
+      "title": "7.3.1 带有源负载的源极耦合差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 280,
+      "title": "7.3.2 带有源负载的射极耦合差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 281,
+      "title": "7.4 集成运算放大器电路简介",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 281,
+      "title": "7.4.1 两级 CMOS 运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 285,
+      "title": "7.4.2 全差分运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 287,
+      "title": "7.4.3 BJT 型 LM741 集成运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 289,
+      "title": "7.4.4 电流反馈运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 292,
+      "title": "7.5.1 输入直流误差特性（输入失调特性）",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 294,
+      "title": "7.5.2 差模特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 295,
+      "title": "7.5.3 共模特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 296,
+      "title": "7.5.4 大信号动态特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 297,
+      "title": "7.5.5 电源特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 298,
+      "title": "7.5.6 运放在单电源下工作",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 303,
+      "title": "7.6 变跨导式模拟乘法器",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 303,
+      "title": "7.6.1 变跨导式模拟乘法器的工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 306,
+      "title": "7.6.2 模拟乘法器的应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 313,
+      "title": "7.7.2 放大电路中的干扰",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 315,
+      "title": "7.7.3 低噪声放大电路举例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 318,
+      "title": "7.1 模拟集成电路中的直流偏置技术",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 319,
+      "title": "7.2 差分式放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 322,
+      "title": "7.4 集成运算放大器电路简介",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 325,
+      "title": "7.6 变跨导式模拟乘法器",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 327,
+      "title": "7.7 放大电路中的噪声与干扰",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 328,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 328,
+      "title": "8.1.1 什么是反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 330,
+      "title": "8.1.2 直流反馈与交流反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 331,
+      "title": "8.1.3 正反馈与负反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 332,
+      "title": "8.1.4 串联反馈与并联反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 333,
+      "title": "8.1.5 电压反馈与电流反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 335,
+      "title": "8.1.6 负反馈放大电路的四种组态",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 340,
+      "title": "8.2 负反馈放大电路增益的一般表达式",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 342,
+      "title": "8.3 负反馈对放大电路性能的影响",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 342,
+      "title": "8.3.1 提高增益的稳定性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 343,
+      "title": "8.3.2 减小非线性失真",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 344,
+      "title": "8.3.3 抑制反馈环内噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 345,
+      "title": "8.3.4 对输入电阻和输出电阻的影响",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 349,
+      "title": "8.3.5 扩展带宽",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 354,
+      "title": "8.4 深度负反馈条件下的近似计算",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 358,
+      "title": "8.5 负反馈放大电路设计",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 358,
+      "title": "8.5.1 设计负反馈放大电路的一般步骤",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 359,
+      "title": "8.5.2 设计举例",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 364,
+      "title": "8.6.1 负反馈放大电路的自激振荡及稳定工作的条件",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 374,
+      "title": "8.1 反馈的基本概念与分类",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 382,
+      "title": "8.5 负反馈放大电路设计",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 382,
+      "title": "8.6 负反馈放大电路的稳定性",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 385,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 388,
+      "title": "9.3 乙类双电源互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 388,
+      "title": "9.3.1 BJT 乙类双电源互补对称功率放大电路组成",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 389,
+      "title": "9.3.2 分析计算",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 391,
+      "title": "9.3.3 功率 BJT 的选择",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 393,
+      "title": "9.3.4 MOSFET 乙类双电源互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 394,
+      "title": "9.4.1 甲乙类双电源互补对称电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 395,
+      "title": "9.4.2 甲乙类单电源互补对称电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 396,
+      "title": "9.4.3 MOS 管甲乙类双电源互补对称电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 397,
+      "title": "9.5 丁类（D类）功率放大电路原理简介",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 398,
+      "title": "9.6.1 功率 BJT",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 399,
+      "title": "9.6.2 功率 VMOSFET 和 DMOSFET",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 401,
+      "title": "9.6.3 功率器件 IGBT",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 402,
+      "title": "9.7.1 以 MOS 功率管作输出级的集成功率放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 403,
+      "title": "9.7.2 BJT 集成功率放大器举例",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 405,
+      "title": "9.1 功率放大电路的一般问题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 405,
+      "title": "9.3 乙类双电源互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 406,
+      "title": "9.4 甲乙类互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 408,
+      "title": "9.7 集成功率放大器举例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 409,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 409,
+      "title": "0.1 滤波电路的基本概念与分类",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 415,
+      "title": "10.3 高阶有源滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 421,
+      "title": "10.3.2 有源高通滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 422,
+      "title": "10.3.3 有源带通滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 425,
+      "title": "10.3.4 有源带阻滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 437,
+      "title": "0.7 LC 正弦波振荡电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 437,
+      "title": "10.7.1 LC 并联谐振回路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 440,
+      "title": "10.7.2 变压器反馈式 LC 振荡电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 441,
+      "title": "10.7.3 三点式 LC 振荡电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 444,
+      "title": "10.7.4 石英晶体振荡电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 447,
+      "title": "10.8 非正弦信号产生电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 447,
+      "title": "10.8.1 电压比较器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 454,
+      "title": "10.8.2 方波产生电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 457,
+      "title": "10.8.3 锯齿波产生电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 459,
+      "title": "10.1 滤波电路的基本概念与分类",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 461,
+      "title": "10.3 高阶有源滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 470,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 471,
+      "title": "11.1 小功率整流滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 471,
+      "title": "11.1.1 单相桥式整流电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 473,
+      "title": "11.1.2 滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 478,
+      "title": "11.2 线性稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 478,
+      "title": "11.2.1 线性串联反馈式稳压电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 481,
+      "title": "11.2.2 线性集成稳压器及其应用举例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 487,
+      "title": "11.3.1 无变压器的开关稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 493,
+      "title": "11.3.2 带变压器的开关稳压电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 499,
+      "title": "11.1 小功率整流滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 500,
+      "title": "11.2 线性稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 503,
+      "title": "11.3 开关式稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 515,
+      "title": "附录 C 电阻的彩色编码和标称阻值",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 517,
+      "title": "参考文献",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 519,
+      "title": "二 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 519,
+      "title": "三 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 519,
+      "title": "四 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 520,
+      "title": "五 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 523,
+      "title": "十 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 524,
+      "title": "十 一 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 524,
+      "title": "十 四 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 524,
+      "title": "十 五 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 525,
+      "title": "十 六 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    }
+  ],
+  "all_headings": [
+    {
+      "page": 1,
+      "title": "电子技术基础",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 1,
+      "title": "模拟部分（第7版）",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 2,
+      "title": "内容简介",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 2,
+      "title": "图书在版编目（CIP）数据",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 2,
+      "title": "Dianzi Jishu Jichu Moni Bufen",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 3,
+      "title": "第7版序",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "front"
+    },
+    {
+      "page": 3,
+      "title": "一、遵循原则",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 3,
+      "title": "二、主要变动",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 3,
+      "title": "1. 模拟部分",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 4,
+      "title": "2. 数字部分",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 7,
+      "title": "第6版序",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "front"
+    },
+    {
+      "page": 7,
+      "title": "一、模拟部分",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 7,
+      "title": "二、数字部分",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 9,
+      "title": "第5版序",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 10,
+      "title": "Ⅱ第5版序",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 11,
+      "title": "第4版序",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 13,
+      "title": "第3版序",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 15,
+      "title": "第2版序",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "front"
+    },
+    {
+      "page": 17,
+      "title": "第1版序",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "front"
+    },
+    {
+      "page": 19,
+      "title": "本书常用符号表",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 23,
+      "title": "目录",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 29,
+      "title": "绪论",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 29,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 30,
+      "title": "信号的频谱",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 32,
+      "title": "模拟信号和数字信号",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 33,
+      "title": "放大电路模型",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 33,
+      "title": "1. 模拟信号放大",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 34,
+      "title": "2. 放大电路模型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 37,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 37,
+      "title": "放大电路的主要性能指标",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 37,
+      "title": "1. 输入电阻",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 38,
+      "title": "2. 输出电阻",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 39,
+      "title": "3. 增益",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 40,
+      "title": "4. 频率响应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 42,
+      "title": "5. 非线性失真",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 44,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 44,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 44,
+      "title": "1.2 信号的频谱",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 45,
+      "title": "1.4 放大电路模型",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 45,
+      "title": "1.5 放大电路的主要性能指标",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 45,
+      "title": "第1章部分习题答案",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 46,
+      "title": "运算放大器",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 46,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 46,
+      "title": "集成电路运算放大器",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 46,
+      "title": "1. 集成电路运算放大器简介",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 47,
+      "title": "2. 运算放大器的电路简化模型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 48,
+      "title": "3. 运算放大器的传输特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 49,
+      "title": "（2）画传输特性曲线",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 49,
+      "title": "4. 运算放大器的输出端电流",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 49,
+      "title": "5. 差模信号和共模信号",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 51,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 51,
+      "title": "理想运算放大器",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 52,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 52,
+      "title": "基本线性运放电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 52,
+      "title": "2.3.1 同相放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 52,
+      "title": "1. 基本电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 53,
+      "title": "2. 放大电路指标",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 53,
+      "title": "（1）闭环电压增益 $ A_{v} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 53,
+      "title": "（2）输入电阻 $ R_{i} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 53,
+      "title": "（3）输出电阻 $ R_{0} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 54,
+      "title": "3. 电压跟随器",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 56,
+      "title": "2.3.2 反相放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 56,
+      "title": "1. 基本电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 56,
+      "title": "2. 放大电路指标",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 56,
+      "title": "（1）闭环电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 56,
+      "title": "（2）输入电阻  $ R_{i} $ 和输出电阻  $ R_{0} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 60,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 60,
+      "title": "同相输入和反相输入放大电路的其他应用",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 60,
+      "title": "2.4.1 求和电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 61,
+      "title": "2.4.2 求差电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 63,
+      "title": "2.4.3 仪用放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 64,
+      "title": "$ ^{*} $ 应用实例——心电信号放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 67,
+      "title": "2.4.4 积分电路和微分电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 67,
+      "title": "1. 积分电路 $ ^{①} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 68,
+      "title": "2. 微分电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 69,
+      "title": "3. 归纳与推广",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 70,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 71,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 71,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 72,
+      "title": "2.3 基本线性运放电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 74,
+      "title": "2.4 同相输入和反相输入放大电路的其他应用",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 79,
+      "title": "二极管及其基本电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 79,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 79,
+      "title": "半导体的基本知识",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 79,
+      "title": "1. 半导体材料",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 79,
+      "title": "2. 半导体的共价键结构",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 80,
+      "title": "3. 本征半导体、空穴及其导电作用",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 80,
+      "title": "（1）本征半导体",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 80,
+      "title": "（2）空穴",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 81,
+      "title": "一种载流子了。空穴越多，半导体中载流子的数目就越多，导电能力就越强。",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 81,
+      "title": "（3）载流子的产生与复合",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 81,
+      "title": "4. 杂质半导体",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 81,
+      "title": "（1）P型半导体",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 82,
+      "title": "（2）N型半导体",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 83,
+      "title": "3.2 PN 结的形成及特性",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 83,
+      "title": "3.2.1 载流子的漂移与扩散",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 83,
+      "title": "1. 漂移",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 84,
+      "title": "2. 扩散",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 84,
+      "title": "3.2.2 PN 结的形成",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 85,
+      "title": "3.2.3 PN 结的单向导电性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 85,
+      "title": "1. 外加正向电压",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 86,
+      "title": "2. 外加反向电压",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 87,
+      "title": "3. PN 结 I-V 特性的表达式",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 87,
+      "title": "关于式(3.2.3)的讨论如下：",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 87,
+      "title": "3.2.4 PN 结的反向击穿",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 88,
+      "title": "3.2.5 PN 结的电容效应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 88,
+      "title": "1. 扩散电容",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 89,
+      "title": "2. 势垒电容",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 89,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 89,
+      "title": "3.3 二极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 90,
+      "title": "2. 二极管的 I-V 特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（1）正向特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（2）反向特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（3）反向击穿特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "3. 二极管的主要参数",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（1）最大整流电流 $ I_{F} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（2）反向击穿电压  $ V_{BR} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（3）反向电流 $ I_{R} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（4）极间电容 $ C_{d} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 91,
+      "title": "（5）反向恢复时间  $ T_{RR} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 92,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 93,
+      "title": "二极管的基本电路及其分析方法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 93,
+      "title": "3.4.1 简单二极管电路的图解分析方法",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 94,
+      "title": "3.4.2 二极管电路的简化模型分析方法",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 94,
+      "title": "1. 二极管 I-V 特性的建模",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 94,
+      "title": "（1）理想模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 94,
+      "title": "（2）恒压降模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 95,
+      "title": "（3）折线模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 95,
+      "title": "（4）小信号模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 97,
+      "title": "2. 模型分析法应用举例",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 97,
+      "title": "1）整流电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 98,
+      "title": "2）静态工作情况分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 99,
+      "title": "3）限幅与钳位电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 101,
+      "title": "4）开关电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 102,
+      "title": "5）小信号工作情况分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 103,
+      "title": "6）低电压稳压电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 105,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 105,
+      "title": "特殊二极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 105,
+      "title": "3.5.1 齐纳二极管",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 107,
+      "title": "3.5.2 变容二极管",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 108,
+      "title": "3.5.3 肖特基二极管",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 108,
+      "title": "3.5.4 光电器件",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 109,
+      "title": "1. 光电二极管",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 109,
+      "title": "2. 发光二极管",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 110,
+      "title": "3. 激光二极管",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 111,
+      "title": "4. 太阳能电池",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 111,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 111,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 112,
+      "title": "习题",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 112,
+      "title": "3.2 PN 结的形成及特性",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 112,
+      "title": "3.4 二极管的基本电路及其分析方法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 115,
+      "title": "3.5 特殊二极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 117,
+      "title": "场效应三极管及其放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 117,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 117,
+      "title": "4.1",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 117,
+      "title": "金属-氧化物-半导体场效应三极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 118,
+      "title": "4.1.1 N 沟道增强型 MOSFET",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 118,
+      "title": "1. 结构及电路符号",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 118,
+      "title": "2. 工作原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 119,
+      "title": "（2） $ v_{GS} \\geqslant V_{TN} $ 时，出现 N 型沟道",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 119,
+      "title": "（3）可变电阻区和恒流区的形成机制",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 121,
+      "title": "3. I-V 特性曲线及特性方程",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 121,
+      "title": "（1）输出特性及特性方程",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 122,
+      "title": "② 可变电阻区",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 123,
+      "title": "（2）转移特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 123,
+      "title": "4.1.2 N 沟道耗尽型 MOSFET",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 123,
+      "title": "1. 结构和工作原理简述",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 124,
+      "title": "2. I-V 特性曲线及特性方程",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 124,
+      "title": "4.1.3 P 沟道 MOSFET",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 126,
+      "title": "4.1.4 沟道长度调制等几种效应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 126,
+      "title": "1. 沟道长度调制效应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 126,
+      "title": "2. 衬底调制效应（体效应）",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 127,
+      "title": "3. 温度效应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 127,
+      "title": "4.1.5 MOSFET 的主要参数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 127,
+      "title": "一、直流参数",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 127,
+      "title": "1. 阈值电压  $ V_{TN} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 127,
+      "title": "2. 饱和漏极电流  $ I_{DSS} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 127,
+      "title": "3. 直流输入电阻  $ R_{GS} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 127,
+      "title": "二、交流参数",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 127,
+      "title": "1. 输出电阻  $ r_{ds} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 127,
+      "title": "2. 低频互导  $ g_{m} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 128,
+      "title": "三、极限参数",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 128,
+      "title": "1. 最大漏极电流  $ I_{DM} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 128,
+      "title": "2. 漏源击穿电压  $ V_{(BR)DS} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 128,
+      "title": "3. 栅源击穿电压  $ V_{(BR)GS} $ 和漏栅击穿电压  $ V_{(BR)DG} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 128,
+      "title": "4. 最大耗散功率  $ P_{DM} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 129,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 130,
+      "title": "MOSFET 基本共源极放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 130,
+      "title": "4.2.1 基本共源极放大电路的组成",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 130,
+      "title": "4.2.2 基本共源极放大电路的工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 130,
+      "title": "1. 静态",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 132,
+      "title": "2. 动态",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 133,
+      "title": "4.2.3 放大电路的习惯画法",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 133,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 133,
+      "title": "图解分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 133,
+      "title": "4.3.1 用图解方法确定静态工作点 Q",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 134,
+      "title": "4.3.2 动态工作情况的图解分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 134,
+      "title": "1. 正常放大信号时的工作情况",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 135,
+      "title": "2. 静态工作点对波形失真的影响",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 136,
+      "title": "3. 交流负载线及图解分析举例",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 138,
+      "title": "（3）作交流负载线",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 139,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 139,
+      "title": "4.4",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 139,
+      "title": "小信号模型分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 139,
+      "title": "4.4.1 MOSFET 的小信号模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 140,
+      "title": "4.4.2 用小信号模型分析共源极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 141,
+      "title": "(2) 求  $ g_{m} $ 和  $ r_{ds} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 141,
+      "title": "（3）画出小信号等效电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 142,
+      "title": "（5）求输入电阻 $ R_{i} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 142,
+      "title": "4.4.3 带源极电阻的共源极放大电路的分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 143,
+      "title": "1. 稳定静态工作点 Q 的原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 143,
+      "title": "2. 静态工作点及动态指标的计算",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 144,
+      "title": "（2）动态指标计算",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 146,
+      "title": "（3）SPICE仿真",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 146,
+      "title": "$ ^{4} $4.4.4 MOS 管做负载的共源极放大电路分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 147,
+      "title": "1. 接成二极管的 MOS 管",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 147,
+      "title": "2. 带有源负载的共源极放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 148,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 149,
+      "title": "4.5 共漏极和共栅极放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 149,
+      "title": "4.5.1 共漏极（源极跟随器）放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 149,
+      "title": "1. 静态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 150,
+      "title": "2. 动态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 151,
+      "title": "4.5.2 共栅极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 151,
+      "title": "1. 静态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 151,
+      "title": "2. 动态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 151,
+      "title": "（1）电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 151,
+      "title": "（2）电流增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 152,
+      "title": "（3）输入电阻和输出电阻",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 154,
+      "title": "4.5.3 MOSFET 放大电路三种组态的总结和比较",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 154,
+      "title": "1. 三种组态的判别",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 154,
+      "title": "2. 三种组态的特点及用途",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 155,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 155,
+      "title": "MOSFET 大信号工作及开关应用",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 155,
+      "title": "4.6.1 共源极电路的大信号工作分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 156,
+      "title": "4.6.2 MOSFET 开关应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 159,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 159,
+      "title": "4.7",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 159,
+      "title": "多级放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 159,
+      "title": "4.7.1 共源-共漏放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 160,
+      "title": "（2）动态指标计算",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 160,
+      "title": "① 电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 162,
+      "title": "4.7.2 多级放大电路讨论",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 162,
+      "title": "1. 静态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 162,
+      "title": "2. 多级的贡献",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 162,
+      "title": "3. 多级放大电路的增益计算",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 163,
+      "title": "4.7.3 共源-共栅放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 163,
+      "title": "1. cascode $ ^{①} $ 放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 163,
+      "title": "2. 折叠式 cascode 放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 164,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 164,
+      "title": "4.8 结型场效应管（JFET）及其放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 164,
+      "title": "4.8.1 JFET 的结构和工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 164,
+      "title": "1. 结构",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 165,
+      "title": "2. 工作原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 165,
+      "title": "（1） $ v_{GS} $ 对导电沟道及  $ i_{D} $ 的控制作用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 165,
+      "title": "（2） $ v_{DS} $ 对  $ i_{D} $ 的影响",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 167,
+      "title": "4.8.2 JFET 的特性曲线",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 167,
+      "title": "1. 输出特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 167,
+      "title": "2. 转移特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 167,
+      "title": "4.8.3 JFET 放大电路的小信号模型分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 167,
+      "title": "1. JFET 的小信号模型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 168,
+      "title": "2. 应用小信号模型法分析 JFET 放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 168,
+      "title": "（1）电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 169,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 169,
+      "title": "各种 FET 的特性及使用注意事项",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 169,
+      "title": "1. 各种 FET 的特性比较",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 172,
+      "title": "2. 使用注意事项",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 172,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 173,
+      "title": "习题",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 173,
+      "title": "4.1 金属-氧化物-半导体场效应三极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 175,
+      "title": "4.3 图解分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 175,
+      "title": "4.4 小信号模型分析法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 176,
+      "title": "4.5 共漏极和共栅极放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 177,
+      "title": "4.6 MOSFET 大信号工作及开关应用",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 178,
+      "title": "4.7 多级放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 178,
+      "title": "4.8 结型场效应管（JFET）及其放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 180,
+      "title": "双极结型三极管（BJT 及其放大电路",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 180,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 180,
+      "title": "5.1.1 BJT 的结构简介",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 182,
+      "title": "5.1.2 放大状态下 BJT 的工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 182,
+      "title": "1. BJT 内部载流子的传输过程",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 182,
+      "title": "（1）仅有集电结反偏电压时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 182,
+      "title": "（2）发射结再加正偏电压时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 184,
+      "title": "2. BJT 放大状态下的控制关系",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 185,
+      "title": "（2） $ I_{B} $ 对  $ I_{C} $ 的控制",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 185,
+      "title": "(3)  $ \\beta $ 与  $ \\overline{\\alpha} $ 的关系",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 185,
+      "title": "3. BJT 放大信号时的三种连接方式",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 186,
+      "title": "5.1.3 BJT 的 I-V 特性曲线",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 186,
+      "title": "1. 共基极连接时的 I-V 特性曲线",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 186,
+      "title": "（1）输入特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 186,
+      "title": "（2）输出特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 186,
+      "title": "2. 共射极连接时的 I-V 特性曲线",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 187,
+      "title": "（2）输出特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 188,
+      "title": "① 放大区",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 188,
+      "title": "②饱和区",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 188,
+      "title": "③ 截止区",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 188,
+      "title": "5.1.4 BJT 的主要参数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 188,
+      "title": "1. 电流放大系数",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 188,
+      "title": "（1）直流电流放大系数 $ \\beta $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 188,
+      "title": "（2）交流电流放大系数 $ \\beta $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 189,
+      "title": "2. 极间反向电流",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 189,
+      "title": "（1）集电极-基极反向饱和电流 $ I_{CB0} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 189,
+      "title": "（2）集电极-发射极反向饱和电流 $ I_{CEO} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 189,
+      "title": "3. 极限参数",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 189,
+      "title": "（1）集电极最大允许电流 $ I_{CM} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 189,
+      "title": "（2）集电极最大允许耗散功率 $ P_{CM} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 189,
+      "title": "（3）反向击穿电压",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 190,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 190,
+      "title": "5.2 BJT放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 190,
+      "title": "5.2.1 基本共射极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 191,
+      "title": "5.2.2 BJT 放大电路的图解分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 191,
+      "title": "1. 静态工作点的图解分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 191,
+      "title": "2. 动态工作情况的图解分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 192,
+      "title": "5.2.3 BJT 的小信号模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 192,
+      "title": "1. BJT 的 H 参数的引出",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 194,
+      "title": "2. BJT 的 H 参数小信号模型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 194,
+      "title": "3. 小信号模型的简化",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 195,
+      "title": "4. H 参数值的确定",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 195,
+      "title": "5.2.4 共射极放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 195,
+      "title": "1. 静态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 197,
+      "title": "2. 动态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 197,
+      "title": "（1）电压增益 $ A_{v} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 197,
+      "title": "（2）输入电阻 $ R_{i} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 200,
+      "title": "5.2.5 共集电极和共基极放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 200,
+      "title": "1. 共集电极放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 200,
+      "title": "（1）静态分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 201,
+      "title": "（2）动态分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 201,
+      "title": "2. 共基极放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 202,
+      "title": "3. BJT 放大电路三种组态的比较",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 203,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 203,
+      "title": "5.3 FET 和 BJT 及其基本放大电路性能的比较",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 203,
+      "title": "5.3.1 FET 和 BJT 重要特性的比较",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 205,
+      "title": "5.3.2 FET 和 BJT 放大电路性能的比较",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 205,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 205,
+      "title": "5.4 多级放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 206,
+      "title": "5.4.1 共源—共基放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 207,
+      "title": "5.4.2 共集-共集放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 207,
+      "title": "1. 复合管的主要特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 207,
+      "title": "（1）复合管的组成及类型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 207,
+      "title": "（2）复合管的主要参数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 207,
+      "title": "① 电流放大系数  $ \\beta $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 209,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 209,
+      "title": "5.5 光电三极管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 211,
+      "title": "小结",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 211,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 211,
+      "title": "5.1 BJT",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 211,
+      "title": "5.2 BJT 放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 213,
+      "title": "5.4 多级放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 216,
+      "title": "频率响应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 216,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 217,
+      "title": "6.1 单时间常数 RC 电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 217,
+      "title": "6.1.1 RC 高通电路的频率响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 217,
+      "title": "1. 幅频响应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 218,
+      "title": "2. 相频响应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 219,
+      "title": "6.1.2 RC 低通电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 220,
+      "title": "6.2 单管放大电路的低频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 224,
+      "title": "6.2.2 共射放大电路的低频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 224,
+      "title": "（1）仅考虑 $ C_{b1} $作用时的时间常数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 226,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 226,
+      "title": "6.3 单管放大电路的高频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 226,
+      "title": "6.3.1 三极管的高频小信号模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 226,
+      "title": "1. MOS 管的高频小信号模型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 227,
+      "title": "（1）模型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 227,
+      "title": "2. BJT 的高频小信号模型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 231,
+      "title": "6.3.2 共源放大电路的高频响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 231,
+      "title": "1. 高频响应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 235,
+      "title": "2. 增益-带宽积",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 236,
+      "title": "6.3.3 共射放大电路的高频响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 236,
+      "title": "（1）仅考虑 $ C_{b^{\\prime}a} $作用时的时间常数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 238,
+      "title": "6.3.4 共栅和共基放大电路的高频响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 238,
+      "title": "1. 共栅电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 239,
+      "title": "2. 共基电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 240,
+      "title": "6.3.5 三极管基本放大电路通频带比较",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 241,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 241,
+      "title": "6.4 扩展放大电路通频带的方法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 241,
+      "title": "6.4.1 共源-共基电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 243,
+      "title": "6.4.2 共集-共射电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 243,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 244,
+      "title": "6.5 多级放大电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 244,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 244,
+      "title": "6.6 单级放大电路的瞬态响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 245,
+      "title": "1. 阶跃电压作为放大电路的基本信号",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 245,
+      "title": "2. 单级放大电路的阶跃响应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 245,
+      "title": "（1）上升时间  $ t_{r} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 248,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 249,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 249,
+      "title": "6.1 单时间常数 RC 电路的频率响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 250,
+      "title": "6.2 单管放大电路的低频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 251,
+      "title": "6.3 单管放大电路的高频响应",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 252,
+      "title": "6.4 扩展放大电路通频带的方法",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 252,
+      "title": "$ ^{*} $6.6 单级放大电路的瞬态响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 254,
+      "title": "模拟集成电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 254,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 254,
+      "title": "模拟集成电路中的直流偏置技术",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 254,
+      "title": "7.1.1 FET 电流源电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 254,
+      "title": "1. MOSFET 镜像电流源",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 256,
+      "title": "2. 多路电流源",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 257,
+      "title": "3. JFET 电流源",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 257,
+      "title": "7.1.2 BJT 电流源电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 257,
+      "title": "1. 镜像电流源",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 258,
+      "title": "2. 微电流源 $ ^{②} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 259,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 259,
+      "title": "7.2 差分式放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 259,
+      "title": "7.2.1 FET 差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 259,
+      "title": "（1）基本电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 260,
+      "title": "（2）静态分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 261,
+      "title": "（3）动态小信号分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 261,
+      "title": "① 差模电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 261,
+      "title": "a. 双端输入、单端输出时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 262,
+      "title": "b. 双端输入、双端输出时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 263,
+      "title": "c. 单端输入时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 263,
+      "title": "② 共模电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 263,
+      "title": "a. 单端输出时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 264,
+      "title": "b. 双端输出时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 265,
+      "title": "③ 共模抑制比",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 265,
+      "title": "④ 输入电阻",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 265,
+      "title": "⑤ 输出电阻",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 265,
+      "title": "⑥ 频率响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 268,
+      "title": "① 共模输入电压范围",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 269,
+      "title": "② 差模输入电压变化范围",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 269,
+      "title": "2. JFET 差分式放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 269,
+      "title": "单端输出的差模电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 270,
+      "title": "7.2.2 BJT 差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 270,
+      "title": "1. 基本电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 270,
+      "title": "2. 静态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 270,
+      "title": "3. 动态分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 270,
+      "title": "（1）差模电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 271,
+      "title": "① 双端输入、单端输出时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 271,
+      "title": "③ 单端输入时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 271,
+      "title": "（2）共模电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 272,
+      "title": "（3）共模抑制比 $ K_{CMR} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 272,
+      "title": "（4）输入电阻",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 273,
+      "title": "（5）输出电阻",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 273,
+      "title": "（3）单端输出时",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 274,
+      "title": "7.2.3 差分式放大电路的传输特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 274,
+      "title": "1. MOSFET 差分式放大电路的传输特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 275,
+      "title": "2. BJT 差分式放大电路的传输特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 276,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 277,
+      "title": "7.3 带有源负载的差分式放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 277,
+      "title": "7.3.1 带有源负载的源极耦合差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 277,
+      "title": "（1）静态分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 277,
+      "title": "（2）动态分析",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 280,
+      "title": "7.3.2 带有源负载的射极耦合差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 281,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 281,
+      "title": "7.4 集成运算放大器电路简介",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 281,
+      "title": "7.4.1 两级 CMOS 运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 281,
+      "title": "1. 电路结构",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 281,
+      "title": "2. 电路性能指标",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 281,
+      "title": "（1）差模电压增益",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 282,
+      "title": "（2）共模抑制比",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 282,
+      "title": "（3）输入输出电阻",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 282,
+      "title": "（4）输入失调电压",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 283,
+      "title": "（5）输入偏置电流和失调电流",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 284,
+      "title": "（6）共模输入电压范围",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 284,
+      "title": "（7）输出电压摆幅",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 284,
+      "title": "（8）频率响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 285,
+      "title": "7.4.2 全差分运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 285,
+      "title": "1. 两级全差分 CMOS 运算放大器",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 286,
+      "title": "2. 全差分运算放大器的基本应用电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 287,
+      "title": "7.4.3 BJT 型 LM741 集成运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 287,
+      "title": "1. 偏置电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 288,
+      "title": "2. 保护电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 288,
+      "title": "3. 输入级",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 288,
+      "title": "4. 中间电压放大级",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 289,
+      "title": "5. 输出级",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 289,
+      "title": "7.4.4 电流反馈运算放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 289,
+      "title": "1. 电路结构及模型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 291,
+      "title": "2. 特点及应用",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 291,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 291,
+      "title": "5 实际运算放大器的主要参数和相关应用问题",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 292,
+      "title": "7.5.1 输入直流误差特性（输入失调特性）",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 292,
+      "title": "2. 输入偏置电流  $ I_{IB} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 294,
+      "title": "7.5.2 差模特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 294,
+      "title": "1. 开环差模电压增益  $ A_{vo} $ 和带宽 BW",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 294,
+      "title": "（1）开环差模电压增益 $ A_{v0} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 294,
+      "title": "（2）开环带宽  $ BW(f_{H}) $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 295,
+      "title": "（3）单位增益带宽  $ BW_{G}(f_{T}) $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 295,
+      "title": "2. 差模输入电阻  $ r_{id} $ 和输出电阻  $ r_{o} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 295,
+      "title": "3. 最大差模输入电压  $ V_{idmax} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 295,
+      "title": "4. 最大输出电压  $ V_{omax} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 295,
+      "title": "5. 最大输出电流  $ I_{omax} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 295,
+      "title": "7.5.3 共模特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 296,
+      "title": "2. 最大共模输入电压  $ V_{icmax} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 296,
+      "title": "7.5.4 大信号动态特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 297,
+      "title": "7.5.5 电源特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 298,
+      "title": "2. 静态功耗  $ P_{v} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 298,
+      "title": "7.5.6 运放在单电源下工作",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 303,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 303,
+      "title": "7.6 变跨导式模拟乘法器",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 303,
+      "title": "7.6.1 变跨导式模拟乘法器的工作原理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 306,
+      "title": "7.6.2 模拟乘法器的应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 306,
+      "title": "1. 运算电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 306,
+      "title": "（1）乘方运算电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 307,
+      "title": "（2）除法运算电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 307,
+      "title": "（3）开平方电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 308,
+      "title": "2. 压控放大器（voltage-controlled amplifiers, VCA）",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 308,
+      "title": "3. 调制和解调",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 308,
+      "title": "（1）调制",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 309,
+      "title": "（2）解调",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 309,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 309,
+      "title": "7 放大电路中的噪声与干扰",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 310,
+      "title": "$ ^{*}7.7.1 $ 放大电路中的噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 310,
+      "title": "1. 噪声的种类及性质",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 310,
+      "title": "（1）电阻的热噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 311,
+      "title": "（2）三极管的噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 311,
+      "title": "① 热噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 311,
+      "title": "②散粒噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 311,
+      "title": "③闪烁噪声 $ ^{①} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 311,
+      "title": "④雪崩噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 312,
+      "title": "2. 放大电路的噪声指标——噪声系数",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 312,
+      "title": "3. 减小噪声的措施",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 313,
+      "title": "7.7.2 放大电路中的干扰",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 313,
+      "title": "1. 杂散电磁场干扰和抑制措施",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 313,
+      "title": "（1）合理布局",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 313,
+      "title": "（2）屏蔽",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 313,
+      "title": "2. 由直流电源电压波动引起的干扰和抑制",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 314,
+      "title": "3. 由交流电源串入的干扰和抑制",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 314,
+      "title": "4. 由接地点安排不正确而引起的干扰和正确接地",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 315,
+      "title": "（2）电子设备共同端的正确连接",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 315,
+      "title": "7.7.3 低噪声放大电路举例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 315,
+      "title": "1. 电路结构",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 316,
+      "title": "2. 低噪声分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 317,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 317,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 318,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 318,
+      "title": "7.1 模拟集成电路中的直流偏置技术",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 319,
+      "title": "7.2 差分式放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 321,
+      "title": "$ ^{*}7.3 $ 带有源负载的差分式放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 322,
+      "title": "7.4 集成运算放大器电路简介",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 325,
+      "title": "7.6 变跨导式模拟乘法器",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 327,
+      "title": "7.7 放大电路中的噪声与干扰",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 328,
+      "title": "反馈放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 328,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 328,
+      "title": "8.1.1 什么是反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 330,
+      "title": "8.1.2 直流反馈与交流反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 331,
+      "title": "8.1.3 正反馈与负反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 332,
+      "title": "8.1.4 串联反馈与并联反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 333,
+      "title": "8.1.5 电压反馈与电流反馈",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 335,
+      "title": "8.1.6 负反馈放大电路的四种组态",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 335,
+      "title": "1. 电压串联负反馈放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 335,
+      "title": "（1）运放构成的放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 336,
+      "title": "（2）三极管构成的放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 336,
+      "title": "2. 电压并联负反馈放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 336,
+      "title": "（1）运放构成的放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 337,
+      "title": "（2）三极管构成的放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 337,
+      "title": "3. 电流串联负反馈放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 337,
+      "title": "（1）运放构成的放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 338,
+      "title": "4. 电流并联负反馈放大电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 338,
+      "title": "（1）运放构成的放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 338,
+      "title": "（2）三极管构成的放大电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 340,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 340,
+      "title": "8.2 负反馈放大电路增益的一般表达式",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 342,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 342,
+      "title": "8.3 负反馈对放大电路性能的影响",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 342,
+      "title": "8.3.1 提高增益的稳定性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 343,
+      "title": "8.3.2 减小非线性失真",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 344,
+      "title": "8.3.3 抑制反馈环内噪声",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 345,
+      "title": "8.3.4 对输入电阻和输出电阻的影响",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 346,
+      "title": "1. 对输入电阻的影响",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 347,
+      "title": "（2）并联负反馈对输入电阻的影响",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 347,
+      "title": "2. 对输出电阻的影响",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 347,
+      "title": "（1）电压负反馈对输出电阻的影响",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 348,
+      "title": "（2）电流负反馈对输出电阻的影响",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 349,
+      "title": "8.3.5 扩展带宽",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 349,
+      "title": "1. 频率响应的一般表达式",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 351,
+      "title": "2. 增益—带宽积",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 352,
+      "title": "3. 电流反馈型运放的闭环带宽",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 354,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 354,
+      "title": "8.4 深度负反馈条件下的近似计算",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 358,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 358,
+      "title": "8.5 负反馈放大电路设计",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 358,
+      "title": "8.5.1 设计负反馈放大电路的一般步骤",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 358,
+      "title": "1. 选定需要的反馈类型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 359,
+      "title": "2. 确定反馈系数的大小",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 359,
+      "title": "3. 适当选择反馈网络中的电阻阻值",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 359,
+      "title": "4. 用 SPICE 分析设计的电路，检验是否符合设计目标",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 359,
+      "title": "8.5.2 设计举例",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 359,
+      "title": "解：（1）选择反馈类型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 360,
+      "title": "（2）确定反馈系数  $ F_{v} $",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 360,
+      "title": "（3）确定反馈网络中 $ R_{1} $、 $ R_{2} $的阻值",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 360,
+      "title": "（4）用 SPICE 分析检验设计结果",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 363,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 363,
+      "title": "6 负反馈放大电路的稳定性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 364,
+      "title": "8.6.1 负反馈放大电路的自激振荡及稳定工作的条件",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 364,
+      "title": "1. 产生自激振荡的原因",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 364,
+      "title": "2. 自激振荡的条件",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 364,
+      "title": "3. 稳定工作的条件",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 366,
+      "title": "4. 负反馈电路的稳定性分析",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 369,
+      "title": "$ ^{8.6.2} $ 自激振荡的消除——频率补偿",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 369,
+      "title": "1. 滞后补偿",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 369,
+      "title": "（1）增加转折频率",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 370,
+      "title": "（2）改变转折频率",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 372,
+      "title": "2. 密勒补偿",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 373,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 373,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 374,
+      "title": "8.1 反馈的基本概念与分类",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 382,
+      "title": "8.5 负反馈放大电路设计",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 382,
+      "title": "8.6 负反馈放大电路的稳定性",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 385,
+      "title": "功率放大电路",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 385,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 385,
+      "title": "功率放大电路的一般问题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 385,
+      "title": "1. 功率放大电路的特点及主要研究对象",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 385,
+      "title": "（1）要求输出功率尽可能大",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 385,
+      "title": "（2）效率更高",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 386,
+      "title": "（3）非线性失真要小",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 386,
+      "title": "（4）功率器件的散热问题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 386,
+      "title": "2. 提高功率放大电路效率的主要途径",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 387,
+      "title": "射极输出器——甲类放大的实例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 388,
+      "title": "2. 功率及效率的计算举例",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 388,
+      "title": "9.3 乙类双电源互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 388,
+      "title": "9.3.1 BJT 乙类双电源互补对称功率放大电路组成",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 389,
+      "title": "9.3.2 分析计算",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 390,
+      "title": "1. 输出功率",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 390,
+      "title": "2. 管耗 $ P_{T} $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 391,
+      "title": "4. 效率 $ \\eta $",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 391,
+      "title": "9.3.3 功率 BJT 的选择",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 391,
+      "title": "1. 最大管耗和最大输出功率的关系",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 392,
+      "title": "2. 功率 BJT 的选择",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 393,
+      "title": "（2）求 $ \\eta=0.6 $时的 $ P_{0} $值",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 393,
+      "title": "9.3.4 MOSFET 乙类双电源互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 393,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 394,
+      "title": "甲乙类互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 394,
+      "title": "9.4.1 甲乙类双电源互补对称电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 395,
+      "title": "9.4.2 甲乙类单电源互补对称电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 396,
+      "title": "9.4.3 MOS 管甲乙类双电源互补对称电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 396,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 397,
+      "title": "9.5 丁类（D类）功率放大电路原理简介",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 398,
+      "title": "功率管",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 398,
+      "title": "9.6.1 功率 BJT",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 399,
+      "title": "9.6.2 功率 VMOSFET 和 DMOSFET",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 399,
+      "title": "1. VMOS",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 400,
+      "title": "2. DMOS",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 401,
+      "title": "9.6.3 功率器件 IGBT",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 401,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 402,
+      "title": "集成功率放大器举例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 402,
+      "title": "9.7.1 以 MOS 功率管作输出级的集成功率放大器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 403,
+      "title": "9.7.2 BJT 集成功率放大器举例",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 405,
+      "title": "小结",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 405,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 405,
+      "title": "9.1 功率放大电路的一般问题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 405,
+      "title": "9.3 乙类双电源互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 406,
+      "title": "9.4 甲乙类互补对称功率放大电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 408,
+      "title": "9.7 集成功率放大器举例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 409,
+      "title": "信号处理与信号产生电路",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 409,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 409,
+      "title": "0.1 滤波电路的基本概念与分类",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 409,
+      "title": "1. 基本概念",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 410,
+      "title": "2. 有源滤波电路的分类",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 411,
+      "title": "（1）低通滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 411,
+      "title": "（2）高通滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 411,
+      "title": "（3）带通滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 411,
+      "title": "（4）带阻滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 412,
+      "title": "（5）全通滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 412,
+      "title": "3. 频率响应的逼近方式",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 413,
+      "title": "4. 实际滤波电路的参数说明",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 413,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 414,
+      "title": "一阶有源滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 414,
+      "title": "1. 传递函数",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 414,
+      "title": "2. 幅频响应",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 415,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 415,
+      "title": "10.3 高阶有源滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 416,
+      "title": "（1）传递函数",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 417,
+      "title": "（2）幅频响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 418,
+      "title": "2. 无限增益多路反馈二阶有源低通滤波电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 419,
+      "title": "3. 高阶低通滤波电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 419,
+      "title": "（1）选择运放",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 420,
+      "title": "（2）选择电容器的容量，计算电阻器的阻值",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 421,
+      "title": "10.3.2 有源高通滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 422,
+      "title": "10.3.3 有源带通滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 425,
+      "title": "10.3.4 有源带阻滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 426,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 427,
+      "title": "$ ^{10.4} $ 开关电容滤波器",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 427,
+      "title": "1. 基本原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 428,
+      "title": "2. 开关电容滤波器举例",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 429,
+      "title": "3. 开关电容滤波器的类型",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 430,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 430,
+      "title": "正弦波振荡电路的振荡条件",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 431,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 432,
+      "title": "10.6",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 432,
+      "title": "RC 正弦波振荡电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 432,
+      "title": "1. 电路原理图",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 432,
+      "title": "2. RC 串并联选频网络的选频特性",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 433,
+      "title": "3. 振荡的建立与稳定",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 434,
+      "title": "4. 振荡频率与振荡波形",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 434,
+      "title": "5. 稳幅措施",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 437,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 437,
+      "title": "0.7 LC 正弦波振荡电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 437,
+      "title": "10.7.1 LC 并联谐振回路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 439,
+      "title": "（4）回路阻抗的频率响应",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 440,
+      "title": "10.7.2 变压器反馈式 LC 振荡电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 440,
+      "title": "1. 电路的组成及工作原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 441,
+      "title": "2. 振荡频率和起振条件",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 441,
+      "title": "10.7.3 三点式 LC 振荡电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 442,
+      "title": "1. 电感三点式 LC 振荡电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 443,
+      "title": "2. 电容三点式 LC 振荡电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 444,
+      "title": "10.7.4 石英晶体振荡电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 444,
+      "title": "1. 正弦波振荡电路的频率稳定问题",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 444,
+      "title": "2. 石英晶体的基本特性与等效电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 446,
+      "title": "3. 石英晶体振荡器",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 446,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 447,
+      "title": "10.8 非正弦信号产生电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 447,
+      "title": "10.8.1 电压比较器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 447,
+      "title": "1. 单门限电压比较器",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 449,
+      "title": "2. 迟滞比较器",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 449,
+      "title": "（1）电路组成",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 450,
+      "title": "（2）门限电压的估算",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 451,
+      "title": "（3）传输特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 451,
+      "title": "解：（1）求门限电压",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 451,
+      "title": "（2）画传输特性",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 451,
+      "title": "（3）画出 $ v_{0} $波形",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 453,
+      "title": "3. 集成电压比较器",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 454,
+      "title": "10.8.2 方波产生电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 454,
+      "title": "1. 电路组成及工作原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 455,
+      "title": "2. 振荡频率",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 456,
+      "title": "3. 占空比可调的方波产生电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 457,
+      "title": "10.8.3 锯齿波产生电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 457,
+      "title": "1. 电路组成",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 457,
+      "title": "2. 门限电压的估算",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 457,
+      "title": "3. 工作原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 458,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 459,
+      "title": "小结",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 459,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 459,
+      "title": "10.1 滤波电路的基本概念与分类",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 461,
+      "title": "10.3 高阶有源滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 470,
+      "title": "直流稳压电源",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 470,
+      "title": "引言",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 471,
+      "title": "11.1 小功率整流滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 471,
+      "title": "11.1.1 单相桥式整流电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 471,
+      "title": "1. 工作原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 473,
+      "title": "3. 整流元件参数的计算",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 473,
+      "title": "11.1.2 滤波电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 473,
+      "title": "1. 电容滤波电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 476,
+      "title": "2. 电感滤波电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 477,
+      "title": "解：（1）变压器二次电压有效值",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 477,
+      "title": "（2）选择整流二极管",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 477,
+      "title": "（3）选择滤波电容器",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 477,
+      "title": "$ ^{*}11.1.3 $ 倍压整流电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 478,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 478,
+      "title": "11.2 线性稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 478,
+      "title": "11.2.1 线性串联反馈式稳压电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 478,
+      "title": "1. 输出电压固定的稳压电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 479,
+      "title": "2. 输出电压可调的稳压电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 480,
+      "title": "3. 低压差稳压电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 481,
+      "title": "11.2.2 线性集成稳压器及其应用举例",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 481,
+      "title": "1. 集成稳压器简介及主要参数",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 483,
+      "title": "2. 应用举例",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 483,
+      "title": "（1）固定式三端稳压器应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 484,
+      "title": "（2）可调式三端稳压器应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 485,
+      "title": "（3）LDO稳压器应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 486,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 486,
+      "title": "开关式稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 487,
+      "title": "11.3.1 无变压器的开关稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 487,
+      "title": "1. 开关 DC/DC 变换器基本电路",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 487,
+      "title": "① 串联型(降压型或 Buck 型)",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 489,
+      "title": "③ 极性反转型",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 490,
+      "title": "2. 稳压的实现",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 491,
+      "title": "3. 集成开关稳压器及其应用举例",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 492,
+      "title": "（1）固定输出降压型 DC/DC 变换器 LM2596-5.0 的应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 493,
+      "title": "（3）极性反转型 DC/DC 变换器 MAX764",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 493,
+      "title": "11.3.2 带变压器的开关稳压电路",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 493,
+      "title": "1. 基本电路及工作原理",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 495,
+      "title": "2. 集成控制器及开关稳压电源",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 495,
+      "title": "（1）控制器 FAN6754 及其应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 497,
+      "title": "（2）含开关管的集成控制器应用",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 497,
+      "title": "3. 简易型开关稳压电源",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 498,
+      "title": "复习思考题",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 499,
+      "title": "小结",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 499,
+      "title": "习题",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 499,
+      "title": "11.1 小功率整流滤波电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 500,
+      "title": "11.2 线性稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 503,
+      "title": "11.3 开关式稳压电路",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 506,
+      "title": "第11章部分习题答案",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 507,
+      "title": "附录 A PSpice/SPICE 软件简介",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    },
+    {
+      "page": 510,
+      "title": "附录B",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 510,
+      "title": "电路理论简明复习",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 510,
+      "title": "1) 基尔霍夫电流、电压定律",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 510,
+      "title": "1. 基尔霍夫电流定律（KCL）",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 510,
+      "title": "2. 基尔霍夫电压定律（KVL）",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 511,
+      "title": "叠加原理",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 512,
+      "title": "B.3 戴维南定理和诺顿定理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 512,
+      "title": "B.3.1 戴维南定理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 513,
+      "title": "B.3.2 诺顿定理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 513,
+      "title": "B.4 密勒定理",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 515,
+      "title": "附录 C 电阻的彩色编码和标称阻值",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 515,
+      "title": "1. 电阻器的容许误差和标称阻值",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 515,
+      "title": "2. 电阻器的彩色编码",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 517,
+      "title": "参考文献",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 519,
+      "title": "索引",
+      "depth": 3,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 519,
+      "title": "二 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 519,
+      "title": "二极管(diode) 61",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 519,
+      "title": "三 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 519,
+      "title": "四 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 520,
+      "title": "五 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 521,
+      "title": "六画",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 522,
+      "title": "七画",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 522,
+      "title": "八画",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 523,
+      "title": "九画",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 523,
+      "title": "十 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 524,
+      "title": "十 一 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 524,
+      "title": "十二画",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 524,
+      "title": "十三画",
+      "depth": 4,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 524,
+      "title": "十 四 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 524,
+      "title": "十 五 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 524,
+      "title": "增益(Gain) 5",
+      "depth": 5,
+      "label": "paragraph_title",
+      "level": "subsection"
+    },
+    {
+      "page": 525,
+      "title": "十 六 画",
+      "depth": 2,
+      "label": "paragraph_title",
+      "level": "section"
+    },
+    {
+      "page": 527,
+      "title": "电子技术基础 模拟部分（第7版）",
+      "depth": 1,
+      "label": "doc_title",
+      "level": "chapter"
+    }
+  ]
+}

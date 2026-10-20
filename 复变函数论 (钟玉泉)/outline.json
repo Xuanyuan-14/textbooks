@@ -1,0 +1,1018 @@
+{
+  "title": "复变函数论 (钟玉泉)",
+  "total_pages": 395,
+  "chapters": [
+    {
+      "page": 1,
+      "title": "复变函数论",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 2,
+      "title": "第三版",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 19,
+      "title": "第一章 复数与复变函数",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 58,
+      "title": "第一章习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 63,
+      "title": "第二章 解析函数",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 106,
+      "title": "第二章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 112,
+      "title": "第三章 复变函数的积分",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 157,
+      "title": "第三章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 163,
+      "title": "第四章 解析函数的幂级数表示法",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 194,
+      "title": "第四章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 200,
+      "title": "第五章 解析函数的洛朗 (Laurent)展式与孤立奇点",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 233,
+      "title": "第五章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 241,
+      "title": "第六章 留数理论及其应用",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 285,
+      "title": "第六章习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 293,
+      "title": "第七章 共形映射",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 333,
+      "title": "第七章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 340,
+      "title": "第八章 解析延拓",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 379,
+      "title": "第八章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 383,
+      "title": "第九章 调和函数",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 393,
+      "title": "第九章习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 395,
+      "title": "本书第一版荣获第一届国家教委 高等学校优秀教材二等奖",
+      "depth": 1,
+      "level": "chapter"
+    }
+  ],
+  "sections": [
+    {
+      "page": 12,
+      "title": "目录",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 17,
+      "title": "引言",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 58,
+      "title": "(一)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 61,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 106,
+      "title": "(一)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 110,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 160,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 197,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 236,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 289,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 337,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 379,
+      "title": "(一)",
+      "depth": 2,
+      "level": "section"
+    }
+  ],
+  "all_headings": [
+    {
+      "page": 1,
+      "title": "复变函数论",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 2,
+      "title": "复变函数论",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 2,
+      "title": "第三版",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 4,
+      "title": "内容提要",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 5,
+      "title": "第三版序",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 6,
+      "title": "书中符号说明",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 7,
+      "title": "第二版 序",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 10,
+      "title": "第一版序",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 12,
+      "title": "目录",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 17,
+      "title": "引言",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 19,
+      "title": "第一章 复数与复变函数",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 19,
+      "title": "§1. 复. 数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 19,
+      "title": "1. 复数域 形如",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 36,
+      "title": "（2）应用复数证明几何问题",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 37,
+      "title": "§2. 复平面上的点集",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 37,
+      "title": "1. 平面点集的几个基本概念",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 44,
+      "title": "§3. 复变函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 49,
+      "title": "2. 复变函数的极限与连续性",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 54,
+      "title": "§4. 复球面与无穷远点",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 56,
+      "title": "2. 扩充复平面上的几个概念",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 58,
+      "title": "第一章习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 58,
+      "title": "(一)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 61,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 61,
+      "title": "1 将复数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 63,
+      "title": "第二章 解析函数",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 63,
+      "title": "§1. 解析函数的概念与柯西－黎曼方程",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 65,
+      "title": "2. 解析函数及其简单性质",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 66,
+      "title": "例 2.4 设有理分式函数",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 74,
+      "title": "§2. 初等解析函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 80,
+      "title": "§3. 初等多值函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 81,
+      "title": "1. 根式函数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 81,
+      "title": "（1）幂函数的变换（映射）性质及其单叶性区域",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 92,
+      "title": "（3）指数函数  $ z = e^{w} $ 的变换性质及其单叶性区域",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 94,
+      "title": "3. 一般幂函数与一般指数函数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 96,
+      "title": "4. 具有多个有限支点的情形",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 96,
+      "title": "（1）讨论函数",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 97,
+      "title": "我们先来看",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 97,
+      "title": "例 2.21 考查下列二函数有哪些支点：",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 97,
+      "title": "解",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 106,
+      "title": "第二章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 106,
+      "title": "(一)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 107,
+      "title": "9 试证下面的定理：",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 110,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 112,
+      "title": "第三章 复变函数的积分",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 112,
+      "title": "§1. 复积分的概念及其简单性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 119,
+      "title": "§2. 柯西积分定理",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 122,
+      "title": "2. 柯西积分定理的古莎证明",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 132,
+      "title": "5. 柯西积分定理推广到复周线的情形",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 135,
+      "title": "§3. 柯西积分公式及其推论",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 142,
+      "title": "证 充分性 即定理 2.5.",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 146,
+      "title": "$ ^{*} $5. 柯西型积分",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 147,
+      "title": "§4. 解析函数与调和函数的关系",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 152,
+      "title": "§5. 平面向量场——解析函数的应用（一）",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 157,
+      "title": "第三章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 158,
+      "title": "3 利用积分估值，证明",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 160,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 161,
+      "title": "提示 应用积分估值定理.",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 163,
+      "title": "第四章 解析函数的幂级数表示法",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 163,
+      "title": "§ 1. 复级数的基本性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 163,
+      "title": "1. 复数项级数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 166,
+      "title": "2. 一致收敛的复函数项级数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 170,
+      "title": "§2. 幂级数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 170,
+      "title": "1. 幂级数的敛散性 具有",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 174,
+      "title": "3. 幂级数和的解析性",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 175,
+      "title": "§3. 解析函数的泰勒(Taylor)展式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 178,
+      "title": "2. 幂级数的和函数在其收敛圆周上的状况",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 186,
+      "title": "§4. 解析函数零点的孤立性及惟一性定理",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 186,
+      "title": "1. 解析函数零点的孤立性",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 194,
+      "title": "第四章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 197,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 200,
+      "title": "第五章 解析函数的洛朗 (Laurent)展式与孤立奇点",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 200,
+      "title": "§1. 解析函数的洛朗展式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 200,
+      "title": "1. 双边幂级数 考虑两个级数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 209,
+      "title": "§2. 解析函数的孤立奇点",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 213,
+      "title": "4. 极点",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 215,
+      "title": "5. 本质奇点",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 216,
+      "title": "6. 皮卡(Picard)定理",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 216,
+      "title": "(2) 现在设  $ A \\neq \\infty $.",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 219,
+      "title": "§3. 解析函数在无穷远点的性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 225,
+      "title": "§4. 整函数与亚纯函数的概念",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 226,
+      "title": "2. 亚纯函数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 228,
+      "title": "§5. 平面向量场——解析函数的应用（二）",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 233,
+      "title": "第五章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 236,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 237,
+      "title": "2 函数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 241,
+      "title": "第六章 留数理论及其应用",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 241,
+      "title": "§1. 留数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 250,
+      "title": "§2. 用留数定理计算实积分",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 275,
+      "title": "§3. 辐角原理及其应用",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 285,
+      "title": "第六章习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 288,
+      "title": "10 证明方程",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 289,
+      "title": "11 证明方程",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 289,
+      "title": "提示 用辐角原理证明",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 289,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 289,
+      "title": "1 计算积分",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 292,
+      "title": "13 方程",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 293,
+      "title": "第七章 共形映射",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 293,
+      "title": "§1. 解析变换的特性",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 293,
+      "title": "1. 解析变换的保域性",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 295,
+      "title": "2. 解析变换的保角性——导数的几何意义",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 299,
+      "title": "3. 单叶解析变换的共形性",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 301,
+      "title": "§2. 分式线性变换",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 301,
+      "title": "1. 分式线性变换及其分解",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 317,
+      "title": "§3. 某些初等函数所构成的共形映射",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 317,
+      "title": "1. 幂函数与根式函数 先讨论幂函数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 327,
+      "title": "5. 儒可夫斯基函数的单叶性区域",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 327,
+      "title": "又，分式线性函数",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 328,
+      "title": "§ 4. 关于共形映射的黎曼存在 定理和边界对应定理",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 333,
+      "title": "第七章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 337,
+      "title": "(二)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 338,
+      "title": "提示 应用例 7.8.",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 340,
+      "title": "第八章 解析延拓",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 340,
+      "title": "§1. 解析延拓的概念与幂级数延拓",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 340,
+      "title": "1. 解析延拓的概念",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 343,
+      "title": "例 8.3 紧接例 8.2, 我们再设",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 350,
+      "title": "§2. 透弧解析延拓、对称原理",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 350,
+      "title": "1. 透弧直接解析延拓",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 351,
+      "title": "2. 黎曼－施瓦茨对称原理",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 351,
+      "title": "定理 8.3 设",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 353,
+      "title": "定理 8.5 （对称原理的一般形式）设（图 8.8）",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 354,
+      "title": "$ ^{*} $ 证",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 357,
+      "title": "§3. 完全解析函数及黎曼面的概念",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 366,
+      "title": "$ ^{*} $§4. 多角形区域的共形映射",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 367,
+      "title": "1. 克里斯托费尔（Christoffel）－施瓦茨变换",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 375,
+      "title": "3. 广义多角形举例",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 379,
+      "title": "第八章 习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 379,
+      "title": "(一)",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 380,
+      "title": "1 已给函数",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 383,
+      "title": "第九章 调和函数",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 383,
+      "title": "§ 1. 平均值定理与极值原理",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 383,
+      "title": "1. 平均值定理",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 384,
+      "title": "2. 极值原理",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 385,
+      "title": "§2. 泊松积分公式与狄利克雷问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 393,
+      "title": "第九章习题",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 395,
+      "title": "本书第一版荣获第一届国家教委 高等学校优秀教材二等奖",
+      "depth": 1,
+      "level": "chapter"
+    }
+  ]
+}

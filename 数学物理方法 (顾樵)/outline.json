@@ -1,0 +1,1978 @@
+{
+  "title": "数学物理方法 (顾樵)",
+  "total_pages": 558,
+  "chapters": [
+    {
+      "page": 2,
+      "title": "数学物理方法 Mathematical Methods for Physics",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 3,
+      "title": "Mathematical Methods for Physics",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 13,
+      "title": "第1章 基础理论知识",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 27,
+      "title": "1. 极坐标系中的拉普拉斯算子",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 29,
+      "title": "2. 柱坐标系中的拉普拉斯算子",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 30,
+      "title": "3. 球坐标系中的拉普拉斯算子",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 32,
+      "title": "第2章 傅里叶级数",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 47,
+      "title": "第3章 傅里叶变换",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 90,
+      "title": "第4章 拉普拉斯变换",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 110,
+      "title": "第5章 基本数学物理方程的建立",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 144,
+      "title": "第6章 分离变量法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 187,
+      "title": "第7章 分离变量法的应用",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 236,
+      "title": "第8章 本征函数法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 278,
+      "title": "第9章 施图姆—刘维尔理论及应用",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 290,
+      "title": "第10章 行波法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 323,
+      "title": "第11章 积分变换法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 361,
+      "title": "第12章 格林函数法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 407,
+      "title": "第13章 贝塞尔函数",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 452,
+      "title": "第14章 勒让德多项式",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 497,
+      "title": "第15章 量子力学薛定谔方程",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 535,
+      "title": "1. 正交性",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 536,
+      "title": "2. 微分表示",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 537,
+      "title": "3. 生成函数",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 538,
+      "title": "4. 归一化常数",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 556,
+      "title": "2",
+      "depth": 1,
+      "level": "chapter"
+    }
+  ],
+  "sections": [
+    {
+      "page": 3,
+      "title": "数学物理方法",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 7,
+      "title": "目录",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 13,
+      "title": "1.1 常微分方程模型与求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 22,
+      "title": "1.2 矢量微分算子与拉普拉斯算子",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 32,
+      "title": "2.1 周期函数的傅里叶级数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 38,
+      "title": "2.2 半幅傅里叶级数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 41,
+      "title": "2.3 傅里叶积分",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 47,
+      "title": "3.1 傅里叶变换简介",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 54,
+      "title": "3.2  $ \\delta $ 函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 66,
+      "title": "3.3 典型函数的傅里叶变换",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 82,
+      "title": "3.4 傅里叶变换应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 90,
+      "title": "4.1 拉普拉斯变换简介",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 96,
+      "title": "4.2 典型函数的拉普拉斯变换",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 101,
+      "title": "4.3 拉普拉斯变换应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 110,
+      "title": "5.1 波动方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 116,
+      "title": "5.2 热传导方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 119,
+      "title": "5.3 拉普拉斯方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 122,
+      "title": "5.4 二阶偏微分方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 132,
+      "title": "5.5 定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 144,
+      "title": "6.1 弦振动问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 152,
+      "title": "6.2 基本定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 167,
+      "title": "6.3 二维泛定方程的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 174,
+      "title": "6.4 第三类边界条件下的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 187,
+      "title": "7.1 热吸收定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 202,
+      "title": "7.2 综合热传导定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 220,
+      "title": "7.3 拉普拉斯方程的求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 236,
+      "title": "8.1 本征函数法的引入",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 239,
+      "title": "8.2 非齐次方程的解法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 248,
+      "title": "8.3 有源热传导定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 259,
+      "title": "8.4 泊松方程的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 264,
+      "title": "8.5 非齐次边界条件的处理",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 268,
+      "title": "8.6 综合定解问题的求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 278,
+      "title": "9.1 施图姆-刘维尔本征值问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 283,
+      "title": "9.2 施图姆-刘维尔理论的应用：吊摆问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 287,
+      "title": "9.3 厄米算符本征函数的正交性",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 290,
+      "title": "10.1 一维波动方程的通解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 293,
+      "title": "10.2 一维波动方程的达朗贝尔公式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 298,
+      "title": "10.3 双曲型方程的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 301,
+      "title": "10.4 一阶线性偏微分方程的特征线法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 303,
+      "title": "10.5 非齐次波动方程：齐次化原理",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 308,
+      "title": "10.6 三维波动方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 315,
+      "title": "10.7 旁轴波动方程：格林算子法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 321,
+      "title": "10.8 非线性波动方程：光学孤立子",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 323,
+      "title": "11.1 傅里叶变换法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 336,
+      "title": "11.2 拉普拉斯变换法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 346,
+      "title": "11.3 联合变换法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 358,
+      "title": "11.4 半导体载流子的输运方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 361,
+      "title": "12.1 无界域的格林函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 365,
+      "title": "12.2 三维波动方程问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 370,
+      "title": "12.3 一维有界热传导问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 374,
+      "title": "12.4 格林公式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 379,
+      "title": "12.5 拉普拉斯方程和泊松方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 388,
+      "title": "12.6 格林函数法的应用：电像法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 399,
+      "title": "12.7 第二、第三类边值问题的格林函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 404,
+      "title": "12.8 非线性问题的格林函数解法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 407,
+      "title": "13.1 几个微分方程的引入",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 410,
+      "title": "13.2 伽马函数的基本知识",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 413,
+      "title": "13.3 贝塞尔方程的求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 420,
+      "title": "13.4 贝塞尔函数的基本性质",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 432,
+      "title": "13.5 贝塞尔函数的正交完备性",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 443,
+      "title": "13.6 贝塞尔函数应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 449,
+      "title": "13.7 球贝塞尔函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 452,
+      "title": "14.1 勒让德方程的引入",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 453,
+      "title": "14.2 勒让德多项式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 461,
+      "title": "14.3 勒让德多项式的基本性质",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 478,
+      "title": "14.4 勒让德多项式的正交完备性",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 492,
+      "title": "14.5 勒让德多项式应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 497,
+      "title": "15.1 薛定谔方程的一般解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 500,
+      "title": "15.2 角向解：球谐函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 511,
+      "title": "15.3 径向解：广义拉盖尔多项式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 526,
+      "title": "15.4 量子谐振子与厄米多项式",
+      "depth": 3,
+      "level": "section"
+    }
+  ],
+  "all_headings": [
+    {
+      "page": 2,
+      "title": "数学物理方法 Mathematical Methods for Physics",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 3,
+      "title": "数学物理方法",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 3,
+      "title": "Mathematical Methods for Physics",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 4,
+      "title": "内容简介",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 4,
+      "title": "图书在版编目（CIP）数据",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 4,
+      "title": "科学出版社出版",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 5,
+      "title": "前言",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 6,
+      "title": "顾樵",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 7,
+      "title": "目录",
+      "depth": 2,
+      "level": "section"
+    },
+    {
+      "page": 13,
+      "title": "第1章 基础理论知识",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 13,
+      "title": "1.1 常微分方程模型与求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 13,
+      "title": "例 1 马尔萨斯人口模型",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 14,
+      "title": "例 2 传染病问题 (Logistic 模型)",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 15,
+      "title": "例 3 L-C 电路",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 17,
+      "title": "例4 单摆问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 18,
+      "title": "例 5 R-G 传输线",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 20,
+      "title": "例 6 捕食者-被捕食者模型 (predator-prey model)",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 22,
+      "title": "1.2 矢量微分算子与拉普拉斯算子",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 22,
+      "title": "1.2.1 矢量微分算子  $ \\nabla $",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 27,
+      "title": "1.2.2 拉普拉斯算子  $ \\nabla^{2} $",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 27,
+      "title": "1. 极坐标系中的拉普拉斯算子",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 29,
+      "title": "2. 柱坐标系中的拉普拉斯算子",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 30,
+      "title": "3. 球坐标系中的拉普拉斯算子",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 32,
+      "title": "第2章 傅里叶级数",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 32,
+      "title": "2.1 周期函数的傅里叶级数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 38,
+      "title": "2.2 半幅傅里叶级数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 41,
+      "title": "2.3 傅里叶积分",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 47,
+      "title": "第3章 傅里叶变换",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 47,
+      "title": "3.1 傅里叶变换简介",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 47,
+      "title": "3.1.1 傅里叶变换的定义",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 50,
+      "title": "3.1.2 傅里叶变换的性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 54,
+      "title": "3.2  $ \\delta $ 函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 54,
+      "title": "3.2.1  $ \\delta $ 函数的定义和含义",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 55,
+      "title": "3.2.2  $ \\delta $ 函数的性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 59,
+      "title": "3.2.3  $ \\delta $ 函数的辅助函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 64,
+      "title": "3.2.4 狄利克雷定理的证明",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 66,
+      "title": "3.3 典型函数的傅里叶变换",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 75,
+      "title": "例 10 讨论图 3.10 所示的函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 82,
+      "title": "3.4 傅里叶变换应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 90,
+      "title": "第4章 拉普拉斯变换",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 90,
+      "title": "4.1 拉普拉斯变换简介",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 90,
+      "title": "4.1.1 拉普拉斯变换的定义",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 92,
+      "title": "4.1.2 拉普拉斯变换的性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 93,
+      "title": "1) 微分定理 I",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 96,
+      "title": "4.2 典型函数的拉普拉斯变换",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 101,
+      "title": "4.3 拉普拉斯变换应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 110,
+      "title": "第5章 基本数学物理方程的建立",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 110,
+      "title": "5.1 波动方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 110,
+      "title": "5.1.1 弦振动问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 112,
+      "title": "5.1.2 强迫振动与阻尼振动",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 114,
+      "title": "5.1.3 高频传输线问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 116,
+      "title": "5.2 热传导方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 119,
+      "title": "5.3 拉普拉斯方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 122,
+      "title": "5.4 二阶偏微分方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 122,
+      "title": "5.4.1 分类与标准形式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 128,
+      "title": "5.4.2 常系数方程",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 132,
+      "title": "5.5 定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 132,
+      "title": "5.5.1 一个例子",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 132,
+      "title": "5.5.2 泛定方程与叠加原理",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 135,
+      "title": "5.5.3 初始条件与边界条件",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 137,
+      "title": "5.5.4 几个典型的定解问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 144,
+      "title": "第6章 分离变量法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 144,
+      "title": "6.1 弦振动问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 144,
+      "title": "6.1.1 弦振动问题的求解",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 149,
+      "title": "6.1.2 解的物理意义及驻波条件",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 152,
+      "title": "6.2 基本定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 167,
+      "title": "6.3 二维泛定方程的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 167,
+      "title": "6.3.1 二维波动方程",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 172,
+      "title": "6.3.2 二维热传导方程",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 174,
+      "title": "6.4 第三类边界条件下的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 174,
+      "title": "6.4.1 本征函数的正交性",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 175,
+      "title": "6.4.2 热辐射定解问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 187,
+      "title": "第7章 分离变量法的应用",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 187,
+      "title": "7.1 热吸收定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 187,
+      "title": "7.1.1 吸收-耗散系统",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 196,
+      "title": "7.1.2 吸收-绝热系统",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 202,
+      "title": "7.2 综合热传导定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 202,
+      "title": "7.2.1 对称边界条件",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 210,
+      "title": "7.2.2 反对称边界条件",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 220,
+      "title": "7.3 拉普拉斯方程的求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 220,
+      "title": "7.3.1 直角坐标系的拉普拉斯方程",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 228,
+      "title": "7.3.2 极坐标系的拉普拉斯方程",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 233,
+      "title": "例 3 求定解问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 236,
+      "title": "第8章 本征函数法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 236,
+      "title": "8.1 本征函数法的引入",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 239,
+      "title": "8.2 非齐次方程的解法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 239,
+      "title": "8.2.1 一分为二法",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 242,
+      "title": "8.2.2 合二为一法",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 248,
+      "title": "8.3 有源热传导定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 248,
+      "title": "8.3.1 绝热系统",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 252,
+      "title": "8.3.2 绝热—耗散系统",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 254,
+      "title": "8.3.3 绝热—辐射系统",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 256,
+      "title": "8.3.4 吸收-耗散系统",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 259,
+      "title": "8.4 泊松方程的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 264,
+      "title": "8.5 非齐次边界条件的处理",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 268,
+      "title": "8.6 综合定解问题的求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 275,
+      "title": "例2",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 278,
+      "title": "第9章 施图姆—刘维尔理论及应用",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 278,
+      "title": "9.1 施图姆-刘维尔本征值问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 280,
+      "title": "证明",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 282,
+      "title": "例 3 求解本征值问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 283,
+      "title": "9.2 施图姆-刘维尔理论的应用：吊摆问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 287,
+      "title": "9.3 厄米算符本征函数的正交性",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 290,
+      "title": "第10章 行波法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 290,
+      "title": "10.1 一维波动方程的通解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 293,
+      "title": "10.2 一维波动方程的达朗贝尔公式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 296,
+      "title": "10.2.2 达朗贝尔公式的讨论",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 298,
+      "title": "10.3 双曲型方程的定解问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 298,
+      "title": "例 1 求解定解问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 301,
+      "title": "10.4 一阶线性偏微分方程的特征线法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 303,
+      "title": "例 2 求解定解问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 303,
+      "title": "10.5 非齐次波动方程：齐次化原理",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 308,
+      "title": "10.6 三维波动方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 309,
+      "title": "10.6.1 三维波动方程的球对称解",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 309,
+      "title": "10.6.2 三维波动方程的泊松公式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 312,
+      "title": "10.6.3 泊松公式的物理意义",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 315,
+      "title": "10.7 旁轴波动方程：格林算子法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 315,
+      "title": "10.7.1 旁轴波动方程的解",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 318,
+      "title": "10.7.2 光学元件与光学系统的格林算子",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 319,
+      "title": "10.7.3 格林算子法的应用",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 321,
+      "title": "10.8 非线性波动方程：光学孤立子",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 323,
+      "title": "第11章 积分变换法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 323,
+      "title": "11.1 傅里叶变换法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 324,
+      "title": "11.1.1 热传导问题与高斯核",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 327,
+      "title": "11.1.2 傅里叶变换法的应用",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 336,
+      "title": "11.2 拉普拉斯变换法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 343,
+      "title": "例 5 求解定解问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 346,
+      "title": "11.3 联合变换法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 346,
+      "title": "11.3.1 对流热传导问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 348,
+      "title": "11.3.2 线性衰变的影响",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 350,
+      "title": "11.3.3 有源热传导问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 354,
+      "title": "11.3.4 非齐次波动方程问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 354,
+      "title": "例 1 求解定解问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 357,
+      "title": "11.3.5 无边界电报方程问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 358,
+      "title": "11.4 半导体载流子的输运方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 361,
+      "title": "第12章 格林函数法",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 361,
+      "title": "12.1 无界域的格林函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 365,
+      "title": "12.2 三维波动方程问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 370,
+      "title": "12.3 一维有界热传导问题",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 374,
+      "title": "12.4 格林公式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 374,
+      "title": "12.4.1 格林定理",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 376,
+      "title": "12.4.2 散度定理",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 378,
+      "title": "12.4.3 格林公式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 379,
+      "title": "12.5 拉普拉斯方程和泊松方程",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 379,
+      "title": "12.5.1 拉普拉斯方程的基本解",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 380,
+      "title": "12.5.2 泊松方程的基本积分公式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 382,
+      "title": "12.5.3 泊松方程的边值问题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 388,
+      "title": "12.6 格林函数法的应用：电像法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 399,
+      "title": "12.7 第二、第三类边值问题的格林函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 399,
+      "title": "12.7.1 第二类边值问题的格林函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 401,
+      "title": "12.7.2 第三类边值问题的格林函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 404,
+      "title": "12.8 非线性问题的格林函数解法",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 407,
+      "title": "第13章 贝塞尔函数",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 407,
+      "title": "13.1 几个微分方程的引入",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 410,
+      "title": "13.2 伽马函数的基本知识",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 413,
+      "title": "13.3 贝塞尔方程的求解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 413,
+      "title": "13.3.1 贝塞尔方程的广义幂级数解",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 414,
+      "title": "13.3.2 第一类贝塞尔函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 416,
+      "title": "13.3.3 贝塞尔方程的通解",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 420,
+      "title": "13.4 贝塞尔函数的基本性质",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 420,
+      "title": "13.4.1 生成函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 421,
+      "title": "13.4.2 递推公式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 427,
+      "title": "13.4.3 积分表示",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 431,
+      "title": "13.4.4 渐近公式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 432,
+      "title": "13.5 贝塞尔函数的正交完备性",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 432,
+      "title": "13.5.1 正交函数集的构造",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 434,
+      "title": "13.5.2 参数形式的贝塞尔函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 436,
+      "title": "13.5.3 贝塞尔函数的正交性",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 439,
+      "title": "13.5.4 贝塞尔函数的完备性",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 443,
+      "title": "13.6 贝塞尔函数应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 449,
+      "title": "13.7 球贝塞尔函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 452,
+      "title": "第14章 勒让德多项式",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 452,
+      "title": "14.1 勒让德方程的引入",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 453,
+      "title": "14.2 勒让德多项式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 461,
+      "title": "14.3 勒让德多项式的基本性质",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 461,
+      "title": "14.3.1 微分表示",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 462,
+      "title": "14.3.2 积分表示",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 463,
+      "title": "14.3.3 生成函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 467,
+      "title": "14.3.4 递推公式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 468,
+      "title": "证明 公式 (1): 对生成函数 (14.3.12) 两边关于 r 求导数，得到",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 471,
+      "title": "14.3.5 例题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 478,
+      "title": "14.4 勒让德多项式的正交完备性",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 478,
+      "title": "14.4.1 正交性",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 479,
+      "title": "14.4.2 模值",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 481,
+      "title": "14.4.3 完备性",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 482,
+      "title": "14.4.4 例题",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 489,
+      "title": "例 10 将符号函数 (图 14.7)",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 489,
+      "title": "解 设展开式为",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 492,
+      "title": "14.5 勒让德多项式应用举例",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 497,
+      "title": "第15章 量子力学薛定谔方程",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 497,
+      "title": "15.1 薛定谔方程的一般解",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 500,
+      "title": "15.2 角向解：球谐函数",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 500,
+      "title": "15.2.1 中心力场",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 502,
+      "title": "15.2.2 连带勒让德函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 504,
+      "title": "15.2.3 连带勒让德函数的性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 507,
+      "title": "15.2.4 球谐函数",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 509,
+      "title": "15.2.5 球谐函数的性质",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 511,
+      "title": "15.3 径向解：广义拉盖尔多项式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 511,
+      "title": "15.3.1 库仑场中的束缚态",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 516,
+      "title": "15.3.2 广义拉盖尔多项式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 519,
+      "title": "15.3.3 径向概率密度",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 526,
+      "title": "15.4 量子谐振子与厄米多项式",
+      "depth": 3,
+      "level": "section"
+    },
+    {
+      "page": 526,
+      "title": "15.4.1 量子谐振子",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 535,
+      "title": "15.4.2 厄米多项式",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 535,
+      "title": "1. 正交性",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 536,
+      "title": "2. 微分表示",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 537,
+      "title": "3. 生成函数",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 538,
+      "title": "4. 归一化常数",
+      "depth": 1,
+      "level": "chapter"
+    },
+    {
+      "page": 540,
+      "title": "15.4.3 系统的含时解",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 541,
+      "title": "15.4.4 概率密度",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 546,
+      "title": "索引",
+      "depth": 3,
+      "level": "subsection"
+    },
+    {
+      "page": 546,
+      "title": "B",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 547,
+      "title": "C",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 547,
+      "title": "D",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 548,
+      "title": "E",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 548,
+      "title": "F",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 549,
+      "title": "G",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 550,
+      "title": "H",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 551,
+      "title": "K",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 551,
+      "title": "L",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 552,
+      "title": "M",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 553,
+      "title": "N",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 553,
+      "title": "O",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 553,
+      "title": "P",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 553,
+      "title": "Q",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 554,
+      "title": "R",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 554,
+      "title": "S",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 555,
+      "title": "T",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 555,
+      "title": "W",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 556,
+      "title": "X",
+      "depth": 4,
+      "level": "subsection"
+    },
+    {
+      "page": 556,
+      "title": "Y",
+      "depth": 5,
+      "level": "subsection"
+    },
+    {
+      "page": 556,
+      "title": "2",
+      "depth": 1,
+      "level": "chapter"
+    }
+  ]
+}
