@@ -1,6 +1,7 @@
 """Build a chapter-organized upload copy; never modify the source books."""
 import hashlib
 import json
+import posixpath
 from pathlib import Path
 import re
 import shutil
@@ -25,6 +26,15 @@ def digest(path):
 
 
 def boundaries(book, outline):
+    if book.name.startswith('大学物理练习册'):
+        result = []
+        for chapter in outline['chapters']:
+            match = re.match(r'^(?:练习\s*)?(\d+)\s*(.*)', chapter['title'])
+            assert match, chapter
+            number, title = int(match[1]), match[2]
+            result.append((chapter['page'], f'{number:02d}-练习{number} {title}'))
+        assert result[0][0] == 1
+        return result
     if '电子' in book.name:
         titles = ['绪论', '运算放大器', '二极管及其基本电路', '场效应三极管及其放大电路',
                   '双极结型三极管（BJT）及其放大电路', '频率响应', '模拟集成电路',
@@ -56,6 +66,39 @@ def boundaries(book, outline):
     return result
 
 
+def book_link(book):
+    label = book.name
+    if label == '大学物理练习册':
+        label += '（无答案版，31 个练习）'
+    elif label.startswith('大学物理练习册答案'):
+        label = '大学物理练习册（带答案版，48 个练习）'
+    return f'- [{label}]({quote(book.name + "/README.md")})'
+
+
+def build_combined():
+    source = SOURCE / '大学物理练习册-题目+答案'
+    answer_name = '大学物理练习册答案(已修正部分错误)'
+    out = DEST / answer_name
+    if not (source / 'combined.md').exists() or not out.exists():
+        return
+    text = (source / 'combined.md').read_text(encoding='utf-8')
+    for name in ['大学物理练习册', answer_name]:
+        manifest = json.loads((DEST / name / 'images-manifest.json').read_text(encoding='utf-8'))
+        mapping = {m['source']: m['path'] for m in manifest}
+        pattern = re.compile(re.escape('../' + name + '/') + r'(images/[^\s\"\'<>`)]+\.jpg)')
+        def replace(match):
+            target = DEST / name / mapping[match[1]]
+            assert target.is_file(), target
+            return posixpath.relpath(name + '/' + mapping[match[1]], answer_name)
+        text = pattern.sub(replace, text)
+    (out / 'combined.md').write_text(text, encoding='utf-8')
+    shutil.copy2(source / 'exercises.jsonl', out / 'exercises.jsonl')
+    shutil.copy2(source / 'README.md', out / 'README-combined-original.md')
+    for archive in source.glob('*.zip'):
+        shutil.copy2(archive, out / archive.name)
+    shutil.copy2(SOURCE / 'merge_exercise.py', DEST / 'merge_exercise.py')
+
+
 def main():
     add_new = '--add-new' in sys.argv
     if (DEST / '.git').exists() and not add_new:
@@ -76,7 +119,7 @@ def main():
         out = DEST / book.name
         if add_new and out.exists():
             assert any(s['book'] == book.name for s in summaries), f'Existing unvalidated output: {out}'
-            root_links.append(f'- [{book.name}]({quote(book.name + "/README.md")})')
+            root_links.append(book_link(book))
             continue
         out.mkdir(exist_ok=True)
         generated = (out / 'chapters').resolve()
@@ -134,7 +177,10 @@ def main():
             head = f'# {section["title"]}\n\n[返回全书目录](../../README.md)\n\n> PDF 页码：{section["start_page"]}–{section["end_page"]}\n\n'
             (out / folder / 'README.md').write_text(head + rewrite(body, folder), encoding='utf-8')
         # Full-book reading and per-page RAG keep working with the new image locations.
-        (out / 'book.md').write_text(rewrite(original).replace('图片位于 `../images/`', '图片按章节存于 `chapters/*/images/`'), encoding='utf-8')
+        full_text = rewrite(original)
+        full_text = full_text.replace('图片位于 `../images/`', '图片按章节存于 `chapters/*/images/`')
+        full_text = full_text.replace('图片位于同级的 `images/`', '图片按练习存于 `chapters/*/images/`')
+        (out / 'book.md').write_text(full_text, encoding='utf-8')
         records = [json.loads(l) for l in (book / 'pages.jsonl').read_text(encoding='utf-8').splitlines()]
         for rec in records:
             rec['text'] = rewrite(rec['text'])
@@ -149,20 +195,38 @@ def main():
         rows = ['| 章节 | PDF 页码 | 图片数 |', '|---|---:|---:|']
         for s in ranges:
             rows.append(f'| [{s["title"]}]({quote(s["path"] + "/README.md")}) | {s["start_page"]}–{s["end_page"]} | {s["images"]} |')
-        (out / 'README.md').write_text(f'# {book.name}\n\n正文与图片已按章节整理，习题归入相应章。\n\n' + '\n'.join(rows) +
+        edition_note = ''
+        if book.name == '大学物理练习册':
+            edition_note = ('无答案版，适合先独立作答。按原练习号整理，共 31 个练习、62 页、77 张图片。'
+                            '原文件未收录练习 11–13、27–39、48 的题目页，编号跳号按原文保留。\n\n')
+        elif book.name.startswith('大学物理练习册答案'):
+            edition_note = ('带答案版，按练习 1–48 整理，共 361 页、194 张图片。文件名中的“已修正部分错误”沿用来源说明，未逐题复核。\n\n'
+                            '[题目与答案对照阅读](combined.md)：31 个练习有独立题目页和对应解答；其余 17 个练习仅收录答案册内容，'
+                            '不表示已经补齐缺失题目页。自测时先使用[无答案版](' + quote('../大学物理练习册/README.md') + ')。\n\n'
+                            '`exercises.jsonl` 记录两册练习号、题目与解答的原始页码；对照版用 `<!-- src: 练习册 p.N -->` 和 `<!-- src: 答案 p.N -->` 区分页码来源。\n\n')
+        (out / 'README.md').write_text(f'# {book.name}\n\n' + edition_note + '正文与图片已按章节或练习整理。\n\n' + '\n'.join(rows) +
             '\n\n`book.md` 为全书；`pages.jsonl` 为逐页数据；`chapters.json` 为校正后的章节边界；'
             '`images-manifest.json` 记录原图片名、新路径和 SHA-256。原始 OCR 章节索引保存在 `outline.json`，可能包含误识别。'
             '\n\n原始说明保存在 `README-original.md`，原压缩包保留。OCR 公式和文字未经逐字校对。\n', encoding='utf-8')
         summaries.append(dict(book=book.name, pages=len(pages), images=len(images), groups=len(ranges),
                               image_bytes=sum(i.stat().st_size for i in images), image_hashes_verified=True,
                               page_coverage_verified=True, image_references_verified=True))
-        root_links.append(f'- [{book.name}]({quote(book.name + "/README.md")})')
+        root_links.append(book_link(book))
+    build_combined()
     write_json(DEST / 'validation.json', summaries)
     chapter_count = sum(
         bool(re.match(r'^\d+-第[一二三四五六七八九十百\d]+章', c['title']))
         for s in summaries
         for c in json.loads((DEST / s['book'] / 'chapters.json').read_text(encoding='utf-8'))['chapters']
     )
+    exercise_count = sum(s['groups'] for s in summaries if s['book'].startswith('大学物理练习册'))
+    exercise_stats = f'、{exercise_count} 个练习单元（两册分别计数）' if exercise_count else ''
+    exercise_note = ''
+    if exercise_count:
+        combined_link = quote('大学物理练习册答案(已修正部分错误)/combined.md')
+        exercise_note = ('\n\n大学物理练习册分为无答案版与带答案版。无答案版收录 31 个练习，带答案版覆盖练习 1–48。'
+                         f'可先独立作答，再查看[题目与答案对照版]({combined_link})。'
+                         '对照版中有 17 个练习缺少独立题目页，保留答案册内容，不补造题目。')
     school_note = ('数学物理方法使用学校同步教材：姚端正等《数学物理方法（第四版）》。\n\n'
                    if any('姚端正' in s['book'] for s in summaries) else '')
     (DEST / 'README.md').write_text(f'''# PDF 教材 OCR 资源库
@@ -175,7 +239,7 @@ def main():
 
 {school_note}{chr(10).join(root_links)}
 
-目前共 **{len(summaries)} 本教材、{chapter_count} 个正文章、{sum(s['images'] for s in summaries):,} 张图片**。前言、篇导言、附录、答案与索引另行分组。
+目前共 **{len(summaries)} 份教材与练习资源、{chapter_count} 个教材正文章{exercise_stats}、{sum(s['images'] for s in summaries):,} 张图片**。前言、篇导言、附录、答案与索引另行分组。{exercise_note}
 
 ## 如何用于 AI 自学
 

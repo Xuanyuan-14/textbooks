@@ -28,5 +28,25 @@
     "image_hashes_verified": true,
     "page_coverage_verified": true,
     "image_references_verified": true
+  },
+  {
+    "book": "大学物理练习册",
+    "pages": 62,
+    "images": 77,
+    "groups": 31,
+    "image_bytes": 754412,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
+  },
+  {
+    "book": "大学物理练习册答案(已修正部分错误)",
+    "pages": 361,
+    "images": 194,
+    "groups": 48,
+    "image_bytes": 5602686,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
   }
 ]

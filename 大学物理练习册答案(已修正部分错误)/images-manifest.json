@@ -1,0 +1,972 @@
+[
+  {
+    "source": "images/p0007_img_in_image_box_1448_697_1895_1064.jpg",
+    "path": "chapters/02-练习2 曲线运动的描述/images/p0007_img_in_image_box_1448_697_1895_1064.jpg",
+    "sha256": "3bdca587e0c6d6c6459dc9622318066ffbb2c544af495e3cc0753866aa8b9925"
+  },
+  {
+    "source": "images/p0018_img_in_image_box_1339_693_1884_1054.jpg",
+    "path": "chapters/03-练习3 运动学中的两类问题/images/p0018_img_in_image_box_1339_693_1884_1054.jpg",
+    "sha256": "ebff93f07cba011fc5d5e847e341846e0280b128264840648847e777c49758ee"
+  },
+  {
+    "source": "images/p0026_img_in_image_box_1_794_850_1079.jpg",
+    "path": "chapters/04-练习4 牛顿运动定律及其应用/images/p0026_img_in_image_box_1_794_850_1079.jpg",
+    "sha256": "d340dd2519b63e38c3ea890ad81a0f5db900f469d1900e222a130c1359563da1"
+  },
+  {
+    "source": "images/p0026_img_in_image_box_829_711_1920_1078.jpg",
+    "path": "chapters/04-练习4 牛顿运动定律及其应用/images/p0026_img_in_image_box_829_711_1920_1078.jpg",
+    "sha256": "11d4be46d617363417de477f0ffcaba3fe4342df9f0d8b7e595bf7aca4ee5b14"
+  },
+  {
+    "source": "images/p0026_img_in_image_box_833_709_1224_1045.jpg",
+    "path": "chapters/04-练习4 牛顿运动定律及其应用/images/p0026_img_in_image_box_833_709_1224_1045.jpg",
+    "sha256": "4031a17b7d4ba001b6f571e8c2813190e600cf37894b5455ab795e3baa781f21"
+  },
+  {
+    "source": "images/p0026_img_in_image_box_943_799_1220_1029.jpg",
+    "path": "chapters/04-练习4 牛顿运动定律及其应用/images/p0026_img_in_image_box_943_799_1220_1029.jpg",
+    "sha256": "36cb885c5413de863535ae702ac6a8f2c76a626bc628a3abc429049606f84095"
+  },
+  {
+    "source": "images/p0029_img_in_image_box_1441_647_1919_1001.jpg",
+    "path": "chapters/04-练习4 牛顿运动定律及其应用/images/p0029_img_in_image_box_1441_647_1919_1001.jpg",
+    "sha256": "5d8133fb6b1ebda3a470039783d575588f4e61bb1591c7372b2ca4fed95cf83d"
+  },
+  {
+    "source": "images/p0030_img_in_image_box_1348_219_1819_576.jpg",
+    "path": "chapters/04-练习4 牛顿运动定律及其应用/images/p0030_img_in_image_box_1348_219_1819_576.jpg",
+    "sha256": "54cb2e5ba8a2b837f68ad41468a9af0340b70a9608307151a7d8b9e60db769e5"
+  },
+  {
+    "source": "images/p0033_img_in_image_box_1535_647_1879_939.jpg",
+    "path": "chapters/05-练习5 动量、功和能/images/p0033_img_in_image_box_1535_647_1879_939.jpg",
+    "sha256": "621cc9be1291cb8e1b1f8d6a6ae515b3b775f8c3ae52f313d0a1d3a0ea2ed831"
+  },
+  {
+    "source": "images/p0036_img_in_image_box_1520_785_1887_981.jpg",
+    "path": "chapters/05-练习5 动量、功和能/images/p0036_img_in_image_box_1520_785_1887_981.jpg",
+    "sha256": "af37439b4f5ddc08cd620a2341079b096b85118c5b861340cedbbb53af879317"
+  },
+  {
+    "source": "images/p0037_img_in_image_box_1343_376_1814_631.jpg",
+    "path": "chapters/05-练习5 动量、功和能/images/p0037_img_in_image_box_1343_376_1814_631.jpg",
+    "sha256": "63597f724d9d652eb4a496d35c8fa5a29bbf577556691a26e6df813101712ba5"
+  },
+  {
+    "source": "images/p0038_img_in_image_box_1363_355_1835_628.jpg",
+    "path": "chapters/05-练习5 动量、功和能/images/p0038_img_in_image_box_1363_355_1835_628.jpg",
+    "sha256": "7280c4cbcced45a668f31cbe8495ec6ccb9655532387bae78c81e151c30a390d"
+  },
+  {
+    "source": "images/p0046_img_in_image_box_1399_546_1842_1001.jpg",
+    "path": "chapters/06-练习6 质点角动量定理及守恒定律/images/p0046_img_in_image_box_1399_546_1842_1001.jpg",
+    "sha256": "56a136c0e9a601a34c936f91772c943c54725ffcbf43e809fbc0c44211da5450"
+  },
+  {
+    "source": "images/p0047_img_in_image_box_507_593_1167_995.jpg",
+    "path": "chapters/06-练习6 质点角动量定理及守恒定律/images/p0047_img_in_image_box_507_593_1167_995.jpg",
+    "sha256": "99dd74b8837e476cb5732934afdb8335c29e3c8a31da3cf72699b3cf25cbf2e8"
+  },
+  {
+    "source": "images/p0048_img_in_image_box_1306_309_1875_651.jpg",
+    "path": "chapters/06-练习6 质点角动量定理及守恒定律/images/p0048_img_in_image_box_1306_309_1875_651.jpg",
+    "sha256": "1bd78c40e8695e98ac58ace462533eee0e7ba665987274fd4666de68f7919552"
+  },
+  {
+    "source": "images/p0057_img_in_image_box_1459_688_1863_1077.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0057_img_in_image_box_1459_688_1863_1077.jpg",
+    "sha256": "b03ef37fc9d13ec5f784504b3120043204ed6ecc7cab474cf171119db82168bf"
+  },
+  {
+    "source": "images/p0058_img_in_image_box_1067_420_1705_835.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0058_img_in_image_box_1067_420_1705_835.jpg",
+    "sha256": "e9fdc5c6ca8913b3fd99d035c5de0a4161095f1a4f97aaaaf24fdd7a50033534"
+  },
+  {
+    "source": "images/p0058_img_in_image_box_1073_570_1684_822.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0058_img_in_image_box_1073_570_1684_822.jpg",
+    "sha256": "a587080b24ba193f675991fe0ec7faa27b19046cbac1d21b54054636c8efbee8"
+  },
+  {
+    "source": "images/p0060_img_in_image_box_1196_674_1917_1017.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0060_img_in_image_box_1196_674_1917_1017.jpg",
+    "sha256": "3ed95bdc446dcdc32a69afd250c363d02a8ae02bf81450cf05d496a389cb983d"
+  },
+  {
+    "source": "images/p0060_img_in_image_box_1575_672_1913_997.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0060_img_in_image_box_1575_672_1913_997.jpg",
+    "sha256": "3577c247cef44dbb6a202fd0c58ab93e50be171c2b42e3516de9533f462bdbe5"
+  },
+  {
+    "source": "images/p0061_img_in_image_box_1387_32_1810_448.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0061_img_in_image_box_1387_32_1810_448.jpg",
+    "sha256": "59b79b3cba6db8e68fc544a02081294bddc8015303a308907ac90cc23c8ccf30"
+  },
+  {
+    "source": "images/p0061_img_in_image_box_1456_555_1845_954.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0061_img_in_image_box_1456_555_1845_954.jpg",
+    "sha256": "c064a94d71cc2f9c5ccb40fdd512b71f06f9debb9d9d8ac4d926bbaa88a51df4"
+  },
+  {
+    "source": "images/p0062_img_in_image_box_1292_657_1911_1078.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0062_img_in_image_box_1292_657_1911_1078.jpg",
+    "sha256": "21e4030f4b821e6e5e946ced3d5f9f15859fb6d4eb87a01394eb702ef55de439"
+  },
+  {
+    "source": "images/p0062_img_in_image_box_1307_657_1647_1080.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0062_img_in_image_box_1307_657_1647_1080.jpg",
+    "sha256": "17110a687e91b1b5b9be587422470896e37479a4b730b5afa0d6e357b7febef3"
+  },
+  {
+    "source": "images/p0062_img_in_image_box_1523_105_1892_601.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0062_img_in_image_box_1523_105_1892_601.jpg",
+    "sha256": "e144597a7d96e63ddae51dcbea59bb75aa2510f6c525c4f55407699e386f52ef"
+  },
+  {
+    "source": "images/p0062_img_in_image_box_1679_655_1901_1073.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0062_img_in_image_box_1679_655_1901_1073.jpg",
+    "sha256": "d44c490866fc1729534ed355e88aa661c3729567ae3d1f396d0ccc99455aaefd"
+  },
+  {
+    "source": "images/p0063_img_in_image_box_1531_32_1864_594.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0063_img_in_image_box_1531_32_1864_594.jpg",
+    "sha256": "69f5ec7f91879a7a06f1a142f899c31d1858fec4ebea194810b2ffa6e3d89cf3"
+  },
+  {
+    "source": "images/p0064_img_in_image_box_1485_26_1877_530.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0064_img_in_image_box_1485_26_1877_530.jpg",
+    "sha256": "92c7f6acfdd1b04e5e964734f819ce9c1a3e8d253ca614274efb0d91ccbd6045"
+  },
+  {
+    "source": "images/p0064_img_in_image_box_1550_591_1898_1065.jpg",
+    "path": "chapters/08-练习8 刚体定轴转动定律/images/p0064_img_in_image_box_1550_591_1898_1065.jpg",
+    "sha256": "6455e0216309a8f408ed98324f7e028c0b23dc789e0d23dae4c79e9be6d7ffd4"
+  },
+  {
+    "source": "images/p0065_img_in_image_box_1392_687_1913_984.jpg",
+    "path": "chapters/09-练习9 刚体定轴转动中的功和能/images/p0065_img_in_image_box_1392_687_1913_984.jpg",
+    "sha256": "538cb97023c883dd023f183fe85fd1590ca0c51bf53121236b03e33c8fd8157d"
+  },
+  {
+    "source": "images/p0066_img_in_image_box_1399_579_1901_965.jpg",
+    "path": "chapters/09-练习9 刚体定轴转动中的功和能/images/p0066_img_in_image_box_1399_579_1901_965.jpg",
+    "sha256": "2d1e8d732fdb98e04b12fb9975af1da22c41c1d7869fcff84b8ca274359ab3a4"
+  },
+  {
+    "source": "images/p0068_img_in_image_box_1441_700_1862_981.jpg",
+    "path": "chapters/09-练习9 刚体定轴转动中的功和能/images/p0068_img_in_image_box_1441_700_1862_981.jpg",
+    "sha256": "47f0642c892f4dc4935b80f7fe2e243cbe464946b57ffb291ac50c97e857070b"
+  },
+  {
+    "source": "images/p0071_img_in_image_box_1331_614_1727_957.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0071_img_in_image_box_1331_614_1727_957.jpg",
+    "sha256": "4900e8b0538ac1a75584574d682064c30e133dcfb0ea2f5d1ca94e176d093a71"
+  },
+  {
+    "source": "images/p0072_img_in_image_box_1275_721_1814_973.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0072_img_in_image_box_1275_721_1814_973.jpg",
+    "sha256": "465a2d216ac62a3d6b13dec63fe37a91a0282465653f9b4eace500f80076644a"
+  },
+  {
+    "source": "images/p0072_img_in_image_box_1289_987_1860_1081.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0072_img_in_image_box_1289_987_1860_1081.jpg",
+    "sha256": "146b67246866517d55af27051a83387249f639b2c92bfa9f06f284f42694e45a"
+  },
+  {
+    "source": "images/p0074_img_in_image_box_1469_706_1911_1078.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0074_img_in_image_box_1469_706_1911_1078.jpg",
+    "sha256": "822e7e8efeff5712558cadc534455ab90746f23f612e90075f69e70633f7a459"
+  },
+  {
+    "source": "images/p0075_img_in_image_box_1476_23_1904_377.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0075_img_in_image_box_1476_23_1904_377.jpg",
+    "sha256": "baef8acc6727ee78f14f0269ad875854f077d3b402f03351451ac9763535039c"
+  },
+  {
+    "source": "images/p0076_img_in_image_box_1630_535_1911_1054.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0076_img_in_image_box_1630_535_1911_1054.jpg",
+    "sha256": "349622089fae46e804ca91548fca59ece4b96452155f7618f64456637d2e01cc"
+  },
+  {
+    "source": "images/p0077_img_in_image_box_1560_514_1911_1063.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0077_img_in_image_box_1560_514_1911_1063.jpg",
+    "sha256": "4217155641a7998e5c3516a59cb54f407401867b73a4298399f93223241746d0"
+  },
+  {
+    "source": "images/p0078_img_in_image_box_1531_504_1907_1044.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0078_img_in_image_box_1531_504_1907_1044.jpg",
+    "sha256": "37bab285ed1839eb791df07e47b28375888a111e9cfed63e9f169398656d0791"
+  },
+  {
+    "source": "images/p0079_img_in_image_box_1486_243_1855_796.jpg",
+    "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律/images/p0079_img_in_image_box_1486_243_1855_796.jpg",
+    "sha256": "d75d51f1ff1caa035b11b549dbafbb26a51509501cdd3c29a3ed64ec0b461eac"
+  },
+  {
+    "source": "images/p0095_img_in_chart_box_1427_712_1911_1071.jpg",
+    "path": "chapters/13-练习13 麦克斯韦分子速率分布律/images/p0095_img_in_chart_box_1427_712_1911_1071.jpg",
+    "sha256": "6d351c2f737f3366e1b009a64d770df36dd66a9cb2657c74093b724996001f77"
+  },
+  {
+    "source": "images/p0103_img_in_image_box_1379_618_1787_927.jpg",
+    "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0103_img_in_image_box_1379_618_1787_927.jpg",
+    "sha256": "4c27b16e5ecde3854d074b7fe0e9284980acdec21b4650f6d5ffdee4c659c374"
+  },
+  {
+    "source": "images/p0104_img_in_image_box_1387_662_1863_1016.jpg",
+    "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0104_img_in_image_box_1387_662_1863_1016.jpg",
+    "sha256": "2ecdc7e4b48b2ad39c0dd2cafcb8131b60a1c3694453d6b18dc924c00cdab719"
+  },
+  {
+    "source": "images/p0105_img_in_image_box_1507_698_1879_985.jpg",
+    "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0105_img_in_image_box_1507_698_1879_985.jpg",
+    "sha256": "3067556339281edbed828c2d8ca7297cb1c171c5274c211b4ce2049b17dfc588"
+  },
+  {
+    "source": "images/p0106_img_in_image_box_1369_622_1897_1064.jpg",
+    "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0106_img_in_image_box_1369_622_1897_1064.jpg",
+    "sha256": "7edc4849340964c61494de100f758fb0d2f57c3632077a761eae5ff7b2edcc60"
+  },
+  {
+    "source": "images/p0107_img_in_image_box_1280_789_1903_1076.jpg",
+    "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0107_img_in_image_box_1280_789_1903_1076.jpg",
+    "sha256": "a42d47039035bd0f2a8f3b5b10bd3d8c28382a2d91923c23994245705403251a"
+  },
+  {
+    "source": "images/p0108_img_in_image_box_1126_557_1861_832.jpg",
+    "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0108_img_in_image_box_1126_557_1861_832.jpg",
+    "sha256": "e72f1556d8364a23998843b6ebff347b3ed09499a13696bad197fd8cf442a32a"
+  },
+  {
+    "source": "images/p0109_img_in_image_box_1085_720_1810_998.jpg",
+    "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0109_img_in_image_box_1085_720_1810_998.jpg",
+    "sha256": "61f1a0eed26eae987f66d8af97553b106723d2b948ab28f65a272107f90e1c40"
+  },
+  {
+    "source": "images/p0111_img_in_image_box_1364_671_1817_1009.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0111_img_in_image_box_1364_671_1817_1009.jpg",
+    "sha256": "c596cf9461a31ff8253acc3dc9cf9b54214848a3b1a23b43649db992f5ecf4d3"
+  },
+  {
+    "source": "images/p0112_img_in_image_box_1491_666_1867_1045.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0112_img_in_image_box_1491_666_1867_1045.jpg",
+    "sha256": "8ac783b38c247dedd8e49d2301d855eee1a432b3aa958f055c64b9e4c09bbcf1"
+  },
+  {
+    "source": "images/p0113_img_in_image_box_1489_618_1887_1026.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0113_img_in_image_box_1489_618_1887_1026.jpg",
+    "sha256": "dbb8076ed66f937bf76088d8e19744cff16088e56a54f3400692cc2438d1712e"
+  },
+  {
+    "source": "images/p0114_img_in_image_box_1557_720_1876_1044.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0114_img_in_image_box_1557_720_1876_1044.jpg",
+    "sha256": "115a2108782c337949be1a11fe5479920efa74fba7e50c4c494ae7cf1566dbbe"
+  },
+  {
+    "source": "images/p0115_img_in_image_box_1518_686_1912_1080.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0115_img_in_image_box_1518_686_1912_1080.jpg",
+    "sha256": "60f1a23dcd1a4ced094ca99484767f1c0ec6d336d369349f0b5f76d0a18e6d7e"
+  },
+  {
+    "source": "images/p0116_img_in_image_box_1512_671_1910_1080.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0116_img_in_image_box_1512_671_1910_1080.jpg",
+    "sha256": "43844fe39f3162af0cdbd0aa9290e44b67b7ee2f3110e2c5a5132efa0bc01bc8"
+  },
+  {
+    "source": "images/p0117_img_in_image_box_1574_522_1893_1060.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0117_img_in_image_box_1574_522_1893_1060.jpg",
+    "sha256": "a43a9df16654924106e88416b660799719b1355ce2fbc893ce4abc0d61bb66eb"
+  },
+  {
+    "source": "images/p0118_img_in_image_box_1575_520_1894_1062.jpg",
+    "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0118_img_in_image_box_1575_520_1894_1062.jpg",
+    "sha256": "84e8a9181145cb4029170323f8b1fdda8bdacb640ddb9f1ce36fab82d209be4f"
+  },
+  {
+    "source": "images/p0119_img_in_image_box_1267_686_1917_1080.jpg",
+    "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0119_img_in_image_box_1267_686_1917_1080.jpg",
+    "sha256": "e2c2d0e172415e6f932a27e9864108a53314c0720fa719f3cb1aae1150c190e3"
+  },
+  {
+    "source": "images/p0120_img_in_image_box_1331_682_1888_1079.jpg",
+    "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0120_img_in_image_box_1331_682_1888_1079.jpg",
+    "sha256": "5159c2ff11a2b8341b1d84c65e8d336e8ca99f12327c4d2edd90c28158e8b3b9"
+  },
+  {
+    "source": "images/p0121_img_in_image_box_1467_723_1850_986.jpg",
+    "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0121_img_in_image_box_1467_723_1850_986.jpg",
+    "sha256": "ebb5b66b03d7e5dbad6b21a07014c237ad19cbc6cd554a3bf5bc9532635e2287"
+  },
+  {
+    "source": "images/p0122_img_in_image_box_1311_810_1915_1027.jpg",
+    "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0122_img_in_image_box_1311_810_1915_1027.jpg",
+    "sha256": "dd4556c85bb6364f6a89d7735da8d6b88175ddff9f9adf61206242e208634a41"
+  },
+  {
+    "source": "images/p0123_img_in_image_box_1405_384_1897_975.jpg",
+    "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0123_img_in_image_box_1405_384_1897_975.jpg",
+    "sha256": "c9a13afc51b2e7d9152530ea503ffc489a145d87408c48e7d804b0abc9d37a9f"
+  },
+  {
+    "source": "images/p0124_img_in_image_box_1286_323_1849_655.jpg",
+    "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0124_img_in_image_box_1286_323_1849_655.jpg",
+    "sha256": "29fa81bbdbd0e33fd8ed4436e1bcbb493b950b563c7a21b31beecd25a0ff8612"
+  },
+  {
+    "source": "images/p0125_img_in_image_box_1631_785_1913_1080.jpg",
+    "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0125_img_in_image_box_1631_785_1913_1080.jpg",
+    "sha256": "bdac46053177de266d072d9d3f43ec7c767dcc6f8a68612b8edad7ec1f1c7fdf"
+  },
+  {
+    "source": "images/p0127_img_in_image_box_1473_653_1903_1070.jpg",
+    "path": "chapters/17-练习17 静电场中的导体/images/p0127_img_in_image_box_1473_653_1903_1070.jpg",
+    "sha256": "f2024cb147f37ab1447c493e3c0c2f5949694ecb83f595abd861323ec51a0264"
+  },
+  {
+    "source": "images/p0129_img_in_image_box_1367_479_1867_1051.jpg",
+    "path": "chapters/17-练习17 静电场中的导体/images/p0129_img_in_image_box_1367_479_1867_1051.jpg",
+    "sha256": "0c56f826847edabb9664199c3597105e9ff5f7145f88a20fd15f8a94735acefe"
+  },
+  {
+    "source": "images/p0130_img_in_image_box_1413_462_1907_1033.jpg",
+    "path": "chapters/17-练习17 静电场中的导体/images/p0130_img_in_image_box_1413_462_1907_1033.jpg",
+    "sha256": "93bd488a2835b00de5dfaf00c78a33932ac9f3da44598f1c60536c7a3946061f"
+  },
+  {
+    "source": "images/p0131_img_in_image_box_1401_624_1779_995.jpg",
+    "path": "chapters/17-练习17 静电场中的导体/images/p0131_img_in_image_box_1401_624_1779_995.jpg",
+    "sha256": "e5068be8bb35794dc16776853093ab346135aff1d8ac3ba6774844998122cb45"
+  },
+  {
+    "source": "images/p0132_img_in_image_box_1461_620_1902_1067.jpg",
+    "path": "chapters/17-练习17 静电场中的导体/images/p0132_img_in_image_box_1461_620_1902_1067.jpg",
+    "sha256": "f693bbe97254a96400ca49175731adb2ad6511101014b8e64c4059ac6415321a"
+  },
+  {
+    "source": "images/p0135_img_in_image_box_1367_486_1906_1032.jpg",
+    "path": "chapters/18-练习18 电容和电容器 静电场的能量/images/p0135_img_in_image_box_1367_486_1906_1032.jpg",
+    "sha256": "7d2449753dea13520d77858e7f3050986945e56cc188e86f6dd784590cd553bd"
+  },
+  {
+    "source": "images/p0138_img_in_image_box_1415_573_1909_1068.jpg",
+    "path": "chapters/18-练习18 电容和电容器 静电场的能量/images/p0138_img_in_image_box_1415_573_1909_1068.jpg",
+    "sha256": "0b4cbad22a64bc3f8360ef9ae9faa24fb0c98da44c890eff3b1bc64ee2c842a0"
+  },
+  {
+    "source": "images/p0139_img_in_image_box_1396_593_1918_1077.jpg",
+    "path": "chapters/18-练习18 电容和电容器 静电场的能量/images/p0139_img_in_image_box_1396_593_1918_1077.jpg",
+    "sha256": "487522e47a6a44105f33a05a81bdd07f4441c0817083c372ad381c1c73b5a256"
+  },
+  {
+    "source": "images/p0140_img_in_image_box_1500_626_1914_1078.jpg",
+    "path": "chapters/18-练习18 电容和电容器 静电场的能量/images/p0140_img_in_image_box_1500_626_1914_1078.jpg",
+    "sha256": "e67e6749e90405cc2c05f8bb04e48cb7083b3ca7ff10515f2d8d6099943d7447"
+  },
+  {
+    "source": "images/p0141_img_in_image_box_1440_392_1919_1077.jpg",
+    "path": "chapters/18-练习18 电容和电容器 静电场的能量/images/p0141_img_in_image_box_1440_392_1919_1077.jpg",
+    "sha256": "b7d64d12947690e96123226fc0cba9cde0174bae668d5607cfcb5482c1496205"
+  },
+  {
+    "source": "images/p0142_img_in_image_box_1523_541_1903_1056.jpg",
+    "path": "chapters/18-练习18 电容和电容器 静电场的能量/images/p0142_img_in_image_box_1523_541_1903_1056.jpg",
+    "sha256": "2ceb10d84a66080ddf36e4050db4f15231bc8cac05e8536b5a6068c86504558d"
+  },
+  {
+    "source": "images/p0144_img_in_image_box_1428_614_1875_1002.jpg",
+    "path": "chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0144_img_in_image_box_1428_614_1875_1002.jpg",
+    "sha256": "6e5220bcf825674f9fbe0a859b1f9e0406b407c870043f9e8d027214b67a5749"
+  },
+  {
+    "source": "images/p0146_img_in_image_box_1328_516_1915_1064.jpg",
+    "path": "chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0146_img_in_image_box_1328_516_1915_1064.jpg",
+    "sha256": "f2ecafa8f6ea69541727f3b60a98c148f7f1a5255e48e22a1f6ed80ec3ff4713"
+  },
+  {
+    "source": "images/p0147_img_in_image_box_1324_679_1897_1073.jpg",
+    "path": "chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0147_img_in_image_box_1324_679_1897_1073.jpg",
+    "sha256": "569b95a3cf2e56fa9c475aa58296ce7f3d94f287cdbe65825f17e2e95a036373"
+  },
+  {
+    "source": "images/p0148_img_in_image_box_1240_620_1899_1071.jpg",
+    "path": "chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0148_img_in_image_box_1240_620_1899_1071.jpg",
+    "sha256": "e43ca40dde106aef7ae8af8e00ec4ae5b0e0346aa2de3e053417ea38bff643ed"
+  },
+  {
+    "source": "images/p0149_img_in_image_box_1483_671_1902_1076.jpg",
+    "path": "chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0149_img_in_image_box_1483_671_1902_1076.jpg",
+    "sha256": "56f871f54d54164be01a394e3529d9f4d019f6ff05c8a1d2074ada71f9948c69"
+  },
+  {
+    "source": "images/p0151_img_in_image_box_1325_530_1916_1054.jpg",
+    "path": "chapters/20-练习20 毕-萨定律及其应用/images/p0151_img_in_image_box_1325_530_1916_1054.jpg",
+    "sha256": "7a24d594c8f132d13af8be86e0536795541a43656b93593d7b2e56b82430dfdb"
+  },
+  {
+    "source": "images/p0153_img_in_image_box_1448_636_1901_1063.jpg",
+    "path": "chapters/20-练习20 毕-萨定律及其应用/images/p0153_img_in_image_box_1448_636_1901_1063.jpg",
+    "sha256": "55a498a5ca1da9c87592927ee6deee4576e2204b774bd2aea4ce0a3d55d442ca"
+  },
+  {
+    "source": "images/p0154_img_in_image_box_1272_386_1916_658.jpg",
+    "path": "chapters/20-练习20 毕-萨定律及其应用/images/p0154_img_in_image_box_1272_386_1916_658.jpg",
+    "sha256": "bbe56381dedc348407f0f8901ff2e0df0e00cf070b282c66f41cd8e24861fca3"
+  },
+  {
+    "source": "images/p0155_img_in_image_box_1366_379_1851_974.jpg",
+    "path": "chapters/20-练习20 毕-萨定律及其应用/images/p0155_img_in_image_box_1366_379_1851_974.jpg",
+    "sha256": "79ebf3003107add00d0e3e671162a154009d254548f959186d12ce224756814f"
+  },
+  {
+    "source": "images/p0156_img_in_image_box_1390_603_1904_1076.jpg",
+    "path": "chapters/20-练习20 毕-萨定律及其应用/images/p0156_img_in_image_box_1390_603_1904_1076.jpg",
+    "sha256": "0c6eb456ab86e3e1f8d17d58a7b40edf7d9d146376facc5838f6ae4600d9b2fe"
+  },
+  {
+    "source": "images/p0157_img_in_image_box_1129_821_1542_1061.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0157_img_in_image_box_1129_821_1542_1061.jpg",
+    "sha256": "14485b006e20784b8067d40dc3b26a01fcc799b341d47ff730d5ed678f5f2ef8"
+  },
+  {
+    "source": "images/p0157_img_in_image_box_1578_804_1899_1077.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0157_img_in_image_box_1578_804_1899_1077.jpg",
+    "sha256": "2caac7de4faa9ae16721a2371d8192626889813c22c4a980165aae3912a9eff6"
+  },
+  {
+    "source": "images/p0158_img_in_image_box_1321_832_1849_1052.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0158_img_in_image_box_1321_832_1849_1052.jpg",
+    "sha256": "26fa072b6b5fece4f0705bb2ec613a1cf037abe6d0a039196e9cad13d6556663"
+  },
+  {
+    "source": "images/p0160_img_in_image_box_1264_735_1835_1075.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0160_img_in_image_box_1264_735_1835_1075.jpg",
+    "sha256": "239eedf0acef4b9cf062110a0b869d06620a0affe68a1631cb3e06ed5df9bf3b"
+  },
+  {
+    "source": "images/p0161_img_in_image_box_1278_735_1849_1072.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0161_img_in_image_box_1278_735_1849_1072.jpg",
+    "sha256": "0c097eb68ba8339603f81e869aef4366ae6b3dde23c61181e741bdcdc0744f27"
+  },
+  {
+    "source": "images/p0162_img_in_image_box_1352_291_1625_618.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0162_img_in_image_box_1352_291_1625_618.jpg",
+    "sha256": "d5c06160bec2211e73688f4951a6c603cc8854d86dd1268d3b606ce8d4497f7e"
+  },
+  {
+    "source": "images/p0162_img_in_image_box_1437_688_1913_1061.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0162_img_in_image_box_1437_688_1913_1061.jpg",
+    "sha256": "f1e74fcd80d03d85a350c6a8f5a6fe30c94d6268f8adf30fa7e6c6fa446c322c"
+  },
+  {
+    "source": "images/p0162_img_in_image_box_1652_366_1918_503.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0162_img_in_image_box_1652_366_1918_503.jpg",
+    "sha256": "bf06ef74e23d1253f9aa3ddd14cb5c8e320a54add6f2538ebeaa207f3e5fb747"
+  },
+  {
+    "source": "images/p0163_img_in_image_box_1412_597_1912_1075.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0163_img_in_image_box_1412_597_1912_1075.jpg",
+    "sha256": "72c54b84f495d6103e59d27f84ada4845190a00ed5217796b14d21e9bbf10f46"
+  },
+  {
+    "source": "images/p0164_img_in_image_box_1409_598_1916_1078.jpg",
+    "path": "chapters/21-练习21 安培环路定理及应用/images/p0164_img_in_image_box_1409_598_1916_1078.jpg",
+    "sha256": "76f05e6254826bbcde372b347b41aaa98e614f9a196054ea629eaa367ee54581"
+  },
+  {
+    "source": "images/p0165_img_in_image_box_1604_776_1747_973.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0165_img_in_image_box_1604_776_1747_973.jpg",
+    "sha256": "0acdba3b4d31bbff58f31919f6df2e64938878784bd0b4154b924cb56d067db4"
+  },
+  {
+    "source": "images/p0165_img_in_image_box_1750_834_1916_972.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0165_img_in_image_box_1750_834_1916_972.jpg",
+    "sha256": "5207d00306dae5edd5beca76a2ac492f0c93b30fef9285b4043290f0a6e58d92"
+  },
+  {
+    "source": "images/p0166_img_in_image_box_1309_520_1728_852.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0166_img_in_image_box_1309_520_1728_852.jpg",
+    "sha256": "91202d1ab2fa9cd0bbd1dec343cb5bcc3a950bed629fc4c41d4c88f550adee8a"
+  },
+  {
+    "source": "images/p0168_img_in_image_box_1396_773_1879_1078.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0168_img_in_image_box_1396_773_1879_1078.jpg",
+    "sha256": "d8f81cd136e4a2f88a4f276e184c779bedbc7c16d95ce6f1a886ca1563d59da1"
+  },
+  {
+    "source": "images/p0169_img_in_image_box_1394_777_1880_1080.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0169_img_in_image_box_1394_777_1880_1080.jpg",
+    "sha256": "cf68058b0ce4d91f3306869a6e58803d12d9c3e0e7a5aedfa6d3b958dfad1ed3"
+  },
+  {
+    "source": "images/p0170_img_in_image_box_1401_608_1915_1073.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0170_img_in_image_box_1401_608_1915_1073.jpg",
+    "sha256": "7c8e03b27cbeb552719a996225769dc6c4f1b5f03dfca3860c949c7dae28ba7e"
+  },
+  {
+    "source": "images/p0171_img_in_chart_box_0_655_1388_1075.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0171_img_in_chart_box_0_655_1388_1075.jpg",
+    "sha256": "cb62cd07b6392ef75d0cf2f0152a5b76e6d0d61401c944c625bb79645554439b"
+  },
+  {
+    "source": "images/p0171_img_in_image_box_1398_612_1916_1071.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0171_img_in_image_box_1398_612_1916_1071.jpg",
+    "sha256": "e7afc5dcc2e81317542144ad36f2e3e861399e864fda015ee16746f3a6a40e6a"
+  },
+  {
+    "source": "images/p0172_img_in_image_box_1442_747_1894_1078.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0172_img_in_image_box_1442_747_1894_1078.jpg",
+    "sha256": "5abeaacaec30659aff35ae3aa28407224999632000683019bc53a75b5bbe944c"
+  },
+  {
+    "source": "images/p0173_img_in_image_box_1440_740_1897_1080.jpg",
+    "path": "chapters/22-练习22 磁场对载流导线的作用/images/p0173_img_in_image_box_1440_740_1897_1080.jpg",
+    "sha256": "0a117ae890c554330adf23cb928b6b32ecd7d8908fe1a3c177df06a8005b5091"
+  },
+  {
+    "source": "images/p0174_img_in_image_box_1476_660_1883_1064.jpg",
+    "path": "chapters/23-练习23 法拉第电磁感应定律/images/p0174_img_in_image_box_1476_660_1883_1064.jpg",
+    "sha256": "0c21dfc760c9c05fe628e99b6049a8bd21f6cb12c8a1f59d3e64c4d5d225ae00"
+  },
+  {
+    "source": "images/p0175_img_in_image_box_1524_695_1900_1062.jpg",
+    "path": "chapters/23-练习23 法拉第电磁感应定律/images/p0175_img_in_image_box_1524_695_1900_1062.jpg",
+    "sha256": "7fa94dfaa8a40bd21241f5973744e7a75af2bd9b50d676f26d665b99b14e7126"
+  },
+  {
+    "source": "images/p0177_img_in_image_box_1505_559_1828_970.jpg",
+    "path": "chapters/23-练习23 法拉第电磁感应定律/images/p0177_img_in_image_box_1505_559_1828_970.jpg",
+    "sha256": "f8d2d126de31eb7c90d3688789af4f57b02d2ded7fcb4181626763178191cb41"
+  },
+  {
+    "source": "images/p0178_img_in_image_box_1445_0_1910_167.jpg",
+    "path": "chapters/23-练习23 法拉第电磁感应定律/images/p0178_img_in_image_box_1445_0_1910_167.jpg",
+    "sha256": "47152c97f1c33bddc7923aa823a3162579c616d2842c784a89d8191ff05c0220"
+  },
+  {
+    "source": "images/p0178_img_in_image_box_1500_188_1863_642.jpg",
+    "path": "chapters/23-练习23 法拉第电磁感应定律/images/p0178_img_in_image_box_1500_188_1863_642.jpg",
+    "sha256": "1468728f103de82860b92cf11db257d25dc0013331b8fed1a2060b3d3def7e2a"
+  },
+  {
+    "source": "images/p0179_img_in_image_box_1515_693_1908_1063.jpg",
+    "path": "chapters/23-练习23 法拉第电磁感应定律/images/p0179_img_in_image_box_1515_693_1908_1063.jpg",
+    "sha256": "83c3fdc5791a0cccb5eada1e077c62680264b169c28f48888985ebd9e59076f4"
+  },
+  {
+    "source": "images/p0180_img_in_image_box_1389_395_1919_1071.jpg",
+    "path": "chapters/23-练习23 法拉第电磁感应定律/images/p0180_img_in_image_box_1389_395_1919_1071.jpg",
+    "sha256": "df2a5de9debd936c3d3566a5b08152134b0bc3c70a0946d1a119d71affbccb3c"
+  },
+  {
+    "source": "images/p0181_img_in_image_box_1362_833_1884_1052.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0181_img_in_image_box_1362_833_1884_1052.jpg",
+    "sha256": "21ec09450e32a5ddfe4fb54afd41dd407fe64d2739fd346ab1953596fb4835e5"
+  },
+  {
+    "source": "images/p0182_img_in_image_box_1414_735_1880_1051.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0182_img_in_image_box_1414_735_1880_1051.jpg",
+    "sha256": "6e2452ff8e0f375af2b49ce95a2cd1298bac9da87a81126ba69a592e14f933b6"
+  },
+  {
+    "source": "images/p0182_img_in_image_box_5_758_1382_1081.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0182_img_in_image_box_5_758_1382_1081.jpg",
+    "sha256": "308403973fd9d66b9f21e86387c83d70f34fd18439fb417c5f119f16bc2a516f"
+  },
+  {
+    "source": "images/p0184_img_in_image_box_1382_621_1900_1059.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0184_img_in_image_box_1382_621_1900_1059.jpg",
+    "sha256": "eb3cc4d9f72492d9ff82aafe0e7249c3c6e3edd517b0311cf7a4836de4c35b33"
+  },
+  {
+    "source": "images/p0185_img_in_image_box_1368_686_1918_1075.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0185_img_in_image_box_1368_686_1918_1075.jpg",
+    "sha256": "50fd0efe9c0b8d0947544197d311ff084b372ea81a65ee14447cfaad20fc2cde"
+  },
+  {
+    "source": "images/p0186_img_in_image_box_1369_688_1918_1070.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0186_img_in_image_box_1369_688_1918_1070.jpg",
+    "sha256": "c9256462436cf76eb27b5552f46c9b675028d7f160c93e2d7d41598c6607397e"
+  },
+  {
+    "source": "images/p0186_img_in_image_box_3_799_1365_1080.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0186_img_in_image_box_3_799_1365_1080.jpg",
+    "sha256": "34a4080a9d8cd09946edfb3db33d5703ac9ae3fd6b871eda9bdab500cc33da49"
+  },
+  {
+    "source": "images/p0187_img_in_image_box_1461_601_1903_1063.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0187_img_in_image_box_1461_601_1903_1063.jpg",
+    "sha256": "69c0520025870a98884829dfef47aaa8943aff3da775facc3f49b26e09365dab"
+  },
+  {
+    "source": "images/p0188_img_in_image_box_1463_604_1904_1068.jpg",
+    "path": "chapters/24-练习24 动生电动势 感生电动势/images/p0188_img_in_image_box_1463_604_1904_1068.jpg",
+    "sha256": "cec9230b588a2c31b1ec9971bb7878d6342b4af22035f292b8476d1ac9f4e610"
+  },
+  {
+    "source": "images/p0191_img_in_image_box_1312_650_1744_1067.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0191_img_in_image_box_1312_650_1744_1067.jpg",
+    "sha256": "ef083523db0675a8a476b6a1fc549dd9151bdcdf8f11c9fff8a3d16401ee1f3f"
+  },
+  {
+    "source": "images/p0192_img_in_image_box_1395_745_1570_1052.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0192_img_in_image_box_1395_745_1570_1052.jpg",
+    "sha256": "07a037deb8fac9150c551be7f4caabf1db740658880a001cbed6bbd991c2fb2e"
+  },
+  {
+    "source": "images/p0192_img_in_image_box_1544_596_1818_719.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0192_img_in_image_box_1544_596_1818_719.jpg",
+    "sha256": "6f01a3d63b671c56292d7b3ae3527f2d16c8b9480584b0c83fc45927a8c369f0"
+  },
+  {
+    "source": "images/p0192_img_in_image_box_1575_746_1916_1045.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0192_img_in_image_box_1575_746_1916_1045.jpg",
+    "sha256": "24b1dc103c5937a94b94f4b7de3bf2fc1a868cdfa63b459562bf76e7115a9874"
+  },
+  {
+    "source": "images/p0193_img_in_image_box_1389_594_1890_1067.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0193_img_in_image_box_1389_594_1890_1067.jpg",
+    "sha256": "48b90fc7d401358a06a89dafe60c6597906867232c65cb866cf406d48c4977bc"
+  },
+  {
+    "source": "images/p0194_img_in_image_box_1560_621_1904_1025.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0194_img_in_image_box_1560_621_1904_1025.jpg",
+    "sha256": "04bdbcaf1bc478e4686598f085782a83feceaec49e754f88b1c1a1c25ebe0bf4"
+  },
+  {
+    "source": "images/p0195_img_in_image_box_1483_546_1730_1027.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0195_img_in_image_box_1483_546_1730_1027.jpg",
+    "sha256": "cabf674251d6f62d97d44246426ed8320a9ef888ed6f07cb0896e0b96e44234d"
+  },
+  {
+    "source": "images/p0196_img_in_image_box_1453_548_1862_1025.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0196_img_in_image_box_1453_548_1862_1025.jpg",
+    "sha256": "032ad5d3a4652cdb5816c6e6adf7d3f2a58dc425a93f46a0647f0bfe78d3eac0"
+  },
+  {
+    "source": "images/p0197_img_in_image_box_1491_558_1881_1008.jpg",
+    "path": "chapters/25-练习25 自感应与互感应 磁场的能量/images/p0197_img_in_image_box_1491_558_1881_1008.jpg",
+    "sha256": "343d45e185302614a8e912adc64a32691052f482bbff5e0d619080338584230d"
+  },
+  {
+    "source": "images/p0198_img_in_image_box_0_795_710_1081.jpg",
+    "path": "chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0198_img_in_image_box_0_795_710_1081.jpg",
+    "sha256": "970815bb1c36cff4dcd67fc8dcf88fc01286d13f427610d7ff686bc000b4e59a"
+  },
+  {
+    "source": "images/p0198_img_in_image_box_1035_783_1919_1079.jpg",
+    "path": "chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0198_img_in_image_box_1035_783_1919_1079.jpg",
+    "sha256": "e03a72e5d0667fa6cf36fac5f029020d4186f1771657c9e129ff40c1a1f70cc4"
+  },
+  {
+    "source": "images/p0198_img_in_image_box_722_767_1024_1077.jpg",
+    "path": "chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0198_img_in_image_box_722_767_1024_1077.jpg",
+    "sha256": "c263fc6275d871ced9c815487d991fb4272ec70ce0bbf4139841e5d8099a4c6b"
+  },
+  {
+    "source": "images/p0199_img_in_image_box_1560_764_1898_1068.jpg",
+    "path": "chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0199_img_in_image_box_1560_764_1898_1068.jpg",
+    "sha256": "b9b3b89ab397ded8c9a3f413879976a5a91125212c04617fd22439d46d478a9a"
+  },
+  {
+    "source": "images/p0203_img_in_image_box_1500_576_1869_1066.jpg",
+    "path": "chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0203_img_in_image_box_1500_576_1869_1066.jpg",
+    "sha256": "f7a0989e1ed6e9ab6c71a7489f87dc4730b05b0c7a8050d88ab3ae097bc38ac1"
+  },
+  {
+    "source": "images/p0204_img_in_image_box_1466_77_1888_391.jpg",
+    "path": "chapters/27-练习27 简谐振动的运动学/images/p0204_img_in_image_box_1466_77_1888_391.jpg",
+    "sha256": "88e2d8f2d30fe9953180d7df1036b11e8837d4ca6d7390e5ecd359362b70e3a3"
+  },
+  {
+    "source": "images/p0207_img_in_image_box_1480_586_1914_1037.jpg",
+    "path": "chapters/27-练习27 简谐振动的运动学/images/p0207_img_in_image_box_1480_586_1914_1037.jpg",
+    "sha256": "f31d8cd9dd6137dc664f0804a93926250f0c2dbaa9b10b9eb0d3656b55be76cd"
+  },
+  {
+    "source": "images/p0210_img_in_image_box_1436_436_1913_680.jpg",
+    "path": "chapters/27-练习27 简谐振动的运动学/images/p0210_img_in_image_box_1436_436_1913_680.jpg",
+    "sha256": "1ac958035683bc78bd4ab63170813d6cbbf30f4d12a1db583a0757d061b02950"
+  },
+  {
+    "source": "images/p0210_img_in_image_box_1558_756_1873_1009.jpg",
+    "path": "chapters/27-练习27 简谐振动的运动学/images/p0210_img_in_image_box_1558_756_1873_1009.jpg",
+    "sha256": "59e8280403c766944f09f94341d2a73331f356143713700845081965739d056c"
+  },
+  {
+    "source": "images/p0211_img_in_image_box_1318_750_1630_1024.jpg",
+    "path": "chapters/27-练习27 简谐振动的运动学/images/p0211_img_in_image_box_1318_750_1630_1024.jpg",
+    "sha256": "ddbf591e966258f94061a22b5ac045d198af0b29bfab01e7f3bab79873a9bf7a"
+  },
+  {
+    "source": "images/p0211_img_in_image_box_1386_405_1840_646.jpg",
+    "path": "chapters/27-练习27 简谐振动的运动学/images/p0211_img_in_image_box_1386_405_1840_646.jpg",
+    "sha256": "f012f92852c4d093a38e7c2c44967f34443390ea01a7d47a4558ab5fbb42523a"
+  },
+  {
+    "source": "images/p0211_img_in_image_box_1666_803_1920_987.jpg",
+    "path": "chapters/27-练习27 简谐振动的运动学/images/p0211_img_in_image_box_1666_803_1920_987.jpg",
+    "sha256": "ea37eaea50486150f91d67561f617d4e8e3baea2155e679dc2fda580299ff627"
+  },
+  {
+    "source": "images/p0213_img_in_image_box_1456_635_1916_1077.jpg",
+    "path": "chapters/28-练习28 简谐振动的动力学/images/p0213_img_in_image_box_1456_635_1916_1077.jpg",
+    "sha256": "24c6bf78e8809ea0dd70c044fe043f1df7f0f92d57dbacb36be68b0983fa7c60"
+  },
+  {
+    "source": "images/p0214_img_in_image_box_1398_625_1916_1078.jpg",
+    "path": "chapters/28-练习28 简谐振动的动力学/images/p0214_img_in_image_box_1398_625_1916_1078.jpg",
+    "sha256": "662fbcd1ad62cebf1272fe1117f9ede42f9c8eaafd32aa3fd5e41383eda911ee"
+  },
+  {
+    "source": "images/p0215_img_in_image_box_1290_750_1789_967.jpg",
+    "path": "chapters/28-练习28 简谐振动的动力学/images/p0215_img_in_image_box_1290_750_1789_967.jpg",
+    "sha256": "64eb1bc980ab9dbb84660bb06bf6aa6da64618d91aa27bdf80de5cd066d7fca5"
+  },
+  {
+    "source": "images/p0215_img_in_image_box_1598_143_1887_376.jpg",
+    "path": "chapters/28-练习28 简谐振动的动力学/images/p0215_img_in_image_box_1598_143_1887_376.jpg",
+    "sha256": "0335aa7da05d6fed4ca73e6dee0de94abe332234636e5db297873776e3c4368d"
+  },
+  {
+    "source": "images/p0216_img_in_image_box_1396_708_1910_1078.jpg",
+    "path": "chapters/28-练习28 简谐振动的动力学/images/p0216_img_in_image_box_1396_708_1910_1078.jpg",
+    "sha256": "4cb8903d84ca958b81b58add20c4086a44c3eefdb219d3557ee99e64afa644ae"
+  },
+  {
+    "source": "images/p0217_img_in_image_box_1151_937_1866_1081.jpg",
+    "path": "chapters/28-练习28 简谐振动的动力学/images/p0217_img_in_image_box_1151_937_1866_1081.jpg",
+    "sha256": "f08c967869953752a98458af25a0d6962b9df6c6bd45f25ba660bc8f5e0eef1e"
+  },
+  {
+    "source": "images/p0218_img_in_image_box_1333_706_1915_1081.jpg",
+    "path": "chapters/28-练习28 简谐振动的动力学/images/p0218_img_in_image_box_1333_706_1915_1081.jpg",
+    "sha256": "8de03f7e150b990285e02cab7fae986919f8c1be1f721e4e5b9b360128444045"
+  },
+  {
+    "source": "images/p0219_img_in_chart_box_1470_698_1916_1050.jpg",
+    "path": "chapters/29-练习29 简谐振动的合成/images/p0219_img_in_chart_box_1470_698_1916_1050.jpg",
+    "sha256": "b2715d95e9479d56588cf5ea6626dac4de4a0ad7899c703ea5716ed1bbc1181f"
+  },
+  {
+    "source": "images/p0220_img_in_image_box_1389_599_1912_1064.jpg",
+    "path": "chapters/29-练习29 简谐振动的合成/images/p0220_img_in_image_box_1389_599_1912_1064.jpg",
+    "sha256": "343f8137b9e026f1a269f27955884a46c99f5bcf5327769e53d6ba213cd5e2a4"
+  },
+  {
+    "source": "images/p0222_img_in_image_box_1552_425_1845_662.jpg",
+    "path": "chapters/29-练习29 简谐振动的合成/images/p0222_img_in_image_box_1552_425_1845_662.jpg",
+    "sha256": "dd03c26a91c8bf8b967f65f919b13d2a9d5a04916cc7ee8384646f9597cc1d8a"
+  },
+  {
+    "source": "images/p0224_img_in_image_box_1492_562_1908_1016.jpg",
+    "path": "chapters/29-练习29 简谐振动的合成/images/p0224_img_in_image_box_1492_562_1908_1016.jpg",
+    "sha256": "b3a64ed9c0ab46683a3d0633e91dc5e9333e8ce559d80669fab6a34608b02e05"
+  },
+  {
+    "source": "images/p0225_img_in_image_box_1446_782_1918_1079.jpg",
+    "path": "chapters/29-练习29 简谐振动的合成/images/p0225_img_in_image_box_1446_782_1918_1079.jpg",
+    "sha256": "e0c1d11a37aeffe0cad47aea2796c3214d6ccf78398e70506ea0805fffc2147e"
+  },
+  {
+    "source": "images/p0227_img_in_image_box_108_550_373_765.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0227_img_in_image_box_108_550_373_765.jpg",
+    "sha256": "7fbc7ef0d47eba17f7ce1afe6a45b33071e69177a602b62eb90bde5ca68af6bf"
+  },
+  {
+    "source": "images/p0227_img_in_image_box_111_797_374_1011.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0227_img_in_image_box_111_797_374_1011.jpg",
+    "sha256": "2cef786139be27f82b4bf8bacb7eecb91ab49ba30f1591eacc1a132c8e14606c"
+  },
+  {
+    "source": "images/p0227_img_in_image_box_1210_661_1914_1079.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0227_img_in_image_box_1210_661_1914_1079.jpg",
+    "sha256": "889fbec02f33607b2c514f66e1cd9ddf12a4bafd74dc8b0839f3c321520222bc"
+  },
+  {
+    "source": "images/p0227_img_in_image_box_525_547_796_765.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0227_img_in_image_box_525_547_796_765.jpg",
+    "sha256": "180dfbe0fbb5de3bc8daafda427c03cb97e73383ee78fdf38869347213eb4a61"
+  },
+  {
+    "source": "images/p0227_img_in_image_box_531_810_807_1028.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0227_img_in_image_box_531_810_807_1028.jpg",
+    "sha256": "3e183dc86db0ae520b11672684f4182f7196ba2620dc04856be104dece13020e"
+  },
+  {
+    "source": "images/p0227_img_in_image_box_937_547_1204_763.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0227_img_in_image_box_937_547_1204_763.jpg",
+    "sha256": "8a672905beef64c75dddafa4ea6e5653672f25c994fa23323c402487472beff2"
+  },
+  {
+    "source": "images/p0230_img_in_image_box_1354_797_1920_1080.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0230_img_in_image_box_1354_797_1920_1080.jpg",
+    "sha256": "8afccea6e157ac10ef9bfb54de3791b183b2596829a48f587f8472cb92d9a0ec"
+  },
+  {
+    "source": "images/p0231_img_in_image_box_1107_407_1913_765.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0231_img_in_image_box_1107_407_1913_765.jpg",
+    "sha256": "f4a1d29bbb9eaed89444ef96534e2ed4b7e3ec6d7c46bc11920ead230a8f6fa7"
+  },
+  {
+    "source": "images/p0232_img_in_image_box_1382_645_1905_1075.jpg",
+    "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数/images/p0232_img_in_image_box_1382_645_1905_1075.jpg",
+    "sha256": "8f7a1c4a1e0a783f35d61fbb25c63d7884b40aa7de7b77ed656affbb9ccea0b5"
+  },
+  {
+    "source": "images/p0234_img_in_image_box_1539_850_1913_1079.jpg",
+    "path": "chapters/31-练习31 波的能量 波的衍射 干涉/images/p0234_img_in_image_box_1539_850_1913_1079.jpg",
+    "sha256": "5a8c4bc6a115353e8c21c7d498c3c134b7b789e8dcc601a01aa5112c5fb718b6"
+  },
+  {
+    "source": "images/p0235_img_in_image_box_1465_583_1915_838.jpg",
+    "path": "chapters/31-练习31 波的能量 波的衍射 干涉/images/p0235_img_in_image_box_1465_583_1915_838.jpg",
+    "sha256": "3f028d23990e0f201714a78d5625da647b6de1fc06fa1cea3cfdc27f9cf9a4ad"
+  },
+  {
+    "source": "images/p0237_img_in_image_box_1539_805_1913_1052.jpg",
+    "path": "chapters/31-练习31 波的能量 波的衍射 干涉/images/p0237_img_in_image_box_1539_805_1913_1052.jpg",
+    "sha256": "bb04af751e8ab390310e4ec8fa1dc44b0a7a04f25e19f913dd86714a713248dc"
+  },
+  {
+    "source": "images/p0238_img_in_image_box_1488_800_1919_1027.jpg",
+    "path": "chapters/31-练习31 波的能量 波的衍射 干涉/images/p0238_img_in_image_box_1488_800_1919_1027.jpg",
+    "sha256": "1c091f58343461cb53b4c79a89019f3670047564484516bbcbc2874b14b71886"
+  },
+  {
+    "source": "images/p0241_img_in_image_box_1454_0_1883_461.jpg",
+    "path": "chapters/32-练习32 驻波/images/p0241_img_in_image_box_1454_0_1883_461.jpg",
+    "sha256": "63d789b451c6f96d6003d22fca7b7a386b9eb925238e22658f14b23388689e77"
+  },
+  {
+    "source": "images/p0242_img_in_image_box_1407_846_1901_1069.jpg",
+    "path": "chapters/32-练习32 驻波/images/p0242_img_in_image_box_1407_846_1901_1069.jpg",
+    "sha256": "be8875196760a44cfc3e1ca4bb0be7930025c9cb3a24f2adcc4506bbb74fdbcd"
+  },
+  {
+    "source": "images/p0242_img_in_image_box_1420_596_1904_822.jpg",
+    "path": "chapters/32-练习32 驻波/images/p0242_img_in_image_box_1420_596_1904_822.jpg",
+    "sha256": "612ab899da1ac77428c4d6acb5b5405bc686b85ff3cbb8392e74f663e7523768"
+  },
+  {
+    "source": "images/p0246_img_in_image_box_1227_731_1920_1080.jpg",
+    "path": "chapters/32-练习32 驻波/images/p0246_img_in_image_box_1227_731_1920_1080.jpg",
+    "sha256": "fc816f5eba3e25d2622d7e70edc0b960580f2c997189f833be70dd8bfd2c296b"
+  },
+  {
+    "source": "images/p0249_img_in_image_box_1540_674_1920_1077.jpg",
+    "path": "chapters/33-练习33 光波的基本概念 光波的叠加 分波阵面法干涉/images/p0249_img_in_image_box_1540_674_1920_1077.jpg",
+    "sha256": "2971acca2bdebd64d15afa2851af0597c2174d3f0fc8adfe2cdaf27189b0bebf"
+  },
+  {
+    "source": "images/p0250_img_in_chart_box_1203_785_1905_1080.jpg",
+    "path": "chapters/33-练习33 光波的基本概念 光波的叠加 分波阵面法干涉/images/p0250_img_in_chart_box_1203_785_1905_1080.jpg",
+    "sha256": "f507655d2c929bf8fc7102d58e9d096af00bae881d75fa9fcb457d63befdd6d3"
+  },
+  {
+    "source": "images/p0250_img_in_image_box_72_787_1908_1080.jpg",
+    "path": "chapters/33-练习33 光波的基本概念 光波的叠加 分波阵面法干涉/images/p0250_img_in_image_box_72_787_1908_1080.jpg",
+    "sha256": "a809cd0fc6be8a29d40926c5ebcb94ccdf8c524883cdf025f36c9fd8dda0bf28"
+  },
+  {
+    "source": "images/p0253_img_in_image_box_1337_321_1843_769.jpg",
+    "path": "chapters/33-练习33 光波的基本概念 光波的叠加 分波阵面法干涉/images/p0253_img_in_image_box_1337_321_1843_769.jpg",
+    "sha256": "801308687682fd77ec8224621da1894d214734f707dbe2580864473faeb124c1"
+  },
+  {
+    "source": "images/p0255_img_in_image_box_1362_817_1919_1081.jpg",
+    "path": "chapters/34-练习34 分振幅法干涉/images/p0255_img_in_image_box_1362_817_1919_1081.jpg",
+    "sha256": "6b85158b01bbbf63493099e4f82d7d5526f00b316e345e45ffce70fdd269c7cb"
+  },
+  {
+    "source": "images/p0257_img_in_image_box_1564_762_1899_1066.jpg",
+    "path": "chapters/34-练习34 分振幅法干涉/images/p0257_img_in_image_box_1564_762_1899_1066.jpg",
+    "sha256": "5133578739aabcd760ebbabc92674de5f6ffeaa8dc59263e93d13bc856d680ac"
+  },
+  {
+    "source": "images/p0258_img_in_image_box_1464_802_1910_1075.jpg",
+    "path": "chapters/34-练习34 分振幅法干涉/images/p0258_img_in_image_box_1464_802_1910_1075.jpg",
+    "sha256": "ceae012c7a8cac55873890c2aeb09a1d5b7d00d629e46284a557900b368c85b6"
+  },
+  {
+    "source": "images/p0268_img_in_image_box_1551_786_1907_1079.jpg",
+    "path": "chapters/35-练习35 牛顿环 迈克尔孙干涉仪/images/p0268_img_in_image_box_1551_786_1907_1079.jpg",
+    "sha256": "d044e31c4de462eaa65f7234a22b2fb713db5add88769eb1634d95165f46d339"
+  },
+  {
+    "source": "images/p0272_img_in_image_box_1452_807_1915_1077.jpg",
+    "path": "chapters/36-练习36 单缝夫琅禾费衍射/images/p0272_img_in_image_box_1452_807_1915_1077.jpg",
+    "sha256": "dcc11369793ca353bd51a4f2f37d84ddd83c2eb6db77b282d2d3447f3b5cd9ec"
+  },
+  {
+    "source": "images/p0273_img_in_image_box_1078_1_1875_461.jpg",
+    "path": "chapters/36-练习36 单缝夫琅禾费衍射/images/p0273_img_in_image_box_1078_1_1875_461.jpg",
+    "sha256": "a66b82b1d705a7b5ad620afd620b670c8826cdf3759f592d2a7aebd3ae56e693"
+  },
+  {
+    "source": "images/p0283_img_in_image_box_1419_750_1920_1070.jpg",
+    "path": "chapters/37-练习37 光栅衍射/images/p0283_img_in_image_box_1419_750_1920_1070.jpg",
+    "sha256": "38c000e3fbea18d2f849fe830ccef07528e2d8637e0917a87ac82c7d02748686"
+  },
+  {
+    "source": "images/p0285_img_in_image_box_1608_844_1893_1077.jpg",
+    "path": "chapters/37-练习37 光栅衍射/images/p0285_img_in_image_box_1608_844_1893_1077.jpg",
+    "sha256": "20f7fe4fc8274ea51382779f43defc0cbe2dbe412147046cd3feceb12feaca44"
+  },
+  {
+    "source": "images/p0288_img_in_image_box_1413_720_1912_1079.jpg",
+    "path": "chapters/37-练习37 光栅衍射/images/p0288_img_in_image_box_1413_720_1912_1079.jpg",
+    "sha256": "ea82af4d89091523b740db6bc73b30c80b9962ee278c23ac566bd89855ad4091"
+  },
+  {
+    "source": "images/p0289_img_in_image_box_20_651_1920_1080.jpg",
+    "path": "chapters/38-练习38 光学仪器的分辨率/images/p0289_img_in_image_box_20_651_1920_1080.jpg",
+    "sha256": "6cd87ce42b2bd4e9049e84d5b209a2508bf7c4bb61bf6b4bc0da3873d5c8d968"
+  },
+  {
+    "source": "images/p0290_img_in_image_box_185_332_1736_643.jpg",
+    "path": "chapters/38-练习38 光学仪器的分辨率/images/p0290_img_in_image_box_185_332_1736_643.jpg",
+    "sha256": "d1e2e5e1abe550364c415ca4409f2f29f7e755db819df6afb2a47825ae6a7ce9"
+  },
+  {
+    "source": "images/p0299_img_in_image_box_100_559_1359_794.jpg",
+    "path": "chapters/39-练习39 光的偏振/images/p0299_img_in_image_box_100_559_1359_794.jpg",
+    "sha256": "697d681335d8f3e76f9bd778914b13e402911d3c6b9faab29db54cc2d9bfec55"
+  },
+  {
+    "source": "images/p0299_img_in_image_box_1424_555_1709_798.jpg",
+    "path": "chapters/39-练习39 光的偏振/images/p0299_img_in_image_box_1424_555_1709_798.jpg",
+    "sha256": "e7f6e835be8930ede05a9c8dafb7109e2ab2c00a43a5e6bd0e5b5047b9d989d3"
+  },
+  {
+    "source": "images/p0301_img_in_image_box_1475_483_1846_786.jpg",
+    "path": "chapters/39-练习39 光的偏振/images/p0301_img_in_image_box_1475_483_1846_786.jpg",
+    "sha256": "d868e612aeb432d8ea31d4c50206b9013e3e7e76522ea7909e9ce9ff33b4a4ee"
+  },
+  {
+    "source": "images/p0302_img_in_image_box_1341_696_1883_1068.jpg",
+    "path": "chapters/39-练习39 光的偏振/images/p0302_img_in_image_box_1341_696_1883_1068.jpg",
+    "sha256": "414bbbf347423db6f90e604348701d817fd70c59cdb467663514c03187b95f95"
+  },
+  {
+    "source": "images/p0339_img_in_image_box_1329_747_1771_1040.jpg",
+    "path": "chapters/45-练习45 玻尔氢原子理论/images/p0339_img_in_image_box_1329_747_1771_1040.jpg",
+    "sha256": "6f2a9b47aaee9a7058992aaf60c5a2f629bc54a008f90627fd90d20c3713db12"
+  },
+  {
+    "source": "images/p0340_img_in_image_box_1350_451_1878_717.jpg",
+    "path": "chapters/45-练习45 玻尔氢原子理论/images/p0340_img_in_image_box_1350_451_1878_717.jpg",
+    "sha256": "9ebbbbf5367617e1a2702f5801b024ff86c7665174fbd1fdae6076699b1c6ad4"
+  },
+  {
+    "source": "images/p0341_img_in_image_box_1438_747_1889_1071.jpg",
+    "path": "chapters/45-练习45 玻尔氢原子理论/images/p0341_img_in_image_box_1438_747_1889_1071.jpg",
+    "sha256": "72f5413376ba033a204587104fc1d33d9192d337343e38de522d987bda41809f"
+  },
+  {
+    "source": "images/p0342_img_in_image_box_1358_724_1919_1079.jpg",
+    "path": "chapters/45-练习45 玻尔氢原子理论/images/p0342_img_in_image_box_1358_724_1919_1079.jpg",
+    "sha256": "e862165e30123b5d987a0d0ea2bb3daa56f875ba9d37a5d16f1014a2ab55d0f4"
+  }
+]

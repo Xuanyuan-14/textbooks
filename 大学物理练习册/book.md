@@ -1,0 +1,1352 @@
+# 大学物理练习册
+
+> 源文件：`大学物理练习册.pdf_by_PaddleOCR-VL-1.6.json`
+> 共 62 页，由 PaddleOCR-VL-1.6 从 PDF 转出。
+> 页码锚点格式 `<!-- page: N -->`，N 为 PDF 页码（从 1 起）。
+> 图片按练习存于 `chapters/*/images/`，已本地化。
+
+## 章节索引
+
+- **练习1 位置矢量 位移 速度 加速度** — 第 1 页
+- **练习2 曲线运动的描述** — 第 3 页
+- **练习3 运动学中的两类问题** — 第 5 页
+- **练习4 牛顿运动定律及其应用** — 第 7 页
+- **练习5 动量 功和能** — 第 9 页
+- **练习6 质点角动量定理及守恒定律** — 第 11 页
+- **练习7 刚体定轴转动的描述** — 第 13 页
+- **练习8 刚体定轴转动定律** — 第 15 页
+- **练习 9 刚体定轴转动中的功和能** — 第 17 页
+- **练习 10 刚体定轴转动中的角动量定理和角动量守恒定律** — 第 19 页
+- **练习 14 库仑定律 电场强度 场强叠加原理** — 第 21 页
+- **练习 15 电场线 电通量 高斯定理及应用** — 第 23 页
+- **练习 16 静电场的环路定理 电势能 电势 电势差** — 第 25 页
+- **练习 17 静电场中的导体** — 第 27 页
+- **练习 18 电容和电容器 静电场的能量** — 第 29 页
+- **练习 19 磁感应强度 磁通量 磁场中的高斯定理** — 第 31 页
+- **练习20 毕-萨定律及应用** — 第 33 页
+- **练习 21 安培环路定理及应用** — 第 35 页
+- **练习 22 磁场对载流导线的作用** — 第 37 页
+- **练习 23 电磁感应定律** — 第 39 页
+- **练习 24 动生电动势 感生电动势** — 第 41 页
+- **练习 25 自感应与互感应 磁场的能量** — 第 43 页
+- **练习 26 位移电流 麦克斯韦方程组** — 第 45 页
+- **练习 40 狭义相对论的基本原理 洛伦兹变换** — 第 47 页
+- **练习 41 狭义相对论时空观** — 第 49 页
+- **练习 42 相对论动力学基础** — 第 51 页
+- **练习 43 黑体辐射 普朗克能量子假设** — 第 53 页
+- **练习 44 光的量子性** — 第 55 页
+- **练习 45 玻尔氢原子理论** — 第 57 页
+- **练习 46 粒子的波动性 不确定关系** — 第 59 页
+- **练习 47 波函数 薛定谔方程 一维势阱** — 第 61 页
+
+---
+
+<!-- page: 1 -->
+
+## 练习1 位置矢量 位移 速度 加速度
+
+## 一、填空题
+
+1. 一物体在某瞬时以初速度  $ v_{0} $ 从某点开始运动，在  $ \Delta t $ 时间内，经一长度为  $ \Delta s $ 的曲线路径后，又回到出发点，此时速度为  $ -v_{0} $，则在这段时间内物体的平均速率为 ___，物体的平均加速度为 ___。
+
+2. 一质点在平面内运动，已知质点位置矢量表示为  $ r = at^{2}i + bt^{2}j $，其中 a、b 为常量，则质点做运动。
+
+3. 一质点的运动方程为  $ x = 6t - t^{2} $ (SI)，则在  $ 0 \sim 4 $ s 的时间间隔内，质点的位移大小为 ___，在  $ 0 \sim 4 $ s 的时间间隔内质点走过的路程为 ___。
+
+## 二、计算题
+
+4. 已知质点的运动方程为： $ r(t)=3t\dot{i}+(5-t^{2})\dot{j}-t^{3}k $ m。求：(1)t=3s时的速度；(2)1~4 s内的平均速度。
+
+<!-- page: 2 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 一质点在 xOy 平面内运动:  $ x = -t^{2} $,  $ y = -t^{4} + 2t^{2} $。求 x = -4 m ( $ t \geq 0 $) 时质点的速度、速率及加速度。
+
+6. 已知质点运动的加速度为： $ a = 6i + 4j $，t = 0 时  $ v_{0} = 0, r_{0} = 10i $。求任一时刻质点的位置（即运动方程）。
+
+<!-- page: 3 -->
+
+## 练习2 曲线运动的描述
+
+## 一、填空题
+
+1. 一质点沿半径为 R 的圆周做匀速率圆周运动，角速度为  $ \omega $，质点的运动方程在直角坐标系中表示为 ___，自然坐标系中表示为 ___。
+
+2. 一质点沿一半径为 2.5m 的圆周运动，其角位置由  $ \theta = 1.5t^{2} $ (SI) 给出，当 t = 0.5s 时，质点的切向、法向及总加速度大小分别为 ___、___、___。
+
+3. 半径 R = 2m 的飞轮做加速转动，轮边缘一点的运动方程为  $ S = 0.1t^{3} $ (SI)，当此点的速率  $ v = 30 \, m/s $ 时，其切向与法向加速度大小分别为 ___、___。
+
+## 二、计算题
+
+4. 一质点在水平面沿半径  $ R = 2 \, m $ 的圆轨道转动，转动角速度  $ \omega $ 与时间 t 的关系为  $ \omega = A t^{2} $ (A 为常数)，已知  $ t = 1 \, s $ 时，质点的速度大小为  $ 4 \, m/s $，求  $ t = 2 \, s $ 时质点的速率和加速度的大小。
+
+<!-- page: 4 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 一汽车在半径 R = 200 m 的圆弧形公路上行驶，其运动学方程为  $ s = 20t - 0.2t^{2} $ (SI)。求汽车在 t = 1 s 时的速度和加速度的大小。
+
+6. 一质点在 xOy 平面内做曲线运动，其运动方程为  $ \boldsymbol{r}=5t\boldsymbol{i}+(15t-5t^{2})\boldsymbol{j} $ (SI)。求 t=1 s 时质点的切向加速度、法向加速度和轨道曲率半径。
+
+<!-- page: 5 -->
+
+## 练习3 运动学中的两类问题
+
+## 一、填空题
+
+1. 已知质点位置矢量随时间变化的函数形式为  $  \boldsymbol{r} = 4t^{2} \boldsymbol{i} + (3 + 2t) \boldsymbol{j}  $，则质点的轨迹方程为 ___，从 t = 0 到 t = 1 s 的位移为 ___，t = 1 s 时刻的速度为 ___。
+
+2. 一质点沿 x 轴做直线运动，其运动方程为  $ x = 3 + 5t + 6t^{2} - t^{3} $ (SI)，则质点在 t = 0 时的速度为 ___，加速度为零时，该质点的速度为 ___。
+
+3. 一质点沿半径为 0.1m 的圆周运动，其角位移  $ \theta $ 可表示为  $ \theta = 2 + 4t^{3} $ 。当 t = 2s 时，其切向加速度为 ___ ，当切向加速度与法向加速度的大小相等时，t = ___ 。
+
+## 二、计算题
+
+4. 质量为 m 的质点受到力 F = -kv^{2} x（其中 k 为常数）的作用沿 x 轴做直线运动。在 x = 0 处的速率为  $ v_{0}(v_{0} > 0) $，求该质点的速率 v 随 x 变化的关系。
+
+<!-- page: 6 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图3.1所示，一高为 $ h_{1} $的足球运动员，背向某照明灯以匀速 $ v_{0} $带球，灯离地面高度为 $ h_{2} $，求影顶端M点沿地面移动的速率及影长变化率。
+
+<div style="text-align: center;"><img src="chapters/03-练习3 运动学中的两类问题/images/p0006_img_in_image_box_804_172_1108_329.jpg" alt="图3.1" width="25%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图3.1</div> </div>
+
+
+6. 一半径为  $ 0.5 \, m $ 的飞轮在启动时的短时间内，其角速度与时间的平方成正比，在  $ t = 2 \, s $ 时测得缘一点的速度值为  $ 4 \, m/s $。求：(1) 该轮在  $ t' = 0.5 \, s $ 时的角速度，轮缘一点的切向加速度和总加速度
+
+(2) 该点在  $ 2 \, s $ 内所转过的角度。
+
+<!-- page: 7 -->
+
+## 练习4 牛顿运动定律及其应用
+
+## 一、填空题
+
+1. 一质量为 m 的质点沿 x 轴正向运动，若该质点通过坐标为 x 处的速度为  $ k x (k $ 为正常数 $ ) $ ，则此时作用于该质点上的力的大小 F= ___，该质点从  $ x=x_{0} $ 点出发运动到  $ x=x_{1} $ 所经历的时间  $ \Delta t= $ ___。
+
+2. 质量为 m 的物体，最初静止于  $ x_{0}(x_{0}>0) $ 处，在合外力  $ F=\frac{k}{x^{2}}(k $ 为正常数）作用下，沿直线运动，则物体在 x 处的速度大小为 ___。
+
+3. 质量为 m 的物体，在力  $ F_{x}=A+Bt $ (SI) 作用下沿 x 方向运动 (A、B 为常数)，已知 t=0 时， $ x_{0}=0, v_{0}=0 $。则任一时刻，物体的速度表达式为 ___，物体的位移表达式为 ___。
+
+## 二、计算题
+
+4. 质量为 m 的子弹以速率  $ v_{0} $ 水平射入沙土中，设子弹所受阻力大小与速率成正比，比例系数为 k  $ (k>0) $，忽略子弹重力，求：
+
+(1)子弹射入沙土后，速率与时间的关系；
+
+(2)子弹射入沙土的最大深度。
+
+<!-- page: 8 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 质量为 m 的物体自地面以速率  $ v_{0} $ 竖直上抛，重力加速度为常量 g，假设物体所受的空气阻力大小为  $ f = kmv^{2} $ (k 为正常数)，求：
+
+(1)物体上升的最大高度；
+
+(2) 物体下落到地面时速度的大小。
+
+6. 如图 4.1 所示，一根匀质链条，质量为 m，总长度为 L，一部分放在光滑桌面上，另一部分从桌面边缘下垂，长度为 a，试求当链条下滑全部离开桌面时，它的速率为多少？（用牛顿第二定律求解）
+
+<div style="text-align: center;"><img src="chapters/04-练习4 牛顿运动定律及其应用/images/p0008_img_in_image_box_927_814_1105_921.jpg" alt="图4.1" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图4.1</div> </div>
+
+<!-- page: 9 -->
+
+## 练习5 动量 功和能
+
+## 一、填空题
+
+1. 在湖中静止水面上有一长为 L，质量为 M 的小船，船的一端站有质量为 m 的人。当人从船的端走到另一端时，人相对湖岸移动的距离为 ___，船相对湖岸移动的距离为 ___。
+
+2. 一质点在如图 5.1 所示的坐标平面内做圆周运动，有一力  $ \pmb{F} = F_{0}(x\dot{i} + y\dot{j}) $ 作用在质点上。在该质点从坐标原点 O 运动到 (0, 2R) 位置过程中，力 F 对它所做的功为 ___。
+
+
+
+3. 一人造卫星绕地球做椭圆运动，近地点为 A，远地点为 B，A、B 两点距地心的距离分别为  $ r_{1} $、 $ r_{2} $，设卫星质量为 m，地球质量为 M，万有引力常数为 G，则卫星在 A、B 两点的势能之差  $ E_{PB}-E_{PA}= $ ___；卫星在 A、B 两点的动能之差  $ E_{KB}-E_{KA}= $ ___。
+
+<div style="text-align: center;"><img src="chapters/05-练习5 动量 功和能/images/p0009_img_in_image_box_933_384_1080_540.jpg" alt="图5.1" width="12%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图5.1</div> </div>
+
+
+## 二、计算题
+
+4. 如图 5.2 所示，质量为 M 的滑块正沿着光滑水平地面向右滑动，一质量为 m 的小球向右飞行，水平速度  $ \pmb{v}_{1} $（对地）与滑块斜面相碰，碰后竖直向上弹起，速度为  $ \pmb{v}_{2} $（对地）。若碰撞时间为  $ \Delta t $，试计算过程中滑块对地的平均作用力和滑块速度增量的大小。
+
+<div style="text-align: center;"><img src="chapters/05-练习5 动量 功和能/images/p0009_img_in_image_box_914_814_1103_903.jpg" alt="图5.2" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图5.2</div> </div>
+
+<!-- page: 10 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 某人从  $ 10 \, m $ 深的水井中提水，开始时水桶中装有  $ 10 \, kg $ 的水，水桶的质量为  $ 1 \, kg $，由于水桶漏水，每升高  $ 1 \, m $ 要漏去  $ 0.2 \, kg $ 的水，求水桶匀速地从水井中提到水井口的过程中人所做的功。
+
+6. 设相距为 r 的两粒子之间的相互作用力为排斥力  $ f=\frac{k}{r^{3}} $ (k 为常数)，试问：(1) f 是保守力吗？为什么？(2) 若是保守力，求两粒子相距为 r 时的势能（设无穷远处为势能零点）。
+
+<!-- page: 11 -->
+
+## 练习6 质点角动量定理及守恒定律
+
+## 一、填空题
+
+1. 在 t=0 时，质量为 3kg 的物体位于  $ r_{0}=5i $ 处，其速度为  $ v_{0}=10j~m/s $，若其不受外力作用，则该物体在 t 时刻的位置矢量  $ \boldsymbol{r}= $ ___，t=0 s 时相对原点的角动量  $ \boldsymbol{L}_{0}= $ ___，t=12 s 时相对原点的角动量  $ \boldsymbol{L}= $ ___。
+
+2. 一质点的角动量为  $ L=6t^{2}i-(2t+1)j+(12t^{3}-8t^{2})k\ kg \cdot m^{2}/s $，则质点在 t=1 s 时所受力矩 M= ___。
+
+3. 质量为 3 kg 的质点位于 x=3 m, y=8 m 处时速度为 v=5i-6j m/s，作用于质点上的力大小为 7 N，沿 x 负方向，以原点为参考点时，质点在此时所受的力矩 ___。
+
+## 二、计算题
+
+4. 一个具有单位质量的质点在随时间 t 变化的力  $ \boldsymbol{F}=(3t^{2}-4t)\boldsymbol{i}+(12t-6)\boldsymbol{j} $ (SI) 作用下运动。设该质点在 t=0 s 时位于原点，且速度为零。求 t=2 s 时，该质点受到对原点的力矩和该质点对原点的角动量。
+
+<!-- page: 12 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图 6.1 所示，一半径为 R 的光滑圆环置于竖直平面内，一质量为 m 的小球穿在圆环上，并可圆环上滑动。小球开始时静止于圆环上的 A 点（该点在通过环心 O 的水平面上），然后从 A 点开始下滑设小球与圆环间的摩擦略去不计，求小球滑到 B 点时对环心 O 的角动量和角速度的大小。
+
+<div style="text-align: center;"><img src="chapters/06-练习6 质点角动量定理及守恒定律/images/p0012_img_in_image_box_933_208_1107_388.jpg" alt="图6.1" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图6.1</div> </div>
+
+
+6. 用绳系一质量为 m 小球使它在光滑的水平面上做匀速率圆周运动，其半径为  $ r_{0} $，角速度为  $ \omega $ 现通过圆心 O 处的小孔缓慢地往下拉绳使半径逐渐减小，如图 6.2 所示。求：
+
+(1)当半径缩小为 r 时小球的角速度  $ \omega $。
+
+(2)这一过程中绳子对小球的拉力所做的功。
+
+<div style="text-align: center;"><img src="chapters/06-练习6 质点角动量定理及守恒定律/images/p0012_img_in_image_box_808_919_1103_1066.jpg" alt="图6.2" width="24%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图6.2</div> </div>
+
+<!-- page: 13 -->
+
+## 练习7 刚体定轴转动的描述
+
+## 一、填空题
+
+1. 半径为  $ r=1.5 \, m $ 的飞轮，初角速度  $ \omega_{0}=10 \, rad \cdot s^{-1} $，角加速度  $ \beta=-5 \, rad \cdot s^{-2} $，则在  $ t= $ ___ 时角位移为零，而此时边缘上点的线速度大小 v= ___。
+
+2. 一做匀变速转动的飞轮在  $ 10 \, s $ 内转了 16 圈，其末角速度为  $ 15 \, rad \cdot s^{-1} $，它的角加速度的大小为 ___。
+
+3. 半径为  $ 30 \, cm $ 的飞轮，从静止开始以  $ 0.50 \, rad \cdot s^{-2} $ 的匀角加速度转动，则飞轮边缘上一点在飞轮转过  $ 240^\circ $ 时的切向加速度大小  $ a_t = $ ___，法向加速度大小  $ a_n = $ ___。
+
+## 二、计算题
+
+4. 一飞轮以等角加速度  $ 2 \, rad \cdot s^{-2} $ 转动，在某时刻以后的 5s 内飞轮转过了 100 rad。若此飞轮是由静止开始转动的，在上述的某时刻以前飞轮转动了多长时间？
+
+<!-- page: 14 -->
+
+5. 已知一定轴转动体系，在各个时间间隔内的角速度如下：
+
+$$  \omega=3+3t\quad0\leqslant t\leqslant8   \tag*{(SI)}$$
+
+$$  \omega=51-3t\quad t\geqslant8   \tag*{(SI)}$$
+
+若 t=0 时， $ \theta_{0}=0 $，求当体系角速度变为零时角位移的大小。
+
+6. 半径为 20 cm 的主动轮，通过皮带拖动半径为 50 cm 的从动轮转动，皮带与轮之间无相对滑动，主动轮从静止开始做匀角加速转动，在 4 s 内从动轮的角速度达到  $ 8\pi \, rad \cdot s^{-1} $，则主动轮在这段时间内转过了多少圈？
+
+<!-- page: 15 -->
+
+## 练习8 刚体定轴转动定律
+
+## 一、填空题
+
+1. 转动着的飞轮的转动惯量为 J，在 t=0 时角速度为  $ \omega_{0} $。此后飞轮经历制动过程，阻力矩 M 的大小与角速度  $ \omega $ 的平方成正比，比例系数为 k（k 为大于 0 的常数），当  $ \omega=\frac{1}{3}\omega_{0} $ 时，飞轮的角加速度大小 ___，从开始制动到  $ \omega=\frac{1}{3}\omega_{0} $ 所经过的时间 ___。
+
+2. 一半径 15 cm、质量为 0.70 kg 的光盘从静止开始转动，在 1.5 s 内达到转速  $ n=33.3 \, rev \cdot min^{-1} $，则在此 1.5 s 时间内施加于光盘的转动力矩大小 M= ___。
+
+3．如图8.1所示，长为L的轻质细杆，两端分别固定质量为m和2m的小球，此系统在竖直平面内可绕过中点O且与杆垂直的水平光滑固定轴（O轴）转动。初始时刻杆与水平成 $ 60^{\circ} $角时，由静止释放，杆球这一刚体系统绕O轴转动，系统绕O轴的转动惯量J=___。当杆转到水平位置时，刚体受到的合外力矩大小M=___；角加速度大小 $ \beta= $___。
+
+
+
+<div style="text-align: center;"><img src="chapters/08-练习8 刚体定轴转动定律/images/p0015_img_in_image_box_932_527_1072_656.jpg" alt="图8.1" width="11%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图8.1</div> </div>
+
+
+## 二、计算题
+
+4. 有一质量分布均匀、半径为 R 的圆形平板平放在水平桌面上，平板与水平桌面的摩擦系数为  $ \mu $，若平板绕通过其中心且垂直于板面的固定轴以角速度  $ \omega_{0} $ 开始旋转，它将在旋转几圈后停止？（已知圆形平板的转动惯量  $ J=\frac{1}{2}mR^{2} $，其中 m 为圆形平板的质量）
+
+<!-- page: 16 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 将质量为  $ m_{3} $ 、半径为 R 的定滑轮与质量分别为  $ m_{1} $ 、  $ m_{2} $ 的两物体 A、B 按如图 8.2 所示的方式行安装，如果 B 与桌面的摩擦可忽略，且滑轮可视为匀质圆盘，求物体 A、B 的加速度和绳子张力的大小
+
+<div style="text-align: center;"><img src="chapters/08-练习8 刚体定轴转动定律/images/p0016_img_in_image_box_908_172_1104_358.jpg" alt="图 8.2" width="16%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图 8.2</div> </div>
+
+
+6. 如图 8.3 所示，固定在一起的两个同轴均匀圆柱体可绕其光滑的水平对称轴  $ OO' $ 转动，大、小柱体的半径分别为 2r 和 r，质量分别为 2m 和 m，绕在两柱体上的细绳分别与质量为 m 的物体相连。求圆柱体转动时角加速度及两侧细绳的张力；从静止开始时两质量为 m 的物体离地均为 h，与大、小圆体相连的哪个物体先着地？经多长时间？
+
+<div style="text-align: center;"><img src="chapters/08-练习8 刚体定轴转动定律/images/p0016_img_in_image_box_813_920_1103_1185.jpg" alt="图8.3" width="24%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图8.3</div> </div>
+
+<!-- page: 17 -->
+
+## 练习 9 刚体定轴转动中的功和能
+
+## 一、填空题
+
+1. 用一条皮带将两个轮子 A 和 B 连接起来，轮和皮带间无相对滑动，B 轮的半径是 A 轮的 3 倍，图 9.1 所示。如果两轮具有相同的转动动能，则 A、B 两轮的转动惯量的比值为 ___。
+
+2. 质量为 m、长度为 l 的匀质杆，可绕通过其下端的水平光滑固定轴 O 在竖直平面内转动，如图 9 所示，设它从竖直位置由静止倒下，当它倾倒到与水平面成  $ \theta $ 角时，角速度为 ___，角加速度 ___。
+
+<div style="text-align: center;"><img src="chapters/09-练习9 刚体定轴转动中的功和能/images/p0017_img_in_image_box_228_493_606_661.jpg" alt="图9.1" width="31%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图9.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/09-练习9 刚体定轴转动中的功和能/images/p0017_img_in_image_box_742_502_960_665.jpg" alt="图9.2" width="18%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图9.2</div> </div>
+
+
+3. 某人站在水平转台的中央，与转台一起以恒定的转速  $ n_{1} $ 转动，他的两手各拿一个质量为 m 的码，砝码彼此相距  $ l_{1} $ （每一砝码离转轴  $ \frac{1}{2}l_{1} $），当此人将砝码拉近到距离为  $ l_{2} $ 时（每一砝码离转轴为  $ \frac{1}{2}l_{2} $ 整个系统转速变为  $ n_{2} $，设没有砝码时系统的转动惯量为  $ J_{0} $，则在此过程中人所做的功为 ___ （假定人在收臂过程中自身对轴的转动惯量的变化可以忽略）
+
+## 二、计算题
+
+4. 如图9.3所示，质量为m、长为l=85cm的均匀细杆，放在倾角为 $ \alpha=45^{\circ} $的光滑斜面上，可以绕通过杆上端且与斜面垂直的光滑轴O在斜面上转动。要使此杆能绕轴转动一周，至少应使杆以多大的初始角速度 $ \omega_{0} $转动？
+
+<div style="text-align: center;"><img src="chapters/09-练习9 刚体定轴转动中的功和能/images/p0017_img_in_image_box_953_969_1107_1086.jpg" alt="图 9.3" width="12%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图 9.3</div> </div>
+
+<!-- page: 18 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 一个半径为 R、质量为 m 的硬币，竖直地立放在粗糙的水平桌面上。开始时处于静止状态，而后硬币受到轻微扰动而倒下。求硬币平面与桌面碰撞前（即硬币平面在水平位置）时质心的速度大小。（已知质量为 m、半径为 R 的圆盘对沿盘直径的轴的转动惯量为  $ \frac{1}{4}mR^{2} $）
+
+6. 一根质量为 m、长为 L 的均匀细杆，可在水平桌面上绕通过其一端的竖直固定轴转动。已知细杆与桌面的滑动摩擦系数为  $ \mu $，求杆转动一周摩擦力做的功。
+
+<!-- page: 19 -->
+
+## 练习 10 刚体定轴转动中的角动量定理和角动量守恒定律
+
+## 一、填空题
+
+1. 如图10.1所示，一匀质木球固结在一细棒下端，且可绕水平光滑固定轴O转动。今有一子弹着与水平面成一角度的方向击中木球而嵌于其中，则在此击中过程中，木球、子弹、细棒系统守恒，原因是___。
+
+2. 光滑的水平桌面上有一长为 2L、质量为 m 的匀质细杆，可绕过其中点且垂直于杆的竖直光滑定轴 O 自由转动，开始时杆静止，桌上有两个质量均为 m 的小球，各自在垂直杆的方向上，正对着杆的端，以相同速率 v 相向运动，如图 10.2 所示，当两球同时与杆的两端发生完全非弹性碰撞，则碰后杆的动角速度为 ___。
+
+<div style="text-align: center;"><img src="chapters/10-练习10 刚体定轴转动中的角动量定理和角动量守恒定律/images/p0019_img_in_image_box_346_554_525_704.jpg" alt="图10.1" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图10.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/10-练习10 刚体定轴转动中的角动量定理和角动量守恒定律/images/p0019_img_in_image_box_657_620_845_707.jpg" alt="图10.2" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图10.2</div> </div>
+
+
+3. 一个质量为 m 的小虫，在有光滑竖直固定中心轴的水平圆盘边缘上，沿逆时针方向爬行，它相对于地面的速率为 v，此时圆盘正沿顺时针方向转动，相对于地面的角速率为  $ \omega_{0} $，设圆盘的半径为 R，对心轴的转动惯量为 J，若小虫停止爬行，则圆盘的角速度为 ___。
+
+## 二、计算题
+
+4. 长为 l、质量为  $ m_{0} $ 的细杆可绕垂直于一端的水平轴自由转动。细杆原来处于平衡状态。现有质量为 m 的小球沿光滑水平面飞来，正好与杆下端相碰（设碰撞为完全弹性碰撞）使细杆向上摆到  $ \theta $  $ 60^{\circ} $ 处，如图 10.3 所示，求小球的初速度大小。
+
+<div style="text-align: center;"><img src="chapters/10-练习10 刚体定轴转动中的角动量定理和角动量守恒定律/images/p0019_img_in_image_box_894_1070_1103_1246.jpg" alt="图10.3" width="17%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图10.3</div> </div>
+
+<!-- page: 20 -->
+
+5. 质量为 m 的子弹穿过如图 10.4 所示的摆锤后，速率由 v 减小到  $ \frac{v}{2} $。已知均匀细棒、摆锤的质都为  $ m' $，细棒的长度为 l，如果摆锤能在垂直平面内完成一个完全的圆周运动，则子弹速度的最小值多少？
+
+<div style="text-align: center;"><img src="chapters/10-练习10 刚体定轴转动中的角动量定理和角动量守恒定律/images/p0020_img_in_image_box_983_233_1105_433.jpg" alt="图10.4" width="10%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图10.4</div> </div>
+
+
+6. 如图 10.5 所示，一宽为 l、质量为 M 的均匀薄板可绕  $ OO' $ 轴转动，有一质量为 m 的小球以速度在薄板边缘与板垂直相碰，若碰撞是完全弹性的，求碰撞后薄板的角速度大小和小球的速度大小。
+
+<div style="text-align: center;"><img src="chapters/10-练习10 刚体定轴转动中的角动量定理和角动量守恒定律/images/p0020_img_in_image_box_914_837_1105_1135.jpg" alt="图 10.5" width="16%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图 10.5</div> </div>
+
+<!-- page: 21 -->
+
+## 练习 14 库仑定律 电场强度 场强叠加原理
+
+## 一、填空题
+
+1. 如图14.1所示，四个点电荷分别位于正方形的四个顶点，它们到坐标原点O的距离均为d，则点电场强度的大小E= ___。
+
+2. 如图14.2所示，一电荷线密度为 $ \lambda $的无限长带电直线垂直通过纸面上的A点，一电量为Q的匀带电球体，其球心处于O处。 $ \triangle AOP $是边长为a的等边三角形。为了使P点处场强方向垂直于OI则 $ \lambda $和Q的数量之间应满足___关系，且 $ \lambda $与Q为___号电荷。
+
+3. 真空中一半径为 R 均匀带电球面如图 14.3 所示，总电量为 Q(Q>0)，今在球面上挖去非常小一块面积  $ \Delta S $（连同电荷），且假设不影响原来的电荷分布，则挖去  $ \Delta S $ 后球心处电场强度的大小 E= ___，其方向为 ___。
+
+<div style="text-align: center;"><img src="chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0021_img_in_image_box_196_628_390_767.jpg" alt="图14.1" width="16%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图14.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0021_img_in_image_box_500_598_707_765.jpg" alt="图14.2" width="17%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图14.2</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0021_img_in_image_box_821_618_994_764.jpg" alt="图14.3" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图14.3</div> </div>
+
+
+## 二、计算题
+
+4. 如图14.4所示，一半径为R的半圆细环上均匀分布电荷Q，求环心处的电场强度。
+
+<div style="text-align: center;"><img src="chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0021_img_in_image_box_848_954_1103_1149.jpg" alt="图14.4" width="21%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图14.4</div> </div>
+
+<!-- page: 22 -->
+
+5. 如图 14.5 所示，均匀带电的细棒，棒长为 L，电荷线密度为  $ \lambda $，求细棒的延长线上与棒的近端相 d 处  $ P_{1} $ 点的电场强度。
+
+<div style="text-align: center;"><img src="chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0022_img_in_image_box_863_171_1105_278.jpg" alt="图14.5" width="20%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图14.5</div> </div>
+
+
+6. 如图14.6所示，长度为L的两匀质细杆平行于OX轴放置，相距为L，两细杆电荷均匀分布，电线密度均为 $ \lambda $。求两带电细杆间的电场力大小。
+
+<div style="text-align: center;"><img src="chapters/14-练习14 库仑定律 电场强度 场强叠加原理/images/p0022_img_in_image_box_832_846_1103_927.jpg" alt="图 14.6" width="22%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图 14.6</div> </div>
+
+<!-- page: 23 -->
+
+## 练习 15 电场线 电通量 高斯定理及应用
+
+## 一、填空题
+
+1.（1）点电荷 q 位于一个边长为 a 的立方体中心，则在该点电荷电场中穿过立方体一面的电通量 ___ 。(2)如果将该场源点电荷移到立方体的一个角上，这时通过立方体各面的电通量为 ___ 。
+
+2. 若匀强电场的场强为 E，其方向平行于半径为 R 的半球面的轴，如图 15.1 所示，则通过此半球的电通量为 ___。
+
+3. 如图15.2所示，A、B为真空中两个平行的“无限大”均匀带电平面，已知两平面间的电场强度 $ E_{0} $，两平面外侧电场强度大小都是 $ \frac{E_{0}}{3} $，方向如图15.2所示，则平面A上的面电荷密度 $ \sigma_{A}= $___平面B上的面电荷密度 $ \sigma_{B}= $___。
+
+<div style="text-align: center;"><img src="chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0023_img_in_image_box_361_673_519_800.jpg" alt="图15.1" width="13%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图15.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0023_img_in_image_box_653_627_830_800.jpg" alt="图15.2" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图15.2</div> </div>
+
+
+## 二、计算题
+
+4. 如图15.3所示，一个内外半径分别为 $ R_{1} $ 和 $ R_{2} $ 的均匀带电球壳，总电荷为 $ Q_{1} $，球壳外同心罩一半径为 $ R_{3} $ 的均匀带电球面，球面带电荷为 $ Q_{2} $。求空间电场分布。
+
+<div style="text-align: center;"><img src="chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0023_img_in_image_box_897_1022_1104_1237.jpg" alt="图15.3" width="17%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图15.3</div> </div>
+
+<!-- page: 24 -->
+
+5. 如图15.4所示，半径为R的非金属球体内，电荷体密度为 $ \rho=kr $，式中k为大于零的常量，求：
+
+(1)球体内任意一点的电场强度大小  $ E_{1}(r) $;
+
+(2)球体外任意一点的电场强度大小  $ E_{2}(r) $
+
+<div style="text-align: center;"><img src="chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0024_img_in_image_box_975_208_1104_337.jpg" alt="图15.4" width="10%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图15.4</div> </div>
+
+
+6. 如图 15.5 所示，两无限长同轴圆柱面，半径分别为  $ R_{1} $ 和  $ R_{2} $，带有等量异号电荷，单位长度的电量别为  $ \lambda $ 和  $ -\lambda $。求离轴线为 r 处的电场强度：(1)  $ r < R_{1} $; (2)  $ R_{1} < r < R_{2} $; (3)  $ r > R_{2} $。
+
+<div style="text-align: center;"><img src="chapters/15-练习15 电场线 电通量 高斯定理及应用/images/p0024_img_in_image_box_918_884_1104_1207.jpg" alt="图15.5" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图15.5</div> </div>
+
+<!-- page: 25 -->
+
+## 练习 16 静电场的环路定理 电势能 电势 电势差
+
+## 一、填空题
+
+1. 如图16.1所示，在点电荷q的电场中，选取以q为中心、R为半径的球面上一点P处作电势点，则与点电荷q距离为r的 $ P^{\prime} $点的电势为___。
+
+2. 如图16.2所示，一等边三角形边长为a，三个顶点分别放置着电量为q、2q、3q的三个正点电荷设无穷远处为电势零点，则三角形中心O处的电势 $ U_{0}= $ ___。
+
+3. 如图16.3所示，半径为R的均匀带电圆环，环的中心上两点 $ P_{1} $和 $ P_{2} $离开环心的距离分别为R2R，若无穷远的电势为零，而 $ P_{1} $和 $ P_{2} $两点的电势分别为 $ U_{1} $和 $ U_{2} $，则 $ U_{2} $和 $ U_{1} $的比值为___。
+
+<div style="text-align: center;"><img src="chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0025_img_in_image_box_176_554_416_699.jpg" alt="图16.1" width="20%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图16.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0025_img_in_image_box_477_518_736_702.jpg" alt="图16.2" width="21%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图16.2</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0025_img_in_image_box_795_550_1014_697.jpg" alt="图16.3" width="18%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图16.3</div> </div>
+
+
+## 二、计算题
+
+4. 如图16.4所示，在A、B两点处有电量分别为+q、-q的点电荷，A和B之间距离为2R，现将一正试验电荷 $ a_{0} $从O点经半圆弧路径移到C点，求移动过程中电场力所做的功。
+
+<div style="text-align: center;"><img src="chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0025_img_in_image_box_824_917_1104_1034.jpg" alt="图16.4" width="23%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图16.4</div> </div>
+
+<!-- page: 26 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图 16.5 所示，绝缘细线上均匀分布着线密度为  $ \lambda $ 的正电荷，两直导线 AB、CD 的长度和半圆的半径都等于 R。试求环中心 O 点处的电场强度和电势。
+
+<div style="text-align: center;"><img src="chapters/16-练习16 静电场的环路定理 电势能 电势 电势差/images/p0026_img_in_image_box_819_172_1105_344.jpg" alt="图16.5" width="24%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图16.5</div> </div>
+
+
+6. 有两个带电均匀的同轴圆柱面，内圆柱面半径为  $ R_{1} $，电势为  $ U_{1} $，外圆柱面半径为  $ R_{2} $，电势为 U 求两圆柱面间距轴线垂直距离为  $ r_{1} $ 和  $ r_{2} $ 两点的电势差。
+
+<!-- page: 27 -->
+
+## 练习 17 静电场中的导体
+
+## 一、填空题
+
+1. 在电量为+q的点电荷电场中放入一不带电的金属球，从球心O到点电荷所在处的矢径为r，金属球的感应电荷净电量 $ q'= $___，这些感应电荷在球心O处建立的电场强度E=___。
+
+2. 一带电量为 q、半径为  $ r_{A} $ 的金属球 A，与一原先不带电、内外半径分别为  $ r_{B} $ 和  $ r_{C} $ 的金属球壳 B 同心放置，如图 17.1 所示，则图中 P 点的电场强度  $ E_{P}= $ ___；若用导线将 A 和 B 连接起来，则 A 球的电势 U= ___。
+
+（设无穷远处电势为零）
+
+
+
+3. 有两个大小不相同的金属球，大球直径是小球的两倍，大球带电，小球不带电，两者相距很远。今用细长导线将两者相连，在忽略导线的影响下，大球与小球的带电之比为 ___。
+
+<div style="text-align: center;"><img src="chapters/17-练习17 静电场中的导体/images/p0027_img_in_image_box_917_380_1081_563.jpg" alt="图17.1" width="13%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图17.1</div> </div>
+
+
+## 二、计算题
+
+4. 如图17.2所示，三个平行金属板A、B、C，面积均为 $ S=200\ cm^{2} $，A、B间相距 $ d_{1}=4\ mm $，A、C相距 $ d_{2}=2\ mm $，B和C两板都接地。如果使A板带正电 $ q=3.0\times10^{-7} $ C，求：(1)B、C板上感应电荷(2)A板电势。
+
+<div style="text-align: center;"><img src="chapters/17-练习17 静电场中的导体/images/p0027_img_in_image_box_926_814_1105_1022.jpg" alt="图17.2" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图17.2</div> </div>
+
+<!-- page: 28 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图17.3所示，半径为R的导体球外罩一个内外半径分别为 $ R_{1} $ 和 $ R_{2} $ 的同心导体球壳。若球和球壳分别带有电荷q 和Q，试求导体球和球壳的电势。
+
+<div style="text-align: center;"><img src="chapters/17-练习17 静电场中的导体/images/p0028_img_in_image_box_931_178_1113_361.jpg" alt="图17.3" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图17.3</div> </div>
+
+
+6. 两个半径分别为  $ R_{1} $ 和  $ R_{2} $ ( $ R_{1}<R_{2} $) 的同心薄金属球壳，现给内球壳带电 +q，试计算：
+
+(1)外球壳上的电荷分布及电势大小；
+
+（2）先把外球壳接地，然后断开接地线，此时外球壳的电荷分布及电势；
+
+（3）再使内球壳接地，此时内球壳上的电荷分布以及外球壳上的电势改变量。
+
+<!-- page: 29 -->
+
+## 练习 18 电容和电容器 静电场的能量
+
+## 一、填空题
+
+1. 如图18.1所示，金属球A与同心球壳B组成电容器，球A带电荷q，壳B带电荷Q，测得球与壳间电势差为 $ U_{AB} $，可知该电容器的电容值为___。
+
+2. 极板面积为 S 的空气平行板电容器，极板上分别带电量 +q、-q，若不考虑边缘效应，则两极板间的相互作用力为 ___。
+
+3. 真空中，半径为  $ R_{1} $ 和  $ R_{2} $ 的两个导体球，相距很远，则两球的电容之比  $ C_{1}/C_{2}= $ ___。当用细长导线将两球相连后，电容 C= ___。
+
+<div style="text-align: center;"><img src="chapters/18-练习18 电容和电容器 静电场的能量/images/p0029_img_in_image_box_952_303_1105_446.jpg" alt="图18.1" width="12%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图18.1</div> </div>
+
+
+## 二、计算题
+
+4. 如图18.2所示，半径为 $ R_{1}=2.0\ cm $的导体球，外套有一同心的导体球壳，壳的内、外半径分别 $ R_{2}=4.0\ cm $和 $ R_{3}=5.0\ cm $，当内球带电荷 $ Q=3.0\times10^{-8}C $时，求：
+
+（1）整个电场储存的能量；
+
+（2）当导体球壳接地时储存的能量；
+
+（3）此电容器的电容值。
+
+<div style="text-align: center;"><img src="chapters/18-练习18 电容和电容器 静电场的能量/images/p0029_img_in_image_box_935_640_1104_798.jpg" alt="图18.2" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图18.2</div> </div>
+
+<!-- page: 30 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 有一空气平板电容器，极板面积均为 S，两板间距为 d。今以厚度为  $ d'(d' < d) $ 的铜板平行地插电容器，求：
+
+（1）此时电容器的电容。铜板离极板的距离对这一结果有无影响？
+
+（2）现使电容器充电到两极板的电势差为  $ U_{0} $ 后与电源断开，再把铜板从电容器中抽出，外力需做少功？
+
+6. 圆柱形电容器由半径为  $ R_{1} $ 的导线和与它同轴的导体圆筒构成。圆筒内半径为  $ R_{2} $，其间为真空长为 l，如图 18.3 所示。设沿轴线单位长度上导线电荷线密度为  $ \pm\lambda $，圆筒电荷线密度为  $ -\lambda $，忽略边缘应，试求：
+
+（1）电容器储存的能量；
+
+(2) 电容器的电容。
+
+<div style="text-align: center;"><img src="chapters/18-练习18 电容和电容器 静电场的能量/images/p0030_img_in_image_box_880_767_1106_1087.jpg" alt="图18.3" width="18%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图18.3</div> </div>
+
+<!-- page: 31 -->
+
+## 练习 19 磁感应强度 磁通量 磁场中的高斯定理
+
+## 一、填空题
+
+1. 一磁场的磁感强度为  $  \boldsymbol{B} = a \boldsymbol{i} + b \boldsymbol{j} + c \boldsymbol{k}  $ （SI），则通过一半径为 R，开口向 z 轴正方向的半球壳表的磁通量为 ___ Wb。
+
+2. 在匀强磁场 B 中，取一半径为 R 的圆，圆面的法线 n 与 B 成  $ 60^{\circ} $ 角，如图 19.1 所示，则通过以该圆周为边线的如图所示的任意曲面 S 的磁通量
+
+ $ \Phi_{m}=\iint_{S}\overrightarrow{B}\cdot d\overrightarrow{S}= $ ___。
+
+
+
+<div style="text-align: center;"><img src="chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0031_img_in_image_box_881_353_1082_484.jpg" alt="任意曲面" width="16%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">任意曲面</div> </div>
+
+
+3. 由于磁力线是___曲线，所以对于任意闭合曲面，磁通量 $ \oint_{S}B\cdot dS= $___，表明磁场是___场。
+
+<div style="text-align: center;"><div style="text-align: center;">图19.1</div> </div>
+
+
+## 二、计算题
+
+4. 如图19.2所示，半径为R=1.2 cm的圆内有一垂直于纸面向外的非均匀磁场，磁场的磁感应度大小为 $ B=\frac{k}{r}+2 $，其中k是常数，求此圆面的磁通量。
+
+<div style="text-align: center;"><img src="chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0031_img_in_image_box_974_735_1104_855.jpg" alt="图19.1" width="10%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图19.2</div> </div>
+
+<!-- page: 32 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图19.3所示，三角形柱体置于均匀磁场中，已知磁感应强度大小 $ B=2.0\ Wb\cdot m^{-2} $，方向沿轴正方向，边长ab=40 cm，da=30 cm，be=30 cm，df=50 cm。试求：(1)通过图中abcd面的磁通量(2)通过图中befc面的磁通量；(3)通过图中aefd面的磁通量。
+
+<div style="text-align: center;"><img src="chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0032_img_in_image_box_810_210_1103_421.jpg" alt="图 19.3" width="24%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图 19.3</div> </div>
+
+
+6. 如图19.4所示，在xOy平面第一象限内有一长为a、宽为b的矩形回路处于非均匀磁场中，磁应强度的大小 $ B=\frac{k}{x^{2}} $，方向垂直于纸面向外，则该矩形回路的磁通量为多少？
+
+<div style="text-align: center;"><img src="chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理/images/p0032_img_in_image_box_890_911_1104_1068.jpg" alt="图 19.4" width="17%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图 19.4</div> </div>
+
+<!-- page: 33 -->
+
+## 练习20 毕-萨定律及应用
+
+## 一、填空题
+
+1. 真空中有一载有稳恒电流 I 的细线圈，则通过包围该线圈的封闭曲面 S 的磁通量  $ \Phi= $ ___ 若通过 S 面上某面元 dS 的磁通量为 d $ \Phi $，而线圈中的电流增加为 2I 时，通过同一面元的磁通量为 d $ \Phi $ 则 d $ \Phi $: d $ \Phi $'= ___。
+
+2. 将同样的 12 根导线焊成立方体，并在其对顶角 A、B 上接上电源，如图 20.1 所示，则立方体框架中的电流在其中心处所产生的磁感应强度大小等于 ___。
+
+
+
+3. 一质点带有电荷 q，以速率 v 在半径为 R 的圆周上做匀速圆周运动。该带电质点在轨道中心所产生的磁感应强度的大小 B= ___，该带电质点轨道运动的磁矩的大小  $ P_{m}= $ ___。
+
+<div style="text-align: center;"><img src="chapters/20-练习20 毕-萨定律及应用/images/p0033_img_in_image_box_881_387_1105_573.jpg" alt="图20.1" width="18%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图20.1</div> </div>
+
+
+## 二、计算题
+
+4.（1）如图20.2(a)所示，边长为2a的等边三角形线圈，通有电流I，求线圈中心O点处的磁感强度。
+
+（2）如图20.2（b）所示，一根无限长直导线，中间一段弯成半径为r的圆弧，若导线中电流为I，求心O点处的磁感应强度。
+
+<div style="text-align: center;"><img src="chapters/20-练习20 毕-萨定律及应用/images/p0033_img_in_image_box_340_850_463_965.jpg" alt="(a)" width="10%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">(a)</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/20-练习20 毕-萨定律及应用/images/p0033_img_in_image_box_539_852_849_987.jpg" alt="(b)" width="26%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">(b)</div> </div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图20.2</div> </div>
+
+<!-- page: 34 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图 20.3 所示，一宽为 a 的无限长薄金属板，自下而上通有电流 I，电流沿薄板宽度方向均匀分布。求在薄金属板所在平面内距其右侧为 d 的 P 点处的磁感应强度。
+
+<div style="text-align: center;"><img src="chapters/20-练习20 毕-萨定律及应用/images/p0034_img_in_image_box_908_172_1105_389.jpg" alt="图20.3" width="16%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图20.3</div> </div>
+
+
+6. 真空中，一无限长直导线 abcde 弯成如图 20.4 所示形状，并通有电流 I, bc 直线在 xOy 平面内，是半径为 R 的 1/4 圆弧，ab、de 分别在 x 轴和 z 轴上，Ob = Oc = Od = R。求 O 点处的磁感应强度 B。
+
+<div style="text-align: center;"><img src="chapters/20-练习20 毕-萨定律及应用/images/p0034_img_in_image_box_872_848_1104_1057.jpg" alt="图20.4" width="19%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图20.4</div> </div>
+
+<!-- page: 35 -->
+
+## 练习 21 安培环路定理及应用
+
+## 一、填空题
+
+1. 在图21.1所示的两个闭合回路中环流分别为：
+
+回路甲： $ \oint B \cdot dI = $ ___； 回路乙： $ \oint B \cdot dI = $ ___。
+
+2. 如图21.2所示，在载流长直螺线管外环绕一周，其环流 $  \textcircled{1} B \cdot d l =  $ ___。
+
+<div style="text-align: center;"><img src="chapters/21-练习21 安培环路定理及应用/images/p0035_img_in_image_box_287_471_604_585.jpg" alt="图21.1" width="26%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图21.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/21-练习21 安培环路定理及应用/images/p0035_img_in_image_box_689_498_901_587.jpg" alt="图21.2" width="17%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图21.2</div> </div>
+
+
+3. 两根长度相同的细导线分别密绕在半径为 R 和 r 的两个长直圆筒上形成两个螺线管，两个螺管的长度相同，R=2r，螺线管通过的电流相同且都为 I，则螺线管中的磁感应强度大小  $ B_{R}:B_{r}= $ ___。
+
+## 二、计算题
+
+4. 有一同轴电缆，其尺寸如图21.3所示，它的内外两导体中的电流均为I，且在横截面上均匀分布但两者电流的流向正相反，求导体内外的磁感应强度的分布。
+
+<div style="text-align: center;"><img src="chapters/21-练习21 安培环路定理及应用/images/p0035_img_in_image_box_834_916_1103_1099.jpg" alt="图21.3" width="22%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图21.3</div> </div>
+
+<!-- page: 36 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 一半径  $ R = 1.0 \, cm $ 的无限长半圆柱形金属薄片（薄片厚度不计）中，自下而上有电流 I = 5.0 通过，如图 21.4 所示，求圆柱轴线任一点 P 处的磁感应强度。
+
+<div style="text-align: center;"><img src="chapters/21-练习21 安培环路定理及应用/images/p0036_img_in_image_box_847_174_1109_332.jpg" alt="图21.4" width="21%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图21.4</div> </div>
+
+
+6. 如图21.5所示，在半径为R的无限长直金属圆柱体内部，挖去一半径为r且与轴线平行的无限圆柱体，两柱体的轴线平行，相距为 $ d(d>r) $。今有电流沿空心柱体的轴线方向流动，且电流I均匀布在空心柱体的截面上。分别求圆柱轴线上和空心部分轴线上O、O'点的磁感应强度大小。
+
+<div style="text-align: center;"><img src="chapters/21-练习21 安培环路定理及应用/images/p0036_img_in_image_box_853_886_1103_1133.jpg" alt="图21.5" width="20%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图21.5</div> </div>
+
+<!-- page: 37 -->
+
+## 练习 22 磁场对载流导线的作用
+
+## 一、填空题
+
+1. 如图22.1所示，在一固定的无限长载流直导线的旁边放置一个可以自由移动和转动的圆形的性线圈，线圈中通有电流，若线圈与直导线在同一平面，见图22.1(a)，则圆线圈将___；若线圈平与直导线垂直，见图22.1(b)，则圆线圈将___。
+
+2. 有一半径为 a，流过稳恒电流为 I 的 1/4 圆弧形载流导线 bc，按图 22.2 所示方式置于均匀外磁 B 中，则该载流导线所受的安培力大小为 ___。
+
+<div style="text-align: center;"><img src="chapters/22-练习22 磁场对载流导线的作用/images/p0037_img_in_image_box_334_494_548_647.jpg" alt="(a)" width="17%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">(a)</div> </div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">(b)</div> </div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图22.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/22-练习22 磁场对载流导线的作用/images/p0037_img_in_image_box_680_500_856_642.jpg" alt="(b)" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图22.2</div> </div>
+
+
+3. 半径为 R 的圆形电流线圈共 N 匝，通以电流 I，把该平面线圈放入均匀外磁场 B 中，该线圈受的最大磁力矩为 ___。
+
+## 二、计算题
+
+4. 两根平行无限长直导线间的垂直距离为 a，其中电流强度分别为  $ I_{1} $ 和  $ I_{2} $，且方向相同，试求在位长度导线上的作用力的大小。
+
+<!-- page: 38 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图 22.3 所示，电流为  $ I_{2} $ 的等边三角形载流线圈与无限长直流  $ I_{1} $ 共面，等边三角形的边长 l，AC 边距无限长载流直导线的距离为 d。求载流线圈所受的合力。
+
+<div style="text-align: center;"><img src="chapters/22-练习22 磁场对载流导线的作用/images/p0038_img_in_image_box_915_174_1105_353.jpg" alt="图22.3" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图22.3</div> </div>
+
+
+6. 如图 22.4 所示，一半径为 R、电荷面密度为  $ \sigma $ 的均匀带电圆盘，放入磁感应强度为 B 的匀强磁中，磁力线与圆盘表面平行，现圆盘以角速度  $ \omega $ 绕对称轴转动。求：
+
+(1) 在距盘心为 r 处取一半径为 r、宽度为 dr 的圆环，则圆环旋转产生的电流强度 dI 有多大？
+
+
+
+(2)该圆环所受的磁力矩有多大?
+
+(3)圆盘所受的合力矩有多大？
+
+<div style="text-align: center;"><img src="chapters/22-练习22 磁场对载流导线的作用/images/p0038_img_in_image_box_928_810_1102_949.jpg" alt="图22.4" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图22.4</div> </div>
+
+<!-- page: 39 -->
+
+## 练习 23 电磁感应定律
+
+## 一、填空题
+
+1. 一矩形线框长为 b、宽为 a，置于均匀磁场中，线框绕  $ OO' $ 轴，以匀角速度  $ \omega $ 旋转（图 23.1），设 t= 时，线框平面处于纸面内，则任一时刻感应电动势的大小为 ___。
+
+2. 如图23.2所示，一半径为r的很小的金属圆环，在初始时刻与一半径为 $ a(a\gg r) $的大金属圆环面且同心。在大圆环中通以恒定的电流I，方向如图23.2所示。如果小圆环以匀角速度 $ \omega $绕其任一方的直径转动，并设小圆环的电阻为R，则任一时刻t通过小圆环的磁通量 $ \Phi_{m}= $___，小圆环中感应电流i=___。
+
+<div style="text-align: center;"><img src="chapters/23-练习23 电磁感应定律/images/p0039_img_in_image_box_348_528_531_710.jpg" alt="图23.1" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图23.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/23-练习23 电磁感应定律/images/p0039_img_in_image_box_664_531_841_706.jpg" alt="图23.2" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图23.2</div> </div>
+
+
+3. 用导线制成一半径 r=10 cm 的闭合圆形线圈，其电阻 R=10 Ω，均匀磁场 B 垂直于线圈平面欲使电路中有一稳定的感应电流 I=0.01 A，B 的变化率 dB/dt= ___。
+
+## 二、计算题
+
+4. 如图23.3所示，两无限长的直导线载有交变电流  $ i = I_{0} \sin \omega t $，它旁边有一长方形线圈 ABCD，为 L，宽为 b-a，线圈与导线共面，求：(1)穿过回路 ABCD 的磁通量  $ \Phi $; (2)回路 ABCD 中的感应电势  $ \varepsilon $。
+
+<div style="text-align: center;"><img src="chapters/23-练习23 电磁感应定律/images/p0039_img_in_image_box_959_1038_1105_1201.jpg" alt="图23.3" width="12%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图23.3</div> </div>
+
+<!-- page: 40 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 如图23.4所示，一圆形线圈 $ C_{1} $由50匝表面绝缘的细导线绕成，圆面积 $ S=4.0\ cm^{2} $，将它放在一半径 $ R=20\ cm $的圆形大线圈 $ C_{2} $的中心处，两者共面，大线圈共100匝。求：当大圆线圈中的电流50 A/s的速率变化时，小圆线圈中的感应电动势。
+
+<div style="text-align: center;"><img src="chapters/23-练习23 电磁感应定律/images/p0040_img_in_image_box_941_206_1106_366.jpg" alt="图23.4" width="13%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图23.4</div> </div>
+
+
+6. 在匀强磁场 B 中，置有面积为 S 的可绕  $ OO' $ 轴转动的 N 匝线圈，如图 23.5 所示。若线圈以角度  $ \omega $ 做匀速转动，求线圈中的感应电动势。
+
+<div style="text-align: center;"><img src="chapters/23-练习23 电磁感应定律/images/p0040_img_in_image_box_901_814_1104_1069.jpg" alt="图23.5" width="17%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图23.5</div> </div>
+
+<!-- page: 41 -->
+
+## 练习 24 动生电动势 感生电动势
+
+## 一、填空题
+
+1. 载有恒定电流 I 的长直导线旁有一半圆环导线 cd，半圆环半径为 b，环面与直导线垂直，且半圆两端点连线的延长线与直导线相交，如图24.1所示，当半圆环以速率 v 沿平行于直导线的方向下移时半圆环上的感应电动势的大小为 ___。
+
+2. 如图 24.2 所示，导体棒 AB 在均匀磁场 B 中绕通过 C 点的垂直于棒且沿磁场方向的轴  $ OO' $ 转（角速度  $ \omega $ 与 B 同方向），BC 的长度为棒长的 1/3，则 A 点比 B 点电势 ___。
+
+<div style="text-align: center;"><img src="chapters/24-练习24 动生电动势 感生电动势/images/p0041_img_in_image_box_337_536_526_622.jpg" alt="图24.1" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图24.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/24-练习24 动生电动势 感生电动势/images/p0041_img_in_image_box_660_491_850_622.jpg" alt="图24.2" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图24.2</div> </div>
+
+
+3. 无限长直通电螺线管的半径为 R，设其内部的磁场以 dB/dt 的变化率增加，则在螺线管内离开线距离为  $ r (r < R) $ 处的感生电场的强度大小为 ___。
+
+## 二、计算题
+
+4. 如图24.3所示，一长直导线载有电流I，旁边有一矩形线圈ABCD（与长直导线共面），AB长L BC宽 $ L_{2} $，线圈共N匝，令线圈以速度v水平向右平动，求线圈的AD边与长直导线距离a时线圈中动生电动势。
+
+<div style="text-align: center;"><img src="chapters/24-练习24 动生电动势 感生电动势/images/p0041_img_in_image_box_877_956_1104_1148.jpg" alt="图24.3" width="19%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图24.3</div> </div>
+
+<!-- page: 42 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 半径为 R 的圆柱形空间内分布有沿圆柱轴线方向的均匀磁场，磁场方向垂直于纸面向里，变化  $ \frac{dB}{dt}>0 $ 。有一长度为 2R 的金属杆放在如图 24.4 所示的位置，其中一半位于磁场内，一半位于磁场外，该金属杆上的感生电动势。
+
+<div style="text-align: center;"><img src="chapters/24-练习24 动生电动势 感生电动势/images/p0042_img_in_image_box_887_234_1103_388.jpg" alt="图24.4" width="18%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图24.4</div> </div>
+
+
+6. 如图24.5所示，半径为R的圆形区域内有一均匀磁场B垂直于纸面，且B以均匀速率 $ \frac{dB}{dt} $增大求图中导线ABCD的感生电动势。
+
+<div style="text-align: center;"><img src="chapters/24-练习24 动生电动势 感生电动势/images/p0042_img_in_image_box_918_868_1106_1064.jpg" alt="图24.5" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图24.5</div> </div>
+
+<!-- page: 43 -->
+
+## 练习 25 自感应与互感应 磁场的能量
+
+## 一、填空题
+
+1. 真空中无限长密绕直螺线管通以电流 I，管上单位长度绕有 n 匝导线，真空磁导率为  $ \mu_{0} $。则管部的磁感应强度大小为 ___，内部的磁能密度为 ___。
+
+2. 一根长直导线输入电流 I，I 均匀分布在它的横截面上，则导体内部单位长度的磁场能量为 ___。
+
+
+
+3. 如图25.1所示，一长直导线旁有一宽为b、长为a的矩形线圈，线圈与导线共面，宽度为b的边与导线平行，则线圈与导线的互感系数为___。
+
+<div style="text-align: center;"><img src="chapters/25-练习25 自感应与互感应 磁场的能量/images/p0043_img_in_image_box_921_372_1082_483.jpg" alt="图25.1" width="13%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图25.1</div> </div>
+
+
+## 二、计算题
+
+4. 横截面为长方形的环形均匀密绕螺绕环，其尺寸如图25.2所示，共有N匝（图中仅画出少量匝）。试求：
+
+（1）该螺绕环的自感系数；
+
+(2)若导线内通有电流I，则螺绕环内磁能为多少？
+
+<div style="text-align: center;"><img src="chapters/25-练习25 自感应与互感应 磁场的能量/images/p0043_img_in_image_box_910_638_1106_840.jpg" alt="图25.2" width="16%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图25.2</div> </div>
+
+<!-- page: 44 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 一矩形线圈长  $ a=20 \, cm $，宽  $ b=10 \, cm $，共绕100匝。一根很长的直导线与线圈在同一平面内且线圈的长边平行，此长直导线是闭合回路的一部分，其他部分离线圈都很远，其影响可忽略不计。求在面所描述的两种情况下，线圈与长直导线之间的互感系数：
+
+(1) 长导线与线圈一边相距为 b;
+
+(2) 长导线位于线圈的对称轴处。
+
+6. 一长直导线和一矩形线圈共面，各相关尺寸如图 25.3 所示。求：
+
+(1) 当长直导线通有电流  $ I_{1}=I_{0}\sin\omega t $ 时，矩形线圈中感应电动势的大小；
+
+(2)当矩形线圈中通有电流  $ I_{2}=I_{0}\cos\omega t $ 时，直导线中感应电动势的大小。
+
+<div style="text-align: center;"><img src="chapters/25-练习25 自感应与互感应 磁场的能量/images/p0044_img_in_image_box_928_772_1106_942.jpg" alt="图25.3" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图25.3</div> </div>
+
+<!-- page: 45 -->
+
+## 练习 26 位移电流 麦克斯韦方程组
+
+## 一、填空题
+
+1. 如图 26.1 所示，圆形平行板电容器，从 q=0 开始充电，极板某点 P 处电场强度方向磁场强度方向 ___。
+
+2. 如图26.2所示，一电量为q的点电荷，以匀角速度ω做圆周运动，圆周半径为R，设t=0时q在点的坐标为 $ x_{0}=R, y_{0}=0 $；以i、j分别表示x轴与y轴上的单位矢量，则圆心处O点的位移电流密为___。
+
+<div style="text-align: center;"><img src="chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0045_img_in_image_box_383_496_520_634.jpg" alt="图26.1" width="11%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图26.1</div> </div>
+
+
+<div style="text-align: center;"><img src="chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0045_img_in_image_box_653_491_807_632.jpg" alt="图26.2" width="12%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图26.2</div> </div>
+
+
+3. 写出包含下列意义的麦克斯韦方程组中的方程式：
+
+(1)电场线始于正电荷,终止于负电荷
+
+(2)变化的磁场一定伴随有电场
+
+(3)磁感应线无头无尾___
+
+(4)静电场是保守力场
+
+## 二、计算题
+
+4. 一平板空气电容器的两极板都是半径为 r 的圆形导体板，充电时，板间电场强度的变化率为  $ \frac{dI}{di} $ 略去边缘效应，求两极板间的位移电流。
+
+<!-- page: 46 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 一平行板电容器的两极板由半径为  $ 5.0 \, cm $ 的圆形金属板组成，两极板之间为空气。忽略边缘应，当电容器充电时，极板间的电场强度变化率为  $ \frac{dE}{dt}=1.0\times10^{12} \, V/(m \cdot s) $，求：
+
+（1）两极板间的位移电流；
+
+(2)两极板边缘的磁感应强度的大小。
+
+6. 一平行板电容器，极板是半径为 R 的两圆形金属板，极板间为空气，如图26.3所示。此电容器与交变电源相接。极板上所带电量随时间变化的关系为  $ q=q_{0}\sin(\omega t)(\omega $ 为常量），忽略边缘效应，求：
+
+（1）电容器极板间位移电流及位移电流密度。
+
+(2)两极板间离中心轴线距离为  $ r(r<R) $ 处的 b 点的磁场强度 H 的大小。
+
+<div style="text-align: center;"><img src="chapters/26-练习26 位移电流 麦克斯韦方程组/images/p0046_img_in_image_box_915_746_1083_967.jpg" alt="图26.3" width="14%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图26.3</div> </div>
+
+<!-- page: 47 -->
+
+## 练习 40 狭义相对论的基本原理 洛伦兹变换
+
+## 一、填空题
+
+1. 宇宙飞船相对于地面以速度 v 做匀速直线飞行，某一时刻飞船头部的宇航员向飞船尾部发出一个光信号，经过  $ \Delta t $（飞船上的钟测得的数据）时间后，被尾部的接收器收到，则飞船的固有长度为（即飞船上的人测量的飞船长度）。
+
+2. 已知惯性系  $ S^{\prime} $ 相对于惯性系 S 以 0.5c (c 为真空中的光速) 的速度沿 x 轴的负方向运动，若从  $ S^{\prime} $ 系的坐标原点  $ O^{\prime} $ 沿 x 轴正方向发出一光波，则 S 系中测得此光波的波速为 ___。
+
+3. 在惯性系 S 中，有两事件发生于同一地点，且第二事件比第一事件晚发生  $ \Delta t=2 $ s，而在另一惯性系  $ S' $ 中，观测第二事件比第一事件晚发生  $ \Delta t'=3 $ s，那么在  $ S' $ 中发生两事件的地点之间的距离是 ___。
+
+## 二、计算题
+
+4. 在惯性系 S 中，有两个事件 A、B 同时发生在 x 轴上相距  $ x_{B}-x_{A}=1.2\times10^{6} $ m 的两地。从相对于 S 系沿  $ xx' $ 轴正向做 u=0.999c (c 为真空中的光速) 匀速运动的  $ S' $ 系中观测，这两个事件 A、B 发生的时间间隔是多少？哪一个事件先发生？
+
+<!-- page: 48 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 惯性系  $ S' $ 相对惯性系 S 运动的速率为 0.6c (c 为真空中的光速), S 系中测得一事件于  $ t_{1}=2\times10^{-7} $ s 时刻发生, 地点位于  $ x_{1}=50 $ m 处, 第二事件于  $ t_{2}=3\times10^{-7} $ s 时刻发生, 地点位于  $ x_{2}=10 $ m 处。求  $ S' $ 系中的观察者测得两事件发生的空间间隔和时间间隔。
+
+6. 在惯性系 S 中，有两个事件同时发生在 x 轴上相距 1000 m 的两点，而在另一惯性系 S'（沿 x 轴方向相对于 S 系运动）中测得这两个事件发生的地点相距 2000 m。求在 S' 系中测得这两个事件发生的时间间隔。
+
+<!-- page: 49 -->
+
+## 练习 41 狭义相对论时空观
+
+## 一、填空题
+
+1. 在惯性系 S 中的 x 轴上相隔为  $ \Delta x $ 处有两只同步的钟 A 和 B，读数相同，在惯性系  $ S^{\prime} $ 的  $ x^{\prime} $ 轴上也有一只同样的钟  $ A^{\prime} $，若  $ S^{\prime} $ 系相对于 S 系沿 x 轴方向的运动速度为 v，当  $ A^{\prime} $ 与 A 相遇时，刚好两钟的读数均为零，则当  $ A^{\prime} $ 钟与 B 钟相遇时，在 S 系中 B 钟的读数是 ___；此时在  $ S^{\prime} $ 系中  $ A^{\prime} $ 钟的读数是 ___。
+
+2.  $ \mu $ 于是一种基本粒子，在相对于  $ \mu $ 子静止的坐标系中测得其寿命为  $ \tau_{0}=2\times10^{-6} $ s，如果  $ \mu $ 子相对于地球的速度为 v=0.988c (c 为真空中的光速)，则在地球坐标系中测出的  $ \mu $ 子的寿命  $ \tau= $ ___。
+
+3. 设有宇宙飞船 A 和 B，固有长度均为  $ l_{0}=100\ m $，沿同一方向匀速飞行，在飞船 B 上观测到飞船 A 的船头、船尾经过飞船 B 船头的时间间隔为  $ \frac{3}{7}\times10^{-7}\ s $，则飞船 B 相对于飞船 A 的速度大小是 ___。
+
+## 二、计算题
+
+4. 在某地发生两个事件，静止位于该地的甲测得时间间隔为4 s，若相对甲做匀速直线运动的乙测得时间间隔为5 s，求乙相对于甲的运动速度。
+
+<!-- page: 50 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 静止的  $ \mu $ 子的平均寿命约为  $ \tau_{0}=2\times10^{-6} $ s。今在 8 km 的高空，由于  $ \pi $ 介子的衰变产生一个速度为 u=0.998c 的  $ \mu $ 子，此  $ \mu $ 子有无可能到达地面？
+
+6. 一艘宇宙飞船的船身固有长度为  $ L=90 \, m $，相对于地面以  $ 0.8c $ (c 为真空中的光速) 的速度从地面观测站的上空飞过。求：
+
+(1)观测站测得飞船的船身通过观测站的时间间隔是多少?
+
+(2)宇航员测得飞船的船身通过观测站的时间间隔是多少?
+
+<!-- page: 51 -->
+
+## 练习 42 相对论动力学基础
+
+## 一、填空题
+
+1. 设电子静质量为  $ m_{0} $，将一个电子从静止加速到速率为 0.60c（c 为真空中光速），需做功为 ___。
+
+2.(1)在速度 v=  $ \underline{\hspace{2cm}} $ 情况下粒子的动量等于非相对论动量的两倍。
+
+(2)在速度 v= 情况下粒子的动能等于它的静止能量。
+
+3. 电子的静止质量  $ m_{0}=9.11\times10^{-31} $ kg，当它具有  $ 2.6\times10^{5} $ eV 的动能时，增加的质量与静质量之比为 ___。
+
+## 二、计算题
+
+4. 一个电子被电压为  $ 1.0 \times 10^{6} $ V 的电场加速后，其质量多大？速度多大？
+
+<!-- page: 52 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 一个立方体的静质量为  $ m_{0} $，体积为  $ V_{0} $，当它相对某惯性系 S 沿一边长方向以 v 匀速运动时，静止在 S 系中的观察者测得其密度为多少？
+
+6. (1) 设某高速运动的介子的能量为  $ E=3000 \, MeV $，其在静止时的能量为  $ E_{0}=100 \, MeV $。若这种介子的固有寿命  $ \tau_{0}=2 \times 10^{-6} \, s $，试求其在实验室运动的距离。
+
+（2）设某宇宙射线中的介子的动能  $ E_{k}=7m_{0}c^{2} $，其中  $ m_{0} $ 为介子的静止质量，在实验室中观察到它的寿命是其固有寿命的多少倍？
+
+<!-- page: 53 -->
+
+## 练习 43 黑体辐射 普朗克能量子假设
+
+## 一、填空题
+
+1. 某物体辐射频率为  $ 6.0 \times 10^{14} $ Hz 的黄光，这种辐射的能量子的能量是 ___。
+
+2. 夜间地面降温主要是由于地面的热辐射。如果晴天夜里地面温度为  $ -5^{\circ}\mathrm{C} $，按黑体辐射计算， $ 1\ \mathrm{m}^{2} $ 地面失去热量的速率为 ___。（ $ \sigma=5.670\times10^{-8}\ \mathrm{W}\cdot\mathrm{m}^{-2}\cdot\mathrm{K}^{-4} $）
+
+3. 假设人体的热辐射是黑体辐射，以人体的正常体温的最高值  $ 37^{\circ} $C 为例，用维恩定律估算人体的电磁辐射中，单色辐出度的峰值波长为 ___。(b=2.898 $ \times $10 $ ^{-3} $ m $ \cdot $K)
+
+## 二、计算题
+
+4．宇宙微波背景辐射相当于3 K 黑体辐射，求：
+
+（1）该辐射的单色辐出度的峰值波长 $ \lambda_{m} $
+
+(2) 地球表面接受该辐射的功率 P。（已知地球半径  $ R=6.4\times10^{6} $ m）
+
+<!-- page: 54 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 用辐射高温计测得炉壁小孔的辐射出射度（总辐射本领）为  $ 22.8 \, W \cdot cm^{-2} $，求炉内温度。
+
+6. 一绝对黑体在  $ T_{1}=1450\ K $ 时，单色辐射出射度峰值所对应的波长  $ \lambda_{1}=2\ \mu m $，已知太阳单色辐射出射度的峰值所对应的波长  $ \lambda_{2}=500\ nm $，若将太阳看作黑体，试估算太阳表面的温度  $ T_{2} $。
+
+<!-- page: 55 -->
+
+## 练习 44 光的量子性
+
+## 一、填空题
+
+1. 某金属产生光电效应的红限波长为  $ \lambda_{0} $，今以波长为  $ \lambda (\lambda < \lambda_{0}) $ 的单色光照射该金属，金属释放出的电子（质量为  $ m_{c} $）的动量大小为 ___。
+
+2. 康普顿散射中，当散射光子与入射光子方向成夹角  $ \phi =  $ ___ 时，散射光子的频率减小得最多；当  $ \phi =  $ ___ 时，散射光子的频率与入射光子相同。
+
+3. 用强度为 I、波长为  $ \lambda $ 的 X 射线分别照射锂 (Z=3) 和铁 (Z=26)，若在同一散射角下测得康普顿散射的 X 射线波长分别为  $ \lambda_{Li} $ 和  $ \lambda_{Fe}(\lambda_{Li}, \lambda_{Fe} > \lambda) $，它们对应的强度分别为  $ I_{Li} $ 和  $ I_{Fe} $，则： $ \lambda_{Li} $ ___  $ \lambda_{Fe} $， $ I_{Li} $ ___  $ I_{Fe} $。（请填“>”“=”或“<”）
+
+## 二、计算题
+
+4. 从铝中逸出一个电子需要的最小能量为 4.2 eV，现用波长  $ \lambda=200 $ nm 的紫外光照射铝表面，求：
+
+（1）逸出光电子的最大动能；
+
+（2）截止电势差；
+
+（3）铝的截止（红限）波长。
+
+<!-- page: 56 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. 设在康普顿散射实验中入射 X 射线的波长  $ \lambda=0.70\times10^{-10} $ m，散射的 X 射线与入射的 X 射线垂直。求：
+
+（1）散射 X 射线的波长；
+
+(2) 反冲电子的动能  $ E_{k} $;
+
+(3) 反冲电子的运动方向与入射 X 射线间的夹角  $ \theta $。
+
+6. 计算频率为  $ 100 \, MHz $ 的一个光子的能量、动量大小和质量。
+
+<!-- page: 57 -->
+
+## 练习 45 玻尔氢原子理论
+
+## 一、填空题
+
+1. 已知基态氢原子的能量为 $ -13.6\ eV $，当基态氢原子被 $ 12.09\ eV $的光子激发后，将处于n=___的量子态，其电子的轨道半径将增加到玻尔半径的___倍。
+
+2. 已知氢原子从基态激发到某一定态所需能量为10.19 eV，若氢原子从能量为-0.85 eV的状态迁到上述定态时，所发射的光子的能量为 ___。
+
+3. 氢原子的部分能级跃迁如图 45.1 所示。在这些能级跃迁中：
+
+(1)从 n= ___ 的能级跃迁到 n= ___ 的能级时所发射的光子的波长最短；
+
+(2)从 n= ___ 的能级跃迁到 n= ___ 的能级时所发射的光子的频率最小。
+
+<div style="text-align: center;"><img src="chapters/45-练习45 玻尔氢原子理论/images/p0057_img_in_image_box_905_456_1105_569.jpg" alt="图45.1" width="16%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图45.1</div> </div>
+
+
+## 二、计算题
+
+4. 氢原子光谱的巴耳末线系中，有一光谱线的波长为  $ 434 \, nm $，试求：
+
+(1)与这一谱线相应的光子能量为多少电子伏特?
+
+(2)该谱线是氢原子由能级 $ E_{n} $跃迁到能级 $ E_{k} $产生的，n和k各为多少?
+
+<!-- page: 58 -->
+
+班级： $ \underline{\text{姓名：}} $ 学号： $ \underline{\text{编号：}} $
+
+5. 在气体放电管中，用能量为  $ 12.2 \, eV $ 的电子去轰击处于基态的氢原子，求此时氢原子所能辐射谱线波长。
+
+6. 处于第一激发态的氢原子被外来单色光激发后，在发射的光谱中，仅观察到三条如图45.2所的巴耳末系的光谱线。试求这三条光谱线中波长最长的那条谱线的波长以及外来光的频率。（ $ R\ 1.097\times10^{7}\ m^{-1} $）
+
+<div style="text-align: center;"><img src="chapters/45-练习45 玻尔氢原子理论/images/p0058_img_in_image_box_920_887_1106_1002.jpg" alt="图45.2" width="15%" /></div>
+
+
+<div style="text-align: center;"><div style="text-align: center;">图45.2</div> </div>
+
+<!-- page: 59 -->
+
+## 练习 46 粒子的波动性 不确定关系
+
+## 一、填空题
+
+1. 低速运动的质子和  $ \alpha $ 粒子，若它们的德布罗意波长相同，则它们的动量之比  $ P_{P}:P_{a}= $ ___；动能之比  $ E_{KP}:E_{Ka}= $ ___。
+
+2. 静止质量不为零的微观粒子做高速运动，这时粒子物质波波长  $ \lambda $ 与速度大小 v 之间的关系为 ___。
+
+3. 若动能为  $ 1 \, keV $ 的电子的位置不确定值在  $ 0.01 \, nm $ 以内，则其动量不确定值的相对比值  $ \Delta p / p $ 至少为 ___。(不确定关系式  $ \Delta x \cdot \Delta P_{x} \geqslant h, h = 6.63 \times 10^{-34} \, J \cdot s $)
+
+## 二、计算题
+
+4. 如果电子被限制在边界 x 与  $ x + \Delta x $ 之间， $ \Delta x = 0.05 \, nm $，则电子动量 x 分量的不确定量近似为多少？（不确定关系式  $ \Delta x \cdot \Delta P_x \geqslant h, h = 6.63 \times 10^{-34} \, J \cdot s $）
+
+<!-- page: 60 -->
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>班级：</td><td style='text-align: center; word-wrap: break-word;'>姓名：</td><td style='text-align: center; word-wrap: break-word;'>学号：</td><td style='text-align: center; word-wrap: break-word;'>编号：</td></tr></table>
+
+5. He-Ne 激光器所发红光波长  $ \lambda=632.8 $ nm，谱线宽度为  $ \Delta\lambda=10^{-9} $ nm，试求该光子运动方向的位置不确定量。（不确定关系式  $ \Delta x \cdot \Delta P_{x} \geqslant h, h=6.63 \times 10^{-34} $ J · s）
+
+6. 若电子和中子的德布罗意波长均为 0.1 nm，则电子和中子的速度及动能各为多少？
+
+<!-- page: 61 -->
+
+## 练习 47 波函数 薛定谔方程 一维势阱
+
+## 一、填空题
+
+1. 设描述微观粒子运动的波函数为  $ \psi(r,t) $，则  $ \psi\psi^{*} $ 表示 ___； $ \psi(r,t) $ 须满足的条件是 ___；其归一化条件是 ___。
+
+2. 一维谐振动处在  $ \psi(x)=\sqrt{\frac{\alpha}{\pi^{1/2}}}\mathrm{e}^{-\frac{1}{2}\alpha^{2}x^{2}}-\frac{1}{2}\mathrm{i}\omega t $ 的状态。式中  $ \alpha,\omega $ 均为常数， $ \mathrm{i}=\sqrt{-1} $，则  $ \int_{-\infty}^{\infty}\psi\psi^{*}\mathrm{d}x= $ ___。
+
+3. 宽度为 a 的一维无限深势阱中的基态粒子在  $ 0.25a \sim 0.75a $ 之间出现的概率为 ___。
+
+## 二、计算题
+
+4. 试用不确定关系估算：在宽度为 a 的一维无限深势阱中，质量为 m 的粒子的最低能量。（ $ P_{x} = \Delta P_{x} $，不确定关系式  $ \Delta x \cdot \Delta P_{x} \geqslant h $）
+
+<!-- page: 62 -->
+
+5. 一维运动的粒子处在  $ \psi(x)=\left\{\begin{aligned}&0&(x<0)\\&A x\mathrm{e}^{-\lambda x}&(x\geqslant0)\end{aligned}\right. $ 描述的状态中，其中  $ \lambda $ 是正常数。
+
+(1) 将  $ \psi(x) $ 归一化；
+
+(2) 求粒子概率密度分布函数：
+
+(3)在什么位置找到粒子的概率最大?
+
+（提示：积分公式 $ \int_{0}^{\infty}x^{2}e^{-ar}dx=\frac{2}{a^{3}} $）
+
+6. 设质量为 m 的微观粒子在宽度为 a 的一维无限深方势阱中运动，其波函数为  $ \psi(x)=\sqrt{\frac{2}{a}}\sin\frac{3\pi}{a}x $ 求：
+
+(1)粒子的能量和动量；
+
+(2) 概率密度最大的位置。

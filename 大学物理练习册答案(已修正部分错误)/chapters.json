@@ -1,0 +1,341 @@
+{
+  "page_numbering": "PDF pages, 1-based",
+  "chapters": [
+    {
+      "title": "01-练习1 位置矢量、位移、速度、加速度",
+      "start_page": 1,
+      "end_page": 6,
+      "path": "chapters/01-练习1 位置矢量、位移、速度、加速度",
+      "images": 0
+    },
+    {
+      "title": "02-练习2 曲线运动的描述",
+      "start_page": 7,
+      "end_page": 13,
+      "path": "chapters/02-练习2 曲线运动的描述",
+      "images": 1
+    },
+    {
+      "title": "03-练习3 运动学中的两类问题",
+      "start_page": 14,
+      "end_page": 19,
+      "path": "chapters/03-练习3 运动学中的两类问题",
+      "images": 1
+    },
+    {
+      "title": "04-练习4 牛顿运动定律及其应用",
+      "start_page": 20,
+      "end_page": 30,
+      "path": "chapters/04-练习4 牛顿运动定律及其应用",
+      "images": 6
+    },
+    {
+      "title": "05-练习5 动量、功和能",
+      "start_page": 31,
+      "end_page": 40,
+      "path": "chapters/05-练习5 动量、功和能",
+      "images": 4
+    },
+    {
+      "title": "06-练习6 质点角动量定理及守恒定律",
+      "start_page": 41,
+      "end_page": 48,
+      "path": "chapters/06-练习6 质点角动量定理及守恒定律",
+      "images": 3
+    },
+    {
+      "title": "07-练习7 刚体定轴转动的描述",
+      "start_page": 49,
+      "end_page": 54,
+      "path": "chapters/07-练习7 刚体定轴转动的描述",
+      "images": 0
+    },
+    {
+      "title": "08-练习8 刚体定轴转动定律",
+      "start_page": 55,
+      "end_page": 64,
+      "path": "chapters/08-练习8 刚体定轴转动定律",
+      "images": 14
+    },
+    {
+      "title": "09-练习9 刚体定轴转动中的功和能",
+      "start_page": 65,
+      "end_page": 70,
+      "path": "chapters/09-练习9 刚体定轴转动中的功和能",
+      "images": 3
+    },
+    {
+      "title": "10-练习10 刚体定轴转动的角动量定理和角动量守恒定律",
+      "start_page": 71,
+      "end_page": 79,
+      "path": "chapters/10-练习10 刚体定轴转动的角动量定理和角动量守恒定律",
+      "images": 9
+    },
+    {
+      "title": "11-练习11 理想气体的压强与温度",
+      "start_page": 80,
+      "end_page": 86,
+      "path": "chapters/11-练习11 理想气体的压强与温度",
+      "images": 0
+    },
+    {
+      "title": "12-练习12 能量均分定理 理想气体的内能",
+      "start_page": 87,
+      "end_page": 93,
+      "path": "chapters/12-练习12 能量均分定理 理想气体的内能",
+      "images": 0
+    },
+    {
+      "title": "13-练习13 麦克斯韦分子速率分布律",
+      "start_page": 94,
+      "end_page": 102,
+      "path": "chapters/13-练习13 麦克斯韦分子速率分布律",
+      "images": 1
+    },
+    {
+      "title": "14-练习14 库仑定律 电场强度 场强叠加原理",
+      "start_page": 103,
+      "end_page": 109,
+      "path": "chapters/14-练习14 库仑定律 电场强度 场强叠加原理",
+      "images": 7
+    },
+    {
+      "title": "15-练习15 电场线 电通量 高斯定理及应用",
+      "start_page": 110,
+      "end_page": 118,
+      "path": "chapters/15-练习15 电场线 电通量 高斯定理及应用",
+      "images": 8
+    },
+    {
+      "title": "16-练习16 静电场的环路定理 电势能 电势 电势差",
+      "start_page": 119,
+      "end_page": 125,
+      "path": "chapters/16-练习16 静电场的环路定理 电势能 电势 电势差",
+      "images": 7
+    },
+    {
+      "title": "17-练习17 静电场中的导体",
+      "start_page": 126,
+      "end_page": 134,
+      "path": "chapters/17-练习17 静电场中的导体",
+      "images": 5
+    },
+    {
+      "title": "18-练习18 电容和电容器 静电场的能量",
+      "start_page": 135,
+      "end_page": 142,
+      "path": "chapters/18-练习18 电容和电容器 静电场的能量",
+      "images": 6
+    },
+    {
+      "title": "19-练习19 磁感应强度 磁通量 磁场中的高斯定理",
+      "start_page": 143,
+      "end_page": 149,
+      "path": "chapters/19-练习19 磁感应强度 磁通量 磁场中的高斯定理",
+      "images": 5
+    },
+    {
+      "title": "20-练习20 毕-萨定律及其应用",
+      "start_page": 150,
+      "end_page": 156,
+      "path": "chapters/20-练习20 毕-萨定律及其应用",
+      "images": 5
+    },
+    {
+      "title": "21-练习21 安培环路定理及应用",
+      "start_page": 157,
+      "end_page": 164,
+      "path": "chapters/21-练习21 安培环路定理及应用",
+      "images": 10
+    },
+    {
+      "title": "22-练习22 磁场对载流导线的作用",
+      "start_page": 165,
+      "end_page": 173,
+      "path": "chapters/22-练习22 磁场对载流导线的作用",
+      "images": 10
+    },
+    {
+      "title": "23-练习23 法拉第电磁感应定律",
+      "start_page": 174,
+      "end_page": 180,
+      "path": "chapters/23-练习23 法拉第电磁感应定律",
+      "images": 7
+    },
+    {
+      "title": "24-练习24 动生电动势 感生电动势",
+      "start_page": 181,
+      "end_page": 188,
+      "path": "chapters/24-练习24 动生电动势 感生电动势",
+      "images": 9
+    },
+    {
+      "title": "25-练习25 自感应与互感应 磁场的能量",
+      "start_page": 189,
+      "end_page": 197,
+      "path": "chapters/25-练习25 自感应与互感应 磁场的能量",
+      "images": 9
+    },
+    {
+      "title": "26-练习26 位移电流 麦克斯韦方程组",
+      "start_page": 198,
+      "end_page": 203,
+      "path": "chapters/26-练习26 位移电流 麦克斯韦方程组",
+      "images": 5
+    },
+    {
+      "title": "27-练习27 简谐振动的运动学",
+      "start_page": 204,
+      "end_page": 211,
+      "path": "chapters/27-练习27 简谐振动的运动学",
+      "images": 7
+    },
+    {
+      "title": "28-练习28 简谐振动的动力学",
+      "start_page": 212,
+      "end_page": 218,
+      "path": "chapters/28-练习28 简谐振动的动力学",
+      "images": 7
+    },
+    {
+      "title": "29-练习29 简谐振动的合成",
+      "start_page": 219,
+      "end_page": 225,
+      "path": "chapters/29-练习29 简谐振动的合成",
+      "images": 5
+    },
+    {
+      "title": "30-练习30 机械波的形成和传播 平面简谐波的波函数",
+      "start_page": 226,
+      "end_page": 232,
+      "path": "chapters/30-练习30 机械波的形成和传播 平面简谐波的波函数",
+      "images": 9
+    },
+    {
+      "title": "31-练习31 波的能量 波的衍射 干涉",
+      "start_page": 233,
+      "end_page": 239,
+      "path": "chapters/31-练习31 波的能量 波的衍射 干涉",
+      "images": 4
+    },
+    {
+      "title": "32-练习32 驻波",
+      "start_page": 240,
+      "end_page": 247,
+      "path": "chapters/32-练习32 驻波",
+      "images": 4
+    },
+    {
+      "title": "33-练习33 光波的基本概念 光波的叠加 分波阵面法干涉",
+      "start_page": 248,
+      "end_page": 254,
+      "path": "chapters/33-练习33 光波的基本概念 光波的叠加 分波阵面法干涉",
+      "images": 4
+    },
+    {
+      "title": "34-练习34 分振幅法干涉",
+      "start_page": 255,
+      "end_page": 262,
+      "path": "chapters/34-练习34 分振幅法干涉",
+      "images": 3
+    },
+    {
+      "title": "35-练习35 牛顿环 迈克尔孙干涉仪",
+      "start_page": 263,
+      "end_page": 271,
+      "path": "chapters/35-练习35 牛顿环 迈克尔孙干涉仪",
+      "images": 1
+    },
+    {
+      "title": "36-练习36 单缝夫琅禾费衍射",
+      "start_page": 272,
+      "end_page": 280,
+      "path": "chapters/36-练习36 单缝夫琅禾费衍射",
+      "images": 2
+    },
+    {
+      "title": "37-练习37 光栅衍射",
+      "start_page": 281,
+      "end_page": 288,
+      "path": "chapters/37-练习37 光栅衍射",
+      "images": 3
+    },
+    {
+      "title": "38-练习38 光学仪器的分辨率",
+      "start_page": 289,
+      "end_page": 295,
+      "path": "chapters/38-练习38 光学仪器的分辨率",
+      "images": 2
+    },
+    {
+      "title": "39-练习39 光的偏振",
+      "start_page": 296,
+      "end_page": 302,
+      "path": "chapters/39-练习39 光的偏振",
+      "images": 4
+    },
+    {
+      "title": "40-练习40 狭义相对论的基本原理 洛仑兹变换",
+      "start_page": 303,
+      "end_page": 308,
+      "path": "chapters/40-练习40 狭义相对论的基本原理 洛仑兹变换",
+      "images": 0
+    },
+    {
+      "title": "41-练习41 狭义相对论时空观",
+      "start_page": 309,
+      "end_page": 315,
+      "path": "chapters/41-练习41 狭义相对论时空观",
+      "images": 0
+    },
+    {
+      "title": "42-练习42 相对论动力学基础",
+      "start_page": 316,
+      "end_page": 322,
+      "path": "chapters/42-练习42 相对论动力学基础",
+      "images": 0
+    },
+    {
+      "title": "43-练习43 黑体辐射 普朗克能量子假设",
+      "start_page": 323,
+      "end_page": 328,
+      "path": "chapters/43-练习43 黑体辐射 普朗克能量子假设",
+      "images": 0
+    },
+    {
+      "title": "44-练习44 光的量子性",
+      "start_page": 329,
+      "end_page": 336,
+      "path": "chapters/44-练习44 光的量子性",
+      "images": 0
+    },
+    {
+      "title": "45-练习45 玻尔氢原子理论",
+      "start_page": 337,
+      "end_page": 342,
+      "path": "chapters/45-练习45 玻尔氢原子理论",
+      "images": 4
+    },
+    {
+      "title": "46-练习46 粒子的波动性 不确定关系",
+      "start_page": 343,
+      "end_page": 348,
+      "path": "chapters/46-练习46 粒子的波动性 不确定关系",
+      "images": 0
+    },
+    {
+      "title": "47-练习47 波函数 薛定谔方程 一维势阱",
+      "start_page": 349,
+      "end_page": 355,
+      "path": "chapters/47-练习47 波函数 薛定谔方程 一维势阱",
+      "images": 0
+    },
+    {
+      "title": "48-练习48 激光 半导体",
+      "start_page": 356,
+      "end_page": 361,
+      "path": "chapters/48-练习48 激光 半导体",
+      "images": 0
+    }
+  ]
+}

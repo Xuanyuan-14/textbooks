@@ -52,6 +52,13 @@ RE_NOT_CHAPTER = re.compile(r"(习题|答案|小结|思考题|复习|自测|参�
 # 在任意位置找「第N章 xxx」「第N篇 xxx」（用于页眉反推章边界）
 RE_CHAPTER_FULL = re.compile(r"第\s*([一二三四五六七八九十百零〇\d]+)\s*章")
 RE_PART = re.compile(r"第\s*([一二三四五六七八九十]+)\s*篇")
+# 练习册/答案这类教辅：以「练习N 标题」为章，「一、填空题」为节
+# 注意不要加 \b：Python 的 \w 包含中文，「练习27简谐振动」里 7 与「简」之间
+# 不存在词边界，加 \b 会漏掉这类无空格的标题
+RE_EXERCISE = re.compile(r"^\s*练习\s*[0-9一二三四五六七八九十]+")
+RE_CN_SECTION = re.compile(r"^\s*[一二三四五六七八九十]+\s*[、.．]")
+# 缺「练习」二字的裸编号章标题，如「13 麦克斯韦分子速率分布律」
+RE_BARE_CHAPTER = re.compile(r"^\s*(\d{1,2})\s+[^0-9.、．,，]")
 
 _CN_NUM = {
     "零": 0, "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
@@ -287,11 +294,13 @@ def process(md_path: Path, json_path: Path) -> dict:
         elif e.get("_geo") == "part":
             e["level"] = "part"
 
-    # 先判断全书是否使用「第N章」编号。
-    #   有  → 只认「第N章」为章，深度仅用于分节（复变、顾樵、电路分析都属此类）
-    #   没有 → 回退到「depth==1 且不是编号小节」为章（模电那种以章名直接作标题的书）
+    # 先判断全书使用哪种章的编号体系。
+    #   「第N章」 → 只认它为章，深度仅用于分节（复变、顾樵、电路分析）
+    #   「练习N」 → 教辅书，练习即章，「一、填空题」为节
+    #   都没有    → 回退到「depth==1 且不是编号小节」为章（模电那种）
     has_chapter_numbering = any(
-        RE_CHAPTER.match(e["title"]) and not RE_NOT_CHAPTER.search(e["title"])
+        (RE_CHAPTER.match(e["title"]) and not RE_NOT_CHAPTER.search(e["title"]))
+        or RE_EXERCISE.match(e["title"])
         for e in outline)
     RE_NUMLIST = re.compile(r"^\s*(?:\d+[.、]|[（(]\d+[)）]|[一二三四五六七八九十]+[、.])")
 
@@ -302,6 +311,9 @@ def process(md_path: Path, json_path: Path) -> dict:
         t = e["title"]
         d = e["depth"]
         is_chap = bool(RE_CHAPTER.match(t)) and not RE_NOT_CHAPTER.search(t)
+        is_ex = bool(RE_EXERCISE.match(t))
+        is_cn_sec = bool(RE_CN_SECTION.match(t))
+        is_bare = bool(RE_BARE_CHAPTER.match(t)) and d <= 2
         is_sec = bool(RE_SECTION.match(t))
         is_front = bool(RE_FRONT.search(t))
         is_numlist = bool(RE_NUMLIST.match(t))       # 「1. 某某」编号小节
@@ -309,12 +321,10 @@ def process(md_path: Path, json_path: Path) -> dict:
         if is_front and d <= 1 and not has_chapter_numbering:
             e["level"] = "front"
         elif has_chapter_numbering:
-            if is_chap:
+            if is_chap or is_ex or is_bare:
                 e["level"] = "chapter"
-            elif is_sec:
+            elif is_cn_sec or is_sec:
                 e["level"] = "section"
-            elif d <= 1 or d == 2:
-                e["level"] = "subsection"
             else:
                 e["level"] = "subsection"
         else:
