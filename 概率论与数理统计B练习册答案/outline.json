@@ -1,0 +1,345 @@
+{
+  "title": "概率论与数理统计B练习册答案",
+  "total_pages": 105,
+  "chapters": [
+    {
+      "page": 1,
+      "title": "习题1-1 随机事件",
+      "depth": 4,
+      "level": "chapter"
+    },
+    {
+      "page": 4,
+      "title": "习题 1-2 随机事件的概率",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 9,
+      "title": "习题1-3 条件概率",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 15,
+      "title": "习题1-4 独立性",
+      "depth": 5,
+      "level": "chapter"
+    },
+    {
+      "page": 19,
+      "title": "习题2-1 随机变量",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 19,
+      "title": "习题2-2 离散型随机变量",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 22,
+      "title": "习题2-3 随机变量的分布函数",
+      "depth": 4,
+      "level": "chapter"
+    },
+    {
+      "page": 25,
+      "title": "习题2-4 连续型随机变量及其概率密度",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 29,
+      "title": "习题2-5 随机变量的函数的分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 35,
+      "title": "习题3-1 二维随机变量",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 39,
+      "title": "习题3-2 边缘分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 45,
+      "title": "习题3-3 条件分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 45,
+      "title": "习题3-4 随机变量的独立性",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 50,
+      "title": "习题3-5 两个随机变量的函数的分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 57,
+      "title": "习题4-1 数学期望",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 63,
+      "title": "习题4-2 方差",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 68,
+      "title": "习题4-3 协方差与相关系数",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 73,
+      "title": "习题4-4 矩 协方差",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 73,
+      "title": "习题4-5 二维正态分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 77,
+      "title": "习题5-1 大数定律",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 77,
+      "title": "习题5-2 中心极限定理",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 83,
+      "title": "习题6 样本及抽样分布",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 89,
+      "title": "习题7-1 点估计",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 89,
+      "title": "习题7-2 估计量的评选标准",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 93,
+      "title": "习题7-3 区间估计",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 93,
+      "title": "习题7-4 正态总体参数的区间估计",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 98,
+      "title": "习题7-6 单侧置信区间",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 101,
+      "title": "习题 8 假设检验",
+      "depth": 3,
+      "level": "chapter"
+    }
+  ],
+  "sections": [],
+  "all_headings": [
+    {
+      "page": 1,
+      "title": "习题1-1 随机事件",
+      "depth": 4,
+      "level": "chapter"
+    },
+    {
+      "page": 4,
+      "title": "习题 1-2 随机事件的概率",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 9,
+      "title": "习题1-3 条件概率",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 15,
+      "title": "习题1-4 独立性",
+      "depth": 5,
+      "level": "chapter"
+    },
+    {
+      "page": 19,
+      "title": "习题2-1 随机变量",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 19,
+      "title": "习题2-2 离散型随机变量",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 22,
+      "title": "习题2-3 随机变量的分布函数",
+      "depth": 4,
+      "level": "chapter"
+    },
+    {
+      "page": 25,
+      "title": "习题2-4 连续型随机变量及其概率密度",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 29,
+      "title": "习题2-5 随机变量的函数的分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 35,
+      "title": "习题3-1 二维随机变量",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 39,
+      "title": "习题3-2 边缘分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 45,
+      "title": "习题3-3 条件分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 45,
+      "title": "习题3-4 随机变量的独立性",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 50,
+      "title": "习题3-5 两个随机变量的函数的分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 57,
+      "title": "习题4-1 数学期望",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 63,
+      "title": "习题4-2 方差",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 68,
+      "title": "习题4-3 协方差与相关系数",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 73,
+      "title": "习题4-4 矩 协方差",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 73,
+      "title": "习题4-5 二维正态分布",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 77,
+      "title": "习题5-1 大数定律",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 77,
+      "title": "习题5-2 中心极限定理",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 83,
+      "title": "习题6 样本及抽样分布",
+      "depth": 2,
+      "level": "chapter"
+    },
+    {
+      "page": 89,
+      "title": "习题7-1 点估计",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 89,
+      "title": "习题7-2 估计量的评选标准",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 93,
+      "title": "习题7-3 区间估计",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 93,
+      "title": "习题7-4 正态总体参数的区间估计",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 98,
+      "title": "习题7-6 单侧置信区间",
+      "depth": 3,
+      "level": "chapter"
+    },
+    {
+      "page": 101,
+      "title": "习题 8 假设检验",
+      "depth": 3,
+      "level": "chapter"
+    }
+  ]
+}

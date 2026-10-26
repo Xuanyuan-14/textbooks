@@ -1,0 +1,61 @@
+{
+  "page_numbering": "PDF pages, 1-based",
+  "chapters": [
+    {
+      "title": "01-第1章 随机事件与概率",
+      "start_page": 1,
+      "end_page": 18,
+      "path": "chapters/01-第1章 随机事件与概率",
+      "images": 1
+    },
+    {
+      "title": "02-第2章 随机变量及其分布",
+      "start_page": 19,
+      "end_page": 34,
+      "path": "chapters/02-第2章 随机变量及其分布",
+      "images": 0
+    },
+    {
+      "title": "03-第3章 多维随机变量及其分布",
+      "start_page": 35,
+      "end_page": 56,
+      "path": "chapters/03-第3章 多维随机变量及其分布",
+      "images": 0
+    },
+    {
+      "title": "04-第4章 随机变量的数字特征",
+      "start_page": 57,
+      "end_page": 76,
+      "path": "chapters/04-第4章 随机变量的数字特征",
+      "images": 0
+    },
+    {
+      "title": "05-第5章 大数定律与中心极限定理",
+      "start_page": 77,
+      "end_page": 82,
+      "path": "chapters/05-第5章 大数定律与中心极限定理",
+      "images": 0
+    },
+    {
+      "title": "06-第6章 样本及抽样分布",
+      "start_page": 83,
+      "end_page": 88,
+      "path": "chapters/06-第6章 样本及抽样分布",
+      "images": 0
+    },
+    {
+      "title": "07-第7章 参数估计",
+      "start_page": 89,
+      "end_page": 100,
+      "path": "chapters/07-第7章 参数估计",
+      "images": 0
+    },
+    {
+      "title": "08-第8章 假设检验",
+      "start_page": 101,
+      "end_page": 105,
+      "path": "chapters/08-第8章 假设检验",
+      "images": 0
+    }
+  ]
+}

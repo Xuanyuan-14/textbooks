@@ -1,0 +1,1927 @@
+# 概率论与数理统计B练习册答案
+
+> 源文件：`概率论与数理统计B练习册答案.pdf_by_PaddleOCR-VL-1.6.json`
+> 共 105 页，由 PaddleOCR-VL-1.6 从 PDF 转出。
+> 页码锚点格式 `<!-- page: N -->`，N 为 PDF 页码（从 1 起）。
+> 图片按练习存于 `chapters/*/images/`，已本地化。
+
+## 章节索引
+
+- **习题1-1 随机事件** — 第 1 页
+- **习题 1-2 随机事件的概率** — 第 4 页
+- **习题1-3 条件概率** — 第 9 页
+- **习题1-4 独立性** — 第 15 页
+- **习题2-1 随机变量** — 第 19 页
+- **习题2-2 离散型随机变量** — 第 19 页
+- **习题2-3 随机变量的分布函数** — 第 22 页
+- **习题2-4 连续型随机变量及其概率密度** — 第 25 页
+- **习题2-5 随机变量的函数的分布** — 第 29 页
+- **习题3-1 二维随机变量** — 第 35 页
+- **习题3-2 边缘分布** — 第 39 页
+- **习题3-3 条件分布** — 第 45 页
+- **习题3-4 随机变量的独立性** — 第 45 页
+- **习题3-5 两个随机变量的函数的分布** — 第 50 页
+- **习题4-1 数学期望** — 第 57 页
+- **习题4-2 方差** — 第 63 页
+- **习题4-3 协方差与相关系数** — 第 68 页
+- **习题4-4 矩 协方差** — 第 73 页
+- **习题4-5 二维正态分布** — 第 73 页
+- **习题5-1 大数定律** — 第 77 页
+- **习题5-2 中心极限定理** — 第 77 页
+- **习题6 样本及抽样分布** — 第 83 页
+- **习题7-1 点估计** — 第 89 页
+- **习题7-2 估计量的评选标准** — 第 89 页
+- **习题7-3 区间估计** — 第 93 页
+- **习题7-4 正态总体参数的区间估计** — 第 93 页
+- **习题7-6 单侧置信区间** — 第 98 页
+- **习题 8 假设检验** — 第 101 页
+
+---
+
+<!-- page: 1 -->
+
+#### 习题1-1 随机事件
+
+1. 设  $ \Omega = \{x \mid 0 \leq x \leq 2\} $， $ A = \{x \mid \frac{1}{2} < x \leq 1\} $， $ B = \{x \mid \frac{1}{4} \leq x < \frac{3}{2}\} $，写出下列事件：
+
+
+
+
+
+
+
+(1)  $ \overline{AB} $; (2)  $ \overline{A} \cup B $; (3)  $ \overline{AB} $; (4)  $ \overline{A} \cup \overline{B} $.
+
+解： $ (1)\overline{AB}=\left\{0\leq x\leq\frac{1}{2}或1<x\leq2\right\}\cap\left\{\frac{1}{4}\leq x<\frac{3}{2}\right\}=\left\{\frac{1}{4}\leq x\leq\frac{1}{2}\right\} $或 $ \left\{1<x<-\frac{3}{2}\right\} $;
+
+ $$ (3)\overline{AB}=\overline{\left\{\frac{1}{2}<x\leq1\right\}}\bigcap\overline{\left\{\frac{1}{4}\leq x<\frac{3}{2}\right\}}=\overline{\left\{\frac{1}{2}<x\leq1\right\}}=\overline{A}=\left\{0\leq x\leq\frac{1}{2} 或 1<x\leq2\right\}; $$ 
+
+ $$ (4)\overline{A\cup B}=\overline{\left\{\frac{1}{2}<x\leq1\right\}}\cup\overline{\left\{\frac{1}{4}\leq x<\frac{3}{2}\right\}}=\overline{\left\{\frac{1}{4}\leq x<\frac{3}{2}\right\}}=\overline{B}=\left\{0\leq x<\frac{1}{4} 或 \frac{3}{2}\leq x\leq2\right\}. $$ 
+
+2. 用事件的关系与运算证明下列等式成立：
+
+解： $  (1) A - B = A \overline{B};  $
+
+证明：由定义， $ A - B = A - AB = A \cap (\Omega - B) = A \overline{B} $;
+
+(2) $ (A-B)\cup B=A\cup B $;
+
+证明：由(1)可得， $ (A-B)\cup B=A\overline{B}\cup B=(A\cup B)\cap(\overline{B}\cup B)=(A\cup B) $;
+
+<!-- page: 2 -->
+
+3. 化简  $ (A \cup B)(A \cup \overline{B})(\overline{A} \cup B) $.
+
+解：根据集合的分配律，有
+
+
+
+
+
+ $$  上式 =[(A\cup B)(A\cup\overline{B})](\overline{A}\cup B)=[A\cup(B\overline{B})](\overline{A}\cup B)=A(\overline{A}\cup B)=AB $$ 
+
+4. 设事件A、B、C满足等式 $ A \cup C = B \cup C $，问 A = B 是否成立？
+
+解：不一定，如  $ A=\{3\} $,  $ B=\{2,3\} $,  $ C=\{1,2,3\} $
+
+5. 设 A、B、C 为三个事件，用 A、B、C 运算关系表示下列各事件：
+
+（1）A、B、C都发生；
+
+(2) A、B、C都不发生；
+
+（3）A发生，而B与C不发生；
+
+（4）A、B、C中至少有一个发生；
+
+（5）A、B、C中至少有两个发生；
+
+（6）A、B、C中不多于两个发生。
+
+解：(1)ABC;
+
+(2) $ \overline{A}\overline{B}\overline{C} $;
+
+(3) $ AB\overline{C} $（或A-B-C);
+
+(4) $ A\cup B\cup C $;
+
+(5) $ AB\cup BC\cup AC $;
+
+(6) $ \overline{ABC} $.
+
+<!-- page: 3 -->
+
+6. 设某工人连续生产了4个零件， $ A_i $ 表示他生产的第  $ i $ 个零件是正品（ $ i=1,2,3,4 $），试用  $ A_i $ 表示下列各事件：
+
+
+
+
+
+
+
+（1）只有一个次品；
+
+(2) 至少有一个是次品；
+
+(3) 没有一个是次品；
+
+（4）恰好有三个是次品；
+
+（5）至少有三个不是次品。
+
+解：(1) $ \overline{A_{1}}A_{2}A_{3}A_{4}\cup A_{1}\overline{A_{2}}A_{3}A_{4}\cup A_{1}A_{2}\overline{A_{3}}A_{4}\cup A_{1}A_{2}A_{3}\overline{A_{4}} $;
+
+(2) $ \overline{A_1} \cup \overline{A_2} \cup \overline{A_3} \cup \overline{A_4} $; (或 $ \overline{A_1A_2A_3A_4} $);
+
+(3) $ A_{1}A_{2}A_{3}A_{4} $;
+
+(4) $ A_{1}\overline{A_{2}}\overline{A_{3}}\overline{A_{4}}\cup\overline{A_{1}}A_{2}\overline{A_{3}}\overline{A_{4}}\cup\overline{A_{1}}\overline{A_{2}}A_{3}\overline{A_{4}}\cup\overline{A_{1}}\overline{A_{2}}\overline{A_{3}}A_{4}; $
+
+ $$ ) \overline { { A _ { 1 } } } A _ { 2 } A _ { 3 } A _ { 4 } \bigcup A _ { 1 } \overline { { A _ { 2 } } } A _ { 3 } A _ { 4 } \bigcup A _ { 1 } A _ { 2 } \overline { { A _ { 3 } } } A _ { 4 } \bigcup A _ { 1 } A _ { 2 } A _ { 3 } \overline { { A _ { 4 } } } \bigcup A _ { 1 } A _ { 2 } A _ { 3 } A _ { 4 } ; $$
+
+<!-- page: 4 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题 1-2 随机事件的概率</div> </div>
+
+
+
+
+
+
+1.已知 $ A \subset B $， $ P(A)=0.4 $， $ P(B)=0.6 $，求：
+
+(1) $ P\left(\overline{A}\right) $， $ P\left(\overline{B}\right) $，(2) $ P(AB) $，(3) $ P(A\cup B) $，(4) $ P\left(\overline{A}B\right) $， $ P\left(A\overline{B}\right) $，(5) $ P\left(\overline{A}\overline{B}\right) $.
+
+解:(1)由已知， $ P(\overline{A})=0.6 $， $ P(\overline{B})=0.4 $;
+
+(2)由已知， $ P(AB)=P(A)=0.4 $;
+
+(3)由(2)，有 $ P(A \cup B) = P(A) + P(B) - P(AB) = 0.6 $;
+
+(4)由(2)， $ P(\overline{A}B)=P(B-A)=P(B)-P(AB)=0.2 $;
+
+由(2)， $ P(A\overline{B})=P(A-B)=P(A)-P(AB)=0; $
+
+(5)由(3)， $ P(\overline{A}\overline{B})=P(\overline{A\cup B})=1-P(A\cup B)=0.4 $.
+
+2. 设  $ P(AB) = P(\overline{A}\overline{B}) $， $ P(A) = 0.4 $，求  $ P(B) $。
+
+解：由已知，有 $ P\left(\overline{A}\overline{B}\right)=P\left(\overline{A\cup B}\right)=1-P(A\cup B)=1-P(A)-P(B)+P(AB)=P(AB) $，
+
+所以有， $ 1-P(A)-P(B)=0,\quad P(B)=0.6. $
+
+<!-- page: 5 -->
+
+3. 从5双不同的鞋子中任取4只，求取到的4只鞋子中至少有2只配成一双的概率。
+
+解1: 记 $ A = \{ $所取4只鞋子中至少有2只配成一对 $ \} $,
+
+
+
+
+
+ $$  则 \overline{A}=\left\{ 所取 4 只鞋子中没有配成对的 \right\}. $$ 
+
+基本事件的总数：从10只鞋子中任取4只，总共有 $ C_{10}^{4} $种取法； $ \overline{A} $中所含的个数：从5双鞋子中取4双共有 $ C_{5}^{4} $种取法，再从取出的每双鞋子中各取一只，共有 $ 2^{4} $（或 $ C_{2}^{1}C_{2}^{1}C_{2}^{1}C_{2}^{1} $）种取法，即 $ \overline{A} $所含的基本事件数为 $ 2^{4}C_{5}^{4} $，故 $ P(A)=1-P(\overline{A})=1-\frac{2^{4}C_{5}^{4}}{C_{10}^{4}}=\frac{13}{21} $。
+
+解2:  $ P(A) = 1 - P(\overline{A}) = 1 - \frac{10 \cdot 8 \cdot 6 \cdot 4}{10 \cdot 9 \cdot 8 \cdot 7} = \frac{13}{21} $.
+
+解3:  $ P(A)=\frac{C_{5}^{1}(C_{8}^{2}-4)+C_{5}^{2}}{C_{10}^{4}}=\frac{13}{21} $.
+
+<!-- page: 6 -->
+
+4.已知 $ P(A)=P(B)=\frac{1}{4},P(C)=\frac{1}{2} $,
+
+试求A, B, C中至少有一个发生的概率。
+
+解 即求 $ P(A \cup B \cup C) $.
+
+$\because$ 上式 $=P(A)+P(B)+P(C)-P(AB)-P(BC)-P(CA)+P(ABC)$
+
+又$\because ABC \subseteq CA, \therefore P(ABC) \leq P(CA) = 0$, （根据性质3）
+
+ $$ \therefore P\left(ABC\right)=0 $$ 
+
+
+
+
+
+ $$ \therefore P\big(A\cup B\cup C\big)=\frac{1}{4}+\frac{1}{4}+\frac{1}{2}-\frac{1}{8}-0-0+0=\frac{7}{8} $$
+
+<!-- page: 7 -->
+
+5. 向三个相邻的军火库投掷一枚炸弹，炸中第一个军火库的概率为0.025，炸中其余两个军火库的概率各为0.1，且只要炸中一个，另外两个必然爆炸，求军火库发生爆炸的概率。
+
+解：设 $ A = \{\text{炸中第一个军火库}\} $， $ B = \{\text{炸中第二个军火库}\} $， $ C = \{\text{炸中第三个军火库}\} $，
+
+
+
+
+
+
+
+D={军火库爆炸}, 因为这一枚炸弹要么炸中第一个军火库, 要么炸中第二个军火库, 要么炸中第三个军火库, 要么谁也炸不中, 故A、B、C三个事件是互不相容的, 则有
+
+ $$ P\bigl(D\bigr)=P\bigl(A\bigcup B\bigcup C\bigr)=P\bigl(A\bigr)+P\bigl(B\bigr)+P\bigl(C\bigr)=0.025 $$
+
+<!-- page: 8 -->
+
+6.两艘轮船都要停靠同一个泊位，它们可能在一昼夜的任意时刻到达。设两艘轮船停靠泊位的时间分别为1h和2h。求有一艘轮船停靠泊位时需要等待一段时间的概率。
+
+解：记o点为计算时刻的0时，以小时为单位，x,y分别表示甲、乙船到达泊位的时刻，甲停1h，乙停2h，则样本空间为： $ \Omega=\{(x,y)\mid0\leq x\leq24,\ 0\leq y\leq24\} $，以A表示事件“有一艘船需要等待”，故二船需要等待的充要条件是：
+
+<div style="text-align: center;"><img src="chapters/01-第1章 随机事件与概率/images/p0008_img_in_image_box_907_233_1425_682.jpg" alt="Image" width="26%" /></div>
+
+
+ $$ \left\{\begin{aligned}&y-x\leq\mathbf{1}, 甲先到 ;\\ &x-y\leq2, 乙先到 .\end{aligned}\right.(x,y)\in\left(\mathbf{0},24\right),\therefore A=\left\{\left(x,y\right)|\left\{\begin{aligned}&y-x\leq\mathbf{1};\\ &x-y\leq2.\end{aligned}\right.,\left(x,y\right)\in\left(\mathbf{0},24\right)\right\}, $$ 
+
+见上图阴影部分。这是一个几何概型问题，于是有
+
+ $$ P\left(A\right)=\frac{S\left(A\right)}{S\left(\Omega\right)}=\frac{24^{2}-\frac{1}{2}{\bullet}23^{2}-\frac{1}{2}{\bullet}22^{2}}{24^{2}}\approx0.121. $$ 
+
+本题中的等待相当于例题8里的会面.
+
+<!-- page: 9 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题1-3 条件概率</div> </div>
+
+
+
+
+
+
+1. 掷两颗骰子，观察出现的点数：
+
+(1) 已知两颗骰子的点数之和为7，求其中有一颗为1点的概率；
+
+(2) 已知其中有一颗为1点，求两颗骰子的点数之和为7的概率。
+
+解：(1) 两颗骰子的点数之和为7，共有{1,6}，{6,1}，{2,5}，{5,2}，{3,4}，{4,3}六种情况，故其中有一颗为1点的概率为 $ p=\frac{2}{6}=\frac{1}{3} $;
+
+(2)两颗骰子中有一颗为1点，共有{1,1}，{1,2}，{2,1}，{1,3}，{3,1}，{1,4}，{4,1}，{1,5}，{5,1}，{1,6}，{6,1}这十一种情况，故两颗骰子的点数之和为7的概率为 $ p=\frac{2}{11} $。
+
+2.已知 $ P(A)=0.5 $， $ P(B)=0.6 $， $ P(B|A)=0.8 $，求: $ (1)P(A\overline{B}) $； $ (2)P(\overline{A}\overline{B}) $。
+
+解:(1)由已知， $ P(B|A)=\frac{P(AB)}{P(A)}=0.8 $，有 $ P(AB)=0.8P(A)=0.4 $，
+
+故 $ P\left(A\overline{B}\right)=P(A)-P(AB)=0.5-0.4=0.1; $
+
+$$\left(2\right)P\left(\overline{AB}\right)=P\left(\overline{A\cup B}\right)=1-P\left(A\cup B\right)=1-P(A)-P(B)+P(AB)=1-0.5-0.6+0.4=0.3.$$
+
+<!-- page: 10 -->
+
+练习册1.3中的第3题.
+
+设口袋中有20个球，其中有二个是红球，现从袋中取球三次，每次取一球，取后不放回，求第三次才取到红球的概率。
+
+解1：设 $ A = \{ $第三次才取到红球 $ \} $，
+
+ $$ P\left(A\right)=\frac{C_{18}^{2}\bullet C_{2}^{1}}{C_{20}^{3}}=\frac{18\bullet17}{20\bullet19\bullet18}\bullet3\bullet2=\frac{17\bullet3}{10\bullet19}=\frac{51}{190}, $$ 
+
+解2: 记 $ A=\left\{ $第三次才取到红球 $ \right\} $,
+
+即A表示前2次没有抽到红球，而第3次才抽到红球，
+
+则 $ P(A)=\frac{C_{18}^{2}}{C_{20}^{2}}\times\frac{2}{18}=\frac{17}{190} $
+
+解1表达的是三次取球中恰有一次取到红球，但第几次取到红球并不重要。
+
+解2解3是确定第三次取到红球，更符合题意。
+
+
+
+解3：记 $ A_i = \{ $第 $ i $次取到红球 $ \} $，则所求为 $ P\left(\overline{A_1}\overline{A_2}A_3\right) $，而 $ P\left(\overline{A_1}\overline{A_2}A_3\right) = P\left(\overline{A_1}\right)P\left(\overline{A_2}\left|\overline{A_1}\right|\right)P\left(A_3\left|\overline{A_1}\overline{A_2}\right|\right) $
+
+本题跟前面第4题(找次品)不一样，找次品是强调四件次品都被找到，问其中一种情况的概率；本题只是取3个球，问其中一种情况发生的概率。
+
+<!-- page: 11 -->
+
+4. 已知甲乙两箱中装有同种产品，其中甲箱中装有3件合格品和3件次品，乙箱中仅装有3件合格品。现从甲箱中任取3件放入乙箱，然后再从乙箱中任取一件产品，求该产品为次品的概率。
+
+解：设 $ A_{i}=\left\{\text{从甲箱中取3件放入乙箱,其中有}i\text{次品}\right\} $，i=0,1,2,3，则 $ P\left(A_{i}\right)=\frac{C_{3}^{i}C_{3}^{3-i}}{C_{6}^{3}} $
+
+ $ B=\left\{ $从乙箱中任取一件是次品 $ \right\} $，根据全概率公式，有
+
+
+
+
+
+
+
+ $$ \begin{aligned}&P(B)=P(A_{0}B)+P(A_{1}B)+P(A_{2}B)+P(A_{3}B)\\&=P(A_{0})P(B|A_{0})+P(A_{1})P(B|A_{1})+P(A_{2})P(B|A_{2})+P(A_{3})P(B|A_{3})\\&=0+\frac{C_{3}^{1}C_{3}^{2}}{C_{6}^{3}}\times\frac{1}{6}+\frac{C_{3}^{2}C_{3}^{1}}{C_{6}^{3}}\times\frac{2}{6}+\frac{C_{3}^{3}C_{3}^{0}}{C_{6}^{3}}\times\frac{3}{6}=\frac{3\times3}{6\times5\times4/3!}\times\frac{1}{6}+\frac{3\times3}{6\times5\times4/3!}\times\frac{2}{6}+\frac{1}{6\times5\times4/3!}\times\frac{3}{6}\\&=\frac{9}{20}\times\frac{1}{6}+\frac{9}{20}\times\frac{2}{6}+\frac{1}{20}\times\frac{3}{6}=\frac{3}{20}\times\frac{1}{2}+\frac{3}{20}+\frac{1}{20}\times\frac{1}{2}=\frac{3}{40}+\frac{3}{20}+\frac{1}{40}=\frac{10}{40}=0.25\\ \end{aligned} $$
+
+<!-- page: 12 -->
+
+5. 将二信息分别编码为 X 和 Y 后传送出去，接收站接受时，X 被误收作 Y 的概率为 0.02，而 Y 被误收作 X 的概率为 0.01。信息 X 和信息 Y 传送的频繁程度之比为 2:1。若接收站收到的信息是 X，问原发信息也是 X 的概率是多少？
+
+解 记 $ A_1 = \{发送信息X\} $； $ A_2 = \{发送信息Y\} $，
+
+ $$ \boldsymbol{B}_{1}=\left\{ 接受信息 \boldsymbol{X}\right\},\boldsymbol{B}_{2}=\left\{ 接受信息 \boldsymbol{Y}\right\}. $$ 
+
+依题意需求概率 $ P\left(A_{1}|B_{1}\right) $，又已知
+
+ $$ P\left(B_{2}\left|A_{1}\right.\right)=0.02,P\left(B_{1}\left|A_{2}\right.\right)=0.01, $$ 
+
+且 $ \frac{P(A_{1})}{P(A_{2})}=\frac{2}{1}\left( $即 $ P(A_{1})=\frac{2}{3},P(A_{2})=\frac{1}{3}\right) $.
+
+由贝叶斯公式有
+
+ $$ \begin{aligned}P\left(A_{1}\big|B_{1}\right)&=\frac{P\left(A_{1}B_{1}\right)}{P\left(B_{1}\right)}=\frac{P\left(A_{1}\right)P\left(B_{1}\big|A_{1}\right)}{P\left(A_{1}\right)P\left(B_{1}\big|A_{1}\right)+P\left(A_{2}\right)P\left(B_{1}\big|A_{2}\right)}\\&=\frac{\frac{2}{3}\bullet(1-0.02)}{\frac{2}{3}\bullet(1-0.02)+\frac{1}{3}\bullet0.01}=\frac{196}{197}.\end{aligned} $$
+
+<!-- page: 13 -->
+
+6. 某学校五年级有二个班，一班50名学生，其中10名女生；二班30名学生，其中有18名女生。现从两班中任选一个班，然后从中先后挑选两名学生，求：
+
+（1）先选出的是女生的概率；
+
+（2）在已知先选出的是女生的条件下，后选出的也是女生的概率。
+
+解 记 $ A_{i}=\left\{第i次挑到女生\right\}, i=1,2. $
+
+ $ B_{1}=\left\{ $从一班中挑学生 $ \right\} $，则 $ B_{2}=\left\{ $从二班中挑学生 $ \right\} $。
+
+(1)由题可知 $ P(B_1) = P(B_2) = \frac{1}{2} $,  $ P(A_1 | B_1) = \frac{10}{50} = \frac{1}{5} $,  $ P(A_1 | B_2) = \frac{18}{30} = \frac{3}{5} $,
+
+故由全概率公式有： $ P(A_{1})=P(A_{1}B_{1})+P(A_{1}B_{2}) $
+
+
+
+
+
+ $$ \begin{aligned}&=P\left(B_{1}\right)P\left(A_{1}\big|B_{1}\right)+P\left(B_{2}\right)P\left(A_{1}\big|B_{2}\right)\\&=\frac{1}{2}\Biggl(\frac{1}{5}+\frac{3}{5}\Biggr)=\frac{1}{10}+\frac{3}{10}=\frac{2}{5}=0.4\end{aligned} $$
+
+<!-- page: 14 -->
+
+$ P(A_1)=2\left(\frac{10}{50}\cdot\frac{9}{49}+\frac{18}{30}\cdot\frac{17}{29}\right)=0.4856 $
+
+<!-- page: 15 -->
+
+##### 习题1-4 独立性
+
+1.已知 $ P(A)=\alpha $， $ P(B)=0.3 $， $ P(\overline{A}\cup B)=0.7 $。
+
+
+
+
+
+(1)若事件A与B互不相容，求 $ \alpha $; (2)若事件A与B相互独立，求 $ \alpha $.
+
+ $$ 1)P\big(\overline{A}\bigcup B\big)=1-P\big(\overline{\overline{A}\bigcup B}\big)=1-P\big(A\overline{B}\big)=1-P\big(A-B\big)=1-P\big(A\big)+P\big(AB\big)=0.7, $$ 
+
+因为事件A与B互不相容，故有 $ 1-P(A)=0.7 $，即 $ \alpha=0.3 $。
+
+(2)由(1)有， $ P(\overline{A}\cup B)=1-P(A\overline{B})=1-P(A)+P(AB)=0.7 $,
+
+因为事件A与B相互独立，故有 $ 1-\alpha+0.3\alpha=0.7 $，即 $ \alpha=\frac{3}{7} $.
+
+2.已知事件A与B相互独立，且 $ P(\overline{A}\overline{B})=\frac{1}{9} $， $ P(A\overline{B})=P(\overline{A}B) $，求 $ P(A) $， $ P(B) $。
+
+解：由已知有， $ P(A\overline{B})=P(A)P(\overline{B})=P(\overline{A}B)=P(\overline{A})P(B) $，
+
+即 $ P(A)(1-P(B))=(1-P(A))P(B)\Rightarrow P(A)-P(A)P(B)=P(B)-P(A)P(B) $，则有 $ P(A)=P(B) $，
+
+ $$ P\big(\overline{A}\overline{B}\big)=P\big(\overline{A}\big)P\big(\overline{B}\big)=\frac{1}{9}\Rightarrow\big(1-P\big(A\big)\big)\big(1-P\big(B\big)\big)=\big(1-P\big(A\big)\big)^{2}=\frac{1}{9}, $$ 
+
+所以有， $ 1-P(A)=\frac{1}{3} $， $ P(A)=\frac{2}{3} $。
+
+<!-- page: 16 -->
+
+3设A与B是任意两事件，其中A的概率不等于0和1，证明： $ P(B|A)=P(\overline{A})^{\frac{1}{2}} $ 
+
+是事件A与B相互独立的充分必要条件.
+
+证明：充分性：即 $ P(B|A)=P(\overline{B}|\overline{A}) \Rightarrow $事件 $ A $与 $ B $相互独立.
+
+由 $ P(B|A)=P(B|\overline{A})= $  $ \frac{P(AB)}{P(A)}=\frac{P(\overline{A}B)}{P(\overline{A})}\Rightarrow\frac{P(AB)}{P(A)}=\frac{P(B)-P(AB)}{1-P(A)} $，通分化简得，
+
+ $ P(AB)-P(A)P(AB)=P(A)P(B)-P(A)P(AB) $，即有 $ P(AB)=P(A)P(B) $，A与B独立。
+
+必要性：即事件A与B相互独立 $ \Rightarrow P(B|A)=P(\overline{A}) $
+
+由已知条件有， $ P(B|A)=\frac{P(AB)}{P(A)}=P(B) $， $ P(\overline{B|A})=\frac{P(\overline{A}B)}{P(\overline{A})}=P(B) $，所以 $ P(B|A)=P(\overline{B|A}) $。
+
+<!-- page: 17 -->
+
+4. 一个工人看管3台独立运转的机床，在一小时内三台机床不需要工人照管的概率分别为0.9、0.8、0.7，求在一小时内三台机床中最多有一台需要工人照管的概率。
+
+
+
+
+
+
+
+解：设 $ A=\{ $第一台机床需要照管 $ \} $， $ B=\{ $第二台机床需要照管 $ \} $，
+
+ $ C=\left\{ $第三台机床需要照管 $ \right\}, $  $ D=\left\{ $三台机床中最多有一台需要照管 $ \right\}, $
+
+则 $ D = \overline{A}\overline{B}\overline{C} \cup \overline{A}\overline{B}\overline{C} \cup \overline{A}\overline{B}\overline{C} \cup \overline{A}\overline{B}\overline{C} $，这四种情况是互不相容的，故有
+
+ $$ P\left(D\right)=P\left(\overline{A}\overline{B}\overline{C}\right)+P\left(A\overline{B}\overline{C}\right)+P\left(\overline{A}B\overline{C}\right)+P\left(\overline{A}\overline{B}C\right) $$ 
+
+ $$ =0.9\times0.8\times0.7+0.1\times0.8\times0.7+0.9\times0.2\times0.7+0.9\times0.8\times0.3 $$ 
+
+ $$ =0.504+0.056+0.126+0.216=0.902. $$ 
+
+5. 三个人独立地去破译一份密码，已知各人能译出密码的概率分别为1/5，1/3，1/4，问三人中至少有一人能将此密码译出的概率是多少？
+
+解：设 $ A=\left\{\text{第一人译出密码}\right\},\quad B=\left\{\text{第二人译出密码}\right\},\quad C=\left\{\text{第三人译出密码}\right\}, $
+
+D= $ \left\{ \text{三人中至少有一人能译出密码} \right\} $，由于三人独立译出密码，
+
+ $$  故 P(D)=P(A\cup B\cup C)=1-P(\overline{A})P(\overline{B})P(\overline{C})=1-\frac{4}{5}\times\frac{2}{3}\times\frac{3}{4}=1-\frac{2}{5}=\frac{3}{5}. $$
+
+<!-- page: 18 -->
+
+6. 甲、乙、丙三人同时各用一发子弹对目标进行射击，三人各自击中目标的概率分别为0.4、0.5、0.7，目标被击中一发子弹而冒烟的概率为0.2，被击中二发子弹而冒烟的概率为0.6，被击中三发子弹则必冒烟，求目标冒烟的概率。
+
+
+
+
+
+
+
+解： $ A_1 = \{\text{甲击中目标}\}, A_2 = \{\text{乙击中目标}\}, A_3 = \{\text{丙击中目标}\} $， $ B = \{\text{目标被一发子弹击中}\} $， $ C = \{\text{目标被二发子弹击中}\} $， $ D = \{\text{目标被三发子弹击中}\} $， $ E = \{\text{目标冒烟}\} $，
+
+ $$ P\left(B\right)=P\left(A_{1}\overline{A_{2}}\overline{A_{3}}\right)+P\left(\overline{A_{1}}A_{2}\overline{A_{3}}\right)+P\left(\overline{A_{1}}\overline{A_{2}}A_{3}\right) $$ 
+
+ $$ =0.4\times0.5\times0.3+0.6\times0.5\times0.3+0.6\times0.5\times0.7=0.06+0.09+0.21=0.36, $$ 
+
+ $$ P\left(C\right)=P\left(A_{1}A_{2}\overline{A_{3}}\right)+P\left(\overline{A_{1}}A_{2}A_{3}\right)+P\left(A_{1}\overline{A_{2}}A_{3}\right) $$ 
+
+ $$ =0.4\times0.5\times0.3+0.6\times0.5\times0.7+0.4\times0.5\times0.7=0.06+0.21+0.14=0.41, $$ 
+
+ $$ P\big(D\big)=P\big(A_{1}A_{2}A_{3}\big)=0.4\times0.5\times0.7=0.14, $$ 
+
+由于B、C、D是互不相容的，故有
+
+ $$ P(E)=0.2P(B)+0.6P(C)+P(D)=0.2\times0.36+0.6\times0.41+0.14=0.072+0.246+0.14=0.458. $$
+
+<!-- page: 19 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题2-1 随机变量 习题2-2 离散型随机变量</div> </div>
+
+
+
+
+
+
+1. 掷一枚不均匀的硬币，直至正、反面都出现为止，设正面出现的概率为  $ p (0 < p < 1) $，以 X 表示投掷硬币的次数，求 X 的分布律。
+
+解：设 $ A_i = \{\text{投掷第} i \text{次出现正面}\} $，则 $ \overline{A}_i = \{\text{投掷第} i \text{次出现反面}\} $， $ p + q = 1 $
+
+正反面都出现为止，最少投掷2次，即有 $ P(X=2)=P\left(A_{1}\overline{A_{2}}\right)+P\left(\overline{A_{1}}A_{2}\right)=pq+qp $
+
+ $$ P(X=3)=P\big(A_{1}A_{2}\overline{A_{3}}\big)+P\big(\overline{A_{1}}\overline{A_{2}}A_{3}\big)=p^{2}q+q^{2}p,\cdots\cdots $$ 
+
+ $$ P(X=k)=P\big(A_{1}A_{2}\cdots\overline{A_{k}}\big)+P\big(\overline{A_{1}}\overline{A_{2}}\cdots A_{k}\big)=p^{k-1}q+q^{k-1}p,\ k=2,3,\cdots $$ 
+
+2. 将一颗骰子抛掷两次，以  $ X_{1} $ 表示两次所得到的点数之和， $ X_{2} $ 表示两次中得到的较小点数，试分别求  $ X_{1}, X_{2} $ 的分布律。
+
+解：两次所得点数之和最少为2点，最多为12点，故有，
+
+ $$ \begin{array}{l|cccccc}{{{X_{1}}}}&{{{2}}}&{{{3}}}&{{{4}}}&{{{5}}}&{{{6}}}&{{{7}}}&{{{8}}}&{{{9}}} \\{{{\hline p_{1}}}}&{{{1/36}}}&{{{2/36}}}&{{{3/36}}}&{{{4/36}}}&{{{5/36}}}&{{{6/36}}}&{{{5/36}}}&{{{4/36}}}&{{{3/36}}} \\{{{\end{array}\quad} $$ 
+
+两次中得到的较小点数最少为1点，最多为6点，故有，
+
+ $$ \frac{X_{2}}{p_{2}}\left|\begin{array}{c c c c c}{1}&{2}&{3}&{4}&{5}\\ {11/36}&{9/36}&{7/36}&{5/36}&{3/36}\end{array}\right|\frac{6}{1/36} $$
+
+<!-- page: 20 -->
+
+3. 设一批产品共100只，其中有10只次品，从中取三次，每次任取1只，以X表示取出的3只中次品的只数，分别求出在下列两种情形下X的分布律：(1) 不放回抽样；(2) 放回抽样.
+
+
+
+
+
+
+
+解: (1) 从100只中抽三次，共有 $ C_{100}^{3} $种情况，三次中有k件次品，则有3-k件正品，
+
+一共有 $ C_{10}^{k}C_{90}^{3-k} $种情况，所以三次中有k件次品的概率为 $ P(X=k)=\frac{C_{10}^{k}C_{90}^{3-k}}{C_{100}^{3}} $，k=0,1,2,3.
+
+(2)有放回的抽样，相当于一个3重伯努利试验，即 $ X \sim b(3,0.1) $，故有 $ P(X = k) = C_3^k 0.1^k \cdot 0.9^{3-k} $， $ k = 0,1,2,3 $.
+
+(1)在一周内恰好发生两次交通事故的概率是多少?
+
+(2)在一周内至少发生一次交通事故的概率是多少?
+
+解：设X表示该城市一周内发生交通事故的次数，则 $ X \sim \pi(0.3) $，
+
+ $$ (1)P\big(X=2\big)=\frac{\big(0.3\big)^{2}}{2!}e^{-0.3}=P\big(X\leq2\big)-P\big(X\leq1\big)=\sum_{k=0}^{2}\frac{\big(0.3\big)^{2}}{2!}e^{-0.3}-\sum_{k=0}^{1}\frac{\big(0.3\big)^{1}}{1!}e^{-0.3}=0.996-0.963=0.033. $$ 
+
+ $$ )P\big(X\geq1\big)=1-P\big(X=0\big)=1-\frac{\big(0.3\big)^{0}}{0!}e^{-0.3}=1-0.741=0.259. $$
+
+<!-- page: 21 -->
+
+5. 某地区有5个加油站，调查表明在任一时刻每个加油站被使用的概率为0.1，试问：
+
+(1)恰有2个加油站被使用的概率是多少?
+
+
+
+
+
+(2)至少有3个加油站被使用的概率是多少?
+
+(3)至多有3个加油站被使用的概率是多少?
+
+解：设X表示加油站被同时使用的个数，则 $ X \sim b(5,0.1) $，
+
+(1) $ P(X=2)=C_{5}^{2}(0.1)^{2}(0.9)^{3} $
+
+ $$ P\left(X\geq3\right)=P\left(X=3\right)+P\left(X=4\right)+P\left(X=5\right) $$ 
+
+ $$ =C_{5}^{3}(0.1)^{3}(0.9)^{2}+C_{5}^{4}(0.1)^{4}(0.9)+C_{5}^{5}(0.1)^{5}=0.00856. $$ 
+
+ $$ (3)P\big(X\leq3\big)=1-P\big(X=4\big)-P\big(X=5\big) $$ 
+
+ $$ =1-C_{5}^{4}\big(0.1\big)^{4}\big(0.9\big)-C_{5}^{5}\big(0.1\big)^{5}=0.99954. $$
+
+<!-- page: 22 -->
+
+#### 习题2-3 随机变量的分布函数
+
+1. 分析下列函数中，哪个是随机变量 X 的分布函数。
+
+(1) $ F(x)=\left\{\begin{array}{ll}0,&x<-2\\ \frac{1}{2},&-2\leq x<0.\\ 2,&x\geq0\end{array}\right. $ (2) $ F(x)=\left\{\begin{array}{ll}0,&x<0\\ \sin x,&0\leq x<\pi.\\ 1,&x\geq\pi\end{array}\right. $ (3) $ F(x)=\frac{1}{1+x^{2}},x\in R. $
+
+解: (1) 不是，因为有  $ 0 \leq F(x) \leq 2 $，即  $ F(+\infty) \neq 1 $。
+
+(2)不是，因为有 $ \lim_{x\to\pi^{+}}F(x)=1\neq F(\pi) $，且 $ F(x) $不是不减的函数。
+
+(3)不是，因为 $ F(+\infty) \neq 1 $，且不是不减的函数。
+
+3.设随机变量  $ X $ 的分布函数为  $ F(x) = A + B \arctan x $， $ x \in \mathbb{R} $，试求(1)  $ A, B $ 的值；(2)  $ P\{-1 < X \leq 1\} $.
+
+解: (1) 根据分布函数的性质:  $ F(+\infty)=1, F(-\infty)=0 $, 有
+
+ $ A + B \arctan(-\infty) = 0, A + B \arctan(+\infty) = 1 $，即有 $ A - \frac{\pi}{2}B = 0 $， $ A + \frac{\pi}{2}B = 1 $，解出， $ A = \frac{1}{2} $， $ B = \frac{1}{\pi} $.
+
+ $$ P\left\{-1<X\leq1\right\}=F(1)-F(-1)=A+B\arctan1-\left(A+B\arctan(-1)\right)=\frac{\pi}{4}B+\frac{\pi}{4}B=\frac{1}{2}. $$ 
+
+4.设随机变量X的分布函数为 $ F(x)=\begin{cases}A(1-e^{-x}),&x\geq0\\0,&x<0\end{cases} $，试求(1)系数 $ A $;(2) $ P\{1<X<3\} $.
+
+解:(1)由分布函数的性质 $ F(+\infty)=1 $，有 $ A(1-e^{-\infty})=1 $，得A=1;
+
+(2) $ P\{1<X<3\}=F(3)-F(1)=1-e^{-3}-(1-e^{-1})=e^{-1}-e^{-3}. $
+
+<!-- page: 23 -->
+
+2. 箱中有8个同样的球，编号为1,2, $ \cdots $,8，从中任取3个球，以X表示所取到的3个球的最小号码，试求X的分布函数。
+
+解:8个球中任取3个，共有 $ C_8^3 = 56 $种情况，X的可能取值为 $ 1, \cdots, 6 $。 $ \{X = 1\} $表示3球中1号最小，另两个是 $ 2 \cdots 8 $中的两个，则 $ P\{X = 1\} = \frac{C_7^2}{C_8^3} = \frac{21}{56} $； $ \{X = 2\} $表示3球中2号最小，另两个是 $ 3 \cdots 8 $中的两个，则 $ P\{X = 2\} = \frac{C_6^2}{C_8^3} = \frac{15}{56} $； $ \{X = 3\} $表示3球中3号最小，另两个是 $ 4 \cdots 8 $中的两个，则 $ P\{X = 3\} = \frac{C_5^2}{C_8^3} = \frac{10}{56} $； $ \{X = 4\} $表示3球中4号最小，另两个是 $ 5 \cdots 8 $中的两个，则 $ P\{X = 4\} = \frac{C_4^2}{C_8^3} = \frac{6}{56} $； $ \{X = 5\} $表示3球中5号最小，另两个是6,7,8中的两个，则 $ P\{X = 5\} = \frac{C_3^2}{C_8^3} = \frac{3}{56} $； $ \{X = 6\} $表示3球中6号最小，另两个只能是7,8，则 $ P\{X = 6\} = \frac{1}{56} $，即有X的分布律： $ \frac{X}{p_i} \left| \begin{array}{ccc} 1 & 2 & 3 \\ \hline 21 & 15 & 10 \\ 56 & 56 & 56 \end{array} \right| \quad \frac{4}{56} \quad \frac{4}{56} \quad \frac{5}{3} \quad \frac{6}{1}  $。X的分布函数 $ F(x) = \begin{array}{ccc} 0 & x < 1 & \\ \hline \frac{21}{56}, & 1 \leq x < 2 & \\ \hline \frac{36}{56}, & 2 \leq x < 3 & \\ \hline \frac{46}{56}, & 3 \leq x < 4 & \\ \hline \frac{52}{56}, & 4 \leq x < 5 & \\ \hline \frac{55}{56}, & 5 \leq x < 6 & \\ 1, & x \geq 6 & \end{array}\right| $。
+
+<!-- page: 24 -->
+
+5.设随机变量X的分布律为: $ \frac{X}{p_i}\left|\begin{array}{cccc}0&1&2&3\\\frac{1}{16}&\frac{3}{16}&\frac{1}{2}&\frac{1}{4}\end{array}\right| $
+
+(1)求X的分布函数 $ F(x) $，并画出 $ F(x) $的图形； (2) $ P\{X \leq 2\} $及 $ P\{0 < X < 3\} $.
+
+解： $ F(x)=\left\{\begin{aligned}&0,&x<0\\ &\frac{1}{16},&0\leq x<1\\ &\frac{1}{4},&1\leq x<2.\\ &\frac{3}{4},&2\leq x<3\\ &1,&x\geq3\end{aligned}\right. $
+
+ $$ (2)P\{X\leq2\}=\frac{1}{16}+\frac{3}{16}+\frac{1}{2}=\frac{3}{4};\qquad P\{0<X<3\}=\frac{3}{16}+\frac{1}{2}=\frac{11}{16}. $$
+
+<!-- page: 25 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题2-4 连续型随机变量及其概率密度</div> </div>
+
+
+
+
+
+
+1.设连续型随机变量X的分布函数为 $ F(x)=\left\{\begin{array}{ll}0, & x\leq-a \\ A+B\arcsin\frac{x}{a}, & -a<x\leq a. \\ 1, & x>a\end{array}\right. $试求：
+
+(1)A、B的值；(2)X的概率密度；(3) $ P\left\{X>\frac{a}{2}\right\} $.
+
+解: (1)∵  $ F(-a)=0 $,  $ F(a)=1 $, 所以有  $ A+B\arcsin\frac{-a}{a}=0 $,  $ A+B\arcsin\frac{a}{a}=1 $, 即  $ A-\frac{\pi}{2}B=0 $,  $ A+\frac{\pi}{2}B=1 $, 解得  $ A=\frac{1}{2} $,  $ B=\frac{1}{\pi} $.
+
+(2) $ f(x)=F'(x)=\left\{\begin{aligned}&\frac{1}{\pi\sqrt{a^{2}-x^{2}}},&-a<x<a\\&0,& 其他 \end{aligned}\right. $
+
+ $$ (3)P\biggl\{X>\frac{a}{2}\biggr\}=F\bigl(a\bigr)-F\biggl(\frac{a}{2}\biggr)=1-\frac{1}{2}-\frac{1}{\pi}\arcsin\frac{1}{2}=\frac{1}{2}-\frac{1}{\pi}\times\frac{\pi}{6}=\frac{1}{2}-\frac{1}{6}=\frac{1}{3}. $$
+
+<!-- page: 26 -->
+
+2.设随机变量X的概率密度为 $ f(x)=\left\{\begin{aligned}&Ax^{2},&1\leq x<2\\ &Ax,&2\leq x<3.\\ &0,& 其他\end{aligned}\right. $
+
+(1)系数A； (2)X的分布函数； (3) $ P\{|X|<2\} $.
+
+解: (1) 由  $ \int_{1}^{2} A x^{2} \, \mathrm{d}x + \int_{2}^{3} A x \, \mathrm{d}x = 1 $，得  $ A\left(\frac{1}{3} x^{3} \bigg|_{1}^{2} + \frac{1}{2} x^{2} \bigg|_{2}^{3}\right) = 1 \Rightarrow A\left(\frac{7}{3} + \frac{5}{2}\right) = 1 $，即  $ A = \frac{6}{29} $。
+
+
+
+ $$ \begin{aligned}(2)F(x)=&\begin{cases}0,&x<1\\\int_{1}^{x}Ax^{2}\mathrm{d}x,&1\leq x<2\\\int_{2}^{x}Axdx,&2\leq x<3\\1,&x\geq3\end{cases}\Rightarrow\begin{cases}0,&x<1\\\frac{2}{29}\big(x^{3}-1\big),&1\leq x<2\\\frac{3}{29}x^{2}+\frac{2}{29},&2\leq x<3\\1,&x\geq3\end{cases}\end{aligned} $$ 
+
+ $$ (3)P\big\{\big|X\big|<2\big\}=P\big\{-2<X<2\big\}=P\big\{1<X<2\big\}=\int_{1}^{2}\frac{6}{29}x^{2}\mathrm{d}x=\frac{6}{29}\bigg(\frac{1}{3}x^{3}\bigg)_{1}^{2}=\frac{14}{29}. $$
+
+<!-- page: 27 -->
+
+3.设 $ X \sim N(3,4), (1) $求 $ P\{2 < X \leq 5\}, P\{|x| > 2\} $;
+
+
+
+
+
+(2)确定c,使得 $ P\{X>c\}=P\{X\leq c\} $?
+
+解: (1) 因为  $ X \sim N(3,4) $，故有
+
+ $$ P\left\{a<X\leq b\right\}=P\left\{\frac{a-3}{2}<\frac{X-3}{2}\leq\frac{b-3}{2}\right\}=\varPhi\left(\frac{b-3}{2}\right)-\varPhi\left(\frac{a-3}{2}\right), $$ 
+
+ $$ \begin{align*}\therefore P\left\{2<X\leq5\right\}&=\varPhi\left(\frac{5-3}{2}\right)-\varPhi\left(\frac{2-3}{2}\right)=\varPhi\left(1\right)-\varPhi\left(-0.5\right)\\&=\varPhi\left(1\right)-\left(1-\varPhi\left(0.5\right)\right)=0.8413-1+0.6915=0.5328.\end{align*} $$ 
+
+ $$ \begin{aligned}P\left\{\left|x\right|>2\right\}&=\mathbf{1}-P\left\{\left|x\right|\leq2\right\}=\mathbf{1}-P\left\{-2<X\leq2\right\}\\&=\mathbf{1}-\varPhi\left(-\mathbf{0.5}\right)+\varPhi\left(-2.5\right)=\varPhi\left(\mathbf{0.5}\right)-\varPhi\left(2.5\right)+\mathbf{1}=\mathbf{0}.6977.\end{aligned} $$
+
+<!-- page: 28 -->
+
+4.某种型号的电子管寿命 $ X $(以h计)具有概率密度 $ f(x)=\left\{\begin{aligned}&\frac{1000}{x^{2}},x>1000\\&0,\quad 其他\end{aligned}\right. $.现有一大批 
+
+解：电子管寿命大于1500h的概率为 $ P\{X>1500\}=\int_{1500}^{+\infty}\frac{1000}{x^2}dx=1000\left(-\frac{1}{x}\right)_{1500}^{+\infty}=\frac{2}{3} $.
+
+设Y表示5只电子管中寿命大于1500h的个数，故 $ Y\sim b\left(5,\frac{2}{3}\right) $，
+
+则有 $ P\{Y\geq2\}=1-P\{Y=0\}-P\{Y=1\}=1-C_{5}^{0}\left(\frac{2}{3}\right)^{0}\left(\frac{1}{3}\right)^{5}-C_{5}^{1}\left(\frac{2}{3}\right)^{1}\left(\frac{1}{3}\right)^{4}=1-\frac{1}{3^{5}}-5\times\frac{2}{3}\times\frac{1}{3^{4}}=\frac{232}{243} $.
+
+5. 设 K 在  $ (0,5) $ 内服从均匀分布，求方程  $ 4x^{2} + 4Kx + K + 2 = 0 $ 有实根的概率。
+
+解：由已知有 $ f(k)=\begin{cases}\frac{1}{5},0<k<5,\\0,\quad\text{其他}\end{cases} $，方程有实根，则有 $ 16k^{2}-16k-32\geq0 $，解出 $ k\geq2 $或 $ k\leq-1 $，故方程有实根的概率为 $ P\{k\geq2\}=\int_{2}^{5}\frac{1}{5}\mathrm{d}x=\frac{3}{5} $.
+
+<!-- page: 29 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题2-5 随机变量的函数的分布</div> </div>
+
+
+
+
+
+
+1. 设随机变量 X 的分布律为  $ \frac{X}{p_k}\left|\begin{array}{cccc}-2&-1&0&1\\\frac{1}{6}&\frac{1}{3}&\frac{1}{6}&\frac{1}{3}\end{array}\right. $
+
+试求(1) $ Y=2X-1 $; (2) $ Z=X^{2} $的分布律。
+
+解:(1)Y的所有可能取值为-5,-3,-1,1,
+
+由 $ P\{Y=2k-1\}=P\{X=k\}=p_k $，得Y的分布律为 $ \frac{Y}{p_k}\left|\begin{array}{cccc}-5&-3&-1&1\\ \frac{1}{6}&\frac{1}{3}&\frac{1}{6}&\frac{1}{3}\end{array}\right| $.
+
+(2)Z的所有可能取值为1,0,4,
+
+由 $ P\{Z=k^2\}=P\{X=k\}=p_k $，得Z的分布律为 $ \frac{Z}{p_k}\left|\begin{array}{cccc}0&1&4\\\frac{1}{6}&\frac{2}{3}&\frac{1}{6}\end{array}\right| $.
+
+<!-- page: 30 -->
+
+2. 设随机变量  $ X \sim U(0,1) $，求  $ Y = -2\ln X $ 的密度函数。
+
+，
+
+解：由 $ X \sim U(0,1) $，而 $ Y = -2\ln X $为X的单调减函数，
+
+故有反函数为 $ x = e^{-\frac{y}{2}} $，因此y的概率密度为
+
+ $ f_Y(y) = f_X\left(e^{-\frac{y}{2}}\right)\left|\left(e^{-\frac{y}{2}}\right)^\prime\right| = \begin{cases} \dfrac{1}{2}e^{-\frac{y}{2}}, & \text{当} y \geq 0 \text{时}, \\ 0, & \text{当} y < 0 \text{时}, \end{cases} $
+
+即Y服从参数为 $ \dfrac{1}{2} $的指数分布 $ E\left(\dfrac{1}{2}\right) $。
+
+<!-- page: 31 -->
+
+3.设随机变量 $ X\sim N(0,1) $，求 $ Y=|X| $的密度函数。
+
+
+
+
+
+解：对于 $ Y=|X| $，显然当 $ y<0 $时，有 $ f_Y(y)=0 $；
+
+当 $ y\geq0 $时，因为 $ X\sim N(0,1) $，故有
+
+ $$ \begin{aligned}F_{Y}\left(y\right)&=P\left\{Y\leq y\right\}=P\left\{\left|X\right|\leq y\right\}=P\left\{-y\leq X\leq y\right\}\\&=\varPhi\left(y\right)-\varPhi\left(-y\right)=2\varPhi\left(y\right)-1,\end{aligned} $$ 
+
+故当y>0时，对上式二边求导数，则有
+
+$$F_{Y}^{\prime}(y)=f_{y}(y)=\left(2\Phi(y)-1\right)^{\prime}=2\varphi(y)=2\bullet\frac{1}{\sqrt{2\pi}}e^{-\frac{y^{2}}{2}},$$
+
+因此，$Y=|X|$的概率密度为$$f_{y}(y)=\left\{\begin{array}{ll}\sqrt{\frac{2}{\pi}}\cdot e^{-\frac{y^{2}}{2}},&y\geq0,\\0,&y<0.\end{array}\right.$$
+
+<!-- page: 32 -->
+
+4. 设随机变量  $ X $ 的概率密度为  $ f(x) = \begin{cases} \dfrac{2x}{\pi^2}, & 0 < x < \pi, \\ 0, & \text{其他}, \end{cases} $
+
+求  $ Y = \sin X $ 的概率密度。
+
+
+
+解： $ X $在 $ (0,\pi) $上取值时， $ Y=\sin x $在 $ [0,1] $上取值，
+
+故若 $ y<0 $或 $ y>1 $时， $ f_Y(y)=0 $，
+
+而当 $ 0 \leq y \leq 1 $时，Y的分布函数为：
+
+<!-- page: 33 -->
+
+$$ \begin{aligned}&F_{Y}\left(y\right)=P\left\{Y\leq y\right\}=P\left\{\mathbf{0}\leq Y\leq y\right\}\\ &=P\left\{\left(\mathbf{0}\leq\sin x\leq y\right)\right\}\bigcup\left(\mathbf{0}\leq\sin\left(\pi-x\right)\leq y\right)\Big\}\\ &=P\left\{\mathbf{0}\leq x\leq\arcsin y\right\}+P\left\{\mathbf{0}\leq\pi-x\leq\arcsin y\right\}\\ &=P\left\{\mathbf{0}\leq x\leq\arcsin y\right\}+P\left\{\left(\pi-\arcsin y\right)\leq x\leq\pi\right\}\\ &=\int_{0}^{\arcsin y}\frac{2x}{\pi^{2}}\mathrm{d}x+\int_{\pi-\arcsin y}^{\pi}\frac{2x}{\pi^{2}}\mathrm{d}x\\ &=\frac{1}{\pi^{2}}\left(\arcsin y\right)^{2}+1-\frac{1}{\pi^{2}}\left(\pi-\arcsin y\right)^{2}=\frac{2}{\pi}\arcsin y.\\ &\\ & 故所求概率为 f_{Y}\left(y\right)=F_{Y}^{\prime}\left(y\right)=\left\{\begin{matrix}\frac{2}{\pi\sqrt{1-y^{2}}},&0<y<1\\ 0,& 其他 .\end{matrix}\right.\\ \end{aligned} $$
+
+<!-- page: 34 -->
+
+5.假设随机变量X服从参数为2的指数分布，证明 $ Y=1-e^{-2X} $在区间 $ (0,1) $上服从均匀分布。
+
+证：∵  $ X \sim E(2) $，即  $ f_X(x) = \begin{cases} 2e^{-2x}, & x > 0, \\ 0, & \text{其他} \end{cases} $
+
+∴  $ x \in (0, +\infty) $，∴  $ y \in (0, 1) $，∴ 当  $ y \leq 0 $ 时， $ F_Y(y) = 0 $，
+
+当  $ y \geq 1 $ 时， $ F_Y(y) = 1 $，当  $ 0 < y < 1 $ 时，有
+
+ $ F_Y(y) = P\{Y \leq y\} = P\{1 - e^{-2X} \leq y\} = P\{e^{-2X} \geq 1 - y\} = P\{X \leq -\frac{1}{2} \ln(1 - y)\} = F_X\left(-\frac{1}{2} \ln(1 - y)\right) $，
+
+故  $ f_Y(y) = F_Y'(y) = f_X\left(-\frac{1}{2} \ln(1 - y)\right) \cdot \left(\frac{1}{2} \cdot \frac{1}{1 - y}\right) = 1 $，
+
+故有  $ f_Y(y) = \begin{cases} 1, & 0 < y < 1, \\ 0, & \text{其它} \end{cases} $ 因此  $ Y \sim U(0,1) $。
+
+<!-- page: 35 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题3-1 二维随机变量</div> </div>
+
+
+1. 一箱子装有100件产品，其中一、二、三等品分别为80件、10件、10件。现从中随机抽取一件，记  $ X_1 = \begin{cases} 1, & 抽到一等品 \\ 0, & 其他 \end{cases} $， $ X_2 = \begin{cases} 1, & 抽到二等品 \\ 0, & 其他 \end{cases} $ 求随机变量 $ (X_1, X_2) $的分布律。
+
+解： $ (X_1, X_2) $的可能取值只有4对： $ (0,0) $， $ (0,1) $， $ (1,0) $， $ (1,1) $，根据乘法公式，可得  $ P\{X_1 = 0, X_2 = 0\} = P\{X_1 = 0\} \cdot P\{X_2 = 0 \mid X_1 = 0\} = \frac{20}{100} \times \frac{10}{20} = 0.1 $， $ P\{X_1 = 0, X_2 = 1\} = P\{X_1 = 0\} \cdot P\{X_2 = 1 \mid X_1 = 0\} = \frac{20}{100} \times \frac{10}{20} = 0.1 $， $ P\{X_1 = 1, X_2 = 0\} = P\{X_1 = 1\} \cdot P\{X_2 = 0 \mid X_1 = 1\} = \frac{80}{100} \times 1 = 0.8 $， $ P\{X_1 = 1, X_2 = 1\} = P\{X_1 = 1\} \cdot P\{X_2 = 1 \mid X_1 = 1\} = \frac{20}{100} \times 0 = 0 $，即 $ (X_1, X_2) $的分布律为： $ \frac{X_2 \setminus X_1}{0} \begin{vmatrix} 0 & 1 \\ 0.1 & 0.1 \\ 1 & 0.8 \end{vmatrix} $
+
+<!-- page: 36 -->
+
+2. 袋中有1个红色球，2个黑色球与3个白色球，现有放回地从袋中取两次，每次取1球，以X、Y、Z分别表示两次取球所取得的红球，黑球与白球的个数，求：
+
+(1)  $ P\{X=1 \mid Z=0\} $; (2) 二维随机变量  $ (X,Y) $ 的分布律。
+
+解: (1) 题意表示在两次没有取白球的情况下，取了1个红球, 1个黑球, 即  $ P\{X=1 \mid Z=0\} = \frac{P\{X=1,Z=0\}}{P\{Z=0\}} = \frac{\frac{1}{6} \times \frac{2}{6} \times 2}{\frac{3}{6} \times \frac{3}{6}} = \frac{4}{9} $.
+
+而  $ P\{X=1 \mid Z=0\} = \frac{P\{X=1,Z=0\}}{P\{Z=0\}} = \frac{\frac{1}{6} \times \frac{3}{6}}{\frac{3}{6}} = \frac{1}{6} $ 这个解法, 表示的是在第一次没有取白球的情况下, 第二次取红球的概率, 这个解法不符合题目所问.
+
+(2)  $ P\{X=0,Y=0\} $ 表示两次有放回取球中, 没有取红球和黑球, 即两次都是取白球, 故  $ P\{X=0,Y=0\} = \frac{3}{6} \times \frac{3}{6} = \frac{1}{4} $;
+
+ $ P\{X=0,Y=1\} $ 表示两次有放回取球中, 没有取红球, 有一次取黑球, 即另一次取白球, 故  $ P\{X=0,Y=1\} = \frac{2}{6} \times \frac{3}{6} \times 2 = \frac{1}{3} $;
+
+ $ P\{X=0,Y=2\} $ 表示两次有放回取球中, 没有取红球, 两次都是取黑球, 故  $ P\{X=0,Y=2\} = \frac{2}{6} \times \frac{2}{6} = \frac{1}{9} $;
+
+ $ P\{X=1,Y=0\} $ 表示两次有放回取球中, 一次取红球, 没有取黑球, 即另一次取白球, 故  $ P\{X=1,Y=0\} = \frac{1}{6} \times \frac{3}{6} \times 2 = \frac{1}{6} $;
+
+ $ P\{X=1,Y=1\} $ 表示两次有放回取球中, 一次取红球, 一次取黑球, 故  $ P\{X=1,Y=1\} = \frac{1}{6} \times \frac{2}{6} \times 2 = \frac{1}{9} $;
+
+ $ P\{X=2,Y=0\} $ 表示两次有放回取球中, 两次取红球, 没有取黑球, 故  $ P\{X=2,Y=0\} = \frac{1}{6} \times \frac{1}{6} = \frac{1}{36} $;
+
+<!-- page: 37 -->
+
+即有分布律  $ \begin{array}{c} Y \backslash X \\ 0 \quad \frac{1}{4} \quad \frac{1}{6} \quad \frac{2}{36} \\ 1 \quad \frac{1}{3} \quad \frac{1}{9} \quad 0 \cdot \\ 2 \quad \frac{1}{9} \quad 0 \quad 0 \end{array} $
+
+
+
+
+
+3. 袋中装有标号为1、2、2的3个球，从中任取一个且不放回，然后再从袋中任取一个，用X、Y分别表示第一次、第二次取到的球的号码数，求(X,Y)的分布律。
+
+解：X和Y的取值都是1,2，且有 $ P\{X=1,Y=1\}=0 $,
+
+ $ P\{X=1,Y=2\}=P\{X=1\}\cdot P\{Y=2\mid X=1\}=\frac{1}{3}\times1=\frac{1}{3}; $
+
+ $ P\{X=2,Y=1\}=P\{X=2\}\cdot P\{Y=1\mid X=2\}=\frac{2}{3}\times\frac{1}{2}=\frac{1}{3}; $
+
+ $ P\{X=2,Y=2\}=P\{X=2\}\cdot P\{Y=2\mid X=2\}=\frac{2}{3}\times\frac{1}{2}=\frac{1}{3}; $
+
+即有分布律：1  $ \quad 0 \quad \frac{1}{3} $.
+
+2  $ \quad \frac{1}{3} \quad \frac{1}{3} $
+
+37/105
+
+<!-- page: 38 -->
+
+4. 设随机变量  $ (X, Y) $ 的概率密度为  $ f(x, y) = \left\{ \begin{aligned} & A e^{-(2x + 3y)}, x > 0, y > 0, \\ & 0, \quad \text{其他} \end{aligned} \right. $，
+
+求 (1) 常数  $ A $; \quad (2)  $ (X, Y) $ 的分布函数  $ F(x, y) $; \quad (3)  $ P\{Y \leq X\} $.
+
+解: (1)  $ \int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} f(x, y) \, dx \, dy = \int_{-\infty}^{+\infty} dy \int_{-\infty}^{+\infty} A e^{-(2x+3y)} \, dx = A \int_{0}^{+\infty} e^{-3y} dy \int_{0}^{+\infty} e^{-2x} dx = \frac{1}{2} A \int_{0}^{+\infty} e^{-3y} dy = \frac{1}{6} A $, 故  $ A = 6 $.
+
+(2)当 $ x \leq 0 $或 $ y \leq 0 $时，有 $ F(x, y) = 0 $;
+
+当x>0, y>0时， $ F(x,y)=\int_{0}^{x}\mathrm{d}u\int_{0}^{y}6e^{-(2u+3v)}\mathrm{d}v=\left(1-e^{-2x}\right)\left(1-e^{-3y}\right) $,
+
+即有 $ F(x,y)=\left\{\begin{aligned}&\left(1-e^{-2x}\right)\left(1-e^{-3y}\right),x>0,y>0\\&0,\quad 其他\end{aligned}\right. $
+
+ $$ )P\big\{Y\leq X\big\}=6\int_{0}^{+\infty}e^{-3y}\mathrm{d}y\int_{y}^{+\infty}e^{-2x}\mathrm{d}x=3\int_{0}^{+\infty}e^{-3y}\big(e^{-2y}\big)\mathrm{d}y=3\int_{0}^{+\infty}e^{-5y}\mathrm{d}y=\frac{3}{5}. $$ 
+
+如果写成 $ P\{Y \leq X\} = 6\int_{0}^{+\infty} e^{-2x} \, \mathrm{d}x \int_{0}^{y} e^{-3y} \, \mathrm{d}y $，还计算不出来。
+
+<!-- page: 39 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题3-2 边缘分布</div> </div>
+
+
+
+
+
+
+1. 完成下列表格：
+
+     $ X|Y $  $ \quad y_1 \quad $  $ \quad y_2 \quad $  $ \quad y_3 \quad $  $ \quad p_{i\bullet} $
+
+     $ x_1 $  $ \quad 0.1 $  $ \quad 0.2 $  $ \quad 0.4 $
+
+     $ x_2 $  $ \quad 0.2 $  $ \quad 0.2 $  $ \quad 0.4 $
+
+     $ p_{\bullet j} $  $ \quad 1 $
+
+解：由第一行，得 $ p_{12}=0.1 $，由最后一列，得 $ p_{2}=0.6 $，故 $ p_{23}=0.2 $，
+
+所以表格如下： $ \begin{array}{ccccc}X|Y&y_{1}&y_{2}&y_{3}&p_{i\bullet}\\x_{1}&0.1&0.1&0.2&0.4\\x_{2}&0.2&0.2&0.2&0.6\\\end{array} $
+
+ $ p_{\bullet j} $ 0.3 0.3 0.4 1
+
+<!-- page: 40 -->
+
+2. 设随机变量X在1,2,3,4四个整数中等可能地取值,另一随机变量X请切牟利
+
+1~X中等可能地取值,试求(X,Y)的联合分布律及边缘分布律。
+
+ $$ \begin{aligned}& 解：P\left\{X=1,Y=1\right\}=\frac{1}{4}\times1=\frac{1}{4},\\&P\left\{X=1,Y=2\right\}=P\left\{X=1,Y=3\right\}=P\left\{X=1,Y=4\right\}=0,\\&P\left\{X=2,Y=1\right\}=P\left\{X=2,Y=2\right\}=\frac{1}{4}\times\frac{1}{2}=\frac{1}{8},\\&P\left\{X=2,Y=3\right\}=P\left\{X=2,Y=4\right\}=0,\\&P\left\{X=3,Y=1\right\}=P\left\{X=3,Y=2\right\}=P\left\{X=3,Y=3\right\}\\&=\frac{1}{4}\times\frac{1}{3}=\frac{1}{12},\quad P\left\{X=3,Y=4\right\}=0,\\&P\left\{X=4,Y=1\right\}=P\left\{X=4,Y=2\right\}=P\left\{X=4,Y=3\right\}\\&=P\left\{X=4,Y=4\right\}=\frac{1}{4}\times\frac{1}{4}=\frac{1}{16}.\end{aligned} $$
+
+<!-- page: 41 -->
+
+故 $ (X,Y) $的联合分布律与边缘分布律如下表：
+
+
+
+
+
+
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Y</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>p.j</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>1/8</td><td style='text-align: center; word-wrap: break-word;'>1/12</td><td style='text-align: center; word-wrap: break-word;'>1/16</td><td style='text-align: center; word-wrap: break-word;'>25/48</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1/8</td><td style='text-align: center; word-wrap: break-word;'>1/12</td><td style='text-align: center; word-wrap: break-word;'>1/16</td><td style='text-align: center; word-wrap: break-word;'>13/48</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1/12</td><td style='text-align: center; word-wrap: break-word;'>1/16</td><td style='text-align: center; word-wrap: break-word;'>7/48</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1/16</td><td style='text-align: center; word-wrap: break-word;'>1/16</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Pi.</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr></table>
+
+<!-- page: 42 -->
+
+3. 已知随机变量 X 和 Y 的概率分布如下：
+
+
+
+
+
+X -1 0 1 Y 0 1
+
+p  $ \frac{1}{4} $  $ \frac{1}{2} $  $ \frac{1}{4} $, p  $ \frac{1}{2} $  $ \frac{1}{2} $, 且 $ P\{XY=0\}=1 $.
+
+求X和Y的联合分布律。
+
+解: (1) 由已知  $ P\{XY = \mathbf{0}\} = 1 $，知  $ P\{XY \neq \mathbf{0}\} = \mathbf{0} $，即
+
+ $ P\{X = -1, Y = 1\} = P\{X = 1, Y = 1\} = 0 $，从而有
+
+ $$ P\left\{X=-\mathbf{1},Y=\mathbf{0}\right\}=P\left\{X=-\mathbf{1}\right\}=\frac{\mathbf{1}}{4},\ P\left\{X=\mathbf{1},Y=\mathbf{0}\right\}=P\left\{X=\mathbf{1}\right\}=\frac{\mathbf{1}}{4}, $$ 
+
+ $ P\{X=0,Y=1\}=P\{Y=1\}=\frac{1}{2},\quad P\{X=0,Y=0\}=0, $
+
+于是X和Y的联合分布律为
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Y|X</td><td style='text-align: center; word-wrap: break-word;'>-1</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>p_{j}</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>1/2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1/2</td><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>1/2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>p_{i.}</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>1/2</td><td style='text-align: center; word-wrap: break-word;'>1/4</td><td style='text-align: center; word-wrap: break-word;'>42/105</td></tr></table>
+
+<!-- page: 43 -->
+
+4. 二维随机变量  $ (X, Y) $ 的概率密度为
+
+ $ f(x,y)=\left\{\begin{aligned}&\frac{(1+2x)(1+2y)}{4},0\leq x\leq1,0\leq y\leq1,\\&0,\quad 其他\end{aligned}\right. $，求X和Y的边缘概率密度。
+
+ $$ \begin{aligned}& 解：f_{_{X}}\left(x\right)=\int_{-\infty}^{+\infty}f\left(x,y\right)\mathrm{d}y=\left\{\begin{aligned}&\int_{0}^{1}\frac{\left(1+2x\right)\left(1+2y\right)}{4}\mathrm{d}y,0\leq x\leq1\\&0,\quad 其他 \end{aligned}\right.=\left\{\begin{aligned}&\frac{\left(1+2x\right)}{2},0\leq x\leq1\\&0,\quad 其他 \end{aligned}\right.\end{aligned} $$ 
+
+ $$ f_{Y}\left(y\right)=\int_{-\infty}^{+\infty}f\left(x,y\right)\mathrm{d}x=\left\{\begin{aligned}&\int_{0}^{1}\frac{\left(1+2x\right)\left(1+2y\right)}{4}\mathrm{d}x,0\leq y\leq1\\&0,\quad 其他 \end{aligned}\right.=\left\{\begin{aligned}&\frac{\left(1+2y\right)}{2},0\leq y\leq1\\&0,\quad 其他 \end{aligned}\right. $$
+
+<!-- page: 44 -->
+
+5.二维随机变量(X,Y)在以原点为圆心，R为半径的圆内服从均匀分布，试求X,Y的联合概率密度和边缘概率密度。
+
+
+
+
+
+
+
+解：半径为 $ R $的圆的面积为 $ \pi R^2 $，故 $ (X,Y) $的联合概率密度为 $ f(x,y)=\left\{\begin{aligned}&\frac{1}{\pi R^2},x^2+y^2\leq R^2\\&0,\quad 其他\end{aligned}\right. $。
+
+$$f_{X}(x)=\left\{\begin{array}{ll}\displaystyle\int_{-\sqrt{R^{2}-x^{2}}}^{\sqrt{R^{2}-x^{2}}}\frac{1}{\pi R^{2}}\mathrm{d}y=\frac{2}{\pi R^{2}}\sqrt{R^{2}-x^{2}},-R\leq x\leq R,&\text{ 同理，可求得 }\\0,&\text{ 其他 }\end{array}\right.$$
+
+$$f_{Y}(y)=\left\{\begin{array}{ll}\displaystyle\frac{2}{\pi R^{2}}\sqrt{R^{2}-y^{2}},-R\leq y\leq R\\0,&\text{ 其他 }\end{array}\right.$$
+
+<!-- page: 45 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题3-3 条件分布 习题3-4 随机变量的独立性</div> </div>
+
+
+习题3-3 条件分布 习题3-4 随机变量的独立性
+
+1. 设二维随机变量(X,Y)的分布律为  $ \begin{bmatrix} Y \mid X & 0 & 1 \\ 0 & 0.3 & 0.2 \\ 1 & 0.4 & 0.1 \end{bmatrix} $ 试求在Y=1的条件下X的条件分布律。
+
+
+
+
+
+
+
+解：根据公式 $ P\left\{X=x_{i}\mid Y=y_{j}\right\}=\frac{P\left\{X=x_{i},Y=y_{j}\right\}}{P\left\{Y=y_{j}\right\}}=\frac{p_{ij}}{p_{\bullet j}} $
+
+所以有 $ P\{X=0|Y=1\}=\frac{P\{X=0,Y=1\}}{P\{Y=1\}}=\frac{0.4}{0.5}=\frac{4}{5} $，
+
+ $ P\left\{X=1\mid Y=1\right\}=\frac{P\left\{X=1,Y=1\right\}}{P\left\{Y=1\right\}}=\frac{0.1}{0.5}=\frac{1}{5} $，即
+
+ $$ \begin{array}{r}{x_{i}\quad0\quad1}\\ {P\left\{X=x_{i}\left|Y=1\right.\right\}\quad4/5\quad1/5}\end{array} $$
+
+<!-- page: 46 -->
+
+2. 设随机变量  $ (X, Y) $ 的概率密度为  $ f(x, y) = \begin{cases} e^{-x - y}, & x > 0, y > 0 \\ 0, & \text{其他} \end{cases} $.
+
+(1) 求条件概率密度  $ f_{Y|X}(y|x) $ 和  $ f_{X|Y}(x|y) $;
+
+(2) 说明 X 与 Y 的独立性。
+
+解: $ (\mathbf{1})\because f_{Y}(y)=\left\{\begin{aligned}&\int_{0}^{+\infty}e^{-x-y}\mathrm{d}x=e^{-y},y>0,\\&0,\quad 其他\end{aligned}\right.,\quad f_{X}(x)=\left\{\begin{aligned}&\int_{0}^{+\infty}e^{-x-y}\mathrm{d}y=e^{-x},x>0,\\&0,\quad 其他\end{aligned}\right., $
+
+ $$ \displaystyle\;\bullet\;\bullet $$ 
+
+ $$ f_{_{Y\mid X}}\left(y\left|x\right.\right)=\left\{\begin{aligned}&\frac{f\left(x,y\right)}{f_{_{X}}\left(x\right)}=\frac{e^{-x-y}}{e^{-x}}=e^{-y},y>0\\&\quad0,\quad 其他 \end{aligned}\right.,\quad f_{_{X\mid Y}}\left(x\left|y\right.\right)=\left\{\begin{aligned}&\frac{f\left(x,y\right)}{f_{_{Y}}\left(y\right)}=e^{-x},x>0\\&\quad0,\quad 其他 \end{aligned}\right.. $$ 
+
+(2)  $ \because f_{X}(x)f_{Y}(y)=f(x,y) $，所以，X与Y相互独立。
+
+<!-- page: 47 -->
+
+3. 设随机变量  $ X $ 与  $ Y $ 相互独立，试完成下表：
+
+ $ X \mid Y $ \quad  $ y_1 $ \quad  $ y_2 $ \quad  $ y_3 $ \quad  $ p_i $。
+
+ $ x_1 $ \quad 1/8
+
+ $ x_2 $ \quad 1/8
+
+ $ p_{\bullet i} $ \quad 1/6
+
+
+
+
+
+
+
+解：显然， $ p_{11}=\frac{1}{6}-\frac{1}{8}=\frac{1}{24} $，这样就有 $ \frac{1}{6}\times p_{1\bullet}=\frac{1}{24} $，即 $ p_{1\bullet}=\frac{1}{4} $， $ p_{2\bullet}=\frac{3}{4} $；又由 $ p_{\bullet2}\times p_{1\bullet}=p_{12}=\frac{1}{8}\Rightarrow p_{\bullet2}=\frac{1}{8}/p_{1\bullet}=\frac{1}{2} $，故 $ p_{22}=\frac{1}{2}-\frac{1}{8}=\frac{3}{8} $；所以有， $ p_{13}=p_{1\bullet}-p_{11}-p_{12}=\frac{1}{4}-\frac{1}{24}-\frac{1}{8}=\frac{1}{12} $， $ p_{\bullet3}=p_{13}/p_{1\bullet}=\frac{1}{12}/\frac{1}{4}=\frac{1}{3} $， $ p_{23}=p_{\bullet3}-p_{13}=\frac{1}{3}-\frac{1}{12}=\frac{1}{4} $。即有 $ \begin{array}{r}X\mid Y\\x_{1}\\x_{2}\end{array} $  $ \begin{array}{r}y_{1}\\x_{1}\\x_{2}\end{array} $  $ \begin{array}{r}y_{2}\\x_{1}\\y_{1}\\y_{2}\\y_{3}\end{array} $  $ \begin{array}{r}y_{3}\\x_{1}\\y_{1}\\y_{2}\\y_{3}\end{array} $  $ \begin{array}{r}p_{1\bullet}\\x_{1}\\y_{1}\\y_{2}\\y_{3}\end{array} $  $ \begin{array}{r}p_{2\bullet}\\x_{1}\\y_{1}\\y_{2}\\y_{3}\end{array} $  $ \begin{array}{r}p_{1\bullet}\\x_{1}\\y_{1}\\y_{2}\\y_{3}\end{array} $  $ \begin{array}{r}p_{2\bullet}\\x_{1}\\y_{1}\\y_{2}\\y_{3}\end{array} $  $ \begin{array}{r}p_{1\bullet}\\x_{1}\\y_{1}\\y_{2}\\y_{3}\end{array} $  $ \begin{array}{r}p_{2\bullet}\\x_{
+
+<!-- page: 48 -->
+
+4.设X和Y是两个相互独立的随机变量，X在(0,1)内服从均匀分布，Y的概率密度为 $ f_{Y}(y)=\left\{\begin{aligned}&\frac{1}{2}e^{-\frac{y}{2}},y>0.\\&0,\quad 其他\end{aligned}\right. $
+
+
+
+(1)求X与Y的联合概率密度；
+
+(2)设关于a的二次方程为 $ a^{2}+2Xa+Y=0 $，求此方程有实根的概率。
+
+解: (1) 由已知有,  $ f_{X}(x)=\left\{\begin{aligned}&1,0<x<1\\&0,\quad \text{其他}\end{aligned}\right. $,  $ f(x,y)=f_{X}(x)f_{Y}(y)=\left\{\begin{aligned}&\frac{1}{2}e^{-\frac{y}{2}},0<x<1,y>0\\&0,\quad \text{其他}\end{aligned}\right. $
+
+(2)方程有实根为 $ \Delta \geq 0 $，即 $ 4X^2 - 4Y \geq 0 \Rightarrow Y \leq X^2 $，故有
+
+ $$ \begin{aligned}&P\left\{Y\leq X^{2}\right\}=\iint\limits_{G}f(x,y)\mathrm{d}x\mathrm{d}y=\int_{0}^{1}\mathrm{d}x\int_{0}^{x^{2}}\frac{1}{2}e^{-\frac{y}{2}}\mathrm{d}y=\int_{0}^{1}\left(1-e^{-\frac{x^{2}}{2}}\right)\mathrm{d}x=1-\int_{0}^{1}e^{-\frac{x^{2}}{2}}\mathrm{d}x\\ &=1-\sqrt{2\pi}\int_{0}^{1}\varphi(x)\mathrm{d}x=1-\sqrt{2\pi}\big(\Phi\big(1\big)-\Phi\big(0\big)\big)=1-\sqrt{2\pi}\times0.34=0.1445.\\ \end{aligned} $$
+
+<!-- page: 49 -->
+
+5.一电子仪器由两部件构成，以X和Y分别表示这两个部件的寿命（单位：kh）。已知X和Y的联合分布函数为
+
+ $$ F(x,y)=\left\{\begin{aligned}1&-e^{-0.5x}-e^{-0.5y}+e^{-0.5(x+y)},x\geq0,y\geq0\\ 0,& 其他 \end{aligned}\right.. $$ 
+
+(1)判断X和Y是否相互独立；
+
+(2)求两个部件的寿命都超过100h的概率 $ \alpha $.
+
+解: $ (1)\because F_{X}(x)=F(x,+\infty)=1-e^{-0.5x},F_{Y}(y)=F(+\infty,y)=1-e^{-0.5y} $,
+
+且 $ F_{X}(x)F_{Y}(y)=\left(1-e^{-0.5x}\right)\left(1-e^{-0.5y}\right)=F(x,y), $
+
+所以X和Y是相互独立的。
+
+(2)又因为， $ P\{X \geq 0.1\} = 1 - P\{X < 0.1\} = 1 - F_X(0.1) = e^{-0.05} $，同理 $ P\{Y \geq 0.1\} = e^{-0.05} $，由(1)的结论，有
+
+ $$ P\bigl\{X\ge0.1,Y\ge0.1\bigr\}=P\bigl\{X\ge0.1\bigr\}P\bigl\{Y\ge0.1\bigr\}=e^{-0.05}\times e^{-0.05}=e^{-0.1}. $$
+
+<!-- page: 50 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题3-5 两个随机变量的函数的分布</div> </div>
+
+
+1. 设  $ (X, Y) $ 的分布律为：0 \quad 0.25 \quad 0.1 \quad 0.3，求  $ (1) Z = X + Y $ 的分布律； $ (2) V = \min\{X, Y\} $ 的分布律。
+
+1 \quad 0.15 \quad 0.15 \quad 0.05
+
+解:(1)根据X、Y的取值，得Z的可能取值为0,1,2,3，即
+
+$$P\{Z=0\}=P\{X=0,Y=0\}=0.25,P\{Z=1\}=P\{X=0,Y=1\}+P\{X=1,Y=0\}=0.25,$$
+
+$$P\{Z=2\}=P\{X=0,Y=2\}+P\{X=1,Y=1\}=0.45,P\{Z=3\}=P\{X=1,Y=2\}=0.05,$$
+
+所以$Z$的分布律为：
+
+$$p_{i}\begin{array}{c}Z\\0\\0.25\end{array}\begin{array}{c}1\\0.25\\0.45\end{array}\begin{array}{c}2\\0.45\\0.05\end{array}.$$
+
+(2) $ V = \min\{X, Y\} $的可能取值为0,1，即
+
+ $ P\{V=0\}=P\{X=0,Y=0\}+P\{X=0,Y=1\}+P\{X=0,Y=2\}+P\{X=1,Y=0\}=0.8, $
+
+ $ P\{V=1\}=P\{X=1,Y=1\}+P\{X=1,Y=2\}=0.2, $
+
+所以 $ V=\min\{X,Y\} $的分布律为： $ \begin{array}{ccc}V&0&1\\p_{i}&0.8&0.2\end{array} $
+
+<!-- page: 51 -->
+
+2.设随机变量(X,Y)的概率密度为： $ f(x,y)=\begin{cases}6x,0\leq x\leq1,y\geq0,x+y\leq1\\0,\end{cases} $ 其他。
+
+试求 $ Z=X+Y $的概率密度。
+
+解：当 $ z<0,z>1 $时， $ f(x,y)=0 $;
+
+当 $ 0\leq z\leq1 $时， $ f_{Z}(z)=\int_{-\infty}^{+\infty}f(x,z-x)dx=\int_{0}^{z}6x dx=3x^{2}\big|_{0}^{z}=3z^{2} $，
+
+所以， $ f_{Z}(z)=\begin{cases}3z^{2},0\leq z\leq1\\0,\end{cases} $ 其他。
+
+<!-- page: 52 -->
+
+3.设X,Y是相互独立的随机变量, $ X\sim\pi(\lambda_{1}) $
+
+ $ Y\sim\pi(\lambda_{2}). $证明： $ Z=X+Y\sim\pi(\lambda_{1}+\lambda_{2}). $
+
+
+
+
+
+解：由于 $ X\sim\pi(\lambda_1) $， $ Y\sim\pi(\lambda_2) $，故有 $ P\{X=k\}=\frac{\lambda_1^k}{k!}e^{-\lambda_1} $， $ P\{Y=k\}=\frac{\lambda_2^k}{k!}e^{-\lambda_2} $， $ k=0,1,2,\cdots $。又 $ X,Y $相互独立，因此， $ P\{Z=n\}=\sum_{k=0}^{n}P\{X=k,Y=n-k\}=\sum_{k=0}^{n}P\{X=k\}=\sum_{k=0}^{n}\frac{\lambda_1^k}{k!}e^{-\lambda_1}\cdot\frac{\lambda_2^{n-k}}{(n-k)!}e^{-\lambda_2}=e^{-\left(\lambda_1+\lambda_2\right)}\sum_{k=0}^{n}\frac{\lambda_1^k\cdot\lambda_2^{n-k}}{k!\left(n-k\right)!}=e^{-\left(\lambda_1+\lambda_2\right)}\cdot\frac{1}{n!}\sum_{k=0}^{n}C_n^k\lambda_1^k\cdot\lambda_2^{n-k}=\frac{\left(\lambda_1+\lambda_2\right)^n}{n!}e^{-\left(\lambda_1+\lambda_2\right)} $， $ n=0,1,2,\cdots $。即 $ Z=X+Y\sim\pi(\lambda_1+\lambda_2) $
+
+<!-- page: 53 -->
+
+4.设随机变量$(X,Y)$的概率密度为$f(x,y)=\begin{cases}\dfrac{e}{e-1}e^{-(x+y)},0<x<1,y>0,\\0,\quad\text{其他}\end{cases}$
+
+求$U=\max\{X,Y\}$的分布函数。
+
+解：当 $ u \leq 0 $时， $ F_U(u) = 0 $;
+
+当$0 < u \leq 1$时，$F_U(u) = \int_0^u \mathrm{d}y \int_0^u \frac{e}{e-1} e^{-(x+y)} \mathrm{d}x = \frac{e}{e-1} \int_0^u e^{-x} \mathrm{d}x \int_0^u e^{-y} \mathrm{d}y = \frac{e}{e-1} (1 - e^{-u})^2$，
+
+当$u > 1$时，$F_U(u) = \int_0^1 \mathrm{d}x \int_0^u \frac{e}{e-1} e^{-(x+y)} \mathrm{d}y = \frac{e}{e-1} \int_0^1 e^{-x} \mathrm{d}x \int_0^u e^{-y} \mathrm{d}y = \frac{e}{e-1} \times (1 - e^{-1}) \times (1 - e^{-u}) = 1 - e^{-u}$，
+
+所以，$U = \max\{X, Y\}$的分布函数为$F_U(u) = \begin{cases} 0, & u < 0 \\ \frac{e}{e-1} (1 - e^{-u})^2, & 0 < u \leq 1. \\ 1 - e^{-u}, & u > 1 \end{cases}$
+
+<!-- page: 54 -->
+
+5. 设随机变量 $ X $和 $ Y $相互独立， $ Z = X + Y $，
+
+且 $ X $的概率分布为 $ P\{X = i\} = \frac{1}{3}(i = -1,0,1) $，
+
+ $ Y $的概率密度为 $ f_Y(y) = \left\{ \begin{array}{ll} 1, & 0 \leq y \leq 1 \\ 0, & \text{其它} \end{array} \right. $，
+
+(1)求 $ P\left\{Z\leq\frac{1}{2}\mid X=0\right\};(2) $求Z的概率密度。
+
+解: (1) 由已知 X 和 Y 相互独立, 有
+
+ $$ \begin{aligned}&P\left\{\mathbf{Z}\leq\frac{\mathbf{1}}{2}\middle|X=\mathbf{0}\right\}=P\left\{X+Y\leq\frac{\mathbf{1}}{2}\middle|X=\mathbf{0}\right\}=P\left\{Y\leq\frac{\mathbf{1}}{2}\middle|X=\mathbf{0}\right\}\\&\frac{P\left\{Y\leq\frac{\mathbf{1}}{2},X=\mathbf{0}\right\}}{P\left\{X=\mathbf{0}\right\}}=\frac{P\left\{Y\leq\frac{\mathbf{1}}{2}\right\}P\left\{X=\mathbf{0}\right\}}{P\left\{X=\mathbf{0}\right\}}=P\left\{Y\leq\frac{\mathbf{1}}{2}\right\}\\&=\int_{0}^{\frac{1}{2}}f_{Y}\left(y\right)\mathrm{d}y=\frac{\mathbf{1}}{2}.\\ \end{aligned} $$
+
+<!-- page: 55 -->
+
+$$ \begin{aligned}&\left(2\right) 先求 \mathbb{Z} 的分布函数 F_{z}\left(z\right),\  由全概率公式可得：P\left\{\mathbb{Z}\leq z\right\}\\&=P\left\{X+Y\leq z\right\}=P\left\{Y\leq z-X\right\}=\sum_{i=-1,0,1}P\left\{Y\leq\mathbb{Z}-i,X=i\right\}\\&=P\left\{Y\leq z+1,X=-1\right\}+P\left\{Y\leq z,X=0\right\}+P\left\{Y\leq z-1,X=1\right\}\\&=\sum_{i=-1,0,1}P\left\{Y\leq\mathbb{Z}-i\left|X=i\right.\right\}P\left\{X=i\right\}\\&=\frac{1}{3}\Big(P\left\{Y\leq z+1\right\}+P\left\{Y\leq z\right\}+P\left\{Y\leq z-1\right\}\Big)\\&=\frac{1}{3}\Big(F_{Y}\left(z+1\right)+F_{Y}\left(z\right)+F_{Y}\left(z-1\right)\Big)\\&\therefore f_{z}\left(z\right)=F_{z}^{\prime}\left(z\right)=\frac{1}{3}\Big(F_{Y}^{\prime}\left(z+1\right)+F_{Y}^{\prime}\left(z\right)+F_{Y}^{\prime}\left(z-1\right)\Big)\\&=\frac{1}{3}\Big(f_{Y}\left(z+1\right)+f_{Y}\left(z\right)+f_{Y}\left(z-1\right)\Big),\end{aligned} $$
+
+<!-- page: 56 -->
+
+$$\because \left\{ \begin{array} { l } { Z = X + Y , } \\ { X = -1 , 0 , 1 , } \end{array} \right. \Rightarrow \left\{ \begin{array} { l } { Z \text { 是连续型随机变量，且 } } \\ { 0 \leq Z - X \leq 1 , \left( Y = Z - X \right) } \end{array} \right. \Rightarrow \left\{ \begin{array} { l } { 0 \leq Z + 1 \leq 1 } \\ { 0 \leq Z \leq 1 } \\ { 0 \leq Z - 1 \leq 1 } \end{array} \right.$$
+
+$$ \mathbf { 0 } \leq y \leq 1 , \quad \text { 将 } X \text { 的三个值分别代入，有 } \left\{ \begin{array} { l } { - 1 \leq Z \leq 0 , } \\ { 0 \leq Z \leq 1 , } \\ { 1 \leq Z \leq 2 } \end{array} \right. \text { 此时 } f _ { Y } ( z ) , f _ { Y } ( z - 1 ) \text { 都为 } 0 ,$$
+
+$$ \Rightarrow \left\{ \begin{array} { l } { - 1 \leq Z \leq 0 , } \\ { 0 \leq Z \leq 1 , } \\ { 1 \leq Z \leq 2 } \end{array} \right. \text { 此时 } f _ { Y } ( z + 1 ) , f _ { Y } ( z - 1 ) \text { 都为 } 0 , \quad \text {   } . \)
+
+
+
+ $$ \therefore f_{z}\left(z\right)=\left\{\begin{aligned}&\frac{1}{3}f_{Y}\left(z+1\right)=\frac{1}{3},-1\leq z\leq0\\&\frac{1}{3}f_{Y}\left(z\right)=\frac{1}{3},0\leq z\leq1\\&\frac{1}{3}f_{Y}\left(z-1\right)=\frac{1}{3},1\leq z\leq2\\&0,\quad\  其它 \ \end{aligned}\right.\Rightarrow f_{z}\left(z\right)=\left\{\begin{aligned}&\frac{1}{3},-1\leq z\leq2\\&0,\quad 其它 \end{aligned}\right. $$
+
+<!-- page: 57 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题4-1 数学期望</div> </div>
+
+
+1. 设X的分布律为:  $ \frac{X}{p_k}\left|\frac{-2}{0.1}\right|=\frac{-1}{0.3}\left|\frac{0}{0.4}\right|=\frac{1}{0.2} $,
+
+求: (1)  $ E(X) $; (2)  $ E(-X+1) $; (3)  $ E(X^2) $.
+
+解: (1)  $ E(X)=(-2)\times0.1+(-1)\times0.3+0\times0.4+1\times0.2=-0.3 $;
+
+(2)  $ E(-X+1)=-E(X)+1=1.3 $;
+
+(3)  $ E(X^2)=(-2)^2\times0.1+(-1)^2\times0.3+0\times0.4+1\times0.2=0.9 $.
+
+2. 设二维随机变量(X,Y)的联合分布律为:  $ \frac{Y\mid X}{-1}\left|\frac{1}{1/4}\right|=\frac{2}{1/2} $. 求  $ E(X) $,  $ E(Y) $,  $ E(X-2Y) $,  $ E(3XY) $.
+
+解:  $ E(X)=1\times\frac{1}{4}+1\times0+2\times\frac{1}{2}+2\times\frac{1}{4}=\frac{7}{4} $;
+
+ $ E(Y)=(-1)\times\frac{1}{4}+(-1)\times\frac{1}{2}+1\times0+1\times\frac{1}{4}=-\frac{1}{2} $;
+
+ $ E(X-2Y)=E(X)-2E(Y)=\frac{7}{4}-2\times\left(-\frac{1}{2}\right)=\frac{11}{4} $;
+
+ $ E(3XY)=3\times\left[1\times(-1)\times\frac{1}{4}+2\times(-1)\times\frac{1}{2}+2\times1\times\frac{1}{4}\right]=-\frac{9}{4} $.
+
+<!-- page: 58 -->
+
+3. 把四个球随机的放入4个盒子中去，设X表示空盒子的个数，求 $ E(X) $.
+
+
+
+
+
+
+
+解法一：先求X的分布律，4个球放到4个盒子中去，共有 $ 4^{4} $种放法，则
+
+ $$ P\left\{X=\mathbf{0}\right\}=\frac{C_{4}^{0}A_{4}^{4}}{4^{4}}=\frac{6}{64};\qquad P\left\{X=1\right\}=\frac{C_{4}^{1}C_{4}^{2}A_{3}^{3}}{4^{4}}=\frac{36}{64}; $$ 
+
+ $$ P\left\{X=2\right\}=\frac{C_{4}^{2}\left(2^{4}-2\right)}{4^{4}}=\frac{21}{64};P\left\{X=3\right\}=\frac{C_{4}^{3}}{4^{4}}=\frac{1}{64}. $$
+
+<!-- page: 59 -->
+
+解法二：引入随机变量 $ X_{i} $，令
+
+
+
+
+
+ $ X_i = \begin{cases} 1, & 第i个盒子空, \\ 0, & 第i个盒子非空. \end{cases} (i = 1, 2, 3, 4) $,
+
+则有 $ P\{X_i = 1\} = \left(\frac{3}{4}\right)^4 $， $ P\{X_i = 0\} = 1 - \left(\frac{3}{4}\right)^4 $
+
+且 $ X = X_{1} + X_{2} + X_{3} + X_{4} $，
+
+因为 $ E(X_i) = P\{X_i = 1\} = \left(\frac{3}{4}\right)^4 = \frac{81}{256} $，故有
+
+ $$ E\left(X\right)=E\left(X_{1}\right)+E\left(X_{2}\right)+E\left(X_{3}\right)+E\left(X_{4}\right)=4\times\frac{81}{256}=\frac{81}{64}. $$
+
+<!-- page: 60 -->
+
+4. 设连续型随机变量 $X$ 的概率密度为 $f(x) = \begin{cases} ax, & 0 < x < 2 \\ cx + b, & 2 \leq x \leq 4, \\ 0, & \text{其他} \end{cases}$,
+
+已知 $E(X) = 2$, $P\{1 < X < 3\} = \frac{3}{4}$. 求: $(1) a, b, c$ 的值; $(2) \text{令 } Y = e^X$, 求 $E(Y)$.
+
+解: (1) 由已知有: $\int_0^2 ax \, \mathrm{d}x + \int_2^4 (cx + b) \, \mathrm{d}x = 1$,
+
+$\int_0^2 ax^2 \, \mathrm{d}x + \int_2^4 (cx^2 + bx) \, \mathrm{d}x = 2$, $\quad\int_1^2 ax \, \mathrm{d}x + \int_2^3 (cx + b) \, \mathrm{d}x = \frac{3}{4}$, 化简得:
+
+$\begin{cases} 2a + 2b + 6c = 1 \\ 8a + 18b + 56c = 6, \\ 6a + 4b + 10c = 3 \end{cases}$ 解这个方程组得: $a = \frac{1}{4}, b = 1, c = -\frac{1}{4}$.
+
+(2) $E(Y) = E(e^x) = \int_{-\infty}^{+\infty} e^x f(x) \, \mathrm{d}x = \int_0^2 \frac{1}{4} xe^x \, \mathrm{d}x + \int_2^4 \left( -\frac{1}{4}x + 1 \right) e^x \, \mathrm{d}x = \frac{1}{4} \left\{ [xe^x]_0^2 - \int_0^2 e^x \, \mathrm{d}x] - \frac{1}{4} \left\{ [xe^x]_2^4 - \int_2^4 e^x \, \mathrm{d}x] + \int_2^4 e^x \, \mathrm{d}x \right\} = \frac{1}{4} (e^2 + 1) - \frac{1}{4} (3e^4 - e^2) + e^4 - e^2 = \frac{1}{4} e^4 - \frac{1}{2} e^2 + \frac{1}{4} = \frac{1}{4} (e^2 - 1)^2$.
+
+<!-- page: 61 -->
+
+5.设(X,Y)服从在A上的均匀分布，其中A为x轴、y轴及直线 $ x+y+1=0 $所围成的区域，求(1) $ E(X) $;(2) $ E(-3X+2Y) $;(3) $ E(XY) $.
+
+解：如图，A的面积为 $ \frac{1}{2} $，则(X,Y)的概率密度为 $ f(x,y)=\left\{\begin{aligned}&2,-1<x<0,-x-1<y<0,\\&0,\quad 其他.\end{aligned}\right. $
+
+ $$ \left)E\left(X\right)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}x f\left(x,y\right)\mathrm{d}x\mathrm{d}y=\int_{-1}^{0}2x\mathrm{d}x\int_{-x-1}^{0}\mathrm{d}y=-\frac{1}{3}; $$ 
+
+ $$ E\left(Y\right)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}yf\left(x,y\right)\mathrm{d}x\mathrm{d}y=-\frac{1}{3}, $$ 
+
+$$  E\left(-3X+2Y\right)=-3E\left(X\right)+2E\left(Y\right)=\frac{1}{3};   \tag*{(3)}$$
+
+ $$ E\left(XY\right)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}xyf\left(x,y\right)dxdy=\int_{-1}^{0}\int_{-x-1}^{0}2xydxdy=\frac{1}{12}. $$
+
+<!-- page: 62 -->
+
+6.某工厂生产的某种设备的寿命X(以年计)服从指数分布，其概率密度为：
+
+ $ f(x)=\begin{cases}\dfrac{1}{4}e^{-\frac{x}{4}},&x>0\\0,&x\leq0\end{cases} $.工厂规定，出售的设备在售出一年之内可以调换。若工厂售出一台设备赢利100元，调换一台设备厂方需花费300元，试求厂方出售一台设备净赢利的数学期望。
+
+注意：设备的寿命不到一年，就表示可以调换。
+
+解：一台设备在一年内调换的概率为： $ P\{X<1\}=\int_{0}^{1}\frac{1}{4}e^{-\frac{x}{4}}dx=1-e^{-\frac{1}{4}} $。
+
+计Y表示工厂售出一台设备的净赢利值，由题意可得Y的分布律为： $ \frac{Y}{p_k}\left|\frac{100}{e^{-\frac{1}{4}}}\right|\frac{100-300}{1-e^{-\frac{1}{4}}} $，故有 $ E(Y)=100\times e^{-\frac{1}{4}}+(-200)\times\left(1-e^{-\frac{1}{4}}\right)\approx33.64 $元。
+
+<!-- page: 63 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题4-2 方差</div> </div>
+
+
+1. 一台设备由三大部件构成，在设备运转过程中，各部件需要调整的概率相应为0.1, 0.2, 0.3，假设各部件的状态相互独立，以X表示同时需要调整的部件数，试求X的数学期望 $ E(X) $和方差 $ D(X) $。
+
+解：引入随机变量 $ X_i = \begin{cases} 1, & 第i个部件需要调整, \\ 0, & 第i个部件不需要调整. \end{cases} $， $ i = 1, 2, 3 $，
+
+则 $ X=X_1+X_2+X_3 $， $ \because X_i\sim\mathbb{0}-1 $分布， $ \therefore E(X_i)=P\{X_i=1\}=p $，
+
+由已知得， $ E(X_1) = 0.1 $， $ E(X_2) = 0.2 $， $ E(X_3) = 0.3 $，
+
+又因为 $ D(X_{i})=E(X_{i}^{2})-E^{2}(X_{i})=p(1-p) $，
+
+由已知得， $ D(X_1) = 0.09, D(X_2) = 0.16, D(X_3) = 0.21 $，
+
+所以  $ E(X)=E(X_1)+E(X_2)+E(X_3)=0.6 $,
+
+ $$ D\left(X\right)=D\left(X_{1}\right)+D\left(X_{2}\right)+D\left(X_{3}\right)=0.46. $$
+
+<!-- page: 64 -->
+
+2. 设随机变量 $X$ 的概率密度为 $f(x) = \begin{cases} \dfrac{1}{2}\cos\dfrac{x}{2}, & 0 \leq x \leq \pi, \\ 0, & \text{其他} \end{cases}$
+
+对 $X$ 独立的重复观察 $4$ 次，用 $Y$ 表示观测值大于 $\dfrac{\pi}{3}$ 的次数，求 $Y^2$ 的数学期望。
+
+解：$P\left\{X > \dfrac{\pi}{3}\right\} = \int_{\dfrac{\pi}{3}}^{\pi} \dfrac{1}{2}\cos\dfrac{x}{2} \, \mathrm{d}x = \int_{\dfrac{\pi}{3}}^{\pi} \cos\dfrac{x}{2} \, \mathrm{d}\left(\dfrac{x}{2}\right) = \sin\dfrac{x}{2}\bigg|_{\dfrac{\pi}{3}}^{\pi} = 1 - \dfrac{1}{2} = \dfrac{1}{2},$
+
+故 $Y \sim b\left(4, \dfrac{1}{2}\right)$，$P\{Y = k\} = C_4^k\left(\dfrac{1}{2}\right)^k\left(\dfrac{1}{2}\right)^{4-k} = \dfrac{1}{16}C_4^k$，$E(Y) = np = 2, D(Y) = npq = 1$，$E(Y^2) = D(Y) + E^2(Y) = 1 + 4 = 5$。
+
+<!-- page: 65 -->
+
+3.设(X,Y)的概率密度为 $ f(x,y)=\begin{cases}12y^2,0\leq y\leq x\leq1\\0,\end{cases} $.求 $ D(X) $和 $ D(Y) $解： $ E(X)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}xf(x,y)\mathrm{d}x\mathrm{d}y=\int_{0}^{1}12x\mathrm{d}x\int_{0}^{x}y^2\mathrm{d}y=\int_{0}^{1}4x^4\mathrm{d}x=\frac{4}{5} $， $ E(X^2)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}x^2f(x,y)\mathrm{d}x\mathrm{d}y=\int_{0}^{1}12x^2\mathrm{d}x\int_{0}^{x}y^2\mathrm{d}y=\int_{0}^{1}4x^5\mathrm{d}x=\frac{2}{3} $，所以， $ D(X)=E(X^2)-E^2(X)=\frac{2}{3}-\left(\frac{4}{5}\right)^2=\frac{2}{75} $， $ E(Y)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}yf(x,y)\mathrm{d}x\mathrm{d}y=\int_{0}^{1}12\mathrm{d}x\int_{0}^{x}y^3\mathrm{d}y=\int_{0}^{1}3x^4\mathrm{d}x=\frac{3}{5} $， $ E(Y^2)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}y^2f(x,y)\mathrm{d}x\mathrm{d}y=\int_{0}^{1}12\mathrm{d}x\int_{0}^{x}y^4\mathrm{d}y=\int_{0}^{1}\frac{12}{5}x^5\mathrm{d}x=\frac{2}{5} $，所以， $ D(Y)=E(Y^2)-E^2(Y)=\frac{2}{5}-\left(\frac{3}{5}\right)^2=\frac{1}{25} $。
+
+<!-- page: 66 -->
+
+4. 设两个随机变量X,Y相互独立, 且都服从均值为0, 方差为 $ \frac{1}{2} $的正态分布, 求随机变量 $ \left|X-Y\right| $的方差。
+
+
+
+解：令 $ Z = X - Y $，由于 $ X,Y \sim N\left(0, \frac{1}{2}\right) $，且相互独立，则 $ Z \sim N(0,1) $。
+
+又 $ D\left(\left|X - Y\right|\right) = D\left(\left|Z\right|\right) = E\left(\left|Z\right|^2\right) - E^2\left(\left|Z\right|\right) = E\left(Z^2\right) - E^2\left(\left|Z\right|\right) $，
+
+而 $ E\left(Z^2\right) = D\left(Z\right) + E^2\left(Z\right) = 1 $，
+
+ $ E\left(\left|Z\right|\right) = \int_{-\infty}^{+\infty}\left|z\right|\frac{1}{\sqrt{2\pi}}e^{-\frac{z^2}{2}}dz = \frac{2}{\sqrt{2\pi}}\int_{0}^{+\infty} ze^{-\frac{z^2}{2}}dz = \sqrt{\frac{2}{\pi}} $，
+
+所以， $ D\left(\left|X - Y\right|\right) = 1 - \frac{2}{\pi} $。
+
+不要把 $ D\left(\left|X - Y\right|\right) $拆为 $ \begin{cases} D(X-Y), X > Y \\ D(Y-X), X < Y \end{cases} $来计算，
+
+因为拆开以后， $ X $就受 $ Y $的限制，它们不再独立了。
+
+所以也不能再用独立的公式 $ D(X - Y) = DX + DY $。
+
+<!-- page: 67 -->
+
+5.在每次试验中，事件A发生的概率为0.6，利用切比雪夫不等式估计在1000次试验中，事件A发生的次数在500～700之间的概率。
+
+解：设X为1000次试验中A发生的次数，则 $ X \sim b(1000,0.6) $，其中 $ E(X)=np=600 $， $ D(X)=npq=240 $，
+
+根据切比雪夫不等式，
+
+ $$  有 P\left\{500<X<700\right\}=P\left\{\left|X-600\right|<100\right\}\geq1-\frac{240}{100^{2}}=1-0.024=0.976. $$
+
+<!-- page: 68 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题4-3 协方差与相关系数</div> </div>
+
+
+
+
+
+
+1.已知随机变量X与Y都服从二项分布B(20,0.1)，且X与Y的相关系数 $ \rho_{XY}=-0.5 $，试求X-Y的方差及X与2Y+X的协方差.
+
+解：由已知有， $ X \sim B(20,0.1) $， $ Y \sim B(20,0.1) $，则
+
+ $ E(X) = E(Y) = 2 $， $ D(X) = D(Y) = 1.8 $，
+
+ $$ \mathbf{c o v}\left(X,Y\right)=\rho_{_{X Y}}\sqrt{D\left(X\right)}\bullet\sqrt{D\left(Y\right)}=-\mathbf{0.5\times1.8}=-\mathbf{0.9}, $$ 
+
+故有， $ D(X - Y) = D(X) + D(Y) - 2\text{cov}(X, Y) = 1.8 + 1.8 + 2 \times 0.9 = 5.4 $， $ \text{cov}(X, 2Y + X) = 2\text{cov}(X, Y) + \text{cov}(X, X) = 2 \times (-0.9) + 1.8 = 0 $。
+
+<!-- page: 69 -->
+
+2. 设二维随机变量  $ (X, Y) $ 服从单位圆内的均匀分布，验证：X 和 Y 不相关，但 X 和 Y 互为无理数，则 X 独立的。
+
+解: $ (X,Y) $的概率密度为 $ f(x,y)=\left\{\begin{aligned}&\frac{1}{\pi},x^{2}+y^{2}\leq1,\\&0,\quad 其他\end{aligned}\right. $
+
+因为X和Y是对称的，故有 $ E(X)=E(Y) $， $ D(X)=D(Y) $，
+
+ $$ \begin{aligned}&E\big(X\big)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}x f\big(x,y\big)\mathrm{d}x\mathrm{d}y=\frac{1}{\pi}\int_{-1}^{1}x\mathrm{d}x\int_{-\sqrt{1-x^{2}}}^{\sqrt{1-x^{2}}}\mathrm{d}y=\frac{1}{\pi}\int_{-1}^{1}2x\sqrt{1-x^{2}}\mathrm{d}x=-\frac{1}{\pi}\int_{-1}^{1}\sqrt{1-x^{2}}\mathrm{d}\big(1-x^{2}\big)\\ &=-\frac{1}{\pi}\times\frac{2}{3}\times\big(1-x^{2}\big)^{\frac{3}{2}}\Big|_{-1}^{1}=\mathbf{0}=E\big(Y\big),\\ \end{aligned} $$ 
+
+ $$ E\big(X Y\big)=\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}x y f\big(x,y\big)\mathrm{d}x\mathrm{d}y=\frac{1}{\pi}\int_{-1}^{1}x\mathrm{d}x\int_{-\sqrt{1-x^{2}}}^{\sqrt{1-x^{2}}}y\mathrm{d}y=\frac{1}{2\pi}\int_{-1}^{1}x\mathrm{d}x\times y^{2}\bigg|_{\sqrt{1-x^{2}}}^{\sqrt{1-x^{2}}}=0, $$ 
+
+所以， $ \mathrm{cov}(X,Y)=E(XY)-E(X)E(Y)=0,\quad\rho_{XY}=0,\quad X $和 $ Y $不相关.
+
+又因为， $ f_x(x)=\int_{-\infty}^{+\infty}f(x,y)\mathrm{d}y=\left\{\begin{aligned}&\frac{1}{\pi}\int_{-\sqrt{1-x^2}}^{\sqrt{1-x^2}}\mathrm{d}y,-1\leq x\leq1\\&0,\quad 其他\end{aligned}\right.=\left\{\begin{aligned}&\frac{2}{\pi}\sqrt{1-x^2},-1\leq x\leq1\\&0,\quad 其他\end{aligned}\right. $
+
+$$f_{Y}(y)=\left\{\begin{array}{ll}\dfrac{2}{\pi}\sqrt{1-y^{2}},-1\leq y\leq1,&\text{显然，}f_{X}(x)f_{Y}(y)\neq f(x,y),\\0,&\text{其他}\end{array}\right.$$ 故X和Y不是相互独立的。
+
+<!-- page: 70 -->
+
+3.设二维随机变量(X,Y)的概率密度为： $ f(x,y)=\left\{\begin{array}{ll}k,0<x<1,0<y<x \\ 0,\end{array}\right. $
+
+其他
+
+求:(1)常数k; (2)E(XY)及 $ \mathrm{cov}(X,Y) $.
+
+解:(1)由 $ \int_{0}^{1}dx\int_{0}^{x}kdy=1 $，得 $ k\int_{0}^{1}xdx=1\Rightarrow\frac{k}{2}x^{2}\bigg|_{0}^{1}=1\Rightarrow\frac{k}{2}=1\Rightarrow k=2 $.
+
+(2)E(XY)=2 $ \int_{0}^{1}xdx\int_{0}^{x}y dy=\int_{0}^{1}x dx\cdot y^{2}\bigg|_{0}^{x}=\int_{0}^{1}x^{3}dx=\frac{1}{4}x^{4}\bigg|_{0}^{1}=\frac{1}{4} $,
+
+E(X)=2 $ \int_{0}^{1}xdx\int_{0}^{x}dy=2\int_{0}^{1}x^{2}dx=\frac{2}{3} $,
+
+E(Y)=2 $ \int_{0}^{1}dx\int_{0}^{x}y dy=\int_{0}^{1}x^{2}dx=\frac{1}{3} $,
+
+所以有， $ \mathrm{cov}(X,Y)=E(XY)-E(X)E(Y)=\frac{1}{4}-\frac{2}{3}\times\frac{1}{3}=\frac{1}{36} $.
+
+<!-- page: 71 -->
+
+4. 设随机变量  $ Y $ 服从参数为1的指数分布，随机变量  $ X_k = \begin{cases} 0, & Y \leq k, \\ 1, & Y > k, \end{cases} $  $ k = 1, 2 $，
+
+
+
+
+
+
+
+(1) 求  $ X_{1} $ 和  $ X_{2} $ 的联合分布律及边缘分布律；
+
+(2) 求  $ \mathrm{cov}(X_1, X_2) $ 和  $ \rho_{X_1 X_2} $.
+
+解: (1) 由已知得Y的概率密度为 $ f_Y(y) = \begin{cases} e^{-y}, & y > 0, \\ 0, & \text{其他}, \end{cases} $ 则
+
+ $ P\{X_1 = 0, X_2 = 0\} = P\{Y \leq 1, Y \leq 2\} = \int_0^1 e^{-y} \, \mathrm{d}y = 1 - e^{-1} $,
+
+ $ P\{X_1 = 0, X_2 = 1\} = P\{Y \leq 1, Y > 2\} = P\{\varnothing\} = 0 $,
+
+ $ P\{X_1 = 1, X_2 = 0\} = P\{Y > 1, Y \leq 2\} = \int_1^2 e^{-y} \, \mathrm{d}y = e^{-1} - e^{-2} $,
+
+ $ P\{X_1 = 1, X_2 = 1\} = P\{Y > 1, Y > 2\} = \int_2^{+\infty} e^{-y} \, \mathrm{d}y = e^{-2} $,
+
+<!-- page: 72 -->
+
+即联合分布律和边缘分布律为： $ \begin{array}{c}X_{1}|X_{2}\quad0\quad1\quad p_{i}.\\\quad0\quad1-e^{-1}\quad0\quad1-e^{-1}\\\quad1\quad e^{-1}-e^{-2}\quad e^{-2}\quad e^{-1}\\p_{\cdot j}\quad1-e^{-2}\quad e^{-2}\quad1\end{array} $
+
+(2)由(1)可知： $ E(X_1X_2) = e^{-2} $，
+
+ $ E(X_1) = P\{X_1 = 1\} = e^{-1} $， $ E(X_2) = P\{X_2 = 1\} = e^{-2} $，
+
+ $ D(X_1) = e^{-1}(1 - e^{-1}) $， $ D(X_2) = e^{-2}(1 - e^{-2}) $，
+
+则 $ \text{cov}(X_1, X_2) = E(X_1X_2) - E(X_1)E(X_2) = e^{-2} - e^{-3} $，
+
+ $ \rho_{X_1X_2} = \frac{\text{cov}(X_1, X_2)}{\sqrt{D(X_1)D(X_2)}} = \frac{1}{\sqrt{e+1}} $。
+
+<!-- page: 73 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题4-4 矩 协方差 习题4-5 二维正态分布</div> </div>
+
+
+
+
+
+
+1. 设随机变量X在区间 $ (a,b) $上服从均匀分布，求k阶原点矩和三阶中心矩。
+
+ $$ \begin{aligned}& 解： 由已知，有 f(x)=\left\{\begin{aligned}&\frac{1}{b-a},a<x<b,\\&0,\quad 其他 \end{aligned}\right.E(X)=\frac{a+b}{2},D(X)=\frac{(b-a)^{2}}{12},\\& 则有，E\left(X^{k}\right)=\int_{-\infty}^{+\infty}x^{k}f(x)\mathrm{d}x=\frac{1}{b-a}\times\frac{1}{k+1}\times x^{k+1}\bigg|_{a}^{b}=\frac{1}{b-a}\times\frac{1}{k+1}\times\left(b^{k+1}-a^{k+1}\right)\\&=\frac{1}{k+1}\left(a^{k}+a^{k-1}b+\cdots+ab^{k-1}+b^{k}\right),\\&E\left(X-E(X)\right)^{3}=\frac{1}{b-a}\int_{a}^{b}\left(x-\frac{a+b}{2}\right)^{3}\mathrm{d}x=\frac{1}{b-a}\int_{a}^{b}\left(x-\frac{a+b}{2}\right)^{3}\mathrm{d}\left(x-\frac{a+b}{2}\right)\\&=\frac{1}{b-a}\times\frac{1}{4}\times\left(x-\frac{a+b}{2}\right)^{4}\bigg|_{a}^{b}=\frac{1}{b-a}\times\frac{1}{4}\times\left[\left(\frac{b-a}{2}\right)^{4}-\left(\frac{a-b}{2}\right)^{4}\right]=0.\end{aligned} $$
+
+<!-- page: 74 -->
+
+2.已知随机变量 $ X\sim N(2,4) $， $ Y\sim N(0,36) $，X与Y的相关系数为 $ \rho_{XY}=-0.5 $，且 $ Z=\frac{X}{2}+\frac{Y}{3} $。求(1)Z的数学期望和方差；(2)X与Z的相关系数。
+
+解：(1) $ E(Z)=E\left(\frac{X}{2}+\frac{Y}{3}\right)=\frac{1}{2}E(X)+\frac{1}{3}E(Y)=\frac{1}{2}\times2+\frac{1}{3}\times0=1 $， $ D(Z)=D\left(\frac{X}{2}+\frac{Y}{3}\right)=\frac{1}{4}D(X)+\frac{1}{9}D(Y)+2\times\frac{1}{2}\times\frac{1}{3}\operatorname{cov}(X,Y)=\frac{1}{4}\times4+\frac{1}{9}\times36+\frac{1}{3}\times(-0.5)\times2\times6=1+4-2=3 $。
+
+(2) $ \operatorname{cov}(X,Z)=\operatorname{cov}\left(X,\frac{X}{2}+\frac{Y}{3}\right)=\frac{1}{2}\operatorname{cov}(X,X)+\frac{1}{3}\operatorname{cov}(X,Y)=\frac{1}{2}\times4+\frac{1}{3}\times(-0.5)\times2\times6=2-2=0 $，所以有， $ \rho_{XZ}=\frac{\operatorname{cov}(X,Z)}{\sqrt{D(X)}\sqrt{D(Z)}}=0 $。
+
+<!-- page: 75 -->
+
+3. 设  $ (X, Y) $ 服从二维正态分布，且  $ D(X) = \sigma_X^2 $， $ D(Y) = \sigma_Y^2 $。证明：
+
+
+
+
+
+
+
+当 $ a^{2}=\frac{\sigma_{X}^{2}}{\sigma_{Y}^{2}} $时，随机变量W=X-aY与V=X+aY相互独立.
+
+证明：因为(X,Y)服从二维正态分布，而W与V分别是X,Y的线性组合，根据性质3(正态变量的线性变换不变性)可知,(W,V)也是服从二维正态分布，而 $ \mathrm{cov}(W,V)=\mathrm{cov}(X-aY,X+aY)=\mathrm{cov}(X,X)+a\mathrm{cov}(X,Y)-a\mathrm{cov}(Y,X)-a^2\mathrm{cov}(Y,Y)=\sigma_X^2-\frac{\sigma_X^2}{\sigma_Y^2}\times\sigma_Y^2=0 $，
+
+所以， $ \rho_{wv}=0 $，即W与V是不相关的，
+
+根据性质4，在n维正态分布中，线性相关与相互独立是等价的，
+
+故知W与V是相互独立的。
+
+<!-- page: 76 -->
+
+4.五家商店联营，它们每两周售出的某种农产品的数量(以kg计)分别为 $ X_{1},X_{2},X_{3},X_{4} $（ $ X_{1} $小于X_{2}， $ X_{3} $小于X_{4}），X_{4}小于X_{1}，X_{2}小于X_{3}，X_{4}小于X_{1}）。已知 $ X_{1}\sim N(200,225) $， $ X_{2}\sim N(240,240) $， $ X_{3}\sim N(180,225) $， $ X_{4}\sim N(260,265) $， $ X_{5}\sim N(320,270) $，且相互独立，商店每隔两周进货一次，为使新的供货到达前商店不会脱销的概率大于0.99，问商店的仓库至少应储存多少千克该产品？
+
+解：设Y表示这5家商店该产品的总销售量，即 $ Y=X_{1}+X_{2}+X_{3}+X_{4}+X_{5} $，因为这5个变量相互独立且服从正态分布，故Y也服从正态分布(性质1)，且 $ E(Y)=200+240+180+260+320=1200 $， $ D(Y)=225+240+225+265+270=35^{2} $。
+
+再设仓库至少应储存n千克该产品，才能使新的供货到达前商店不会脱销的概率大于0.99，依题意，n应满足条件 $ P\{Y\leq n\}>0.99 $。
+
+由于 $ Y\sim N(1200,35^{2}) $，
+
+故有 $ P\{Y\leq n\}=P\left\{\frac{Y-1200}{35}\leq\frac{n-1200}{35}\right\}=\Phi\left(\frac{n-1200}{35}\right) $，
+
+则有 $ \Phi\left(\frac{n-1200}{35}\right)>0.99=\Phi(2.33) $，从而有， $ \frac{n-1200}{35}>2.33 $，
+
+解出， $ n>1281.55 $，即 $ n=1282 $。
+
+<!-- page: 77 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题5-1 大数定律 习题5-2 中心极限定理</div> </div>
+
+
+1. 设随机变量  $ X_1, \cdots, X_n $，…相互独立，且服从同一分布，数学期望  $ E(X_k) = \mu, D(X_k) = \sigma^2 (k = 1, 2, \cdots) $，令  $ \overline{Y_n} = \frac{1}{n} \sum_{k=1}^{n} (X_k - \mu)^2 $， $ (n = 1, 2, \cdots) $，证明： $ \left\{\overline{Y_n}\right\} $ 依概率收敛于  $ \sigma^2 $。
+
+证明：由已知 $ X_1, X_2, \cdots, X_n, \cdots $，相互独立，且服从同一分布，所以 $ (X_1 - \mu)^2, (X_2 - \mu)^2, \cdots, (X_n - \mu)^2 $，也相互独立，且服从同一分布，而且， $ E(X_k - \mu)^2 = D(X_k) = \sigma^2 $，
+
+根据辛钦大数定理，则有
+
+ $$ \lim_{n\to+\infty}P\left\{\left|\frac{1}{n}\sum_{k=1}^{n}\left(X_{k}-\mu\right)^{2}-\sigma^{2}\right|<\varepsilon\right\}=1, $$ 
+
+ $ \lim_{n \to +\infty} P \left\{ \left| \overline{Y}_n - \sigma^2 \right| < \varepsilon \right\} = 1 $，所以 $ \left\{ \overline{Y}_n \right\} $依概率收敛于 $ \sigma^2 $。
+
+<!-- page: 78 -->
+
+2. 一食品店有三种蛋糕出售，由于售出哪一种蛋糕是随机的，因而售出一只蛋糕的价格是一个随机变量，它取1元，1.2元，1.5元各个值的概率分别为0.3，0.2，0.5，若售出300只蛋糕，利用中心极限定理，求总收入至少为400元的概率。
+
+解：设售出第$i$个蛋糕的价格为$X_i$（$i=1,2,\cdots,300$），则
+
+$X_i \sim \begin{bmatrix} 1 & 1.2 & 1.5 \\ 0.3 & 0.2 & 0.5 \end{bmatrix}$，于是有$E(X_i) = 1.29, D(X_i) = 0.049$，则
+
+总收入$X = X_1 + \cdots + X_{300} = \sum_{i=1}^{300} X_i$，则$E(X) = 387, D(X) = 14.7$，
+
+由独立同分布中心极限定理，$\frac{X - 387}{\sqrt{14.7}} \sim N(0,1)$，则$P\{X \geq 400\} = 1 - P\{X \leq 400\} \approx 1 - \Phi\left(\frac{400 - 387}{\sqrt{14.7}}\right) \approx 1 - \Phi(3.394) = 0.0005$。
+
+<!-- page: 79 -->
+
+3. 由100个相互独立起作用的部件组成一个系统，在运行过程中每个部件能正常工作的概率都为90%，为了使整个系统能正常运行，至少必须有85%的部件在正常工作，利用中心极限定理求整个系统能正常运行的概率。
+
+解：设X为系统中能正常工作的部件数，
+
+则 $ X \sim b(100,0.9) $，故有 $ E(X) = np = 90, D(X) = npq = 9 $，
+
+依题意，系统能正常运行必须满足： $ P\{X > 85\} $，
+
+根据中心极限定理，有：
+
+ $$ P\left\{X>85\right\}=1-P\left\{X\leq85\right\} $$ 
+
+ $$ \approx1-\Phi\left(\frac{85-90}{3}\right)=1-\Phi\left(-\frac{5}{3}\right)=\Phi\left(\frac{5}{3}\right)=0.9525 $$
+
+<!-- page: 80 -->
+
+4. 利用中心极限定理确定当投掷一枚均匀硬币时，至少需要投掷多少次才能保证使得正面出现的频率在  $ 0.4 \sim 0.6 $ 之间的概率不小于90%.
+
+解：设$X$为掷硬币$n$次正面出现的次数，
+
+则$X \sim b(n,0.5)$，且$E(X)=0.5n$，$D(X)=0.25n$，根据中心极限定理，有
+
+$P\left\{0.4<\frac{X}{n}<0.6\right\}=P\left\{0.4n<X<0.6n\right\}=P\left\{\frac{-0.1n}{\sqrt{0.25n}}<\frac{X-0.5n}{\sqrt{0.25n}}<\frac{0.1n}{\sqrt{0.25n}}\right\}$
+
+$=2\Phi\left(\frac{0.1n}{\sqrt{0.25n}}\right)-1\geq0.9$，即$\Phi\left(\frac{0.1n}{\sqrt{0.25n}}\right)\geq\frac{1+0.9}{2}=0.95=\Phi(1.65)$，
+
+所以有：$\frac{0.1n}{\sqrt{0.25n}}\geq1.65$，解得$n\geq68$。
+
+<!-- page: 81 -->
+
+5. 计算器进行加法运算时，把每个加数取为最接近它的整数来计算，设所有的取整误差是独立的，且在 $ [-0.5, 0.5] $上服从均匀分布。
+
+(1)若将1500个数相加，问误差总和超过15的概率是多少？
+
+
+
+
+
+
+
+(2)最多有几个数相加可使得误差总和的绝对值小于10的概率不小于0.90?
+
+解:(1)设$X_i$为第$i$个数的取整误差，$i\in(1,1500)$，则$X_i\sim U(-0.5,0.5)$，
+
+$E(X_i)=0$，$D(X_i)=\frac{1}{12}$，$E\left(\sum_{i=1}^{1500}X_i\right)=0$，$D\left(\sum_{i=1}^{1500}X_i\right)=125$，
+
+根据中心极限定理，故有$P\left\{\sum_{i=1}^{1500}X_i>15\right\}=1-P\left\{\sum_{i=1}^{1500}X_i\leq15\right\}$
+
+$\approx1-\Phi\left(\frac{15-0}{\sqrt{125}}\right)=1-\Phi\left(\frac{15}{11.2}\right)=1-\Phi(1.339)=1-0.9099=0.09$
+
+<!-- page: 82 -->
+
+(2)设最多有$n$个数相加可使得误差总和的绝对值小于10的概率
+
+不小于0.90，
+
+即有$P\left\{\left|\sum_{i=1}^{n}X_{i}\right|<10\right\}\geq0.90$，因为$E\left(\sum_{i=1}^{n}X_{i}\right)=0$，$D\left(\sum_{i=1}^{n}X_{i}\right)=\frac{n}{12}$，
+
+根据中心极限定理，有
+
+$P\left\{\left|\sum_{i=1}^{n}X_{i}\right|<10\right\}=P\left\{-10<\sum_{i=1}^{n}X_{i}<10\right\}\approx2\Phi\left(\frac{10}{\sqrt{\frac{n}{12}}}\right)-1\geq0.90$，
+
+即$\Phi\left(\frac{10}{\sqrt{\frac{n}{12}}}\right)\geq0.95\approx\Phi(1.65)$，所以有：$\frac{10}{\sqrt{\frac{n}{12}}}\geq1.65$，解出$n\leq441$。
+
+<!-- page: 83 -->
+
+## 习题6 样本及抽样分布
+
+1. 设  $ X_1, X_2, \cdots, X_n $ 是来自总体  $ X \sim b(1, p) $ 的样本，求样本的联合分布律。
+
+解：∵ $ P\{X=k\}=p^{k}(1-p)^{1-k},k=0,1 $.
+
+故 $ (X_{1},X_{2},\cdots,X_{n}) $的分布律为：
+
+ $$ P\left\{X_{1}=x_{1},\cdots,X_{n}=x_{n}\right\}=\prod_{i=1}^{n}P\left\{X_{i}=x_{i}\right\}=\prod_{i=1}^{n}p^{x_{i}}\left(1-p\right)^{1-x_{i}} $$ 
+
+ $$ =p^{\sum_{i=1}^{n}x_{i}}\left(\mathbf{1}-p\right)^{n-\sum_{i=1}^{n}x_{i}}=p^{n\overline{x}}\left(\mathbf{1}-p\right)^{n-n\overline{x}}. $$
+
+<!-- page: 84 -->
+
+2. 设某种电灯泡的寿命 X 服从指数分布，求来自这一总条件的简单随机样本  $ X_{1}, X_{2}, \cdots, X_{n} $ 的联合概率密度。
+
+解：依题意有 $ f(x)=\left\{\begin{array}{ll}\lambda e^{-\lambda x},&x>0,\\ 0,&x\leq0.\end{array}\right. $
+
+故简单随机样本 $ X_1, X_2, \cdots, X_n $的联合概率密度为 $ f^*(x_1, x_2, \cdots, x_n) = f(x_1)f(x_2) \cdots f(x_n) = \begin{cases} \lambda^n e^{-\lambda \sum_{i=1}^{n} x_i}, & x_i > 0, \\ 0, & x \leq 0. \end{cases} $
+
+<!-- page: 85 -->
+
+3.设 $ X_1,X_2,\cdots,X_7 $为总体 $ X\sim N(0,0.5^2) $的一个样本.试求：
+
+(1)常数 $ a,b $的值，使得 $ a(X_1+X_2-X_3)^2+b(X_4+X_5+X_6)^2 $服从 $ \chi^2 $分布；
+
+(2) $ P\left\{\sum_{i=1}^{7}X_i^2>4\right\}. $
+
+解:(1)由已知，有 $ X_1+X_2-X_3\sim N(0,0.75) $， $ X_4+X_5+X_6\sim N(0,0.75) $，
+
+故有: $ \frac{X_1+X_2-X_3}{\sqrt{0.75}}\sim N(0,1) $， $ \frac{X_4+X_5+X_6}{\sqrt{0.75}}\sim N(0,1) $，
+
+ $ \left(\frac{X_1+X_2-X_3}{\sqrt{0.75}}\right)^2+\left(\frac{X_4+X_5+X_6}{\sqrt{0.75}}\right)^2\sim\chi^2(2) $，所以， $ a=b=\frac{1}{0.75}=\frac{4}{3} $.
+
+(2) $ \because\frac{X_i}{0.5}=2X_i\sim N(0,1) $， $ \therefore\sum_{i=1}^{7}4X_i^2\sim\chi^2(7) $，
+
+于是有， $ P\left\{\sum_{i=1}^{7}X_i^2>4\right\}=P\left\{4\sum_{i=1}^{7}X_i^2>16\right\}=P\left\{\chi^2>16\right\}=0.025 $.
+
+<!-- page: 86 -->
+
+4. 设  $ X_1, X_2, \cdots, X_n $ 是来自正态总体  $ N(\mu, \sigma^2) $ 的样本，试求样本方差  $ S^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \overline{X})^2 $ 的数学期望及方差。
+
+
+
+
+
+
+
+解$\because E(X_{i})=\mu,D(X_{i})=\sigma^{2},\therefore$ 有$E(\overline{X})=\mu,D(\overline{X})=\frac{\sigma^{2}}{n},$
+
+$E(X_{i}^{2})=D(X_{i})+E^{2}(X_{i})=\sigma^{2}+\mu^{2},E(\overline{X}^{2})=D(\overline{X})+E^{2}(\overline{X})=\frac{\sigma^{2}}{n}+\mu^{2},$
+
+故有，$E(S^{2})=\frac{1}{n-1}E\left(\sum_{i=1}^{n}\left(X_{i}-\overline{X}\right)^{2}\right)=\frac{1}{n-1}E\left(\sum_{i=1}^{n}X_{i}^{2}-n\overline{X}^{2}\right)$
+
+$=\frac{1}{n-1}\left(\sum_{i=1}^{n}E\left(X_{i}^{2}\right)-nE\left(\overline{X}^{2}\right)\right)=\frac{1}{n-1}\left(n\left(\sigma^{2}+\mu^{2}\right)-n\left(\frac{\sigma^{2}}{n}+\mu^{2}\right)\right)=\sigma^{2},$
+
+又$\because\frac{(n-1)S^{2}}{\sigma^{2}}\sim\chi^{2}(n-1),\therefore D\left(\frac{(n-1)S^{2}}{\sigma^{2}}\right)=2(n-1),$
+
+$\therefore\frac{(n-1)^{2}}{\sigma^{4}}D(S^{2})=2(n-1),\therefore D(S^{2})=\frac{2\sigma^{4}}{n-1}.$
+
+<!-- page: 87 -->
+
+5. 设总体  $ X \sim N(50,6^2) $,  $ Y \sim N(46,4^2) $, 从 X 中抽取容量为 10 的样本, 样本方差为  $ S_1^2 $; 从 Y 中抽取容量为 8 的样本, 样本方差为  $ S_2^2 $, 求下列概率:
+
+(1)  $ P\{0 < \overline{X} - \overline{Y} < 8\} $; (2)  $ P\{S_1^2 / S_2^2 < 8.28\} $. (总体 X 与 Y 相互独立)
+
+解: (1)  $ \because $ 当  $ X \sim N(\mu, \sigma^2) $ 时, 有  $ \overline{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right) $,  $ \therefore E(\overline{X} - \overline{Y}) = 50 - 46 = 4 $,
+
+ $ D(\overline{X} - \overline{Y}) = \frac{6^2}{10} + \frac{4^2}{8} = 5.6 $,  $ \therefore \overline{X} - \overline{Y} \sim N(4, 5.6) $, 即有  $ \frac{\overline{X} - \overline{Y} - 4}{\sqrt{5.6}} \sim N(0, 1) $,
+
+ $ \therefore P\{0 < \overline{X} - \overline{Y} < 8\} = P\left\{\frac{-4}{\sqrt{5.6}} < \frac{\overline{X} - \overline{Y} - 4}{\sqrt{5.6}} < \frac{4}{\sqrt{5.6}}\right\} = 2\Phi\left(\frac{4}{\sqrt{5.6}}\right) - 1 $
+
+(2)  $ \because F = \frac{S_1^2}{\sigma_1^2} / \frac{S_2^2}{\sigma_2^2} = \frac{S_1^2}{6^2} / \frac{S_2^2}{4^2} = \frac{4}{9} \cdot \frac{S_1^2}{S_2^2} \sim F(9, 7) $,  $ \therefore P\left\{\frac{S_1^2}{S_2^2} < 8.28\right\} = P\left\{\frac{4}{9} \cdot \frac{S_1^2}{S_2^2} < \frac{4}{9} \cdot 8.28\right\} = P\{F < 3.68\} = 1 - P\{F \geq 3.68\} \approx 0.95 $.
+
+<!-- page: 88 -->
+
+6. 设总体  $ X \sim N\left(\mu, \sigma^{2}\right) $，抽取样本  $ X_{1}, X_{2}, \cdots, X_{n} $，样本均值为 X，样本方差为  $ S^{2} $，若再抽取一个采样  $ X_{n+1} $，证明：统计量  $ \sqrt{\frac{n}{n+1}} \frac{X_{n+1} - \overline{X}}{S} \sim t(n-1) $。
+
+证：由  $ X \sim N\left(\mu, \sigma^{2}\right) $，故  $ \chi^{2} = \frac{(n-1)S^{2}}{\sigma^{2}} \sim \chi^{2}(n-1) $。
+
+而  $ X_{1}, X_{2}, \cdots, X_{n} $ 相互独立，故  $ X_{n+1} - \overline{X} $ 也服从正态分布，其期望和方差分别为： $ E\left(X_{n+1} - \overline{X}\right) = E\left(X_{n+1}\right) - E\left(\overline{X}\right) = \mu - \mu = 0 $，
+
+ $ D\left(X_{n+1} - \overline{X}\right) = D\left(X_{n+1}\right) + D\left(\overline{X}\right) = \sigma^{2} + \frac{\sigma^{2}}{n} = \frac{n+1}{n} \sigma^{2} $，
+
+故有  $ \frac{X_{n+1} - \overline{X}}{\sqrt{\frac{n+1}{n}} \sigma^{2}} \sim N\left(0,1\right) $， $ \frac{\sqrt{\frac{n+1}{n}} \sigma^{2}}{\sqrt{\frac{(n-1)S^{2}}{\sigma^{2}(n-1)}}} \sim t(n-1) $，
+
+即  $ \sqrt{\frac{n}{n+1}} \frac{X_{n+1} - \overline{X}}{S} \sim t(n-1) $。
+
+<!-- page: 89 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题7-1 点估计 习题7-2 估计量的评选标准</div> </div>
+
+
+1. 设总体 $X$ 具有分布律 $\begin{bmatrix} X & 1 & 2 & 3 \\ p_k & \theta^2 & 2\theta(1-\theta) & (1-\theta)^2 \end{bmatrix}$, 其中 $\theta (0 < \theta < 1)$ 为未知数。已知取得了样本值 $x_1 = 1, x_2 = 2, x_3 = 1$，试求 $\theta$ 的矩估计值和极大似然估计值。
+
+解：(1) 由矩估计法可知，$\mu_1 = E(X) = A_1 = \frac{1}{n} \sum_{i=1}^{n} x_i = \overline{x}$，而 $E(X) = 1 \times \theta^2 + 2 \times 2\theta(1 - \theta) + 3 \times (1 - \theta)^2 = 3 - 2\theta$，即有 $3 - 2\theta = \overline{x}$，求出 $\theta$ 的矩估计值为 $\theta = \frac{3 - \overline{x}}{2}$，又 $\overline{x} = \frac{1}{3}(1 + 2 + 1) = \frac{4}{3}$，故 $\theta$ 的矩估计值为 $\theta = \frac{1}{2}\left(3 - \frac{4}{3}\right) = \frac{5}{6}$。
+
+(2) 似然函数 $L(\theta) = \prod_{i=1}^{3} p(x_i, \theta) = P\{X = x_1\} \cdot P\{X = x_2\} \cdot P\{X = x_3\} = \theta^4 \cdot 2\theta(1 - \theta) = 2\theta^5(1 - \theta)$，取对数得 $\text{In}L(\theta) = \text{In}2 + 5\text{In}\theta + \text{In}(1 - \theta)$，令 $\frac{\text{dIn}L(\theta)}{\text{d}\theta} = 0$，得 $\frac{5}{\theta} - \frac{1}{1 - \theta} = 0$，即 $\theta$ 的极大似然估计值为 $\theta = \frac{5}{6}$。
+
+<!-- page: 90 -->
+
+2. 设总体X的概率密度为 $ f(x)=\begin{cases}(\theta+1)x^\theta, & 0<x<1, \\ 0, & \text{其他}.\end{cases} $，
+
+ $ X_1, X_2, \cdots, X_n $是来自总体X的样本，求 $ \theta $的矩估计和极大似然估计。
+
+解: (1)  $ E(X)=\int_{-\infty}^{+\infty} x f(x) \, \mathrm{d}x=\int_{0}^{1} x \cdot (\theta+1) x^\theta \, \mathrm{d}x=\int_{0}^{1} (\theta+1) x^{\theta+1} \, \mathrm{d}x=\frac{\theta+1}{\theta+2} $，由矩估计法可知， $ E(X)=\overline{X} $，即 $ \frac{\theta+1}{\theta+2}=\overline{X} $，解出 $ \hat{\theta}=\frac{2\overline{X}-1}{1-\overline{X}}=\frac{-2\left(1-\overline{X}\right)+1}{1-\overline{X}}=\frac{1}{1-\overline{X}}-2 $。
+
+(2)  $ \theta $的似然函数为 $ L(\theta)=\prod_{i=1}^{n} f(x_i, \theta)=(\theta+1)^n\left(\prod_{i=1}^{n} x_i\right)^{\theta+1} $，取对数，
+
+得 $ \ln L(\theta)=n\ln(\theta+1)+(\theta+1)\sum_{i=1}^{n} \ln x_i $，再求导数得， $ \frac{\mathrm{d}}{\mathrm{d}\theta} \ln L(\theta)=\frac{n}{\theta+1}+\sum_{i=1}^{n} \ln x_i $，
+
+由似然方程 $ \frac{\mathrm{d}}{\mathrm{d}\theta} \ln L(\theta)=0 $，解出 $ \theta $的极大似然估计值为 $ \hat{\theta}=-\frac{n}{\sum_{i=1}^{n} \ln x_i}-1 $。
+
+<!-- page: 91 -->
+
+3.一地质学家为研究密歇根湖的湖滩地区的岩石成分，自该地区随机抽取由100个样品构成的一个容量为100的样本，每个样品有10块石子，地质学家记录了每个样品中石灰石的石子数。求该地区石子中石灰石最可能的比例值。该地质学家所得的数据如下： $ \frac{\text{样品中石灰石的石子数}}{\text{样品个数}} \left| \begin{array}{ccc|c|c|c|c} 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 0 & 1 & 6 & 7 & 23 & 26 & 21 & 12 & 3 \\ 1 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0\end{array} \right| $。
+
+解：由题意可知，100个样品，每个样品有10块石子，故共有石子1000块，石灰石的石子数共有：
+
+ $ \sum_{i=0}^{10}x_{i}=1\times1+2\times6+3\times7+4\times23+5\times26+6\times21+7\times12+8\times3+9\times1=499 $
+
+故该地区石子中石灰石最可能的比例值为： $ \frac{\sum_{i=0}^{10}x_{i}}{1000}=0.499 $
+
+<!-- page: 92 -->
+
+4.设总体X服从正态分布 $ N(\mu,\sigma^2) $， $ X_1 $、 $ X_2 $是从此总体中抽取的一个样本.试验证下面三个估计量都是 $ \mu $的无偏估计，并指出哪一个估计量最有效：
+
+ $ (1)^{\stackrel{\wedge}{}}\mu_1=\frac{2}{3}X_1+\frac{1}{3}X_2;\quad(2)^{\stackrel{\wedge}{}}\mu_2=\frac{1}{4}X_1+\frac{3}{4}X_2;\quad(3)^{\stackrel{\wedge}{}}\mu_3=\frac{1}{2}X_1+\frac{1}{2}X_2. $
+
+ $ \sim $
+
+
+
+解：由已知， $ E(X_{i})=\mu $， $ D(X_{i})=\sigma^{2} $，则
+
+ $$ E\binom{\stackrel{\wedge}{}}{\mu_{1}}=E\bigg(\frac{2}{3}X_{1}+\frac{1}{3}X_{2}\bigg)=\frac{2}{3}E\big(X_{1}\big)+\frac{1}{3}E\big(X_{2}\big)=\mu, $$ 
+
+ $$ E\binom{\stackrel{\wedge}{}}{\mu_{2}}=E\bigg(\frac{1}{4}X_{1}+\frac{3}{4}X_{2}\bigg)=\frac{1}{4}E\big(X_{1}\big)+\frac{3}{4}E\big(X_{2}\big)=\mu, $$ 
+
+ $ E\left(\hat{\mu}_3\right)=E\left(\frac{1}{2}X_1+\frac{1}{2}X_2\right)=\frac{1}{2}E\left(X_1\right)+\frac{1}{2}E\left(X_2\right)=\mu $，故 $ \hat{\mu}_1,\hat{\mu}_2,\hat{\mu}_3 $都是 $ \mu $的无偏估计.
+
+ $$ D\binom{\stackrel{\wedge}{}}{\mu_{1}}=D\bigg(\frac{2}{3}X_{1}+\frac{1}{3}X_{2}\bigg)=\frac{4}{9}D\big(X_{1}\big)+\frac{1}{9}D\big(X_{2}\big)=\frac{5}{9}\sigma^{2}, $$ 
+
+ $$ D\binom{\stackrel{\wedge}{}}{\mu_{2}}=D\bigg(\frac{1}{4}X_{1}+\frac{3}{4}X_{2}\bigg)=\frac{1}{16}D\big(X_{1}\big)+\frac{9}{16}D\big(X_{2}\big)=\frac{5}{8}\sigma^{2}, $$ 
+
+$$D\left(\mu_{3}\right)=D\left(\frac{1}{2}X_{1}+\frac{1}{2}X_{2}\right)=\frac{1}{4}D\left(X_{1}\right)+\frac{1}{4}D\left(X_{2}\right)=\frac{1}{2}\sigma^{2}$$，所以$\mu_{3}^{\wedge}$最有效
+
+<!-- page: 93 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题7-3 区间估计 习题7-4 正态总体参数的区间估计</div> </div>
+
+
+
+
+
+
+1.某批钢球的质量 $ X \sim N(\mu,4) $，从中抽取了一个容量为 $ n=16 $的样本且测得 $ \overline{x}=22.5 $， $ s=3.98 $，试在置信度为 $ 1-\alpha=0.95 $下，求出 $ \mu $的置信区间。
+
+解：由已知 $ n=16 $， $ \sigma=2 $， $ \alpha=0.05 $，查表得 $ u_{0.025}=1.96 $，代入公式有， $ \overline{x}-u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}}=22.5-1.96\times\frac{2}{4}=21.52 $， $ \overline{x}+u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}}=22.5+1.96\times\frac{2}{4}=23.48 $，所以 $ \mu $的置信区间为 $ (21.52,23.48) $。
+
+<!-- page: 94 -->
+
+2. 设总体  $ X \sim N(\mu, \sigma^{2}) $， $ \sigma^{2} $ 已知，问样本容量 n 取多大时，才能保证  $ \mu $ 的置信水平为95%的置信区间的长度不大于 k.
+
+
+
+
+
+
+
+解：由已知，置信水平为95%= $ 1-\alpha $，则 $ \alpha=0.05,\frac{\alpha}{2}=0.025 $， $ u_{\frac{\alpha}{2}}=1.96 $，因为 $ \mu $的置信区间为 $ \left(\bar{x}-u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}},\bar{x}+u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}}\right) $，
+
+所以置信区间的长度 $ L=2u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}} $，变形后有： $ n=\left(2u_{\frac{\alpha}{2}}\frac{\sigma}{L}\right)^2 $，
+
+故当置信区间的长度不大于k时，即 $ 2u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}}\leq k $，
+
+解出 $ n\geq\left(2u_{\frac{\alpha}{2}}\frac{\sigma}{k}\right)^2=\left(3.92\times\frac{\sigma}{k}\right)^2 $，即n最少取 $ \left(3.92\times\frac{\sigma}{k}\right)^2 $。
+
+<!-- page: 95 -->
+
+3.设有一组来自正态分布 $ X\sim N(\mu,\sigma^{2}) $的样本观测值：
+
+0.497,0.506,0.518,0.524,0.488,0.510,0.510,0.515,0.512,
+
+(1)已知 $ \sigma=0.01 $，求 $ \mu $的置信区间(设置信度为0.95);
+
+(2)若 $ \sigma^{2} $未知，求 $ \mu $的置信区间(设置信度为0.95).
+
+解：由已知，有 $ n=9 $， $ \sigma=0.01 $， $ \alpha=0.05 $，查表得 $ u_{0.025}=1.96 $， $ t_{0.025}(8)=2.306 $，计算得 $ \overline{x}=0.508 $，s=0.01，
+
+(1) $ \mu $的置信区间为 $ \overline{x}-u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}}=0.508-1.96\times\frac{0.01}{3}=0.5024 $，
+
+ $ \overline{x}+u_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{n}}=0.508+1.96\times\frac{0.01}{3}=0.5154 $，
+
+所以 $ \mu $的置信区间为(0.5024,0.5154).
+
+(2)若 $ \sigma^{2} $未知，就要用t分布的公式，
+
+ $ \mu $的置信区间为 $ \overline{x}-t_{\frac{\alpha}{2}}(8)\frac{\sigma}{\sqrt{n}}=0.508-2.306\times\frac{0.01}{3}=0.5006 $，
+
+ $ \overline{x}-t_{\frac{\alpha}{2}}(8)\frac{\sigma}{\sqrt{n}}=0.508+2.306\times\frac{0.01}{3}=0.5172 $，
+
+所以 $ \mu $的置信区间为(0.5006,0.5172).
+
+<!-- page: 96 -->
+
+4. 某厂生产一批金属材料，其抗弯强度服从正态分布，现从这批金属材料中抽取11个测试件，测得它们的抗弯强度为(单位：kg): 42.5, 42.7, 43.0, 42.3, 43.4, 44.5, 44.0, 43.8, 44.1, 43.9, 43.7.
+
+
+
+
+
+
+
+求：抗弯强度标准差 $ \sigma $的置信水平为0.90的置信区间.
+
+解：因为 $ \sigma $未知，故选估计量 $ \chi^{2}=\frac{n-1}{\sigma^{2}}S^{2} $，则 $ \sigma $的置信水平为 $ 1-\alpha $的置信区间为
+
+ $$ \left(\left(\frac{(n-1)S^{2}}{\chi_{\frac{\alpha}{2}}^{2}(n-1)}\right),\left(\frac{(n-1)S^{2}}{\chi_{1-\frac{\alpha}{2}}^{2}(n-1)}\right)\right), $$ 
+
+由已知，有 $ n=11,\frac{\alpha}{2}=0.05,1-\frac{\alpha}{2}=0.95 $，查表得 $ \chi_{0.05}^{2}(10)=18.307,\chi_{0.95}^{2}(10)=3.940 $
+
+计算得， $ s^{2}=0.523 $，再代入上面的公式计算得，
+
+ $ \sigma $的置信水平为0.90的置信区间为(0.53,1.15)
+
+<!-- page: 97 -->
+
+5.某厂利用两条自动化流水线灌装番茄酱，分别从两条流水线上抽取样本： $ X_1, X_2, \cdots, X_{12} $，及 $ Y_1, Y_2, \cdots, Y_{17} $，算出 $ \overline{x} = 10.6, \overline{y} = 9.5, s_1^2 = 2.5, s_2^2 = 4.7 $。假设这两条流水线上灌装的番茄酱的质量都服从正态分布，且相互独立，其均值分别为 $ \mu_1, \mu_2 $。
+
+(1)设两总体方差 $ \sigma_{1}^{2}=\sigma_{2}^{2} $，求 $ \mu_{1}-\mu_{2} $的置信水平为95%的置信区间；
+
+(2)求 $ \sigma_{1}^{2}/\sigma_{2}^{2} $的置信水平为95%的置信区间.
+
+解: (1) 总体方差未知且相等，要用  $ t(n_1 + n_2 - 2) $ 的分布，
+
+查表 $ t_{\frac{\alpha}{2}}(n_1+n_2-2)=t_{0.025}(27)=2.05 $，计算 $ S_w=\sqrt{\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}=\sqrt{3.8}=1.95 $，于是有， $ \overline{x}-\overline{y}-t_{\frac{\alpha}{2}}(n_1+n_2-2)S_w\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}=10.6-9.5-2.05\times1.95\times\sqrt{\frac{1}{12}+\frac{1}{17}}=-0.401 $， $ \overline{x}-\overline{y}+t_{\frac{\alpha}{2}}(n_1+n_2-2)S_w\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}=10.6-9.5+2.05\times1.95\times\sqrt{\frac{1}{12}+\frac{1}{17}}=2.601 $，所以，解方程组 $ \frac{1}{n_1+n_2}=10.6-9.5=1.95 $是原方程的解。
+
+所以， $ \mu_{1}-\mu_{2} $的置信水平为95%的置信区间为 $ (-0.401,2.601) $.
+
+(2)求 $ \sigma_{1}^{2}/\sigma_{2}^{2} $的置信区间要用 $ F(n_{1}-1,n_{2}-1) $分布，查表 $ F_{\frac{\alpha}{2}}(n_{1}-1,n_{2}-1)=F_{0.025}(11,16)=2.89 $， $ F_{1-\frac{\alpha}{2}}(n_{1}-1,n_{2}-1)=F_{0.975}(11,16)=\frac{1}{F_{0.025}(16,11)}=\frac{1}{3.33}=0.3 $，于是有， $ \sigma_{1}^{2}/\sigma_{2}^{2} $的置信水平为95%的置信区间为 $ \left(\frac{s_{1}^{2}}{s_{2}^{2}}\bullet\frac{1}{F_{\frac{\alpha}{2}}},\frac{s_{1}^{2}}{s_{2}^{2}}\bullet\frac{1}{F_{1-\frac{\alpha}{2}}}\right)=(0.174,1.690) $
+
+<!-- page: 98 -->
+
+### 习题7-6 单侧置信区间
+
+2.从轮胎厂生产的某种轮胎中抽取10个样品进行磨损试验，直至轮胎磨损到破坏为止，测得它们的行驶路程(km)如下：
+
+设汽车轮胎行驶路程服从正态分布 $ N(\mu,\sigma^{2}) $，求：
+
+(1) $ \mu $的置信水平为95%的单侧置信下限(2) $ \sigma $的置信水平为95%的单侧置信上限
+
+解: (1)由 $ T = \frac{\overline{x} - \mu}{s/\sqrt{n}} \sim t(n-1) $分布，得 $ P\left\{\frac{\overline{x} - \mu}{s/\sqrt{n}} \leq t_{\alpha}(n-1)\right\} = 1 - \alpha $，即
+
+$P\left\{\mu > \overline{x} - \frac{s}{\sqrt{n}} t_\alpha(n-1)\right\} = 1 - \alpha$，故有
+
+$\mu$的置信水平为95%的单侧置信下限为$\underline{\mu}=\overline{x}-\frac{s}{\sqrt{n}}t_{0.05}(n-1)$,
+
+根据已知数据，计算得样本均值和样本标准差为：
+
+ $ \mu=41220,\ s=1424.8, $ 查表有 $ t_{0.05}(9)=1.833, $ 代入上式计算得：
+
+ $$ \underline{\mu}=\overline{x}-\frac{s}{\sqrt{n}}t_{0.05}(n-1)=41220-\frac{1424.8}{\sqrt{10}}\times1.833=40394. $$
+
+<!-- page: 99 -->
+
+(2)由 $ \chi^{2}=\frac{(n-1)S^{2}}{\sigma^{2}}\sim\chi^{2}(n-1) $分布，
+
+得 $ P\left\{\frac{(n-1)S^2}{\sigma^2}\geq\chi_{1-\alpha}^2(n-1)\right\}=1-\alpha $，即 $ P\left\{\sigma^2\leq\frac{(n-1)S^2}{\chi_{1-\alpha}^2(n-1)}\right\}=1-\alpha $，
+
+故有  $ \sigma $ 的置信水平为 95% 的单侧置信上限为
+
+ $ \overline{\sigma} = \sqrt{\frac{(n-1)S^{2}}{\chi_{1-\alpha}^{2}(n-1)}} $，查表有， $ \chi_{1-\alpha}^{2}(n-1) = \chi_{0.95}^{2}(9) = 3.325 $，
+
+再根据 $ ^{(1)} $的结果，代入上式计算得：
+
+ $$ \overline{\sigma}=\sqrt{\frac{9\times1424.8^{2}}{3.325}}=2344. $$
+
+<!-- page: 100 -->
+
+3.随机从A批导线中抽取4根，又从B批导线中抽取5根，测得电阻( $ \Omega $)为A批导线:0.143,0.142,0.143,0.137,
+
+B批导线:0.140,0.142,0.136,0.138,0.140,
+
+
+
+
+
+
+
+设测定数据分别来自总体 $ N(\mu_1,\sigma^2) $， $ N(\mu_2,\sigma^2) $，且两样本相互独立，又 $ \mu_1,\mu_2,\sigma^2 $均未解决求 $ \mu_1-\mu_2 $的置信水平为0.95的单侧置信下限
+
+解：因为 $ \sigma_1^2=\sigma_2^2=\sigma^2 $为未知的，则根据统计量
+
+ $ T=\frac{(\overline{X}_1-\overline{X}_2)-(\mu_1-\mu_2)}{S_w\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\sim t(n_1+n_2-2) $分布，其中 $ S_w=\sqrt{\frac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}} $，
+
+即有， $ P\{\mu_1-\mu_2\geq\overline{X}_1-\overline{X}_2-t_\alpha(n_1+n_2-2)S_w\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}\}=1-\alpha $，
+
+所以， $ \mu_1-\mu_2 $的置信水平为0.95的单侧置信下限为
+
+ $ \frac{\mu_1-\mu_2}{\overline{x}_A-\overline{x}_B}=x_A-\overline{x}_B-t_{0.05}(7)s_w\sqrt{\frac{1}{n_1}+\frac{1}{n_2}} $，根据已知数据计算得，
+
+ $ \frac{\mu_1-\mu_2}{x_A-\overline{x}_B}=0.002 $， $ s_w=0.00255 $，查表 $ t_{0.05}(7)=1.895 $，代入上式计算得，
+
+ $ \frac{1}{4}+\frac{1}{5}=-0.00124 $
+
+<!-- page: 101 -->
+
+<div style="text-align: center;"><div style="text-align: center;">习题 8 假设检验</div> </div>
+
+
+1.某种零件的长度服从正态分布，方差 $ \sigma^2=1.21 $，现从零件堆中随机抽取6件，测得长度(单位：mm)为:32.46,31.54,30.10,29.76,31.67,31.23。问当显著性水平为 $ \alpha=0.05 $时，能否认为这批零件的平均长度为32.50mm？
+
+解：设假设检验： $ H_0 $： $ \mu = 32.50 $； $ H_1 $： $ \mu \ne 32.50 $，由于方差已知，故用 $ U $检验法，检验统计量 $ U = \frac{\overline{X} - \mu}{\sigma / \sqrt{n}} \sim N(0,1) $分布，
+
+则拒绝域为： $ |U| > u_{\frac{\alpha}{2}} $，查表得， $ u_{0.025} = 1.96 $，
+
+计算得 $ \overline{X}=31.13,U=\frac{31.13-32.50}{1.1/\sqrt{6}}=-3.05 $,
+
+统计判决:  $ |U| = |-3.05| > 1.96 $，统计量落入拒绝域内，故拒绝原假设，即不认为这批零件的平均长度为32.50mm.
+
+<!-- page: 102 -->
+
+2.有一批枪弹，出厂时测得枪弹射出枪口的初速度V服从 $ N(950,\sigma^{2}) $(单位： $ m/s $).在储存较长时间后取出9发进行测试，得样本值：914,920,910,934,953,945,912,924,940.
+
+假设储存后的枪弹射出枪口的初速度仍服从正态分布，可否认为储存后的枪弹射出枪口的平均初速度已经显著降低(取 $ \alpha=0.05 $)？
+
+解：设假设检验为： $ H_0 $： $ \mu = 950 $， $ H_1 $： $ \mu < 950 $，因为 $ \sigma^2 $未知，故用 $ T $检验法。
+
+检验统计量为 $ T = \frac{\overline{X} - \mu}{s / \sqrt{n}} \sim t(n-1) $,
+
+则有拒绝域为： $ T < -t_{\alpha}(n-1) $，查表有， $ t_{0.05}(8) = 1.86 $，
+
+根据已知数据，计算得 $ \overline{x}=928 $， $ s=15.6 $， $ t=\frac{928-950}{15.6/\sqrt{9}}=-4.23 $，
+
+统计判决：T = -4.23 < -1.86, 统计量落入拒绝域内，故拒绝原假设，即认为平均初速度已经显著降低。
+
+<!-- page: 103 -->
+
+3.某种产品在处理前后的含脂率分别为X和Y，且 $ X \sim N(\mu_1, \sigma^2) $， $ Y \sim N(\mu_2, \sigma^2) $。从产品中任取10件，测得它们处理前后的含脂率（质量分数，%）如下：
+
+
+
+
+
+
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>前</td><td style='text-align: center; word-wrap: break-word;'>0.19</td><td style='text-align: center; word-wrap: break-word;'>0.18</td><td style='text-align: center; word-wrap: break-word;'>0.21</td><td style='text-align: center; word-wrap: break-word;'>0.30</td><td style='text-align: center; word-wrap: break-word;'>0.66</td><td style='text-align: center; word-wrap: break-word;'>0.42</td><td style='text-align: center; word-wrap: break-word;'>0.08</td><td style='text-align: center; word-wrap: break-word;'>0.12</td><td style='text-align: center; word-wrap: break-word;'>0.30</td><td style='text-align: center; word-wrap: break-word;'>0.27</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>后</td><td style='text-align: center; word-wrap: break-word;'>0.19</td><td style='text-align: center; word-wrap: break-word;'>0.24</td><td style='text-align: center; word-wrap: break-word;'>1.04</td><td style='text-align: center; word-wrap: break-word;'>0.08</td><td style='text-align: center; word-wrap: break-word;'>0.20</td><td style='text-align: center; word-wrap: break-word;'>0.12</td><td style='text-align: center; word-wrap: break-word;'>0.31</td><td style='text-align: center; word-wrap: break-word;'>0.29</td><td style='text-align: center; word-wrap: break-word;'>0.13</td><td style='text-align: center; word-wrap: break-word;'>0.07</td></tr></table>
+
+试在显著性水平 $ \alpha=0.05 $下，检验该产品处理前后的含脂率有无显著变化？
+
+解：这是 $ \sigma_{1}^{2}=\sigma_{2}^{2}=\sigma^{2} $，但未知，两个正态总体的均值差的检验。
+
+设假设检验为： $ H_0 $： $ \mu_1 = \mu_2 $， $ H_1 $： $ \mu_1 \ne \mu_2 $，
+
+检验统计量为： $ T = \frac{\overline{X} - \overline{Y}}{S_w \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} \sim t(n_1 + n_2 - 2) $分布，
+
+则有拒绝域为 $ \left|T\right|\geq t_{\frac{\alpha}{2}}(n_1+n_2-2) $，查表 $ t_{0.025}(18)=2.1 $，
+
+根据已知数据计算得  $ \overline{x} = 0.273 $， $ \overline{y} = 0.267 $， $ s_1 = 0.167 $， $ s_2 = 0.283 $， $ S_w^2 = \frac{9 \times 0.167^2 + 9 \times 0.283^2}{18} = 0.054 $， $ s_w = 0.232 $， $ T = \frac{\overline{X} - \overline{Y}}{S_w \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} = \frac{0.273 - 0.267}{0.232 \times \sqrt{\frac{1}{10} + \frac{1}{10}}} = 0.058 $，
+
+统计判决： $ T=0.058<t_{0.025}(18)=2.1 $，统计量没有落入拒绝域内，故接受原假设，即认为该产品处理前后的含脂率无显著变化
+
+<!-- page: 104 -->
+
+4.已知某厂生产的维尼纶纤度 $ X \sim N(\mu,\sigma^2) $，其方差 $ \sigma^2 $按往常资料确定为0.048.某日抽取5根纤维，测得其纤度如下:1.32,1.55,1.36,1.40,1.44,
+
+试问该日厂里生产的维尼纶纤度的方差有无显著变化(取 $ \alpha=0.1 $?
+
+解：设假设检验为： $ H_{0} $： $ \sigma^{2}=0.048 $， $ H_{1} $： $ \sigma^{2}\neq0.048 $，
+
+检验统计量为： $ \chi^{2}=\frac{(n-1)S^{2}}{\sigma^{2}}\sim\chi^{2}(n-1) $分布，
+
+则有拒绝域： $ \chi^{2}<\chi_{1-\frac{\alpha}{2}}^{2}(n-1) $，或 $ \chi^{2}>\chi_{\frac{\alpha}{2}}^{2}(n-1) $，
+
+查表得： $ \chi_{1-\frac{\alpha}{2}}^{2}(n-1)=\chi_{0.95}^{2}(4)=0.711,\chi_{0.05}^{2}(4)=9.488 $
+
+根据已知数据计算得 $ \overline{x}=1.414 $， $ s^{2}=0.031 $， $ \chi^{2}=\frac{4\times0.031}{0.048}=2.583 $，
+
+统计判决： $ 0.711<\chi^{2}=2.583<9.488 $，没有落入拒绝域内，
+
+故接受原假设，即该日厂里生产的维尼纶纤度的方差无显著变化。
+
+<!-- page: 105 -->
+
+5. 对两批同型号的电子元件各抽取6件进行测试，得电阻(单位：Ω)数据如下：
+
+
+
+
+
+
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>1批</td><td style='text-align: center; word-wrap: break-word;'>0.140</td><td style='text-align: center; word-wrap: break-word;'>0.138</td><td style='text-align: center; word-wrap: break-word;'>0.143</td><td style='text-align: center; word-wrap: break-word;'>0.141</td><td style='text-align: center; word-wrap: break-word;'>0.144</td><td style='text-align: center; word-wrap: break-word;'>0.137</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>11批</td><td style='text-align: center; word-wrap: break-word;'>0.135</td><td style='text-align: center; word-wrap: break-word;'>0.140</td><td style='text-align: center; word-wrap: break-word;'>0.142</td><td style='text-align: center; word-wrap: break-word;'>0.136</td><td style='text-align: center; word-wrap: break-word;'>0.138</td><td style='text-align: center; word-wrap: break-word;'>0.141</td></tr></table>
+
+设这两批元件的电阻总体服从 $ N(\mu_1, \sigma_1^2) $和 $ N(\mu_2, \sigma_2^2) $，且相互独立。试问这两批元件的电阻的方差有无显著差异？( $ \alpha = 0.05 $)
+
+解：设假设检验为： $ H_0 $： $ \sigma_1^2 = \sigma_2^2 $， $ H_1 $： $ \sigma_1^2 \neq \sigma_2^2 $，
+
+检验统计量为： $ F = \frac{S_1^2}{S_2^2} \sim F(n_1 - 1, n_2 - 1) $分布，
+
+则有拒绝域： $ F < F_{1-\frac{\alpha}{2}}(n_1 - 1, n_2 - 1) $，或 $ F > F_{\frac{\alpha}{2}}(n_1 - 1, n_2 - 1) $，
+
+查表得： $ F_{\frac{\alpha}{2}}(n_1 - 1, n_2 - 1) = F_{0.025}(5, 5) = 7.15 $， $ F_{1-\frac{\alpha}{2}}(n_1 - 1, n_2 - 1) = F_{0.975}(5, 5) = \frac{1}{F_{0.025}(5, 5)} = 0.1399 $。
+
+根据已知数据，计算得 $ \overline{x} = 0.1405 $， $ \overline{y} = 0.13867 $， $ s_1^2 = 0.0000075 $， $ s_2^2 = 0.000006 $， $ F = \frac{S_1^2}{S_2^2} = 1.25 $，
+
+统计判决： $ 0.1399 < F = 1.25 < 7.15 $，没有落入拒绝域内，故接受原假设，
+
+即认为这两批元件的电阻的方差没有显著差异。

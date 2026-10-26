@@ -48,5 +48,15 @@
     "image_hashes_verified": true,
     "page_coverage_verified": true,
     "image_references_verified": true
+  },
+  {
+    "book": "概率论与数理统计B练习册答案",
+    "pages": 105,
+    "images": 1,
+    "groups": 8,
+    "image_bytes": 38085,
+    "image_hashes_verified": true,
+    "page_coverage_verified": true,
+    "image_references_verified": true
   }
 ]

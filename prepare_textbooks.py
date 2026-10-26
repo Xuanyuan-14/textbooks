@@ -26,6 +26,18 @@ def digest(path):
 
 
 def boundaries(book, outline):
+    if book.name.startswith('概率论与数理统计'):
+        topics = ['随机事件与概率', '随机变量及其分布', '多维随机变量及其分布',
+                  '随机变量的数字特征', '大数定律与中心极限定理', '样本及抽样分布',
+                  '参数估计', '假设检验']
+        starts = {}
+        for chapter in outline['chapters']:
+            match = re.match(r'^习题\s*(\d+)', chapter['title'])
+            assert match, chapter
+            starts.setdefault(int(match[1]), chapter['page'])
+        assert list(starts) == list(range(1, 9)) and starts[1] == 1
+        return [(page, f'{number:02d}-第{number}章 {topics[number-1]}')
+                for number, page in starts.items()]
     if book.name.startswith('大学物理练习册'):
         result = []
         for chapter in outline['chapters']:
@@ -72,6 +84,8 @@ def book_link(book):
         label += '（无答案版，31 个练习）'
     elif label.startswith('大学物理练习册答案'):
         label = '大学物理练习册（带答案版，48 个练习）'
+    elif label.startswith('概率论与数理统计'):
+        label += '（题目与解答，8 章）'
     return f'- [{label}]({quote(book.name + "/README.md")})'
 
 
@@ -79,7 +93,7 @@ def build_combined():
     source = SOURCE / '大学物理练习册-题目+答案'
     answer_name = '大学物理练习册答案(已修正部分错误)'
     out = DEST / answer_name
-    if not (source / 'combined.md').exists() or not out.exists():
+    if not (source / 'combined.md').exists() or not out.exists() or (out / 'combined.md').exists():
         return
     text = (source / 'combined.md').read_text(encoding='utf-8')
     for name in ['大学物理练习册', answer_name]:
@@ -204,7 +218,20 @@ def main():
                             '[题目与答案对照阅读](combined.md)：31 个练习有独立题目页和对应解答；其余 17 个练习仅收录答案册内容，'
                             '不表示已经补齐缺失题目页。自测时先使用[无答案版](' + quote('../大学物理练习册/README.md') + ')。\n\n'
                             '`exercises.jsonl` 记录两册练习号、题目与解答的原始页码；对照版用 `<!-- src: 练习册 p.N -->` 和 `<!-- src: 答案 p.N -->` 区分页码来源。\n\n')
+        elif book.name.startswith('概率论与数理统计'):
+            edition_note = (f'本册同时包含题目和解答，共 {len(pages)} 页、{len(outline["chapters"])} 组习题、{len(images)} 张图片。'
+                            '按原习题章号归入 8 章，章名按习题主题整理；同页开始的习题保留在一起。'
+                            '原习题编号与页码见下方索引，不补写来源中未列出的习题。\n\n')
+        exercise_index = ''
+        if book.name.startswith('概率论与数理统计'):
+            exercise_index = '\n\n## 原习题索引\n\n| 习题 | PDF 起始页 | 所属章 |\n|---|---:|---|\n'
+            for exercise in outline['chapters']:
+                number = int(re.match(r'^习题\s*(\d+)', exercise['title'])[1])
+                section = ranges[number-1]
+                exercise_index += (f'| {exercise["title"]} | {exercise["page"]} | '
+                                   f'[{section["title"]}]({quote(section["path"] + "/README.md")}) |\n')
         (out / 'README.md').write_text(f'# {book.name}\n\n' + edition_note + '正文与图片已按章节或练习整理。\n\n' + '\n'.join(rows) +
+            exercise_index +
             '\n\n`book.md` 为全书；`pages.jsonl` 为逐页数据；`chapters.json` 为校正后的章节边界；'
             '`images-manifest.json` 记录原图片名、新路径和 SHA-256。原始 OCR 章节索引保存在 `outline.json`，可能包含误识别。'
             '\n\n原始说明保存在 `README-original.md`，原压缩包保留。OCR 公式和文字未经逐字校对。\n', encoding='utf-8')
@@ -220,13 +247,16 @@ def main():
         for c in json.loads((DEST / s['book'] / 'chapters.json').read_text(encoding='utf-8'))['chapters']
     )
     exercise_count = sum(s['groups'] for s in summaries if s['book'].startswith('大学物理练习册'))
-    exercise_stats = f'、{exercise_count} 个练习单元（两册分别计数）' if exercise_count else ''
+    exercise_stats = f'、{exercise_count} 个大学物理练习单元（两册分别计数）' if exercise_count else ''
     exercise_note = ''
     if exercise_count:
         combined_link = quote('大学物理练习册答案(已修正部分错误)/combined.md')
         exercise_note = ('\n\n大学物理练习册分为无答案版与带答案版。无答案版收录 31 个练习，带答案版覆盖练习 1–48。'
                          f'可先独立作答，再查看[题目与答案对照版]({combined_link})。'
                          '对照版中有 17 个练习缺少独立题目页，保留答案册内容，不补造题目。')
+    probability_note = ''
+    if any(s['book'].startswith('概率论与数理统计') for s in summaries):
+        probability_note = '\n\n《概率论与数理统计B练习册答案》同时收录题目与解答，28 组习题按原章号归为 8 章，保留原习题索引。'
     school_note = ('数学物理方法使用学校同步教材：姚端正等《数学物理方法（第四版）》。\n\n'
                    if any('姚端正' in s['book'] for s in summaries) else '')
     (DEST / 'README.md').write_text(f'''# PDF 教材 OCR 资源库
@@ -239,7 +269,7 @@ def main():
 
 {school_note}{chr(10).join(root_links)}
 
-目前共 **{len(summaries)} 份教材与练习资源、{chapter_count} 个教材正文章{exercise_stats}、{sum(s['images'] for s in summaries):,} 张图片**。前言、篇导言、附录、答案与索引另行分组。{exercise_note}
+目前共 **{len(summaries)} 份教材与练习资源、{chapter_count} 个章节{exercise_stats}、{sum(s['images'] for s in summaries):,} 张图片**。前言、篇导言、附录、答案与索引另行分组。{exercise_note}{probability_note}
 
 ## 如何用于 AI 自学
 

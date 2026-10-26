@@ -55,10 +55,51 @@ RE_PART = re.compile(r"第\s*([一二三四五六七八九十]+)\s*篇")
 # 练习册/答案这类教辅：以「练习N 标题」为章，「一、填空题」为节
 # 注意不要加 \b：Python 的 \w 包含中文，「练习27简谐振动」里 7 与「简」之间
 # 不存在词边界，加 \b 会漏掉这类无空格的标题
-RE_EXERCISE = re.compile(r"^\s*练习\s*[0-9一二三四五六七八九十]+")
+# 同时支持教辅常见的「习题N-M」编号（概率论练习册用这种）
+RE_EXERCISE = re.compile(r"^\s*(?:练习|习题)\s*[0-9一二三四五六七八九十]+"
+                         r"(?:\s*[-－—]\s*[0-9]+)?")
+# 在一个块里找出所有「习题N-M」标记（一页可能并排两个习题标题）
+RE_EX_MARK = re.compile(r"(?:练习|习题)\s*[0-9一二三四五六七八九十]+"
+                        r"(?:\s*[-－—]\s*[0-9]+)?")
 RE_CN_SECTION = re.compile(r"^\s*[一二三四五六七八九十]+\s*[、.．]")
 # 缺「练习」二字的裸编号章标题，如「13 麦克斯韦分子速率分布律」
 RE_BARE_CHAPTER = re.compile(r"^\s*(\d{1,2})\s+[^0-9.、．,，]")
+# 扫描件常见的水印 / 处理标记，属噪声
+RE_WATERMARK = re.compile(r"(毫厘处理于|无偿[，,]?\s*请勿牟利|内部资料|仅供学习|请勿外传)")
+
+
+def strip_watermark(s: str) -> str:
+    """清除扫描件里的水印文字。
+
+    最麻烦的一种是水印被 OCR 排进了 LaTeX：
+        \\underset{\\stackrel{毫厘处理于2025-04-05}{无偿，请勿牟利}}{\\sim}
+    这种要先还原成 \\sim，否则公式直接坏掉。
+    """
+    if not s:
+        return s
+    # 1) 水印被排进 \underset{\stackrel{...}{...}}{X}：还原成 X
+    s = re.sub(
+        r"\\underset\s*\{\s*\\stackrel\s*\{[^{}]*毫厘[^{}]*\}\s*\{[^{}]*\}\s*\}\s*\{([^{}]*)\}",
+        r"\1", s)
+    # 2) 裸水印文本（含日期）
+    s = re.sub(r"毫厘处理于\s*\d{4}\s*[-－—/]\s*\d{1,2}\s*[-－—/]\s*\d{1,2}", "", s)
+    s = re.sub(r"无偿\s*[，,]?\s*请勿牟利", "", s)
+    # 3) 清掉删除后留下的空 \stackrel{}
+    s = re.sub(r"\\stackrel\s*\{\s*\}\s*\{\s*\}", "", s)
+    return s
+
+
+def split_exercise_block(text: str) -> list[str]:
+    marks = list(RE_EX_MARK.finditer(text))
+    if not marks:
+        return []
+    out = []
+    for k, m in enumerate(marks):
+        end = marks[k + 1].start() if k + 1 < len(marks) else len(text)
+        seg = text[m.start():end].strip(" \t·-—、")
+        if seg:
+            out.append(seg)
+    return out
 
 _CN_NUM = {
     "零": 0, "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
@@ -228,15 +269,35 @@ def process(md_path: Path, json_path: Path) -> dict:
     entries = []
     for r in recs:
         for b in r["blocks"]:
-            if b.get("block_label") not in TITLE_LABELS:
-                continue
+            lbl = b.get("block_label")
             raw = (b.get("block_content") or "").strip()
             if not raw:
+                continue
+
+            # figure_title 里也可能藏着章节标题：概率论练习册把「习题1-2 随机事件的概率」
+            # 整块识别成了图题（还包在 HTML div 里）。这里剥掉标签再判断，
+            # 若是习题/练习标题就按标题处理，一个块里的多个标题各自拆开。
+            if lbl == "figure_title":
+                plain = clean_caption(raw)
+                subs = split_exercise_block(plain)
+                if subs and len(plain) <= 60:
+                    for s in subs:
+                        entries.append({"page": r["page"], "title": s,
+                                        "depth": 3})
+                continue
+
+            if lbl not in TITLE_LABELS:
                 continue
             m = re.match(r"^(#{1,6})\s*(.*)$", raw)
             depth = len(m.group(1)) if m else 0
             t = (m.group(2) if m else raw).strip()
             if not t or len(t) > 60:
+                continue
+            # 同一块里若并排了多个习题标题，逐个拆出来
+            subs = split_exercise_block(t)
+            if len(subs) > 1:
+                for s in subs:
+                    entries.append({"page": r["page"], "title": s, "depth": depth})
                 continue
             entries.append({"page": r["page"], "title": t, "depth": depth})
 
@@ -390,12 +451,17 @@ def process(md_path: Path, json_path: Path) -> dict:
         parts += [f"<!-- page: {r['page']} -->", ""]
         text = r["text"]
 
-        # 丢掉独立的纯页码行
+        # 先剥水印（有些嵌在公式或正文行中，整行删除会误伤内容）
+        text = strip_watermark(text)
+
+        # 再丢掉独立的纯页码行与残留水印行
         lines = []
         for ln in text.split("\n"):
             s = ln.strip()
             if s and len(s) <= 4 and re.fullmatch(
                     r"[0-9ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ！!·.．\-—_]+", s):
+                continue
+            if s and RE_WATERMARK.search(s) and len(s) <= 40:
                 continue
             lines.append(ln)
         text = "\n".join(lines).strip()
